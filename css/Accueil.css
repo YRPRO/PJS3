@@ -105,29 +105,7 @@ body,
     background: transparent none no-repeat scroll center top;
 }
 
-#wb_element_instance1 {
-    display: block;
-    z-index: 182;
-    top: 0;
-    left: 0;
-    width: 360px;
-    height: 110px;
-    min-height: 110px;
-    min-width: 360px;
-}
-
-#wb_element_instance1 > div {
-    width: 360px;
-    height: 110px;
-    border: 5px none #C0C0C0;
-    -webkit-border-radius: 0 0 0 0;
-    -moz-border-radius: 0 0 0 0;
-    border-radius: 0 0 0 0;
-    opacity: 0.3;
-    background: transparent;
-}
-
-#wb_element_instance2 {
+#div_titre {
     display: block;
     z-index: 186;
     top: 17px;
@@ -217,7 +195,7 @@ body,
     height: 32px;
 }
 
-#wb_element_instance8 {
+#div_ecriture_Paris {
     display: block;
     z-index: 79;
     top: 338px;
@@ -228,7 +206,7 @@ body,
     min-width: 290px;
 }
 
-#wb_element_instance9 {
+#div_cadre_LaRegionParisienne {
     display: block;
     z-index: 80;
     top: 310px;
@@ -239,7 +217,7 @@ body,
     min-width: 310px;
 }
 
-#wb_element_instance9 > div {
+#div_cadre_LaRegionParisienne > div {
     width: 310px;
     height: 150px;
     border: 5px none #C0C0C0;
@@ -250,7 +228,7 @@ body,
     background: #059c7b;
 }
 
-#wb_element_instance10 {
+#div_cadre_Paris {
     display: block;
     z-index: 75;
     top: 310px;
@@ -261,7 +239,7 @@ body,
     min-width: 310px;
 }
 
-#wb_element_instance10 > div {
+#div_cadre_Paris > div {
     width: 310px;
     height: 150px;
     border: 5px none #C0C0C0;
@@ -272,7 +250,7 @@ body,
     background: #332417;
 }
 
-#wb_element_instance11 {
+#div_ecriture_LaRegionParisienne {
     display: block;
     z-index: 81;
     top: 334px;
@@ -283,7 +261,7 @@ body,
     min-width: 270px;
 }
 
-#wb_element_instance12 {
+#div_bouton_LaRegionParisienne_enSavoirPlus {
     display: block;
     z-index: 85;
     top: 400px;
@@ -294,16 +272,16 @@ body,
     min-width: 110px;
 }
 
-#wb_element_instance12 a span {
+#div_bouton_LaRegionParisienne_enSavoirPlus a span {
     padding: 8px 0 0 0;
 }
 
-#wb_element_instance12 a {
+#div_bouton_LaRegionParisienne_enSavoirPlus a {
     width: 106px;
     height: 36px;
 }
 
-#wb_element_instance12 a {
+#div_bouton_LaRegionParisienne_enSavoirPlus a {
     border: 2px solid #ffffff;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
@@ -318,7 +296,7 @@ body,
     background: transparent none repeat scroll left top;
 }
 
-#wb_element_instance12 a:hover {
+#div_bouton_LaRegionParisienne_enSavoirPlus a:hover {
     text-decoration: none;
     font-style: normal;
     font-weight: bold;
@@ -326,7 +304,7 @@ body,
     background: #086b61 none repeat scroll left top;
 }
 
-#wb_element_instance12 a:active {
+#div_bouton_LaRegionParisienne_enSavoirPlus a:active {
     text-decoration: none;
     font-style: normal;
     font-weight: normal;
@@ -747,22 +725,7 @@ body,
         min-width: 484px;
     }
 
-    #wb_element_instance1 {
-        display: block;
-        top: 0;
-        left: 0;
-        width: 360px;
-        height: 110px;
-        min-height: 110px;
-        min-width: 360px;
-    }
-
-    #wb_element_instance1 > div {
-        width: 360px;
-        height: 110px;
-    }
-
-    #wb_element_instance2 {
+    #div_titre {
         display: block;
         top: 17px;
         left: 27px;
@@ -846,7 +809,7 @@ body,
         height: 32px;
     }
 
-    #wb_element_instance8 {
+    #div_ecriture_Paris {
         display: block;
         top: 338px;
         left: 207px;
@@ -856,7 +819,7 @@ body,
         min-width: 290px;
     }
 
-    #wb_element_instance9 {
+    #div_cadre_LaRegionParisienne {
         display: block;
         top: 310px;
         left: 510px;
@@ -866,12 +829,12 @@ body,
         min-width: 310px;
     }
 
-    #wb_element_instance9 > div {
+    #div_cadre_LaRegionParisienne > div {
         width: 310px;
         height: 150px;
     }
 
-    #wb_element_instance10 {
+    #div_cadre_Paris {
         display: block;
         top: 310px;
         left: 200px;
@@ -881,12 +844,12 @@ body,
         min-width: 310px;
     }
 
-    #wb_element_instance10 > div {
+    #div_cadre_Paris > div {
         width: 310px;
         height: 150px;
     }
 
-    #wb_element_instance11 {
+    #div_ecriture_LaRegionParisienne {
         display: block;
         top: 334px;
         left: 536px;
@@ -896,7 +859,7 @@ body,
         min-width: 270px;
     }
 
-    #wb_element_instance12 {
+    #div_bouton_LaRegionParisienne_enSavoirPlus {
         display: block;
         top: 400px;
         left: 610px;
@@ -906,11 +869,11 @@ body,
         min-width: 110px;
     }
 
-    #wb_element_instance12 a span {
+    #div_bouton_LaRegionParisienne_enSavoirPlus a span {
         padding: 8px 0 0 0;
     }
 
-    #wb_element_instance12 a {
+    #div_bouton_LaRegionParisienne_enSavoirPlus a {
         width: 106px;
         height: 36px;
     }
@@ -1189,22 +1152,8 @@ body,
         min-width: 484px;
     }
 
-    #wb_element_instance1 {
-        display: block;
-        top: 0;
-        left: 0;
-        width: 360px;
-        height: 110px;
-        min-height: 110px;
-        min-width: 360px;
-    }
 
-    #wb_element_instance1 > div {
-        width: 360px;
-        height: 110px;
-    }
-
-    #wb_element_instance2 {
+    #div_titre {
         display: block;
         top: 17px;
         left: 27px;
@@ -1288,7 +1237,7 @@ body,
         height: 32px;
     }
 
-    #wb_element_instance8 {
+    #div_ecriture_Paris {
         display: block;
         top: 338px;
         left: 207px;
@@ -1298,7 +1247,7 @@ body,
         min-width: 290px;
     }
 
-    #wb_element_instance9 {
+    #div_cadre_LaRegionParisienne {
         display: block;
         top: 310px;
         left: 510px;
@@ -1308,12 +1257,12 @@ body,
         min-width: 310px;
     }
 
-    #wb_element_instance9 > div {
+    #div_cadre_LaRegionParisienne > div {
         width: 310px;
         height: 150px;
     }
 
-    #wb_element_instance10 {
+    #div_cadre_Paris {
         display: block;
         top: 310px;
         left: 200px;
@@ -1323,12 +1272,12 @@ body,
         min-width: 310px;
     }
 
-    #wb_element_instance10 > div {
+    #div_cadre_Paris > div {
         width: 310px;
         height: 150px;
     }
 
-    #wb_element_instance11 {
+    #div_ecriture_LaRegionParisienne {
         display: block;
         top: 334px;
         left: 536px;
@@ -1338,7 +1287,7 @@ body,
         min-width: 270px;
     }
 
-    #wb_element_instance12 {
+    #div_bouton_LaRegionParisienne_enSavoirPlus {
         display: block;
         top: 400px;
         left: 610px;
@@ -1348,11 +1297,11 @@ body,
         min-width: 110px;
     }
 
-    #wb_element_instance12 a span {
+    #div_bouton_LaRegionParisienne_enSavoirPlus a span {
         padding: 8px 0 0 0;
     }
 
-    #wb_element_instance12 a {
+    #div_bouton_LaRegionParisienne_enSavoirPlus a {
         width: 106px;
         height: 36px;
     }
@@ -1631,22 +1580,8 @@ body,
         min-width: 484px;
     }
 
-    #wb_element_instance1 {
-        display: block;
-        top: 0;
-        left: 0;
-        width: 360px;
-        height: 110px;
-        min-height: 110px;
-        min-width: 360px;
-    }
 
-    #wb_element_instance1 > div {
-        width: 360px;
-        height: 110px;
-    }
-
-    #wb_element_instance2 {
+    #div_titre {
         display: block;
         top: 17px;
         left: 27px;
@@ -1730,7 +1665,7 @@ body,
         height: 32px;
     }
 
-    #wb_element_instance8 {
+    #div_ecriture_Paris {
         display: block;
         top: 338px;
         left: 207px;
@@ -1740,7 +1675,7 @@ body,
         min-width: 290px;
     }
 
-    #wb_element_instance9 {
+    #div_cadre_LaRegionParisienne {
         display: block;
         top: 310px;
         left: 510px;
@@ -1750,12 +1685,12 @@ body,
         min-width: 310px;
     }
 
-    #wb_element_instance9 > div {
+    #div_cadre_LaRegionParisienne > div {
         width: 310px;
         height: 150px;
     }
 
-    #wb_element_instance10 {
+    #div_cadre_Paris {
         display: block;
         top: 310px;
         left: 200px;
@@ -1765,12 +1700,12 @@ body,
         min-width: 310px;
     }
 
-    #wb_element_instance10 > div {
+    #div_cadre_Paris > div {
         width: 310px;
         height: 150px;
     }
 
-    #wb_element_instance11 {
+    #div_ecriture_LaRegionParisienne {
         display: block;
         top: 334px;
         left: 536px;
@@ -1780,7 +1715,7 @@ body,
         min-width: 270px;
     }
 
-    #wb_element_instance12 {
+    #div_bouton_LaRegionParisienne_enSavoirPlus {
         display: block;
         top: 400px;
         left: 610px;
@@ -1790,11 +1725,11 @@ body,
         min-width: 110px;
     }
 
-    #wb_element_instance12 a span {
+    #div_bouton_LaRegionParisienne_enSavoirPlus a span {
         padding: 8px 0 0 0;
     }
 
-    #wb_element_instance12 a {
+    #div_bouton_LaRegionParisienne_enSavoirPlus a {
         width: 106px;
         height: 36px;
     }
