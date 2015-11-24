@@ -46,7 +46,7 @@ body,
     overflow: visible;
 }
 
-#wb_element_instance0 {
+#div_menu {
     display: block;
     z-index: 194;
     top: 10px;
@@ -57,25 +57,25 @@ body,
     min-width: 484px;
 }
 
-#wb_element_instance0 ul {
+#div_menu ul {
     border: 1px none #000000;
     background: transparent none repeat scroll left top;
 }
 
-#wb_element_instance0,
-#wb_element_instance0 ul {
+#div_menu,
+#div_menu ul {
     text-align: right;
 }
 
-#wb_element_instance0 ul ul {
+#div_menu ul ul {
     background: #2e2e2e none repeat scroll left top;
 }
 
-#wb_element_instance0 li {
+#div_menu li {
     margin: 10px 10px 10px 10px;
 }
 
-#wb_element_instance0 li a {
+#div_menu li a {
     padding: 5px 10px 5px 10px;
     border: 0 none #000000;
     text-decoration: none;
@@ -86,8 +86,8 @@ body,
     background: transparent none repeat scroll left top;
 }
 
-#wb_element_instance0 li:hover > a,
-#wb_element_instance0 li:focus > a {
+#div_menu li:hover > a,
+#div_menu li:focus > a {
     border: 0 none #000000;
     text-decoration: none;
     font: normal normal 13px Georgia,serif;
@@ -96,7 +96,7 @@ body,
     background: transparent none no-repeat scroll center top;
 }
 
-#wb_element_instance0 li.active > a {
+#div_menu li.active > a {
     border: 0 none #000000;
     text-decoration: none;
     font: normal normal 13px Georgia,serif;
@@ -737,7 +737,7 @@ body,
         overflow: visible;
     }
 
-    #wb_element_instance0 {
+    #div_menu {
         display: block;
         top: 10px;
         left: 498px;
@@ -1179,7 +1179,7 @@ body,
         overflow: visible;
     }
 
-    #wb_element_instance0 {
+    #div_menu {
         display: block;
         top: 10px;
         left: 498px;
@@ -1621,7 +1621,7 @@ body,
         overflow: visible;
     }
 
-    #wb_element_instance0 {
+    #div_menu {
         display: block;
         top: 10px;
         left: 498px;
