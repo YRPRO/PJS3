@@ -1,0 +1,58 @@
+/*!
+ * jQVMap Version 1.0 BEN BOUBAKER Wissam
+ */
+
+#carte{
+    padding-left: 6em;
+}
+
+.jqvmap-label
+{
+	position: absolute;
+	display: none;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background: #292929;
+	color: white;
+	font-family: sans-serif, Verdana;
+	font-size: smaller;
+	padding: 3px;
+}
+
+.jqvmap-zoomin, .jqvmap-zoomout
+{
+	position: absolute;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background: #000000;
+	padding: 3px;
+	color: white;
+	width: 10px;
+	height: 10px;
+	cursor: pointer;
+	line-height: 10px;
+	text-align: center;
+}
+.jqvmap-zoomin
+{
+    
+	top: 850px;
+}
+
+.jqvmap-zoomout
+{
+	top: 870px;
+}
+
+.jqvmap-region
+{
+  cursor: pointer;
+}
+
+.jqvmap-ajax_response
+{
+  width: 100%;
+  height: 500px;
+}

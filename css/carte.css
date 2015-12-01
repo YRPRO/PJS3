@@ -1,0 +1,87 @@
+#wb_header {
+     height: 250px;
+}
+
+body {
+    background: #fcf3d2 url("../gallery/929d69d99e87503631c3e559e93d61e0.jpg") no-repeat scroll center top;
+}
+
+#menu{
+    display: block;
+    z-index: 194;
+    top: 10px;
+    left: 498px;
+    width: 484px;
+    height: 40px;
+    min-height: 40px;
+    min-width: 484px;
+}
+
+#menu ul {
+    border: 1px none #000000;
+    background: transparent none repeat scroll left top;
+}
+
+#menu ul {
+    text-align: right;
+}
+
+#menu ul ul {
+    background: #2e2e2e none repeat scroll left top;
+}
+
+#menu li {
+    margin: 10px 10px 10px 10px;
+}
+
+#menu li a {
+    padding: 5px 10px 5px 10px;
+    border: 0 none #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font: normal normal 13px Georgia,serif;
+    line-height: 15px;
+    color: #8b4828;
+    background: transparent none repeat scroll left top;
+}
+
+#menu li:hover > a,
+#menu li:focus > a {
+    border: 0 none #000000;
+    text-decoration: none;
+    font: normal normal 13px Georgia,serif;
+    line-height: 15px;
+    color: #00c2a2;
+    background: transparent none no-repeat scroll center top;
+}
+
+#menu li.active > a {
+    border: 0 none #000000;
+    text-decoration: none;
+    font: normal normal 13px Georgia,serif;
+    line-height: 15px;
+    color: #00c292;
+    background: transparent none no-repeat scroll center top;
+}
+
+/* Le logo ile de france */    
+#wb_element_instance34 {
+        display: block;
+        top: 17px;
+        left: 27px;
+        width: 300px;
+        height: 84px;
+        min-height: 84px;
+        min-width: 300px;
+}
+
+#titre_page {
+    display: block;
+    z-index: 35;
+    top: 10px;
+    left: 0;
+    width: 370px;
+    height: 67px;
+    min-height: 67px;
+    min-width: 370px;
+}
