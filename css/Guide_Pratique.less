@@ -1,29 +1,33 @@
+@header_height: 250px;
+@main_height: 2130px;
+@footer_height: 80px;
+
 #wb_header {
-    height: 250px;
+    height: @header_height;
     background: transparent none repeat scroll left center;
 }
 
 #wb_header {
-    height: 250px;
+    height: @header_height;
 }
 
 #wb_main {
-    height: 2130px;
+    height: @main_height;
     padding: 0 0 70px 0;
     background: transparent none repeat scroll left top;
 }
 
 #wb_main {
-    height: 2130px;
+    height: @main_height;
 }
 
 #wb_footer {
-    height: 80px;
+    height: @footer_height;
     background: transparent none repeat scroll left top;
 }
 
 #wb_footer {
-    height: 80px;
+    height: @footer_height;
 }
 
 body {
@@ -147,15 +151,15 @@ body,
     height: 32px;
     min-height: 32px;
     min-width: 32px;
+    img {
+        position: static;
+        top: 0;
+        left: 0;
+        width: 32px;
+        height: 32px;
+    }
 }
 
-#wb_element_instance67 img {
-    position: static;
-    top: 0;
-    left: 0;
-    width: 32px;
-    height: 32px;
-}
 
 #wb_element_instance68 {
     display: block;
@@ -166,14 +170,13 @@ body,
     height: 32px;
     min-height: 32px;
     min-width: 32px;
-}
-
-#wb_element_instance68 img {
-    position: static;
-    top: 0;
-    left: 0;
-    width: 32px;
-    height: 32px;
+    img {
+        position: static;
+        top: 0;
+        left: 0;
+        width: 32px;
+        height: 32px;
+    }
 }
 
 #wb_element_instance69 {
@@ -432,15 +435,15 @@ body,
 
 @media(min-width:768px) {
     #wb_header {
-        height: 250px;
+        height: @header_height;
     }
 
     #wb_main {
-        height: 2130px;
+        height: @main_height;
     }
 
     #wb_footer {
-        height: 80px;
+        height: @footer_height;
     }
 
     body,
@@ -761,15 +764,15 @@ body,
 
 @media(min-width:992px) {
     #wb_header {
-        height: 250px;
+        height: @header_height;
     }
 
     #wb_main {
-        height: 2130px;
+        height: @main_height;
     }
 
     #wb_footer {
-        height: 80px;
+        height: @footer_height;
     }
 
     body,
@@ -1098,7 +1101,7 @@ body,
     }
 
     #wb_footer {
-        height: 80px;
+        height: @footer_height;
     }
 
     body,
