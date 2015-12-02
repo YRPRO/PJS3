@@ -3,6 +3,7 @@ header {
     background: transparent none repeat scroll left top;
 }
 
+
 #principal {
     height: 1394px;
     padding: 0 0 70px 0;
@@ -10,14 +11,9 @@ header {
 }
 
 
-
 footer {
     height: 77px;
     background: transparent none repeat scroll left top;
-}
-
-footer {
-    height: 77px;
 }
 
 body {
@@ -49,55 +45,47 @@ body,
     height: 40px;
     min-height: 40px;
     min-width: 484px;
-}
 
-#menu ul {
-    border: 1px none #000000;
-    background: transparent none repeat scroll left top;
-}
+    ul{
+        border: 1px none #000000;
+        background: transparent none repeat scroll left top;
+        text-align: right;
+    }
+    ul ul {
+        background: #2e2e2e none repeat scroll left top;
+    }
+    li {
+        margin: 10px 10px 10px 10px;
+    }
 
-#menu,
-#menu ul {
-    text-align: right;
-}
+    li a {
+        padding: 5px 10px 5px 10px;
+        border: 0 none #000000;
+        text-decoration: none;
+        text-transform: uppercase;
+        font: normal normal 13px Georgia,serif;
+        line-height: 15px;
+        color: #8b4828;
+        background: transparent none repeat scroll left top;
+    }
+    li:focus > a {
+        border: 0 none #000000;
+        text-decoration: none;
+        font: normal normal 13px Georgia,serif;
+        line-height: 15px;
+        color: #00c2a2;
+        background: transparent none no-repeat scroll center top;
+    }
+    li.active > a {
+        border: 0 none #000000;
+        text-decoration: none;
+        font: normal normal 13px Georgia,serif;
+        line-height: 15px;
+        color: #00c292;
+        background: transparent none no-repeat scroll center top;
+    }
+}   
 
-#menu ul ul {
-    background: #2e2e2e none repeat scroll left top;
-}
-
-#menu li {
-    margin: 10px 10px 10px 10px;
-}
-
-#menu li a {
-    padding: 5px 10px 5px 10px;
-    border: 0 none #000000;
-    text-decoration: none;
-    text-transform: uppercase;
-    font: normal normal 13px Georgia,serif;
-    line-height: 15px;
-    color: #8b4828;
-    background: transparent none repeat scroll left top;
-}
-
-#menu li:hover > a,
-#menu li:focus > a {
-    border: 0 none #000000;
-    text-decoration: none;
-    font: normal normal 13px Georgia,serif;
-    line-height: 15px;
-    color: #00c2a2;
-    background: transparent none no-repeat scroll center top;
-}
-
-#menu li.active > a {
-    border: 0 none #000000;
-    text-decoration: none;
-    font: normal normal 13px Georgia,serif;
-    line-height: 15px;
-    color: #00c292;
-    background: transparent none no-repeat scroll center top;
-}
 
 #logo {
     display: block;
@@ -108,6 +96,8 @@ body,
     height: 110px;
     min-height: 110px;
     min-width: 360px;
+
+
 }
 
 #logo > div {
@@ -131,7 +121,13 @@ body,
     min-height: 84px;
     min-width: 300px;
 }
-
+.image {
+    position: static;
+    top: 0;
+    left: 0;
+    width: 32px;
+    height: 32px;
+}
 #image_instagram {
     display: block;
     z-index: 180;
@@ -143,12 +139,8 @@ body,
     min-width: 32px;
 }
 
-#image_instagram img {
-    position: static;
-    top: 0;
-    left: 0;
-    width: 32px;
-    height: 32px;
+#image_instagram  {
+    .image;
 }
 
 #image_facebook {
@@ -162,12 +154,8 @@ body,
     min-width: 32px;
 }
 
-#image_facebook img {
-    position: static;
-    top: 0;
-    left: 0;
-    width: 32px;
-    height: 32px;
+#image_facebook  {
+    .image;
 }
 
 #nom_footer {
@@ -203,12 +191,8 @@ body,
     min-width: 32px;
 }
 
-#image_twiter img {
-    position: static;
-    top: 0;
-    left: 0;
-    width: 32px;
-    height: 32px;
+#image_twiter  {
+    .image;
 }
 
 #image_fete_14juillet img{
@@ -477,12 +461,8 @@ body,
         min-width: 32px;
     }
 
-    #image_instagram img {
-        position: static;
-        top: 0;
-        left: 0;
-        width: 32px;
-        height: 32px;
+    #image_instagram  {
+        .image;
     }
 
     #image_facebook {
@@ -495,12 +475,8 @@ body,
         min-width: 32px;
     }
 
-    #image_facebook img {
-        position: static;
-        top: 0;
-        left: 0;
-        width: 32px;
-        height: 32px;
+    #image_facebook  {
+        .image;
     }
 
     #nom_footer {
@@ -533,12 +509,8 @@ body,
         min-width: 32px;
     }
 
-    #image_twiter img {
-        position: static;
-        top: 0;
-        left: 0;
-        width: 32px;
-        height: 32px;
+    #image_twiter  {
+        .image;
     }
 
     #image_fete_14juillet {
