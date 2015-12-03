@@ -1,24 +1,19 @@
 @header_height: 250px;
 @main_height: 2130px;
 @footer_height: 80px;
+@arrierePlanCouleur: #fcf3d2;
+@min_height: 1360px;
+@min_width: 992px;
 
 #wb_header {
     height: @header_height;
     background: transparent none repeat scroll left center;
 }
 
-#wb_header {
-    height: @header_height;
-}
-
 #wb_main {
     height: @main_height;
     padding: 0 0 70px 0;
     background: transparent none repeat scroll left top;
-}
-
-#wb_main {
-    height: @main_height;
 }
 
 #wb_footer {
@@ -31,7 +26,7 @@
 }
 
 body {
-    background: #fcf3d2 url("../gallery/929d69d99e87503631c3e559e93d61e0.jpg") no-repeat scroll center top;
+    background: @arrierePlanCouleur url("../gallery/929d69d99e87503631c3e559e93d61e0.jpg") no-repeat scroll center top;
 }
 
 .wb_sbg {
@@ -40,13 +35,13 @@ body {
 
 body,
 .wb_sbg {
-    min-height: 1360px;
-    min-width: 992px;
+    min-height: @min_height;
+    min-width: @min_width;
 }
 
 .root {
-    width: 992px;
-    height: 1360px;
+    width: @min_width;
+    height: @min_height;
     overflow: visible;
 }
 
@@ -71,33 +66,28 @@ body,
     text-align: right;
 }
 
-#wb_element_instance64 ul ul {
-    background: #2e2e2e none repeat scroll left top;
-}
-
 #wb_element_instance64 li {
     margin: 10px 10px 10px 10px;
-}
-
-#wb_element_instance64 li a {
-    padding: 5px 10px 5px 10px;
-    border: 0 none #000000;
-    text-decoration: none;
-    text-transform: uppercase;
-    font: normal normal 13px Georgia,serif;
-    line-height: 15px;
-    color: #8b4828;
-    background: transparent none repeat scroll left top;
-}
-
-#wb_element_instance64 li:hover > a,
-#wb_element_instance64 li:focus > a {
-    border: 0 none #000000;
-    text-decoration: none;
-    font: normal normal 13px Georgia,serif;
-    line-height: 15px;
-    color: #00c2a2;
-    background: transparent none no-repeat scroll center top;
+    a {
+        padding: 5px 10px 5px 10px;
+        border: 0 none #000000;
+        text-decoration: none;
+        text-transform: uppercase;
+        font: normal normal 13px Georgia,serif;
+        line-height: 15px;
+        color: #8b4828;
+        background: transparent none repeat scroll left top;
+    }
+    > a{
+        &:hover , &:focus{
+            border: 0 none #000000;
+            text-decoration: none;
+            font: normal normal 13px Georgia,serif;
+            line-height: 15px;
+            color: #00c2a2;
+            background: transparent none no-repeat scroll center top;
+        }
+    }
 }
 
 #wb_element_instance64 li.active > a {
@@ -118,17 +108,16 @@ body,
     height: 110px;
     min-height: 110px;
     min-width: 360px;
-}
-
-#wb_element_instance65 > div {
-    width: 360px;
-    height: 110px;
-    border: 5px none #C0C0C0;
-    -webkit-border-radius: 0 0 0 0;
-    -moz-border-radius: 0 0 0 0;
-    border-radius: 0 0 0 0;
-    opacity: 0.3;
-    background: transparent;
+    > div {
+        width: 360px;
+        height: 110px;
+        border: 5px none #C0C0C0;
+        -webkit-border-radius: 0 0 0 0;
+        -moz-border-radius: 0 0 0 0;
+        border-radius: 0 0 0 0;
+        opacity: 0.3;
+        background: transparent;
+    }
 }
 
 #wb_element_instance66 {
@@ -210,14 +199,13 @@ body,
     height: 32px;
     min-height: 32px;
     min-width: 32px;
-}
-
-#wb_element_instance71 img {
-    position: static;
-    top: 0;
-    left: 0;
-    width: 32px;
-    height: 32px;
+    img {
+        position: static;
+        top: 0;
+        left: 0;
+        width: 32px;
+        height: 32px;
+    }
 }
 
 #wb_element_instance72 {
@@ -229,14 +217,13 @@ body,
     height: 270px;
     min-height: 270px;
     min-width: 390px;
-}
-
-#wb_element_instance72 img {
-    position: static;
-    top: 0;
-    left: 0;
-    width: 390px;
-    height: 270px;
+    img {
+        position: static;
+        top: 0;
+        left: 0;
+        width: 390px;
+        height: 270px;
+    }
 }
 
 #wb_element_instance73 {
@@ -292,14 +279,13 @@ body,
     height: 160px;
     min-height: 160px;
     min-width: 240px;
-}
-
-#wb_element_instance77 img {
-    position: static;
-    top: 0;
-    left: 0;
-    width: 240px;
-    height: 160px;
+    img {
+        position: static;
+        top: 0;
+        left: 0;
+        width: 240px;
+        height: 160px;
+    }
 }
 
 #wb_element_instance78 {
@@ -322,14 +308,13 @@ body,
     height: 270px;
     min-height: 270px;
     min-width: 430px;
-}
-
-#wb_element_instance79 img {
-    position: static;
-    top: 0;
-    left: 0;
-    width: 430px;
-    height: 270px;
+    img {
+        position: static;
+        top: 0;
+        left: 0;
+        width: 430px;
+        height: 270px;
+    }
 }
 
 #wb_element_instance80 {
@@ -352,14 +337,13 @@ body,
     height: 190px;
     min-height: 190px;
     min-width: 240px;
-}
-
-#wb_element_instance81 img {
-    position: static;
-    top: 0;
-    left: 0;
-    width: 240px;
-    height: 190px;
+    img {
+        position: static;
+        top: 0;
+        left: 0;
+        width: 240px;
+        height: 190px;
+    }
 }
 
 #wb_element_instance82 {
@@ -371,15 +355,15 @@ body,
     height: 160px;
     min-height: 160px;
     min-width: 240px;
+    img {
+        position: static;
+        top: 0;
+        left: 0;
+        width: 240px;
+        height: 160px;
+    }
 }
 
-#wb_element_instance82 img {
-    position: static;
-    top: 0;
-    left: 0;
-    width: 240px;
-    height: 160px;
-}
 
 #wb_element_instance83 {
     display: block;
@@ -390,14 +374,13 @@ body,
     height: 160px;
     min-height: 160px;
     min-width: 240px;
-}
-
-#wb_element_instance83 img {
-    position: static;
-    top: 0;
-    left: 0;
-    width: 240px;
-    height: 160px;
+    img {
+        position: static;
+        top: 0;
+        left: 0;
+        width: 240px;
+        height: 160px;
+    }
 }
 
 #wb_element_instance84 {
@@ -476,11 +459,10 @@ body,
         height: 110px;
         min-height: 110px;
         min-width: 360px;
-    }
-
-    #wb_element_instance65 > div {
-        width: 360px;
-        height: 110px;
+        > div {
+            width: 360px;
+            height: 110px;
+        }
     }
 
     #wb_element_instance66 {
@@ -501,15 +483,15 @@ body,
         height: 32px;
         min-height: 32px;
         min-width: 32px;
+        img {
+            position: static;
+            top: 0;
+            left: 0;
+            width: 32px;
+            height: 32px;
+        }
     }
 
-    #wb_element_instance67 img {
-        position: static;
-        top: 0;
-        left: 0;
-        width: 32px;
-        height: 32px;
-    }
 
     #wb_element_instance68 {
         display: block;
@@ -519,15 +501,15 @@ body,
         height: 32px;
         min-height: 32px;
         min-width: 32px;
+        img {
+            position: static;
+            top: 0;
+            left: 0;
+            width: 32px;
+            height: 32px;
+        }
     }
 
-    #wb_element_instance68 img {
-        position: static;
-        top: 0;
-        left: 0;
-        width: 32px;
-        height: 32px;
-    }
 
     #wb_element_instance69 {
         display: block;
@@ -557,16 +539,15 @@ body,
         height: 32px;
         min-height: 32px;
         min-width: 32px;
+        img {
+            position: static;
+            top: 0;
+            left: 0;
+            width: 32px;
+            height: 32px;
+        }
     }
-
-    #wb_element_instance71 img {
-        position: static;
-        top: 0;
-        left: 0;
-        width: 32px;
-        height: 32px;
-    }
-
+    
     #wb_element_instance72 {
         display: block;
         top: 260px;
@@ -575,14 +556,13 @@ body,
         height: 270px;
         min-height: 270px;
         min-width: 390px;
-    }
-
-    #wb_element_instance72 img {
-        position: static;
-        top: 0;
-        left: 0;
-        width: 390px;
-        height: 270px;
+        img {
+            position: static;
+            top: 0;
+            left: 0;
+            width: 390px;
+            height: 270px;
+        }
     }
 
     #wb_element_instance73 {
@@ -634,15 +614,14 @@ body,
         min-height: 160px;
         min-width: 240px;
         overflow: hidden;
-    }
-
-    #wb_element_instance77 img {
+    img {
         position: relative;
         top: 0;
         left: 0;
         width: 240px;
         height: 170px;
         max-width: inherit;
+    }
     }
 
     #wb_element_instance78 {
@@ -663,15 +642,15 @@ body,
         height: 270px;
         min-height: 270px;
         min-width: 430px;
+        img {
+            position: static;
+            top: 0;
+            left: 0;
+            width: 430px;
+            height: 270px;
+        }
     }
 
-    #wb_element_instance79 img {
-        position: static;
-        top: 0;
-        left: 0;
-        width: 430px;
-        height: 270px;
-    }
 
     #wb_element_instance80 {
         display: block;
@@ -692,16 +671,16 @@ body,
         min-height: 190px;
         min-width: 240px;
         overflow: hidden;
+        img {
+            position: relative;
+            top: -10px;
+            left: 0;
+            width: 240px;
+            height: 260px;
+            max-width: inherit;
+        }
     }
 
-    #wb_element_instance81 img {
-        position: relative;
-        top: -10px;
-        left: 0;
-        width: 240px;
-        height: 260px;
-        max-width: inherit;
-    }
 
     #wb_element_instance82 {
         display: block;
@@ -805,11 +784,10 @@ body,
         height: 110px;
         min-height: 110px;
         min-width: 360px;
-    }
-
-    #wb_element_instance65 > div {
+    > div {
         width: 360px;
         height: 110px;
+    }
     }
 
     #wb_element_instance66 {
@@ -830,14 +808,13 @@ body,
         height: 32px;
         min-height: 32px;
         min-width: 32px;
-    }
-
-    #wb_element_instance67 img {
+    img {
         position: static;
         top: 0;
         left: 0;
         width: 32px;
         height: 32px;
+    }
     }
 
     #wb_element_instance68 {
@@ -848,16 +825,14 @@ body,
         height: 32px;
         min-height: 32px;
         min-width: 32px;
+        img {
+            position: static;
+            top: 0;
+            left: 0;
+            width: 32px;
+            height: 32px;
+        }
     }
-
-    #wb_element_instance68 img {
-        position: static;
-        top: 0;
-        left: 0;
-        width: 32px;
-        height: 32px;
-    }
-
     #wb_element_instance69 {
         display: block;
         top: 10px;
@@ -886,14 +861,13 @@ body,
         height: 32px;
         min-height: 32px;
         min-width: 32px;
-    }
-
-    #wb_element_instance71 img {
-        position: static;
-        top: 0;
-        left: 0;
-        width: 32px;
-        height: 32px;
+        img {
+            position: static;
+            top: 0;
+            left: 0;
+            width: 32px;
+            height: 32px;
+        }
     }
 
     #wb_element_instance72 {
@@ -904,14 +878,13 @@ body,
         height: 270px;
         min-height: 270px;
         min-width: 390px;
-    }
-
-    #wb_element_instance72 img {
-        position: static;
-        top: 0;
-        left: 0;
-        width: 390px;
-        height: 270px;
+        img {
+            position: static;
+            top: 0;
+            left: 0;
+            width: 390px;
+            height: 270px;
+        }
     }
 
     #wb_element_instance73 {
@@ -963,15 +936,14 @@ body,
         min-height: 160px;
         min-width: 240px;
         overflow: hidden;
-    }
-
-    #wb_element_instance77 img {
-        position: relative;
-        top: 0;
-        left: 0;
-        width: 240px;
-        height: 170px;
-        max-width: inherit;
+         img {
+            position: relative;
+            top: 0;
+            left: 0;
+            width: 240px;
+            height: 170px;
+            max-width: inherit;
+        }
     }
 
     #wb_element_instance78 {
@@ -992,14 +964,13 @@ body,
         height: 270px;
         min-height: 270px;
         min-width: 430px;
-    }
-
-    #wb_element_instance79 img {
-        position: static;
-        top: 0;
-        left: 0;
-        width: 430px;
-        height: 270px;
+        img {
+            position: static;
+            top: 0;
+            left: 0;
+            width: 430px;
+            height: 270px;
+        }
     }
 
     #wb_element_instance80 {
@@ -1021,15 +992,14 @@ body,
         min-height: 190px;
         min-width: 240px;
         overflow: hidden;
-    }
-
-    #wb_element_instance81 img {
-        position: relative;
-        top: -10px;
-        left: 0;
-        width: 240px;
-        height: 260px;
-        max-width: inherit;
+        img {
+            position: relative;
+            top: -10px;
+            left: 0;
+            width: 240px;
+            height: 260px;
+            max-width: inherit;
+        }
     }
 
     #wb_element_instance82 {
@@ -1040,14 +1010,13 @@ body,
         height: 160px;
         min-height: 160px;
         min-width: 240px;
-    }
-
-    #wb_element_instance82 img {
-        position: static;
-        top: 0;
-        left: 0;
-        width: 240px;
-        height: 160px;
+        img {
+            position: static;
+            top: 0;
+            left: 0;
+            width: 240px;
+            height: 160px;
+        }
     }
 
     #wb_element_instance83 {
@@ -1059,16 +1028,16 @@ body,
         min-height: 160px;
         min-width: 240px;
         overflow: hidden;
+        img {
+            position: relative;
+            top: -40px;
+            left: -20px;
+            width: 260px;
+            height: 200px;
+            max-width: inherit;
+        }
     }
 
-    #wb_element_instance83 img {
-        position: relative;
-        top: -40px;
-        left: -20px;
-        width: 260px;
-        height: 200px;
-        max-width: inherit;
-    }
 
     #wb_element_instance84 {
         display: block;
@@ -1079,16 +1048,16 @@ body,
         min-height: 160px;
         min-width: 240px;
         overflow: hidden;
+        img {
+            position: relative;
+            top: -20px;
+            left: 0;
+            width: 240px;
+            height: 190px;
+            max-width: inherit;
+        }
     }
 
-    #wb_element_instance84 img {
-        position: relative;
-        top: -20px;
-        left: 0;
-        width: 240px;
-        height: 190px;
-        max-width: inherit;
-    }
 }
 
 @media(min-width:1200px) {
@@ -1134,11 +1103,10 @@ body,
         height: 110px;
         min-height: 110px;
         min-width: 360px;
-    }
-
-    #wb_element_instance65 > div {
-        width: 360px;
-        height: 110px;
+        > div {
+            width: 360px;
+            height: 110px;
+        }
     }
 
     #wb_element_instance66 {
@@ -1159,14 +1127,13 @@ body,
         height: 32px;
         min-height: 32px;
         min-width: 32px;
-    }
-
-    #wb_element_instance67 img {
-        position: static;
-        top: 0;
-        left: 0;
-        width: 32px;
-        height: 32px;
+        img {
+            position: static;
+            top: 0;
+            left: 0;
+            width: 32px;
+            height: 32px;
+        }
     }
 
     #wb_element_instance68 {
@@ -1215,15 +1182,15 @@ body,
         height: 32px;
         min-height: 32px;
         min-width: 32px;
+        img {
+            position: static;
+            top: 0;
+            left: 0;
+            width: 32px;
+            height: 32px;
+        }
     }
 
-    #wb_element_instance71 img {
-        position: static;
-        top: 0;
-        left: 0;
-        width: 32px;
-        height: 32px;
-    }
 
     #wb_element_instance72 {
         display: block;
@@ -1233,15 +1200,15 @@ body,
         height: 270px;
         min-height: 270px;
         min-width: 390px;
+        img {
+            position: static;
+            top: 0;
+            left: 0;
+            width: 390px;
+            height: 270px;
+        }
     }
 
-    #wb_element_instance72 img {
-        position: static;
-        top: 0;
-        left: 0;
-        width: 390px;
-        height: 270px;
-    }
 
     #wb_element_instance73 {
         display: block;
@@ -1292,16 +1259,16 @@ body,
         min-height: 160px;
         min-width: 240px;
         overflow: hidden;
+        img {
+            position: relative;
+            top: 0;
+            left: 0;
+            width: 240px;
+            height: 170px;
+            max-width: inherit;
+        }
     }
 
-    #wb_element_instance77 img {
-        position: relative;
-        top: 0;
-        left: 0;
-        width: 240px;
-        height: 170px;
-        max-width: inherit;
-    }
 
     #wb_element_instance78 {
         display: block;
@@ -1321,14 +1288,13 @@ body,
         height: 270px;
         min-height: 270px;
         min-width: 430px;
-    }
-
-    #wb_element_instance79 img {
-        position: static;
-        top: 0;
-        left: 0;
-        width: 430px;
-        height: 270px;
+        img {
+            position: static;
+            top: 0;
+            left: 0;
+            width: 430px;
+            height: 270px;
+        }
     }
 
     #wb_element_instance80 {
@@ -1350,15 +1316,14 @@ body,
         min-height: 190px;
         min-width: 240px;
         overflow: hidden;
-    }
-
-    #wb_element_instance81 img {
-        position: relative;
-        top: -10px;
-        left: 0;
-        width: 240px;
-        height: 260px;
-        max-width: inherit;
+        img {
+            position: relative;
+            top: -10px;
+            left: 0;
+            width: 240px;
+            height: 260px;
+            max-width: inherit;
+        }
     }
 
     #wb_element_instance82 {
@@ -1369,14 +1334,13 @@ body,
         height: 160px;
         min-height: 160px;
         min-width: 240px;
-    }
-
-    #wb_element_instance82 img {
+     img {
         position: static;
         top: 0;
         left: 0;
         width: 240px;
         height: 160px;
+    }
     }
 
     #wb_element_instance83 {
@@ -1388,16 +1352,16 @@ body,
         min-height: 160px;
         min-width: 240px;
         overflow: hidden;
+        img {
+            position: relative;
+            top: -40px;
+            left: -20px;
+            width: 260px;
+            height: 200px;
+            max-width: inherit;
+        }
     }
 
-    #wb_element_instance83 img {
-        position: relative;
-        top: -40px;
-        left: -20px;
-        width: 260px;
-        height: 200px;
-        max-width: inherit;
-    }
 
     #wb_element_instance84 {
         display: block;
@@ -1408,14 +1372,13 @@ body,
         min-height: 160px;
         min-width: 240px;
         overflow: hidden;
+        img {
+            position: relative;
+            top: -20px;
+            left: 0;
+            width: 240px;
+            height: 190px;
+            max-width: inherit;
     }
-
-    #wb_element_instance84 img {
-        position: relative;
-        top: -20px;
-        left: 0;
-        width: 240px;
-        height: 190px;
-        max-width: inherit;
     }
 }
