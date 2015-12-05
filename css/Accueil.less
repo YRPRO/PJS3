@@ -1,6 +1,7 @@
 @white: #ffffff;
 @green: #1ba18b;
 
+
 #wb_header {
     height: 0px;
     background: transparent none repeat scroll left top;
@@ -51,54 +52,47 @@ body {
     height: 40px;
     min-height: 40px;
     min-width: 484px;
-}
 
-#div_menu ul {
-    border: 1px none #000000;
-    background: transparent none repeat scroll left top;
-}
+    ul{
+        border: 1px none #000000;
+        background: transparent none repeat scroll left top;
+        text-align: right;
+    }
+    ul ul {
+        background: #2e2e2e none repeat scroll left top;
+    }
+    li {
+        margin: 10px 10px 10px 10px;
+    }
 
-#div_menu,
-#div_menu ul {
-    text-align: right;
-}
-
-#div_menu ul ul {
-    background: #2e2e2e none repeat scroll left top;
-}
-
-#div_menu li {
-    margin: 10px 10px 10px 10px;
-}
-
-#div_menu li a {
-    padding: 5px 10px 5px 10px;
-    border: 0 none #000000;
-    text-decoration: none;
-    text-transform: uppercase;
-    font: normal normal 13px Georgia,serif;
-    line-height: 15px;
-    color: #8b4828;
-    background: transparent none repeat scroll left top;
-}
-
-#div_menu li:focus > a {
-    border: 0 none #000000;
-    text-decoration: none;
-    font: normal normal 13px Georgia,serif;
-    line-height: 15px;
-    color: #00c2a2;
-    background: transparent none no-repeat scroll center top;
-}
-
-#div_menu li.active > a {
-    border: 0 none #000000;
-    text-decoration: none;
-    font: normal normal 13px Georgia,serif;
-    line-height: 15px;
-    color: #00c292;
-    background: transparent none no-repeat scroll center top;
-}
+    li a {
+        padding: 5px 10px 5px 10px;
+        border: 0 none #000000;
+        text-decoration: none;
+        text-transform: uppercase;
+        font: normal normal 13px Georgia,serif;
+        line-height: 15px;
+        color: #8b4828;
+        background: transparent none repeat scroll left top;
+    }
+    li:hover > a,
+    li:focus > a {
+        border: 0 none #000000;
+        text-decoration: none;
+        font: normal normal 13px Georgia,serif;
+        line-height: 15px;
+        color: #00c2a2;
+        background: transparent none no-repeat scroll center top;
+    }
+    li.active > a {
+        border: 0 none #000000;
+        text-decoration: none;
+        font: normal normal 13px Georgia,serif;
+        line-height: 15px;
+        color: #00c292;
+        background: transparent none no-repeat scroll center top;
+    }
+}  
 
 #div_titre {
     display: block;
@@ -233,18 +227,18 @@ body {
     height: 29px;
     min-height: 29px;
     min-width: 270px;
+    
+    p {
+        text-align: center;
+        face: Sylfaen;
+        color: #ffffff;
+        font-size: 20px;
+        line-height: normal;
+    }
 }
 
-#div_ecriture_LaRegionParisienne p {
-    text-align: center;
-    face: Sylfaen;
-    color: #ffffff;
-    font-size: 20px;
-    line-height: normal;
-}
 
-
-#div_bouton_LaRegionParisienne_enSavoirPlus {
+#div_bouton_LaRegionParisienne_carte {
     display: block;
     z-index: 85;
     top: 400px;
@@ -253,45 +247,43 @@ body {
     height: 40px;
     min-height: 40px;
     min-width: 110px;
-}
+    
+    a {
+        width: 106px;
+        height: 36px;
+        padding: 8px 0 0 0;
+    }
 
+    a {
+        border: 2px solid @white;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        text-align: center;
+        text-decoration: none;
+        font-family: 'PT Sans',sans-serif;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: bold;
+        color: @white;
+        background: transparent none repeat scroll left top;
+    }
 
+    a:hover {
+        text-decoration: none;
+        font-style: normal;
+        font-weight: bold;
+        color: @white;
+        background: #086b61 none repeat scroll left top;
+    }
 
-#div_bouton_LaRegionParisienne_enSavoirPlus a {
-    width: 106px;
-    height: 36px;
-    padding: 8px 0 0 0;
-}
-
-#div_bouton_LaRegionParisienne_enSavoirPlus a {
-    border: 2px solid @white;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
-    text-align: center;
-    text-decoration: none;
-    font-family: 'PT Sans',sans-serif;
-    font-size: 13px;
-    font-style: normal;
-    font-weight: bold;
-    color: @white;
-    background: transparent none repeat scroll left top;
-}
-
-#div_bouton_LaRegionParisienne_enSavoirPlus a:hover {
-    text-decoration: none;
-    font-style: normal;
-    font-weight: bold;
-    color: @white;
-    background: #086b61 none repeat scroll left top;
-}
-
-#div_bouton_LaRegionParisienne_enSavoirPlus a:active {
-    text-decoration: none;
-    font-style: normal;
-    font-weight: normal;
-    color: #333333;
-    background: #E6E6E6 none repeat scroll left top;
+    a:active {
+        text-decoration: none;
+        font-style: normal;
+        font-weight: normal;
+        color: #333333;
+        background: #E6E6E6 none repeat scroll left top;
+    }
 }
 
 #div_ecriture_guidevoyage {
@@ -303,11 +295,11 @@ body {
     height: 28px;
     min-height: 28px;
     min-width: 280px;
-}
-
-#div_ecriture_guidevoyage p {
-    text-align: center;
-    line-height: normal;
+    
+    p {
+        text-align: center;
+        line-height: normal;
+    }
 }
 
 #div_ecriture_visiteinoubliable {
@@ -319,10 +311,10 @@ body {
     height: 24px;
     min-height: 24px;
     min-width: 350px;
-}
-
-#div_ecriture_visiteinoubliable h1 {
-    text-align: center;
+   
+    h1 {
+        text-align: center;
+    }
 }
 
 #div_image_evenementavenir {
@@ -334,14 +326,14 @@ body {
     height: 200px;
     min-height: 200px;
     min-width: 340px;
-}
 
-#div_image_evenementavenir img {
-    position: static;
-    top: 0;
-    left: 0;
-    width: 340px;
-    height: 200px;
+    img {
+        position: static;
+        top: 0;
+        left: 0;
+        width: 340px;
+        height: 200px;
+    }
 }
 
 #div_image_venezdecouvrirnotreregion {
@@ -353,15 +345,16 @@ body {
     height: 190px;
     min-height: 190px;
     min-width: 340px;
+    
+    img {
+        position: static;
+        top: 0;
+        left: 0;
+        width: 340px;
+        height: 190px;
+    }
 }
 
-#div_image_venezdecouvrirnotreregion img {
-    position: static;
-    top: 0;
-    left: 0;
-    width: 340px;
-    height: 190px;
-}
 
 #div_venezdecouvrirnotreregion {
     display: block;
@@ -394,17 +387,17 @@ body {
     height: 280px;
     min-height: 280px;
     min-width: 200px;
-}
-
-#div_cadre_conseilsdevoyage > div {
-    width: 200px;
-    height: 280px;
-    border: 5px none #C0C0C0;
-    -webkit-border-radius: 0 0 0 0;
-    -moz-border-radius: 0 0 0 0;
-    border-radius: 0 0 0 0;
-    opacity: 1;
-    background: #c4b7a3;
+    
+    > div {
+        width: 200px;
+        height: 280px;
+        border: 5px none #C0C0C0;
+        -webkit-border-radius: 0 0 0 0;
+        -moz-border-radius: 0 0 0 0;
+        border-radius: 0 0 0 0;
+        opacity: 1;
+        background: #c4b7a3;
+    }
 }
 
 #div_image_conseilsdevoyage {
@@ -416,14 +409,14 @@ body {
     height: 200px;
     min-height: 200px;
     min-width: 200px;
-}
-
-#div_image_conseilsdevoyage img {
-    position: static;
-    top: 0;
-    left: 0;
-    width: 200px;
-    height: 200px;
+    
+    img {
+        position: static;
+        top: 0;
+        left: 0;
+        width: 200px;
+        height: 200px;
+    }
 }
 
 #div_conseilsdevoyage {
@@ -446,17 +439,17 @@ body {
     height: 290px;
     min-height: 290px;
     min-width: 340px;
-}
-
-#div_cadre_venezdecouvrir > div {
-    width: 340px;
-    height: 290px;
-    border: 5px none #C0C0C0;
-    -webkit-border-radius: 0 0 0 0;
-    -moz-border-radius: 0 0 0 0;
-    border-radius: 0 0 0 0;
-    opacity: 1;
-    background: @white;
+    
+    > div {
+        width: 340px;
+        height: 290px;
+        border: 5px none #C0C0C0;
+        -webkit-border-radius: 0 0 0 0;
+        -moz-border-radius: 0 0 0 0;
+        border-radius: 0 0 0 0;
+        opacity: 1;
+        background: @white;
+    }
 }
 
 #div_cadre_evenementavenir {
@@ -468,17 +461,17 @@ body {
     height: 280px;
     min-height: 280px;
     min-width: 340px;
-}
-
-#div_cadre_evenementavenir > div {
-    width: 340px;
-    height: 280px;
-    border: 5px none #C0C0C0;
-    -webkit-border-radius: 0 0 0 0;
-    -moz-border-radius: 0 0 0 0;
-    border-radius: 0 0 0 0;
-    opacity: 1;
-    background: @white;
+    
+    > div {
+        width: 340px;
+        height: 280px;
+        border: 5px none #C0C0C0;
+        -webkit-border-radius: 0 0 0 0;
+        -moz-border-radius: 0 0 0 0;
+        border-radius: 0 0 0 0;
+        opacity: 1;
+        background: @white;
+    }
 }
 
 #div_bouton_savoirplus_evenementavenir {
@@ -490,46 +483,46 @@ body {
     height: 40px;
     min-height: 40px;
     min-width: 110px;
-}
 
-#div_bouton_savoirplus_evenementavenir a span {
-    padding: 8px 0 0 0;
-}
+    a span {
+        padding: 8px 0 0 0;
+    }
 
-#div_bouton_savoirplus_evenementavenir a {
-    width: 106px;
-    height: 36px;
-}
+    a {
+        width: 106px;
+        height: 36px;
+    }
 
-#div_bouton_savoirplus_evenementavenir a {
-    border: 2px solid #0b9c84;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
-    text-align: center;
-    text-decoration: none;
-    font-family: 'PT Sans',sans-serif;
-    font-size: 13px;
-    font-style: normal;
-    font-weight: bold;
-    color: @green;
-    background: transparent none repeat scroll left top;
-}
+    a {
+        border: 2px solid #0b9c84;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        text-align: center;
+        text-decoration: none;
+        font-family: 'PT Sans',sans-serif;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: bold;
+        color: @green;
+        background: transparent none repeat scroll left top;
+    }
 
-#div_bouton_savoirplus_evenementavenir a:hover {
-    text-decoration: none;
-    font-style: normal;
-    font-weight: bold;
-    color: @white;
-    background: #086b61 none repeat scroll left top;
-}
+    a:hover {
+        text-decoration: none;
+        font-style: normal;
+        font-weight: bold;
+        color: @white;
+        background: #086b61 none repeat scroll left top;
+    }
 
-#div_bouton_savoirplus_evenementavenir a:active {
-    text-decoration: none;
-    font-style: normal;
-    font-weight: normal;
-    color: #333333;
-    background: #E6E6E6 none repeat scroll left top;
+    a:active {
+        text-decoration: none;
+        font-style: normal;
+        font-weight: normal;
+        color: #333333;
+        background: #E6E6E6 none repeat scroll left top;
+    }
 }
 
 #div_bouton_savoirplus_venezdecouvrir {
@@ -541,46 +534,46 @@ body {
     height: 40px;
     min-height: 40px;
     min-width: 110px;
-}
 
-#div_bouton_savoirplus_venezdecouvrir a span {
-    padding: 8px 0 0 0;
-}
+    a span {
+        padding: 8px 0 0 0;
+    }
 
-#div_bouton_savoirplus_venezdecouvrir a {
-    width: 106px;
-    height: 36px;
-}
+    a {
+        width: 106px;
+        height: 36px;
+    }
 
-#div_bouton_savoirplus_venezdecouvrir a {
-    border: 2px solid #0b9c84;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
-    text-align: center;
-    text-decoration: none;
-    font-family: 'PT Sans',sans-serif;
-    font-size: 13px;
-    font-style: normal;
-    font-weight: bold;
-    color: @green;
-    background: transparent none repeat scroll left top;
-}
+    a {
+        border: 2px solid #0b9c84;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        text-align: center;
+        text-decoration: none;
+        font-family: 'PT Sans',sans-serif;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: bold;
+        color: @green;
+        background: transparent none repeat scroll left top;
+    }
 
-#div_bouton_savoirplus_venezdecouvrir a:hover {
-    text-decoration: none;
-    font-style: normal;
-    font-weight: bold;
-    color: @white;
-    background: #086b61 none repeat scroll left top;
-}
+    a:hover {
+        text-decoration: none;
+        font-style: normal;
+        font-weight: bold;
+        color: @white;
+        background: #086b61 none repeat scroll left top;
+    }
 
-#div_bouton_savoirplus_venezdecouvrir a:active {
-    text-decoration: none;
-    font-style: normal;
-    font-weight: normal;
-    color: #333333;
-    background: #E6E6E6 none repeat scroll left top;
+    a:active {
+        text-decoration: none;
+        font-style: normal;
+        font-weight: normal;
+        color: #333333;
+        background: #E6E6E6 none repeat scroll left top;
+    }
 }
 
 #div_ecriture_paragraphe_conseilsdevoyage {
@@ -603,46 +596,46 @@ body {
     height: 40px;
     min-height: 40px;
     min-width: 110px;
-}
 
-#div_bouton_savoirplus_conseilsdevoyage a span {
-    padding: 8px 0 0 0;
-}
+    a span {
+        padding: 8px 0 0 0;
+    }
 
-#div_bouton_savoirplus_conseilsdevoyage a {
-    width: 106px;
-    height: 36px;
-}
+    a {
+        width: 106px;
+        height: 36px;
+    }
 
-#div_bouton_savoirplus_conseilsdevoyage a {
-    border: 2px solid @white;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
-    text-align: center;
-    text-decoration: none;
-    font-family: 'PT Sans',sans-serif;
-    font-size: 13px;
-    font-style: normal;
-    font-weight: bold;
-    color: @white;
-    background: transparent none repeat scroll left top;
-}
+    a {
+        border: 2px solid @white;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        text-align: center;
+        text-decoration: none;
+        font-family: 'PT Sans',sans-serif;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: bold;
+        color: @white;
+        background: transparent none repeat scroll left top;
+    }
 
-#div_bouton_savoirplus_conseilsdevoyage a:hover {
-    text-decoration: none;
-    font-style: normal;
-    font-weight: bold;
-    color: @white;
-    background: #086b61 none repeat scroll left top;
-}
+    a:hover {
+        text-decoration: none;
+        font-style: normal;
+        font-weight: bold;
+        color: @white;
+        background: #086b61 none repeat scroll left top;
+    }
 
-#div_bouton_savoirplus_conseilsdevoyage a:active {
-    text-decoration: none;
-    font-style: normal;
-    font-weight: normal;
-    color: #333333;
-    background: #E6E6E6 none repeat scroll left top;
+    a:active {
+        text-decoration: none;
+        font-style: normal;
+        font-weight: normal;
+        color: #333333;
+        background: #E6E6E6 none repeat scroll left top;
+    }
 }
 
 #div_trait_visiteinoubliable {
@@ -795,11 +788,11 @@ body {
         height: 150px;
         min-height: 150px;
         min-width: 310px;
-    }
 
-    #div_cadre_LaRegionParisienne > div {
-        width: 310px;
-        height: 150px;
+        > div {
+            width: 310px;
+            height: 150px;
+        }
     }
 
     #div_cadre_Paris {
@@ -812,9 +805,10 @@ body {
         min-width: 310px;
     }
 
-    #div_cadre_Paris > div {
-        width: 310px;
-        height: 150px;
+        div {
+            width: 310px;
+            height: 150px;
+        }
     }
 
     #div_ecriture_LaRegionParisienne {
@@ -827,7 +821,7 @@ body {
         min-width: 270px;
     }
 
-    #div_bouton_LaRegionParisienne_enSavoirPlus {
+    #div_bouton_LaRegionParisienne_carte {
         display: block;
         top: 400px;
         left: 610px;
@@ -837,10 +831,11 @@ body {
         min-width: 110px;
     }
 
-    #div_bouton_LaRegionParisienne_enSavoirPlus a {
-        width: 106px;
-        height: 36px;
-        padding: 8px 0 0 0;
+        a {
+            width: 106px;
+            height: 36px;
+            padding: 8px 0 0 0;
+        }
     }
 
     #div_ecriture_guidevoyage {
@@ -872,15 +867,15 @@ body {
         min-height: 200px;
         min-width: 340px;
         overflow: hidden;
-    }
-
-    #div_image_evenementavenir img {
-        position: relative;
-        top: 0;
-        left: 0;
-        width: 356px;
-        height: 200px;
-        max-width: inherit;
+    
+        img {
+            position: relative;
+            top: 0;
+            left: 0;
+            width: 356px;
+            height: 200px;
+            max-width: inherit;
+        }
     }
 
     #div_image_venezdecouvrirnotreregion {
@@ -891,14 +886,14 @@ body {
         height: 190px;
         min-height: 190px;
         min-width: 340px;
-    }
-
-    #div_image_venezdecouvrirnotreregion img {
-        position: static;
-        top: 0;
-        left: 0;
-        width: 340px;
-        height: 190px;
+        
+        img {
+            position: static;
+            top: 0;
+            left: 0;
+            width: 340px;
+            height: 190px;
+        }
     }
 
     #div_venezdecouvrirnotreregion {
@@ -931,9 +926,10 @@ body {
         min-width: 200px;
     }
 
-    #div_cadre_conseilsdevoyage > div {
-        width: 200px;
-        height: 280px;
+        > div {
+            width: 200px;
+            height: 280px;
+        }
     }
 
     #div_image_conseilsdevoyage {
@@ -944,14 +940,14 @@ body {
         height: 200px;
         min-height: 200px;
         min-width: 200px;
-    }
 
-    #div_image_conseilsdevoyage img {
-        position: static;
-        top: 0;
-        left: 0;
-        width: 200px;
-        height: 200px;
+        img {
+            position: static;
+            top: 0;
+            left: 0;
+            width: 200px;
+            height: 200px;
+        }
     }
 
     #div_conseilsdevoyage {
@@ -974,9 +970,10 @@ body {
         min-width: 340px;
     }
 
-    #div_cadre_venezdecouvrir > div {
-        width: 340px;
-        height: 290px;
+        > div {
+            width: 340px;
+            height: 290px;
+        }
     }
 
     #div_cadre_evenementavenir {
@@ -987,11 +984,11 @@ body {
         height: 280px;
         min-height: 280px;
         min-width: 340px;
-    }
 
-    #div_cadre_evenementavenir > div {
-        width: 340px;
-        height: 280px;
+        > div {
+            width: 340px;
+            height: 280px;
+        }
     }
 
     #div_bouton_savoirplus_evenementavenir {
@@ -1002,13 +999,12 @@ body {
         height: 40px;
         min-height: 40px;
         min-width: 110px;
-    }
-
-    #div_bouton_savoirplus_evenementavenir a span {
+    
+    a span {
         padding: 8px 0 0 0;
     }
 
-    #div_bouton_savoirplus_evenementavenir a {
+    a {
         width: 106px;
         height: 36px;
     }
@@ -1229,7 +1225,7 @@ body {
         min-width: 270px;
     }
 
-    #div_bouton_LaRegionParisienne_enSavoirPlus {
+    #div_bouton_LaRegionParisienne_carte {
         display: block;
         top: 400px;
         left: 610px;
@@ -1240,7 +1236,7 @@ body {
     }
 
 
-    #div_bouton_LaRegionParisienne_enSavoirPlus a {
+    #div_bouton_LaRegionParisienne_carte a {
         width: 106px;
         height: 36px;
         padding: 8px 0 0 0;
@@ -1633,7 +1629,7 @@ body {
         min-width: 270px;
     }
 
-    #div_bouton_LaRegionParisienne_enSavoirPlus {
+    #div_bouton_LaRegionParisienne_carte {
         display: block;
         top: 400px;
         left: 610px;
@@ -1644,7 +1640,7 @@ body {
     }
 
 
-    #div_bouton_LaRegionParisienne_enSavoirPlus a {
+    #div_bouton_LaRegionParisienne_carte a {
         width: 106px;
         height: 36px;
         padding: 8px 0 0 0;
