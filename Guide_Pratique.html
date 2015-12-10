@@ -1,183 +1,223 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<title>Guide pratique</title>
-	<base href="{{base_url}}" />
-			<meta name="viewport" content="width=992" />
-		<meta name="description" content="" />
-	<meta name="keywords" content="" />
-		<meta name="generator" content="Zyro - Website Builder" />
-	
-	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-	<link href="css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css" />
-	<script src="js/jquery-1.8.3.min.js" type="text/javascript"></script>
-	<script src="js/bootstrap.min.js" type="text/javascript"></script>
-	<script src="js/main.js" type="text/javascript"></script>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Contacts</title>
+    <base href="{{base_url}}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="generator" content="Zyro - Website Builder" />
 
-	<link href="css/site.css?v=1.0.13" rel="stylesheet" type="text/css" />
-	<link href="css/common.css?ts=1445243438" rel="stylesheet" type="text/css" />
-    <link href="css/Guide_Pratique.less" rel="stylesheet/less" type="text/css" />
-    
-    <script src="js/less.js-2.5.3/dist/less.js" type="text/javascript"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/main.js" type="text/javascript"></script>
 
-	<script type="text/javascript">var currLang = '';</script>		
-    
+    <link href="css/site.css?v=1.0.14" rel="stylesheet" type="text/css" />
+    <link href="css/common.css?ts=1449768609" rel="stylesheet" type="text/css" />
+    <link href="css/Guide_Pratique.css" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript">
+        var currLang = '';
+    </script>
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
-	<!--[if lt IE 9]>
+    <!--[if lt IE 9]>
 	  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
-    
 </head>
 
 
-<body><div class="root"><div class="vbox wb_container" id="wb_header">
-	
-<div id="wb_element_instance64" class="wb_element">
-	<ul class="hmenu">
-		<li><a href="Accueil.html" target="_self" title="Accueil">Accueil</a></li>
-		<li><a href="Evenements.html" target="_self" title="Evénements">Evénements</a></li>
-		<li><a href="A_Visiter.html" target="_self" title="A visiter">A visiter</a></li>
-		<li class="active"><a href="Guide_Pratique.html" target="_self" title="Guide pratique">Guide pratique</a></li>
-		<li><a href="Carte.html"  title="Carte">Carte</a></li>
-	</ul>
-</div><div id="wb_element_instance65" class="wb_element"><div></div></div><div id="wb_element_instance66" class="wb_element" style=" line-height: normal;"><h4 class="wb-stl-pagetitle" style="text-align: center;"><strong>Ile De France</strong></h4>
+<body>
+    <div class="root">
+        <div class="vbox wb_container" id="wb_header">
 
-<p style="text-align: center;"> </p>
-</div></div>
-<div class="vbox wb_container" id="wb_main">
-	
-<div id="wb_element_instance72" class="wb_element"><img alt="" src="gallery/d897254811d4a60ad20569fbdf6e9cb7_394x270.jpg"></div><div id="wb_element_instance73" class="wb_element" style=" line-height: normal;"><h4 class="wb-stl-pagetitle">Guide Pratique</h4>
-</div><div id="wb_element_instance74" class="wb_element" style=" line-height: normal;"><p>Lien utile:</p>
+            <div id="menu" class="wb_element"><a class="btn btn-default btn-collapser"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a>
+					<ul class="hmenu">
+						<li><a href="Accueil.html" target="_self" title="Accueil">Accueil</a></li>
+						<li><a href="Evenements.html" target="_self" title="Evénements">Evénements</a></li> 
+						<li><a href="A_Visiter.html" target="_self" title="A visiter">A visiter</a></li>
+						<li class="active"><a href="Guide_Pratique.html"  title="Guide pratique">Guide pratique</a></li>	
+						<li><a href="Carte.html"  title="Carte">Carte</a></li>
+					</ul>
+                <script type="text/javascript">
+                    (function() {
+                        var isOpen = false,
+                            elem = $('#menu'),
+                            btn = elem.children('.btn-collapser').eq(0);
+                        btn.on('click', function() {
+                            if (elem.hasClass('collapse-expanded')) {
+                                isOpen = false;
+                                elem.removeClass('collapse-expanded');
+                            } else {
+                                isOpen = true;
+                                elem.addClass('collapse-expanded');
+                            }
+                        });
+                        elem.find('ul').each(function() {
+                            var ul = $(this);
+                            if (ul.parent('li').length > 0) {
+                                ul.parent('li').eq(0).children('a').on('click', function() {
+                                    if (!isOpen) return true;
+                                    if (ul.css('display') !== 'block') ul.css({
+                                        display: 'block'
+                                    });
+                                    else ul.css({
+                                        display: ''
+                                    });
+                                    return false;
+                                });
+                            }
+                        });
+                    })();
+                </script>
+            </div>
 
-<p><a data-target="true" data-type="url" data-url="http://www.iledefrance.fr" href="http://www.iledefrance.fr" target="_blank">www.iledefrance.fr</a></p>
+            <div id="div_logo_idf" class="wb_element" style=" line-height: normal;">
+                <h4 class="wb-stl-pagetitle" style="text-align: center;"><span style="color:#inherit;">Ile De France</span></h4>
+            </div>
+            
+        </div>
+        
+        <div class="vbox wb_container" id="wb_main">
 
-<p><a data-target="true" data-type="url" data-url="http://www.ile-de-france.gouv.fr" href="http://www.ile-de-france.gouv.fr" target="_blank">www.ile-de-france.gouv.fr</a></p>
+            <div id="div_img_metro" class="wb_element"><img alt="" src="gallery_gen/d897254811d4a60ad20569fbdf6e9cb7_394x270.jpg">
+            </div>
+            <div id="div_titre_guidePratique" class="wb_element" style=" line-height: normal;">
+                <h4 class="wb-stl-pagetitle">Guide Pratique</h4>
+            </div>
+            <div id="div_liensUtiles" class="wb_element" style=" line-height: normal;">
+                <p>Lien utile:</p>
 
-<p><a data-target="true" data-type="url" data-url="http://www.parisinfo.com/visiter-a-paris" href="http://www.parisinfo.com/visiter-a-paris" target="_blank">www.parisinfo.com/visiter-a-paris</a></p>
+                <p><a data-target="true" data-type="url" data-url="http://www.iledefrance.fr" href="http://www.iledefrance.fr" target="_blank">www.iledefrance.fr</a>
+                </p>
 
-<p><a data-target="true" data-type="url" data-url="http://www.visitparisregion.com/" href="http://www.visitparisregion.com/" target="_blank">www.visitparisregion.com/</a></p>
+                <p><a data-target="true" data-type="url" data-url="http://www.ile-de-france.gouv.fr" href="http://www.ile-de-france.gouv.fr" target="_blank">www.ile-de-france.gouv.fr</a>
+                </p>
 
-<p> </p>
-</div><div id="wb_element_instance75" class="wb_element"><script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false&amp;libraries=places"></script><script type="text/javascript">
-				function initialize() {
-					if (window.google) {
-						var div = document.getElementById("wb_element_instance75");
-						var ll = new google.maps.LatLng(48.856614,2.3522219000000177);
-						var map = new google.maps.Map(div, {
-							zoom: 10,
-							center: ll,
-							mapTypeId: "roadmap"
-						});
-						
-						var marker = new google.maps.Marker({
-							position: ll,
-							clickable: false,
-							map: map
-						});
-					}
-				}
-				google.maps.event.addDomListener(window, "load", initialize);
-			</script></div><div id="wb_element_instance76" class="wb_element" style=" line-height: normal;"><h5 class="wb-stl-subtitle" style="text-align: center;"><strong>Métro, RER et tram</strong></h5>
+                <p><a data-target="true" data-type="url" data-url="http://www.parisinfo.com/visiter-a-paris" href="http://www.parisinfo.com/visiter-a-paris" target="_blank">www.parisinfo.com/visiter-a-paris</a>
+                </p>
 
-<p class="wb-stl-normal" style="text-align: justify;"><br><span style="color: rgb(105, 96, 81); font-family: Georgia, serif; background-color: transparent;">Avec près de 400 stations, le métro parisien est l'un des moyens de transport les plus pratiques. Elles se suivent… mais ne se ressemblent pas : les stations de la ligne 14, celles de la Concorde, de Réaumur-Sébastopol sont de vrais petits bijoux d'architecture et d'aménagement intérieur.</span></p>
+                <p><a data-target="true" data-type="url" data-url="http://www.visitparisregion.com/" href="http://www.visitparisregion.com/" target="_blank">www.visitparisregion.com/</a>
+                </p>
 
-<p class="wb-stl-normal" style="text-align: justify;">Du cœur rapidement entre les zones 1 et 2. Au delà, empruntez le RER qui prend leur de Paris à la petite ceinture, vous voyagez relais pour les destinations Ile-de-France : ce sont alors les zones 3 à 6. Attention, les tarifs vont croissant selon les zones de voyage.</p>
+                <p> </p>
+            </div>
+            <div id="div_carteGoogle" class="wb_element">
+                <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false&amp;libraries=places"></script>
+                <script type="text/javascript">
+                    function initialize() {
+                        if (window.google) {
+                            var div = document.getElementById("div_carteGoogle");
+                            var ll = new google.maps.LatLng(48.856614, 2.3522219000000177);
+                            var map = new google.maps.Map(div, {
+                                zoom: 10,
+                                center: ll,
+                                mapTypeId: "roadmap"
+                            });
 
-<p class="wb-stl-normal" style="text-align: justify;">Les RER circulent de 6h à 0h30 et les métros de 5h30 à 1h15 et jusqu'à 2h15 les vendredis, samedis et veilles de fête.<br><br>
-Vendus à l'unité ou par carnet de 10, les tickets de métro s'habillent de noir si vous choisissez le pass Paris Visite : un forfait qui s'adapte à la durée de votre séjour et procurent des avantages (auprès de 18 partenaires culturels, musées, shopping, spectacles et de promenades) ou prennent des couleurs blanches, vous optez pour le Passe Mobilis (une journée de transport illimité zone 1 et 2 pour 6,40€). Des solutions très avantageuses !</p>
-</div><div id="wb_element_instance77" class="wb_element"><img alt="" src="gallery/a65e3490c591b6cdf877fb3b9b16fc41_240x170.jpg"></div><div id="wb_element_instance78" class="wb_element" style=" line-height: normal;"><h5 class="wb-stl-subtitle">Les Bus</h5>
+                            var marker = new google.maps.Marker({
+                                position: ll,
+                                clickable: false,
+                                map: map
+                            });
+                        }
+                    }
+                    google.maps.event.addDomListener(window, "load", initialize);
+                </script>
+            </div>
+            <div id="paragraphe_metro" class="wb_element" style=" line-height: normal;">
+                <h5 class="wb-stl-subtitle" style="text-align: center;"><strong>Métro, RER et tram</strong></h5>
 
-<p class="wb-stl-normal">Circulez sans perdre Paris de vue !</p>
+                <p class="wb-stl-normal" style="text-align: justify;">
+                    <br><span style="color: rgb(105, 96, 81); font-family: Georgia, serif; background-color: transparent;">Avec près de 400 stations, le métro parisien est l'un des moyens de transport les plus pratiques. Elles se suivent… mais ne se ressemblent pas : les stations de la ligne 14, celles de la Concorde, de Réaumur-Sébastopol sont de vrais petits bijoux d'architecture et d'aménagement intérieur.</span>
+                </p>
 
-<p class="wb-stl-normal">Les bus sillonnent l'Ile-de-France sur prés de 300 lignes. Pour relier un monument à un musée, un, restaurant à un hôtel, rentrer d'une balade entre amis, sans perdre une miette de Paris, rien de mieux que l'utiliser le réseau de bus.<br><span style="background-color: transparent;">Les bus circulent de 3h à 1h00, 7j/7 et 365 jours par an.</span></p>
+                <p class="wb-stl-normal" style="text-align: justify;">Du cœur rapidement entre les zones 1 et 2. Au delà, empruntez le RER qui prend leur de Paris à la petite ceinture, vous voyagez relais pour les destinations Ile-de-France : ce sont alors les zones 3 à 6. Attention, les tarifs vont croissant selon les zones de voyage.</p>
 
-<p style="text-align: right;"><a data-type="url" data-url="http://www.ratp.fr" href="http://www.ratp.fr">www.ratp.fr</a></p>
+                <p class="wb-stl-normal" style="text-align: justify;">Les RER circulent de 6h à 0h30 et les métros de 5h30 à 1h15 et jusqu'à 2h15 les vendredis, samedis et veilles de fête.
+                    <br>
+                    <br> Vendus à l'unité ou par carnet de 10, les tickets de métro s'habillent de noir si vous choisissez le pass Paris Visite : un forfait qui s'adapte à la durée de votre séjour et procurent des avantages (auprès de 18 partenaires culturels, musées, shopping, spectacles et de promenades) ou prennent des couleurs blanches, vous optez pour le Passe Mobilis (une journée de transport illimité zone 1 et 2 pour 6,40€). Des solutions très avantageuses !</p>
+            </div>
+            <div id="img_BusParis" class="wb_element"><img alt="" src="gallery_gen/a65e3490c591b6cdf877fb3b9b16fc41_240x170.jpg"></div>
+            <div id="paragraphe_Bus" class="wb_element" style=" line-height: normal;">
+                <h5 class="wb-stl-subtitle">Les Bus</h5>
 
-<p class="wb-stl-normal"> </p>
+                <p class="wb-stl-normal">Circulez sans perdre Paris de vue !</p>
 
-<h5 class="wb-stl-subtitle">SuperShuttle Paris</h5>
+                <p class="wb-stl-normal">Les bus sillonnent l'Ile-de-France sur prés de 300 lignes. Pour relier un monument à un musée, un, restaurant à un hôtel, rentrer d'une balade entre amis, sans perdre une miette de Paris, rien de mieux que l'utiliser le réseau de bus.
+                    <br><span style="background-color: transparent;">Les bus circulent de 3h à 1h00, 7j/7 et 365 jours par an.</span>
+                </p>
 
-<p class="wb-stl-normal">C'est la navette partagée idéale. Economique et écologique, elle vous conduit entre l’adresse de votre choix et votre terminal d'aéroport (Roissy Charles de Gaulle, Orly et Beauvais). Le service est disponible 24h/24 et 7j/7 vers ou depuis Paris, proche banlieue et Disneyland Paris en couse partagée (avec arrêts en chemin) ou course privée (véhicule 7 à 8 places).</p>
+                <p style="text-align: right;"><a data-type="url" data-url="http://www.ratp.fr" href="http://www.ratp.fr">www.ratp.fr</a>
+                </p>
 
-<p style="text-align: right;"><a data-target="true" data-type="url" data-url="http://www.supershuttle.fr" href="http://www.supershuttle.fr" target="_blank">www.supershuttle.fr</a></p>
+                <h5 class="wb-stl-subtitle">SuperShuttle Paris</h5>
 
-<p> </p>
+                <p class="wb-stl-normal">C'est la navette partagée idéale. Economique et écologique, elle vous conduit entre l’adresse de votre choix et votre terminal d'aéroport (Roissy Charles de Gaulle, Orly et Beauvais). Le service est disponible 24h/24 et 7j/7 vers ou depuis Paris, proche banlieue et Disneyland Paris en couse partagée (avec arrêts en chemin) ou course privée (véhicule 7 à 8 places).</p>
 
-<h5 class="wb-stl-subtitle"> </h5>
+                <p style="text-align: right;"><a data-target="true" data-type="url" data-url="http://www.supershuttle.fr" href="http://www.supershuttle.fr" target="_blank">www.supershuttle.fr</a>
+                </p>
 
-<h5 class="wb-stl-subtitle">Noctilien</h5>
+                <h5 class="wb-stl-subtitle">Noctilien</h5>
 
-<p class="wb-stl-normal">Pour passer une folle nuit parisienne sans se soucier de l'heure, comptez sur les noctiliens : ces bus remplacent les métros et RERd'Ile-de-France de 0h30 à 5h30 chaque nuit sur les plus grands axes dela capitale. Vous reconnaîtrez les stations grâce au panneau blanc sur fond bleu où le N de Noctilien est entouré d'une lune blanche et surmonté de l'étoile rouge, symbole de la Région l'Ile-de-France.</p>
+                <p class="wb-stl-normal">Pour passer une folle nuit parisienne sans se soucier de l'heure, comptez sur les noctiliens : ces bus remplacent les métros et RERd'Ile-de-France de 0h30 à 5h30 chaque nuit sur les plus grands axes dela capitale. Vous reconnaîtrez les stations grâce au panneau blanc sur fond bleu où le N de Noctilien est entouré d'une lune blanche et surmonté de l'étoile rouge, symbole de la Région l'Ile-de-France.</p>
 
-<p style="text-align: right;"><a data-target="true" data-type="url" data-url="http://www.vianavigo.com" href="http://www.vianavigo.com" target="_blank">www.vianavigo.com</a></p>
+                <p style="text-align: right;"><a data-target="true" data-type="url" data-url="http://www.vianavigo.com" href="http://www.vianavigo.com" target="_blank">www.vianavigo.com</a>
+                </p>
 
-<h5 class="wb-stl-subtitle"> </h5>
+                <h5 class="wb-stl-subtitle"><span style="background-color: transparent;">Paris l'Open Tour</span></h5>
 
-<h5 class="wb-stl-subtitle"><span style="background-color: transparent;">Paris l'Open Tour</span></h5>
+                <p class="wb-stl-normal">Avec leurs quatre circuits, les bus Open Tour quadrillent la capitale toute la journée en proposant des visites commentées en 8 langues. De 9h30 à 18h30, ils circulent entre les nombreux arrêts et passent toutes les 10 à 25 minutes selon les circuits. Grâce au Pass 1 ou 2 jours, montez et descendez librement pour visiter tous les sites qui vous font envie !</p>
 
-<p class="wb-stl-normal">Avec leurs quatre circuits, les bus Open Tour quadrillent la capitale toute la journée en proposant des visites commentées en 8 langues. De 9h30 à 18h30, ils circulent entre les nombreux arrêts et passent toutes les 10 à 25 minutes selon les circuits. Grâce au Pass 1 ou 2 jours, montez et descendez librement pour visiter tous les sites qui vous font envie !</p>
+                <p style="text-align: right;"><a data-target="true" data-type="url" data-url="http://www.visiteparisregion.com" href="http://www.visiteparisregion.com" target="_blank">www.visitparisregion.com</a>
+                </p>
 
-<p style="text-align: right;"><a data-target="true" data-type="url" data-url="http://www.visiteparisregion.com" href="http://www.visiteparisregion.com" target="_blank">www.visitparisregion.com</a></p>
+                <p class="wb-stl-normal"><span style="color: rgb(59, 51, 3); font-family: Georgia, serif; font-size: 16px; font-style: italic; text-align: justify; background-color: transparent;">Montmartrobus</span>
+                    <br><span style="color: rgb(105, 96, 81); font-family: Georgia, serif; text-align: justify; background-color: transparent;">Proposé lui aussi par la RATP, le Montmartrobus vous invite à faire le tour de la splendide butte où trône le Sacré-cœur, sans effort, au fil d'un itinéraire qui part de la place Pigalle, toute la semaine, toute l'année.</span>
+                </p>
 
-<p class="wb-stl-normal"> </p>
+                <p class="wb-stl-normal" style="text-align: right;"><a data-target="true" data-type="url" data-url="http://www.ratp.fr" href="http://www.ratp.fr" target="_blank">www.ratp.fr</a>
+                </p>
+            </div>
+            <div id="div_imgTaxis" class="wb_element"><img alt="" src="gallery_gen/b306a1928dae3399420013a2d39e6869_430x270.jpg"></div>
+            <div id="div_ParagrapheTaxi" class="wb_element" style=" line-height: normal;">
+                <p class="wb-stl-normal" style="text-align: center;"><strong>Que deviendrai Paris sans ses Taxis ?</strong></p>
+                <p class="wb-stl-normal">Que vous vous rendiez au Marais, à la Défense ou à l'aéroport de Paris-Charles-de-Gaulle,  une vaste gamme de véhicule taxis sont à votre disposition. </p>
+                <p class="wb-stl-normal">Les Taxis sont réservable 24h/24. Avec plus de 20 000 taxis, Ile de France dispose de la plus grande flote de taxis de france.</p>
+                <p class="wb-stl-normal">Les Taxis sont disponible 7j/7 et 365 jours par an.</p>
+            </div>
+            <div id="div_img_VoitureJaune" class="wb_element"><img alt="" src="gallery_gen/bd2bdf59fca49d48dcfbc43c03b41a18_240x260.jpg"></div>
+            <div id="bus_Stif" class="wb_element"><img alt="" src="gallery_gen/87b57e6825cd5e1e7f61c57c4c63d227_240x160.jpg"></div>
+            <div id="bus_Touriste" class="wb_element"><img alt="" src="gallery_gen/d4cdc689cac2e4c6ce1a6d16a89182df_260x200.jpg"></div>
+            <div id="bus_montpartre" class="wb_element"><img alt="" src="gallery_gen/f4c5e5fd7b638dfe34be427dd7af44bc_240x190.jpg"></div>
+        </div>
+        <div class="vbox wb_container" id="wb_footer" style="height: 80px;">
 
-<p class="wb-stl-normal"><span style="color: rgb(59, 51, 3); font-family: Georgia, serif; font-size: 16px; font-style: italic; text-align: justify; background-color: transparent;">Montmartrobus</span><br><span style="color: rgb(105, 96, 81); font-family: Georgia, serif; text-align: justify; background-color: transparent;">Proposé lui aussi par la RATP, le Montmartrobus vous invite à faire le tour de la splendide butte où trône le Sacré-cœur, sans effort, au fil d'un itinéraire qui part de la place Pigalle, toute la semaine, toute l'année.</span></p>
+            <div id="div_facebook" class="wb_element">
+                <a href="https://www.facebook.com"><img alt="" src="gallery_gen/620e9a7ba8fb46b75a618371403c9881_32x32.png"></a>
+            </div>
+            <div id="div_twitter" class="wb_element">
+                <a href="https://twitter.com/"><img alt="" src="gallery_gen/b43a79758d09eb281e1de2dbbba6525e_32x32.png">
+                </a>
+            </div>
+            <div id="div_footer_nosNoms" class="wb_element" style=" line-height: normal;">
+                <p class="wb-stl-footer"><strong>BEN BOUBAKER</strong> Wissam - <strong>RAHMOUNI </strong>Youness -<strong> GEZGIN</strong> Numan - <strong>BOUDJEMA</strong> Riwane</p>
 
-<p class="wb-stl-normal" style="text-align: right;"><a data-target="true" data-type="url" data-url="http://www.ratp.fr" href="http://www.ratp.fr" target="_blank">www.ratp.fr</a></p>
-</div><div id="wb_element_instance79" class="wb_element"><img alt="" src="gallery/b306a1928dae3399420013a2d39e6869_430x270.jpg"></div><div id="wb_element_instance80" class="wb_element" style=" line-height: normal;"><p class="wb-stl-normal" style="text-align: center;"><strong>Que deviendrai P</strong><strong>aris sans ses Taxis ?</strong></p>
+                <p class="wb-stl-footer" style="text-align: center;">© 2015 <a href="http://idf.16mb.com">idf.16mb.com</a>
+                </p>
+            </div>
+            
+            <div id="wb_element_instance71" class="wb_element"><img alt="" src="gallery_gen/811ef58a913e365f552822db5ab1c571_32x32.png">
+            </div>
+            <div id="wb_element_instance86" class="wb_element" style="text-align: center; width: 100%;">
+                <div class="wb_footer"></div>
+            </div>
+        </div>
+        <div class="wb_sbg"></div>
+    </div>
+</body>
 
-<p class="wb-stl-normal">Que vous vous rendiez au Marais, à la Défense ou à l'aéroport de Paris-Charles-de-Gaulle,  une vaste gamme de véhicule taxis sont à votre disposition. </p>
-
-<p class="wb-stl-normal">Les Taxis sont réservable 24h/24. Avec plus de 20 000 taxis, Ile de France dispose de la plus grande flote de taxis de france.</p>
-
-<p class="wb-stl-normal"> </p>
-
-<p class="wb-stl-normal">Les Taxis sont disponible 7j/7 et 365 jours par an.</p>
-</div><div id="wb_element_instance81" class="wb_element"><img alt="" src="gallery/bd2bdf59fca49d48dcfbc43c03b41a18_240x260.jpg"></div><div id="wb_element_instance82" class="wb_element"><img alt="" src="gallery/87b57e6825cd5e1e7f61c57c4c63d227_240x160.jpg"></div><div id="wb_element_instance83" class="wb_element"><img alt="" src="gallery/d4cdc689cac2e4c6ce1a6d16a89182df_260x200.jpg"></div><div id="wb_element_instance84" class="wb_element"><img alt="" src="gallery/f4c5e5fd7b638dfe34be427dd7af44bc_240x190.jpg"></div><div id="wb_element_instance85" class="wb_element" style="width: 100%;">
-
-			<script type="text/javascript">
-				$(function() {
-					var block = $("#wb_element_instance85");
-					var comments = block.children(".wb_comments").eq(0);
-					var contentBlock = $("#wb_main");
-					contentBlock.height(contentBlock.height() + comments.height());
-				});
-			</script>
-
-			<script type="text/javascript">
-				$(function() {
-					$("#wb_element_instance85").hide();
-				});
-			</script>
-
-			</div></div>
-<div class="vbox wb_container" id="wb_footer" style="height: 139px;">
-	
-<div id="wb_element_instance67" class="wb_element"><a href="https://www.facebook.com"><img alt="" src="gallery/620e9a7ba8fb46b75a618371403c9881_32x32.png"></a></div><div id="wb_element_instance68" class="wb_element"><a href="https://twitter.com/"><img alt="" src="gallery/b43a79758d09eb281e1de2dbbba6525e_32x32.png"></a></div><div id="wb_element_instance69" class="wb_element" style=" line-height: normal;"><p class="wb-stl-footer"><strong>BEN BOUBAKER</strong> Wissam - <strong>RAHMOUNI </strong>Youness -<strong> GEZGIN</strong> Numan - <strong>BOUDJEMA</strong> Riwane</p>
-
-<p class="wb-stl-footer" style="text-align: center;">© 2015 <a href="http://idf.16mb.com">idf.16mb.com</a></p>
-</div><div id="wb_element_instance70" class="wb_element"><div class="wb-stl-footer" style="white-space: nowrap;">Membre de <i class="icon-wb-logo"></i><a href="http://zyro.com/examples/" target="_blank" title="Zyro - Website Builder">Zyro</a></div><script type="text/javascript">
-				var _siteProBadge = _siteProBadge || [];
-				_siteProBadge.push({hash: "69cb9287f5604756460be9537d2c07ff", cont: "wb_element_instance70"});
-
-				(function() {
-					var script = document.createElement("script");
-					script.type = "text/javascript";
-					script.async = true;
-					script.src = "http://zyro.com/examples/getjs/";
-					var s = document.getElementsByTagName("script")[0];
-					s.parentNode.insertBefore(script, s);
-				})();
-				</script></div><div id="wb_element_instance71" class="wb_element"><img alt="" src="gallery/811ef58a913e365f552822db5ab1c571_32x32.png"></div><div id="wb_element_instance86" class="wb_element" style="text-align: center; width: 100%;"><div class="wb_footer"></div><script type="text/javascript">
-			$(function() {
-				var footer = $(".wb_footer");
-				var html = (footer.html() + "").replace(/^\s+|\s+$/g, "");
-				if (!html) {
-					footer.parent().remove();
-					footer = $("#wb_footer");
-					footer.height(80);
-				}
-			});
-			</script></div></div><div class="wb_sbg"></div></div></body>
 </html>

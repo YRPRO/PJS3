@@ -1,1248 +1,175 @@
-#wb_header {
-  height: 250px;
-  background: transparent none repeat scroll left center;
-}
-#wb_main {
-  height: 2130px;
-  padding: 0 0 70px 0;
-  background: transparent none repeat scroll left top;
-}
-#wb_footer {
-  height: 80px;
-  background: transparent none repeat scroll left top;
-}
-#wb_footer {
-  height: 80px;
-}
-body {
-  background: #fcf3d2 url("../gallery/929d69d99e87503631c3e559e93d61e0.jpg") no-repeat scroll center top;
-}
-.wb_sbg {
-  background: transparent url("../gallery/dad763187c3171ad64b3e88d1d511a44.jpg") repeat-x scroll center bottom;
-}
-body,
-.wb_sbg {
-  min-height: 1360px;
-  min-width: 992px;
-}
-.root {
-  width: 992px;
-  height: 1360px;
-  overflow: visible;
-}
-#wb_element_instance64 {
-  display: block;
-  z-index: 194;
-  top: 10px;
-  left: 498px;
-  width: 484px;
-  height: 40px;
-  min-height: 40px;
-  min-width: 484px;
-}
-#wb_element_instance64 ul {
-  border: 1px none #000000;
-  background: transparent none repeat scroll left top;
-}
-#wb_element_instance64,
-#wb_element_instance64 ul {
-  text-align: right;
-}
-#wb_element_instance64 li {
-  margin: 10px 10px 10px 10px;
-}
-#wb_element_instance64 li a {
-  padding: 5px 10px 5px 10px;
-  border: 0 none #000000;
-  text-decoration: none;
-  text-transform: uppercase;
-  font: normal normal 13px Georgia,serif;
-  line-height: 15px;
-  color: #8b4828;
-  background: transparent none repeat scroll left top;
-}
-#wb_element_instance64 li > a:hover,
-#wb_element_instance64 li > a:focus {
-  border: 0 none #000000;
-  text-decoration: none;
-  font: normal normal 13px Georgia,serif;
-  line-height: 15px;
-  color: #00c2a2;
-  background: transparent none no-repeat scroll center top;
-}
-#wb_element_instance64 li.active > a {
-  border: 0 none #000000;
-  text-decoration: none;
-  font: normal normal 13px Georgia,serif;
-  line-height: 15px;
-  color: #00c292;
-  background: transparent none no-repeat scroll center top;
-}
-#wb_element_instance65 {
-  display: block;
-  z-index: 182;
-  top: 0;
-  left: 0;
-  width: 360px;
-  height: 110px;
-  min-height: 110px;
-  min-width: 360px;
-}
-#wb_element_instance65 > div {
-  width: 360px;
-  height: 110px;
-  border: 5px none #C0C0C0;
-  -webkit-border-radius: 0 0 0 0;
-  -moz-border-radius: 0 0 0 0;
-  border-radius: 0 0 0 0;
-  opacity: 0.3;
-  background: transparent;
-}
-#wb_element_instance66 {
-  display: block;
-  z-index: 186;
-  top: 17px;
-  left: 27px;
-  width: 300px;
-  height: 84px;
-  min-height: 84px;
-  min-width: 300px;
-}
-#wb_element_instance67 {
-  display: block;
-  z-index: 180;
-  top: 27px;
-  left: 900px;
-  width: 32px;
-  height: 32px;
-  min-height: 32px;
-  min-width: 32px;
-}
-#wb_element_instance67 img {
-  position: static;
-  top: 0;
-  left: 0;
-  width: 32px;
-  height: 32px;
-}
-#wb_element_instance68 {
-  display: block;
-  z-index: 181;
-  top: 27px;
-  left: 850px;
-  width: 32px;
-  height: 32px;
-  min-height: 32px;
-  min-width: 32px;
-}
-#wb_element_instance68 img {
-  position: static;
-  top: 0;
-  left: 0;
-  width: 32px;
-  height: 32px;
-}
-#wb_element_instance69 {
-  display: block;
-  z-index: 182;
-  top: 10px;
-  left: 50px;
-  width: 530px;
-  height: 30px;
-  min-height: 30px;
-  min-width: 530px;
-}
-#wb_element_instance70 {
-  display: block;
-  z-index: 183;
-  top: 10px;
-  left: 670px;
-  width: 110px;
-  height: 24px;
-  min-height: 24px;
-  min-width: 110px;
-}
-#wb_element_instance71 {
-  display: block;
-  z-index: 184;
-  top: 27px;
-  left: 950px;
-  width: 32px;
-  height: 32px;
-  min-height: 32px;
-  min-width: 32px;
-}
-#wb_element_instance71 img {
-  position: static;
-  top: 0;
-  left: 0;
-  width: 32px;
-  height: 32px;
-}
-#wb_element_instance72 {
-  display: none;
-  z-index: 34;
-  top: 260px;
-  left: 30px;
-  width: 390px;
-  height: 270px;
-  min-height: 270px;
-  min-width: 390px;
-}
-#wb_element_instance72 img {
-  position: static;
-  top: 0;
-  left: 0;
-  width: 390px;
-  height: 270px;
-}
-#wb_element_instance73 {
-  display: block;
-  z-index: 35;
-  top: 10px;
-  left: 0;
-  width: 370px;
-  height: 67px;
-  min-height: 67px;
-  min-width: 370px;
-}
-#wb_element_instance74 {
-  display: block;
-  z-index: 36;
-  top: 1860px;
-  left: 20px;
-  width: 190px;
-  height: 169px;
-  min-height: 169px;
-  min-width: 190px;
-}
-#wb_element_instance75 {
-  display: block;
-  z-index: 39;
-  top: 1860px;
-  left: 220px;
-  width: 760px;
-  height: 270px;
-  min-height: 270px;
-  min-width: 760px;
-}
-#wb_element_instance76 {
-  display: block;
-  z-index: 40;
-  top: 130px;
-  left: 440px;
-  width: 530px;
-  height: 451px;
-  min-height: 451px;
-  min-width: 530px;
-}
-#wb_element_instance77 {
-  display: block;
-  z-index: 41;
-  top: 960px;
-  left: 60px;
-  width: 240px;
-  height: 160px;
-  min-height: 160px;
-  min-width: 240px;
-}
-#wb_element_instance77 img {
-  position: static;
-  top: 0;
-  left: 0;
-  width: 240px;
-  height: 160px;
-}
-#wb_element_instance78 {
-  display: block;
-  z-index: 42;
-  top: 970px;
-  left: 360px;
-  width: 570px;
-  height: 850px;
-  min-height: 850px;
-  min-width: 570px;
-}
-#wb_element_instance79 {
-  display: block;
-  z-index: 43;
-  top: 640px;
-  left: 500px;
-  width: 430px;
-  height: 270px;
-  min-height: 270px;
-  min-width: 430px;
-}
-#wb_element_instance79 img {
-  position: static;
-  top: 0;
-  left: 0;
-  width: 430px;
-  height: 270px;
-}
-#wb_element_instance80 {
-  display: block;
-  z-index: 44;
-  top: 670px;
-  left: 50px;
-  width: 380px;
-  height: 216px;
-  min-height: 216px;
-  min-width: 380px;
-}
-#wb_element_instance81 {
-  display: block;
-  z-index: 45;
-  top: 1130px;
-  left: 60px;
-  width: 240px;
-  height: 190px;
-  min-height: 190px;
-  min-width: 240px;
-}
-#wb_element_instance81 img {
-  position: static;
-  top: 0;
-  left: 0;
-  width: 240px;
-  height: 190px;
-}
-#wb_element_instance82 {
-  display: block;
-  z-index: 46;
-  top: 1331px;
-  left: 61px;
-  width: 240px;
-  height: 160px;
-  min-height: 160px;
-  min-width: 240px;
-}
-#wb_element_instance82 img {
-  position: static;
-  top: 0;
-  left: 0;
-  width: 240px;
-  height: 160px;
-}
-#wb_element_instance83 {
-  display: block;
-  z-index: 47;
-  top: 1500px;
-  left: 60px;
-  width: 240px;
-  height: 160px;
-  min-height: 160px;
-  min-width: 240px;
-}
-#wb_element_instance83 img {
-  position: static;
-  top: 0;
-  left: 0;
-  width: 240px;
-  height: 160px;
-}
-#wb_element_instance84 {
-  display: block;
-  z-index: 48;
-  top: 1670px;
-  left: 60px;
-  width: 240px;
-  height: 160px;
-  min-height: 160px;
-  min-width: 240px;
-}
-#wb_element_instance84 img {
-  position: static;
-  top: 0;
-  left: 0;
-  width: 240px;
-  height: 160px;
-}
-#wb_element_instance85 {
-  display: block;
-  z-index: 9000;
-  top: 2150px;
-  left: 0;
-}
-#wb_element_instance86 {
-  display: block;
-  z-index: 9999;
-  top: 79px;
-  left: 0;
-}
+#wb_header { background: transparent none repeat scroll left center; height: 250px; }
+#wb_header { height: 250px; }
+#wb_main { background: transparent none repeat scroll left top; height: 2130px; padding: 0 0 70px 0; }
+#wb_main { height: 4042px; }
+#wb_footer { background: transparent none repeat scroll left top; height: 80px; }
+#wb_footer { height: 80px; }
+body { background: #fcf3d2 url("../gallery_gen/929d69d99e87503631c3e559e93d61e0.jpg") no-repeat scroll center top; }
+.wb_sbg { background: transparent url("../gallery_gen/dad763187c3171ad64b3e88d1d511a44.jpg") repeat-x scroll center bottom; }
+body, .wb_sbg { min-width: 320px; min-height: 4442px; }
+.root { width: 320px; height: 4442px; overflow: hidden; }
+#menu { left: 170px; top: 70px; min-width: 130px; width: 130px; min-height: 30px; height: 30px; display: block; z-index: 220; }
+#menu ul { background: #fcf3d2 none repeat scroll left top; }
+#menu .btn-collapser { display: inline-block; }
+#menu > ul { display: none; }
+#menu.collapse-expanded > ul { display: block; float: none; height: auto; }
+#menu.collapse-expanded > ul > li { display: block; }
+#menu.collapse-expanded > ul > li > ul { position: static; }
+#menu.collapse-expanded > ul > li:hover > ul { display: none; }
+#menu ul { border: 1px none #000000; }
+#menu, #menu ul { text-align: right; }
+#menu ul ul { background: #2e2e2e none repeat scroll left top; }
+#menu li { margin: 10px 10px 10px 10px; }
+#menu li a { text-transform: uppercase; border: 0px none #000000; padding: 5px 10px 5px 10px; font: normal normal 13px Georgia,serif; text-decoration: none; color: #8b4828; line-height: 15px; background: transparent none repeat scroll left top; }
+#menu li:hover > a, #menu li:focus > a { border: 0px none #000000; font: normal normal 13px Georgia,serif; text-decoration: none; color: #00c2a2; line-height: 15px; background: transparent none no-repeat scroll center top; }
+#menu li.active > a { border: 0px none #000000; font: normal normal 13px Georgia,serif; text-decoration: none; color: #00c292; line-height: 15px; background: transparent none no-repeat scroll center top; }
+border-radius: 0px 0px 0px 0px; -webkit-border-radius: 0px 0px 0px 0px; }
+#div_logo_idf { left: 20px; top: 10px; min-width: 290px; width: 290px; min-height: 71px; height: 71px; display: block; z-index: 212; }
+#div_facebook { left: 280px; top: 30px; min-width: 30px; width: 30px; min-height: 30px; height: 30px; display: block; z-index: 206; }
+#div_facebook img { width: 30px; height: 30px; position: static; left: 0px; top: 0px; }
+#div_twitter { left: 200px; top: 30px; min-width: 30px; width: 30px; min-height: 30px; height: 30px; display: block; z-index: 207; }
+#div_twitter img { width: 30px; height: 30px; position: static; left: 0px; top: 0px; }
+#div_footer_nosNoms { left: 10px; top: 0px; min-width: 310px; width: 310px; min-height: 45px; height: 45px; display: block; z-index: 208; }
+#wb_element_instance71 { left: 240px; top: 30px; min-width: 30px; width: 30px; min-height: 30px; height: 30px; display: block; z-index: 210; }
+#wb_element_instance71 img { width: 30px; height: 30px; position: static; left: 0px; top: 0px; }
+#div_img_metro { left: 10px; top: 100px; min-width: 300px; width: 300px; min-height: 200px; height: 200px; display: block; z-index: 38; }
+#div_img_metro img { width: 300px; height: 200px; position: static; left: 0px; top: 0px; }
+#div_titre_guidePratique { left: 20px; top: 10px; min-width: 280px; width: 280px; min-height: 54px; height: 54px; display: block; z-index: 39; }
+#div_liensUtiles { left: 50px; top: 3890px; min-width: 240px; width: 240px; min-height: 152px; height: 152px; display: block; z-index: 40; }
+#div_carteGoogle { left: 10px; top: 3600px; min-width: 300px; width: 300px; min-height: 270px; height: 270px; display: block; z-index: 43; }
+#paragraphe_metro { left: 10px; top: 320px; min-width: 300px; width: 300px; min-height: 687px; height: 687px; display: block; z-index: 44; }
+#img_BusParis { left: 70px; top: 1570px; min-width: 190px; width: 190px; min-height: 130px; height: 130px; display: block; z-index: 45; }
+#img_BusParis img { width: 190px; height: 130px; position: static; left: 0px; top: 0px; }
+#paragraphe_Bus { left: 10px; top: 2290px; min-width: 300px; width: 300px; min-height: 1258px; height: 1258px; display: block; z-index: 46; }
+#div_imgTaxis { left: 10px; top: 1050px; min-width: 300px; width: 300px; min-height: 180px; height: 180px; display: block; z-index: 47; overflow: hidden; }
+#div_imgTaxis img { width: 390px; height: 240px; position: relative; left: 0px; top: 0px; max-width: inherit; }
+#div_ParagrapheTaxi { left: 10px; top: 1260px; min-width: 300px; width: 300px; min-height: 264px; height: 264px; display: block; z-index: 48; }
+#div_img_VoitureJaune { left: 70px; top: 1710px; min-width: 190px; width: 190px; min-height: 150px; height: 150px; display: block; z-index: 49; overflow: hidden; }
+#div_img_VoitureJaune img { width: 190px; height: 210px; position: relative; left: 0px; top: -10px; max-width: inherit; }
+#bus_Stif { left: 70px; top: 1870px; min-width: 190px; width: 190px; min-height: 130px; height: 130px; display: block; z-index: 50; }
+#bus_Stif img { width: 190px; height: 130px; position: static; left: 0px; top: 0px; }
+#bus_Touriste { left: 70px; top: 2010px; min-width: 190px; width: 190px; min-height: 130px; height: 130px; display: block; z-index: 51; overflow: hidden; }
+#bus_Touriste img { width: 210px; height: 160px; position: relative; left: -20px; top: -30px; max-width: inherit; }
+#bus_montpartre { left: 70px; top: 2150px; min-width: 190px; width: 190px; min-height: 130px; height: 130px; display: block; z-index: 52; overflow: hidden; }
+#bus_montpartre img { width: 190px; height: 150px; position: relative; left: 0px; top: -20px; max-width: inherit; }
+#wb_element_instance85 { left: 0px; top: 2150px; display: block; z-index: 9000; }
+
 @media (min-width: 768px) {
-  #wb_header {
-    height: 250px;
-  }
-  #wb_main {
-    height: 2130px;
-  }
-  #wb_footer {
-    height: 80px;
-  }
-  body,
-  .wb_sbg {
-    min-height: 2530px;
-    min-width: 992px;
-  }
-  .root {
-    width: 992px;
-    height: 2530px;
-    overflow: visible;
-  }
-  #wb_element_instance64 {
-    display: block;
-    top: 10px;
-    left: 498px;
-    width: 484px;
-    height: 40px;
-    min-height: 40px;
-    min-width: 484px;
-  }
-  #wb_element_instance65 {
-    display: block;
-    top: 0;
-    left: 0;
-    width: 360px;
-    height: 110px;
-    min-height: 110px;
-    min-width: 360px;
-  }
-  #wb_element_instance65 > div {
-    width: 360px;
-    height: 110px;
-  }
-  #wb_element_instance66 {
-    display: block;
-    top: 17px;
-    left: 27px;
-    width: 300px;
-    height: 84px;
-    min-height: 84px;
-    min-width: 300px;
-  }
-  #wb_element_instance67 {
-    display: block;
-    top: 27px;
-    left: 900px;
-    width: 32px;
-    height: 32px;
-    min-height: 32px;
-    min-width: 32px;
-  }
-  #wb_element_instance67 img {
-    position: static;
-    top: 0;
-    left: 0;
-    width: 32px;
-    height: 32px;
-  }
-  #wb_element_instance68 {
-    display: block;
-    top: 27px;
-    left: 850px;
-    width: 32px;
-    height: 32px;
-    min-height: 32px;
-    min-width: 32px;
-  }
-  #wb_element_instance68 img {
-    position: static;
-    top: 0;
-    left: 0;
-    width: 32px;
-    height: 32px;
-  }
-  #wb_element_instance69 {
-    display: block;
-    top: 10px;
-    left: 50px;
-    width: 530px;
-    height: 30px;
-    min-height: 30px;
-    min-width: 530px;
-  }
-  #wb_element_instance70 {
-    display: block;
-    top: 10px;
-    left: 670px;
-    width: 110px;
-    height: 24px;
-    min-height: 24px;
-    min-width: 110px;
-  }
-  #wb_element_instance71 {
-    display: block;
-    top: 27px;
-    left: 950px;
-    width: 32px;
-    height: 32px;
-    min-height: 32px;
-    min-width: 32px;
-  }
-  #wb_element_instance71 img {
-    position: static;
-    top: 0;
-    left: 0;
-    width: 32px;
-    height: 32px;
-  }
-  #wb_element_instance72 {
-    display: block;
-    top: 260px;
-    left: 30px;
-    width: 390px;
-    height: 270px;
-    min-height: 270px;
-    min-width: 390px;
-  }
-  #wb_element_instance72 img {
-    position: static;
-    top: 0;
-    left: 0;
-    width: 390px;
-    height: 270px;
-  }
-  #wb_element_instance73 {
-    display: block;
-    top: 10px;
-    left: 0;
-    width: 370px;
-    height: 67px;
-    min-height: 67px;
-    min-width: 370px;
-  }
-  #wb_element_instance74 {
-    display: block;
-    top: 1860px;
-    left: 20px;
-    width: 190px;
-    height: 169px;
-    min-height: 169px;
-    min-width: 190px;
-  }
-  #wb_element_instance75 {
-    display: block;
-    top: 1860px;
-    left: 220px;
-    width: 760px;
-    height: 270px;
-    min-height: 270px;
-    min-width: 760px;
-  }
-  #wb_element_instance76 {
-    display: block;
-    top: 130px;
-    left: 440px;
-    width: 530px;
-    height: 451px;
-    min-height: 451px;
-    min-width: 530px;
-  }
-  #wb_element_instance77 {
-    display: block;
-    top: 960px;
-    left: 60px;
-    width: 240px;
-    height: 160px;
-    min-height: 160px;
-    min-width: 240px;
-    overflow: hidden;
-  }
-  #wb_element_instance77 img {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 240px;
-    height: 170px;
-    max-width: inherit;
-  }
-  #wb_element_instance78 {
-    display: block;
-    top: 970px;
-    left: 360px;
-    width: 570px;
-    height: 850px;
-    min-height: 850px;
-    min-width: 570px;
-  }
-  #wb_element_instance79 {
-    display: block;
-    top: 640px;
-    left: 500px;
-    width: 430px;
-    height: 270px;
-    min-height: 270px;
-    min-width: 430px;
-  }
-  #wb_element_instance79 img {
-    position: static;
-    top: 0;
-    left: 0;
-    width: 430px;
-    height: 270px;
-  }
-  #wb_element_instance80 {
-    display: block;
-    top: 670px;
-    left: 50px;
-    width: 380px;
-    height: 216px;
-    min-height: 216px;
-    min-width: 380px;
-  }
-  #wb_element_instance81 {
-    display: block;
-    top: 1130px;
-    left: 60px;
-    width: 240px;
-    height: 190px;
-    min-height: 190px;
-    min-width: 240px;
-    overflow: hidden;
-  }
-  #wb_element_instance81 img {
-    position: relative;
-    top: -10px;
-    left: 0;
-    width: 240px;
-    height: 260px;
-    max-width: inherit;
-  }
-  #wb_element_instance82 {
-    display: block;
-    top: 1331px;
-    left: 61px;
-    width: 240px;
-    height: 160px;
-    min-height: 160px;
-    min-width: 240px;
-  }
-  #wb_element_instance82 img {
-    position: static;
-    top: 0;
-    left: 0;
-    width: 240px;
-    height: 160px;
-  }
-  #wb_element_instance83 {
-    display: block;
-    top: 1500px;
-    left: 60px;
-    width: 240px;
-    height: 160px;
-    min-height: 160px;
-    min-width: 240px;
-    overflow: hidden;
-  }
-  #wb_element_instance83 img {
-    position: relative;
-    top: -40px;
-    left: -20px;
-    width: 260px;
-    height: 200px;
-    max-width: inherit;
-  }
-  #wb_element_instance84 {
-    display: block;
-    top: 1670px;
-    left: 60px;
-    width: 240px;
-    height: 160px;
-    min-height: 160px;
-    min-width: 240px;
-    overflow: hidden;
-  }
-  #wb_element_instance84 img {
-    position: relative;
-    top: -20px;
-    left: 0;
-    width: 240px;
-    height: 190px;
-    max-width: inherit;
-  }
+  #wb_header { height: 250px; }
+  #wb_main { height: 2540px; }
+  #wb_footer { height: 80px; }
+  body, .wb_sbg { min-width: 768px; min-height: 2940px; }
+  .root { width: 768px; height: 2940px; overflow: visible; }
+  #menu { left: 120px; top: 140px; min-width: 490px; width: 490px; min-height: 50px; height: 50px; display: block; }
+  #menu ul { background: transparent none repeat scroll left top; }
+  #menu .btn-collapser { display: none; }
+  #menu > ul { display: block; }
+  #div_logo_idf { left: 230px; top: 40px; min-width: 300px; width: 300px; min-height: 71px; height: 71px; display: block; }
+  #div_facebook { left: 680px; top: 20px; min-width: 30px; width: 30px; min-height: 30px; height: 30px; display: block; }
+  #div_facebook img { width: 30px; height: 30px; position: static; left: 0px; top: 0px; }
+  #div_twitter { left: 630px; top: 20px; min-width: 30px; width: 30px; min-height: 30px; height: 30px; display: block; }
+  #div_twitter img { width: 30px; height: 30px; position: static; left: 0px; top: 0px; }
+  #div_footer_nosNoms { left: 40px; top: 20px; min-width: 380px; width: 380px; min-height: 45px; height: 45px; display: block; }
+  #wb_element_instance71 { left: 720px; top: 20px; min-width: 30px; width: 30px; min-height: 30px; height: 30px; display: block; }
+  #wb_element_instance71 img { width: 30px; height: 30px; position: static; left: 0px; top: 0px; }
+  #div_img_metro { left: 200px; top: 120px; min-width: 380px; width: 380px; min-height: 260px; height: 260px; display: block; }
+  #div_img_metro img { width: 380px; height: 260px; position: static; left: 0px; top: 0px; }
+  #div_titre_guidePratique { left: 210px; top: 30px; min-width: 340px; width: 340px; min-height: 54px; height: 54px; display: block; }
+  #div_liensUtiles { left: 50px; top: 2310px; min-width: 220px; width: 220px; min-height: 152px; height: 152px; display: block; }
+  #div_carteGoogle { left: 280px; top: 2270px; min-width: 460px; width: 460px; min-height: 270px; height: 270px; display: block; }
+  #paragraphe_metro { left: 50px; top: 420px; min-width: 680px; width: 680px; min-height: 375px; height: 375px; display: block; }
+  #img_BusParis { left: 60px; top: 1130px; min-width: 240px; width: 240px; min-height: 160px; height: 160px; display: block; overflow: hidden; }
+  #img_BusParis img { width: 240px; height: 170px; position: relative; left: 0px; top: 0px; max-width: inherit; }
+  #paragraphe_Bus { left: 350px; top: 1130px; min-width: 400px; width: 400px; min-height: 1018px; height: 1018px; display: block; }
+  #div_imgTaxis { left: 30px; top: 820px; min-width: 300px; width: 300px; min-height: 210px; height: 210px; display: block; overflow: hidden; }
+  #div_imgTaxis img { width: 340px; height: 210px; position: relative; left: 0px; top: 0px; max-width: inherit; }
+  #div_ParagrapheTaxi { left: 360px; top: 830px; min-width: 370px; width: 370px; min-height: 216px; height: 216px; display: block; }
+  #div_img_VoitureJaune { left: 60px; top: 1350px; min-width: 240px; width: 240px; min-height: 180px; height: 180px; display: block; overflow: hidden; }
+  #div_img_VoitureJaune img { width: 240px; height: 260px; position: relative; left: 0px; top: -20px; max-width: inherit; }
+  #bus_Stif { left: 60px; top: 1590px; min-width: 240px; width: 240px; min-height: 160px; height: 160px; display: block; }
+  #bus_Stif img { width: 240px; height: 160px; position: static; left: 0px; top: 0px; }
+  #bus_Touriste { left: 60px; top: 1800px; min-width: 240px; width: 240px; min-height: 160px; height: 160px; display: block; overflow: hidden; }
+  #bus_Touriste img { width: 260px; height: 200px; position: relative; left: -20px; top: -40px; max-width: inherit; }
+  #bus_montpartre { left: 60px; top: 2010px; min-width: 240px; width: 240px; min-height: 160px; height: 160px; display: block; overflow: hidden; }
+  #bus_montpartre img { width: 240px; height: 190px; position: relative; left: 0px; top: -20px; max-width: inherit; }
 }
+
 @media (min-width: 992px) {
-  #wb_header {
-    height: 250px;
-  }
-  #wb_main {
-    height: 2130px;
-  }
-  #wb_footer {
-    height: 80px;
-  }
-  body,
-  .wb_sbg {
-    min-height: 2530px;
-    min-width: 992px;
-  }
-  .root {
-    width: 992px;
-    height: 2530px;
-    overflow: visible;
-  }
-  #wb_element_instance64 {
-    display: block;
-    top: 10px;
-    left: 498px;
-    width: 484px;
-    height: 40px;
-    min-height: 40px;
-    min-width: 484px;
-  }
-  #wb_element_instance65 {
-    display: block;
-    top: 0;
-    left: 0;
-    width: 360px;
-    height: 110px;
-    min-height: 110px;
-    min-width: 360px;
-  }
-  #wb_element_instance65 > div {
-    width: 360px;
-    height: 110px;
-  }
-  #wb_element_instance66 {
-    display: block;
-    top: 17px;
-    left: 27px;
-    width: 300px;
-    height: 84px;
-    min-height: 84px;
-    min-width: 300px;
-  }
-  #wb_element_instance67 {
-    display: block;
-    top: 27px;
-    left: 900px;
-    width: 32px;
-    height: 32px;
-    min-height: 32px;
-    min-width: 32px;
-  }
-  #wb_element_instance67 img {
-    position: static;
-    top: 0;
-    left: 0;
-    width: 32px;
-    height: 32px;
-  }
-  #wb_element_instance68 {
-    display: block;
-    top: 27px;
-    left: 850px;
-    width: 32px;
-    height: 32px;
-    min-height: 32px;
-    min-width: 32px;
-  }
-  #wb_element_instance68 img {
-    position: static;
-    top: 0;
-    left: 0;
-    width: 32px;
-    height: 32px;
-  }
-  #wb_element_instance69 {
-    display: block;
-    top: 10px;
-    left: 50px;
-    width: 530px;
-    height: 30px;
-    min-height: 30px;
-    min-width: 530px;
-  }
-  #wb_element_instance70 {
-    display: block;
-    top: 10px;
-    left: 670px;
-    width: 110px;
-    height: 24px;
-    min-height: 24px;
-    min-width: 110px;
-  }
-  #wb_element_instance71 {
-    display: block;
-    top: 27px;
-    left: 950px;
-    width: 32px;
-    height: 32px;
-    min-height: 32px;
-    min-width: 32px;
-  }
-  #wb_element_instance71 img {
-    position: static;
-    top: 0;
-    left: 0;
-    width: 32px;
-    height: 32px;
-  }
-  #wb_element_instance72 {
-    display: block;
-    top: 260px;
-    left: 30px;
-    width: 390px;
-    height: 270px;
-    min-height: 270px;
-    min-width: 390px;
-  }
-  #wb_element_instance72 img {
-    position: static;
-    top: 0;
-    left: 0;
-    width: 390px;
-    height: 270px;
-  }
-  #wb_element_instance73 {
-    display: block;
-    top: 10px;
-    left: 0;
-    width: 370px;
-    height: 67px;
-    min-height: 67px;
-    min-width: 370px;
-  }
-  #wb_element_instance74 {
-    display: block;
-    top: 1860px;
-    left: 20px;
-    width: 190px;
-    height: 169px;
-    min-height: 169px;
-    min-width: 190px;
-  }
-  #wb_element_instance75 {
-    display: block;
-    top: 1860px;
-    left: 220px;
-    width: 760px;
-    height: 270px;
-    min-height: 270px;
-    min-width: 760px;
-  }
-  #wb_element_instance76 {
-    display: block;
-    top: 130px;
-    left: 440px;
-    width: 530px;
-    height: 451px;
-    min-height: 451px;
-    min-width: 530px;
-  }
-  #wb_element_instance77 {
-    display: block;
-    top: 960px;
-    left: 60px;
-    width: 240px;
-    height: 160px;
-    min-height: 160px;
-    min-width: 240px;
-    overflow: hidden;
-  }
-  #wb_element_instance77 img {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 240px;
-    height: 170px;
-    max-width: inherit;
-  }
-  #wb_element_instance78 {
-    display: block;
-    top: 970px;
-    left: 360px;
-    width: 570px;
-    height: 850px;
-    min-height: 850px;
-    min-width: 570px;
-  }
-  #wb_element_instance79 {
-    display: block;
-    top: 640px;
-    left: 500px;
-    width: 430px;
-    height: 270px;
-    min-height: 270px;
-    min-width: 430px;
-  }
-  #wb_element_instance79 img {
-    position: static;
-    top: 0;
-    left: 0;
-    width: 430px;
-    height: 270px;
-  }
-  #wb_element_instance80 {
-    display: block;
-    top: 670px;
-    left: 50px;
-    width: 380px;
-    height: 216px;
-    min-height: 216px;
-    min-width: 380px;
-  }
-  #wb_element_instance81 {
-    display: block;
-    top: 1130px;
-    left: 60px;
-    width: 240px;
-    height: 190px;
-    min-height: 190px;
-    min-width: 240px;
-    overflow: hidden;
-  }
-  #wb_element_instance81 img {
-    position: relative;
-    top: -10px;
-    left: 0;
-    width: 240px;
-    height: 260px;
-    max-width: inherit;
-  }
-  #wb_element_instance82 {
-    display: block;
-    top: 1331px;
-    left: 61px;
-    width: 240px;
-    height: 160px;
-    min-height: 160px;
-    min-width: 240px;
-  }
-  #wb_element_instance82 img {
-    position: static;
-    top: 0;
-    left: 0;
-    width: 240px;
-    height: 160px;
-  }
-  #wb_element_instance83 {
-    display: block;
-    top: 1500px;
-    left: 60px;
-    width: 240px;
-    height: 160px;
-    min-height: 160px;
-    min-width: 240px;
-    overflow: hidden;
-  }
-  #wb_element_instance83 img {
-    position: relative;
-    top: -40px;
-    left: -20px;
-    width: 260px;
-    height: 200px;
-    max-width: inherit;
-  }
-  #wb_element_instance84 {
-    display: block;
-    top: 1670px;
-    left: 60px;
-    width: 240px;
-    height: 160px;
-    min-height: 160px;
-    min-width: 240px;
-    overflow: hidden;
-  }
-  #wb_element_instance84 img {
-    position: relative;
-    top: -20px;
-    left: 0;
-    width: 240px;
-    height: 190px;
-    max-width: inherit;
-  }
+  #wb_header { height: 250px; }
+  #wb_main { height: 2130px; }
+  #wb_footer { height: 80px; }
+  body, .wb_sbg { min-width: 992px; min-height: 2530px; }
+  .root { width: 992px; height: 2530px; overflow: visible; }
+  #menu { left: 498px; top: 10px; min-width: 484px; width: 484px; min-height: 40px; height: 40px; display: block; }
+  #menu ul { background: transparent none repeat scroll left top; }
+  #menu .btn-collapser { display: none; }
+  #menu > ul { display: block; }
+  #div_logo_idf { left: 27px; top: 17px; min-width: 300px; width: 300px; min-height: 75px; height: 75px; display: block; }
+  #div_facebook { left: 900px; top: 27px; min-width: 32px; width: 32px; min-height: 32px; height: 32px; display: block; }
+  #div_facebook img { width: 32px; height: 32px; position: static; left: 0px; top: 0px; }
+  #div_twitter { left: 850px; top: 27px; min-width: 32px; width: 32px; min-height: 32px; height: 32px; display: block; }
+  #div_twitter img { width: 32px; height: 32px; position: static; left: 0px; top: 0px; }
+  #div_footer_nosNoms { left: 50px; top: 10px; min-width: 530px; width: 530px; min-height: 28px; height: 28px; display: block; }
+  #wb_element_instance71 { left: 950px; top: 27px; min-width: 32px; width: 32px; min-height: 32px; height: 32px; display: block; }
+  #wb_element_instance71 img { width: 32px; height: 32px; position: static; left: 0px; top: 0px; }
+  #div_img_metro { left: 30px; top: 260px; min-width: 390px; width: 390px; min-height: 270px; height: 270px; display: block; }
+  #div_img_metro img { width: 390px; height: 270px; position: static; left: 0px; top: 0px; }
+  #div_titre_guidePratique { left: 0px; top: 10px; min-width: 370px; width: 370px; min-height: 67px; height: 67px; display: block; }
+  #div_liensUtiles { left: 20px; top: 1860px; min-width: 190px; width: 190px; min-height: 169px; height: 169px; display: block; }
+  #div_carteGoogle { left: 220px; top: 1860px; min-width: 760px; width: 760px; min-height: 270px; height: 270px; display: block; }
+  #paragraphe_metro { left: 440px; top: 130px; min-width: 530px; width: 530px; min-height: 451px; height: 451px; display: block; }
+  #img_BusParis { left: 60px; top: 960px; min-width: 240px; width: 240px; min-height: 160px; height: 160px; display: block; overflow: hidden; }
+  #img_BusParis img { width: 240px; height: 170px; position: relative; left: 0px; top: 0px; max-width: inherit; }
+  #paragraphe_Bus { left: 360px; top: 970px; min-width: 570px; width: 570px; min-height: 850px; height: 850px; display: block; }
+  #div_imgTaxis { left: 500px; top: 640px; min-width: 430px; width: 430px; min-height: 270px; height: 270px; display: block; }
+  #div_imgTaxis img { width: 430px; height: 270px; position: static; left: 0px; top: 0px; }
+  #div_ParagrapheTaxi { left: 50px; top: 670px; min-width: 380px; width: 380px; min-height: 216px; height: 216px; display: block; }
+  #div_img_VoitureJaune { left: 60px; top: 1130px; min-width: 240px; width: 240px; min-height: 190px; height: 190px; display: block; overflow: hidden; }
+  #div_img_VoitureJaune img { width: 240px; height: 260px; position: relative; left: 0px; top: -10px; max-width: inherit; }
+  #bus_Stif { left: 61px; top: 1331px; min-width: 240px; width: 240px; min-height: 160px; height: 160px; display: block; }
+  #bus_Stif img { width: 240px; height: 160px; position: static; left: 0px; top: 0px; }
+  #bus_Touriste { left: 60px; top: 1500px; min-width: 240px; width: 240px; min-height: 160px; height: 160px; display: block; overflow: hidden; }
+  #bus_Touriste img { width: 260px; height: 200px; position: relative; left: -20px; top: -40px; max-width: inherit; }
+  #bus_montpartre { left: 60px; top: 1670px; min-width: 240px; width: 240px; min-height: 160px; height: 160px; display: block; overflow: hidden; }
+  #bus_montpartre img { width: 240px; height: 190px; position: relative; left: 0px; top: -20px; max-width: inherit; }
 }
+
 @media (min-width: 1200px) {
-  #wb_header {
-    height: 250px;
-  }
-  #wb_main {
-    height: 2130px;
-  }
-  #wb_footer {
-    height: 80px;
-  }
-  body,
-  .wb_sbg {
-    min-height: 2530px;
-    min-width: 992px;
-  }
-  .root {
-    width: 992px;
-    height: 2530px;
-    overflow: visible;
-  }
-  #wb_element_instance64 {
-    display: block;
-    top: 10px;
-    left: 498px;
-    width: 484px;
-    height: 40px;
-    min-height: 40px;
-    min-width: 484px;
-  }
-  #wb_element_instance65 {
-    display: block;
-    top: 0;
-    left: 0;
-    width: 360px;
-    height: 110px;
-    min-height: 110px;
-    min-width: 360px;
-  }
-  #wb_element_instance65 > div {
-    width: 360px;
-    height: 110px;
-  }
-  #wb_element_instance66 {
-    display: block;
-    top: 17px;
-    left: 27px;
-    width: 300px;
-    height: 84px;
-    min-height: 84px;
-    min-width: 300px;
-  }
-  #wb_element_instance67 {
-    display: block;
-    top: 27px;
-    left: 900px;
-    width: 32px;
-    height: 32px;
-    min-height: 32px;
-    min-width: 32px;
-  }
-  #wb_element_instance67 img {
-    position: static;
-    top: 0;
-    left: 0;
-    width: 32px;
-    height: 32px;
-  }
-  #wb_element_instance68 {
-    display: block;
-    top: 27px;
-    left: 850px;
-    width: 32px;
-    height: 32px;
-    min-height: 32px;
-    min-width: 32px;
-  }
-  #wb_element_instance68 img {
-    position: static;
-    top: 0;
-    left: 0;
-    width: 32px;
-    height: 32px;
-  }
-  #wb_element_instance69 {
-    display: block;
-    top: 10px;
-    left: 50px;
-    width: 530px;
-    height: 30px;
-    min-height: 30px;
-    min-width: 530px;
-  }
-  #wb_element_instance70 {
-    display: block;
-    top: 10px;
-    left: 670px;
-    width: 110px;
-    height: 24px;
-    min-height: 24px;
-    min-width: 110px;
-  }
-  #wb_element_instance71 {
-    display: block;
-    top: 27px;
-    left: 950px;
-    width: 32px;
-    height: 32px;
-    min-height: 32px;
-    min-width: 32px;
-  }
-  #wb_element_instance71 img {
-    position: static;
-    top: 0;
-    left: 0;
-    width: 32px;
-    height: 32px;
-  }
-  #wb_element_instance72 {
-    display: block;
-    top: 260px;
-    left: 30px;
-    width: 390px;
-    height: 270px;
-    min-height: 270px;
-    min-width: 390px;
-  }
-  #wb_element_instance72 img {
-    position: static;
-    top: 0;
-    left: 0;
-    width: 390px;
-    height: 270px;
-  }
-  #wb_element_instance73 {
-    display: block;
-    top: 10px;
-    left: 0;
-    width: 370px;
-    height: 67px;
-    min-height: 67px;
-    min-width: 370px;
-  }
-  #wb_element_instance74 {
-    display: block;
-    top: 1860px;
-    left: 20px;
-    width: 190px;
-    height: 169px;
-    min-height: 169px;
-    min-width: 190px;
-  }
-  #wb_element_instance75 {
-    display: block;
-    top: 1860px;
-    left: 220px;
-    width: 760px;
-    height: 270px;
-    min-height: 270px;
-    min-width: 760px;
-  }
-  #wb_element_instance76 {
-    display: block;
-    top: 130px;
-    left: 440px;
-    width: 530px;
-    height: 451px;
-    min-height: 451px;
-    min-width: 530px;
-  }
-  #wb_element_instance77 {
-    display: block;
-    top: 960px;
-    left: 60px;
-    width: 240px;
-    height: 160px;
-    min-height: 160px;
-    min-width: 240px;
-    overflow: hidden;
-  }
-  #wb_element_instance77 img {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 240px;
-    height: 170px;
-    max-width: inherit;
-  }
-  #wb_element_instance78 {
-    display: block;
-    top: 970px;
-    left: 360px;
-    width: 570px;
-    height: 850px;
-    min-height: 850px;
-    min-width: 570px;
-  }
-  #wb_element_instance79 {
-    display: block;
-    top: 640px;
-    left: 500px;
-    width: 430px;
-    height: 270px;
-    min-height: 270px;
-    min-width: 430px;
-  }
-  #wb_element_instance79 img {
-    position: static;
-    top: 0;
-    left: 0;
-    width: 430px;
-    height: 270px;
-  }
-  #wb_element_instance80 {
-    display: block;
-    top: 670px;
-    left: 50px;
-    width: 380px;
-    height: 216px;
-    min-height: 216px;
-    min-width: 380px;
-  }
-  #wb_element_instance81 {
-    display: block;
-    top: 1130px;
-    left: 60px;
-    width: 240px;
-    height: 190px;
-    min-height: 190px;
-    min-width: 240px;
-    overflow: hidden;
-  }
-  #wb_element_instance81 img {
-    position: relative;
-    top: -10px;
-    left: 0;
-    width: 240px;
-    height: 260px;
-    max-width: inherit;
-  }
-  #wb_element_instance82 {
-    display: block;
-    top: 1331px;
-    left: 61px;
-    width: 240px;
-    height: 160px;
-    min-height: 160px;
-    min-width: 240px;
-  }
-  #wb_element_instance82 img {
-    position: static;
-    top: 0;
-    left: 0;
-    width: 240px;
-    height: 160px;
-  }
-  #wb_element_instance83 {
-    display: block;
-    top: 1500px;
-    left: 60px;
-    width: 240px;
-    height: 160px;
-    min-height: 160px;
-    min-width: 240px;
-    overflow: hidden;
-  }
-  #wb_element_instance83 img {
-    position: relative;
-    top: -40px;
-    left: -20px;
-    width: 260px;
-    height: 200px;
-    max-width: inherit;
-  }
-  #wb_element_instance84 {
-    display: block;
-    top: 1670px;
-    left: 60px;
-    width: 240px;
-    height: 160px;
-    min-height: 160px;
-    min-width: 240px;
-    overflow: hidden;
-  }
-  #wb_element_instance84 img {
-    position: relative;
-    top: -20px;
-    left: 0;
-    width: 240px;
-    height: 190px;
-    max-width: inherit;
-  }
+  #wb_header { height: 250px; }
+  #wb_main { height: 2130px; }
+  #wb_footer { height: 80px; }
+  body, .wb_sbg { min-width: 992px; min-height: 2530px; }
+  .root { width: 992px; height: 2530px; overflow: visible; }
+  #menu { left: 498px; top: 10px; min-width: 484px; width: 484px; min-height: 40px; height: 40px; display: block; }
+  #menu ul { background: transparent none repeat scroll left top; }
+  #menu .btn-collapser { display: none; }
+  #menu > ul { display: block; }
+  #div_logo_idf { left: 27px; top: 17px; min-width: 300px; width: 300px; min-height: 75px; height: 75px; display: block; }
+  #div_facebook { left: 900px; top: 27px; min-width: 32px; width: 32px; min-height: 32px; height: 32px; display: block; }
+  #div_facebook img { width: 32px; height: 32px; position: static; left: 0px; top: 0px; }
+  #div_twitter { left: 850px; top: 27px; min-width: 32px; width: 32px; min-height: 32px; height: 32px; display: block; }
+  #div_twitter img { width: 32px; height: 32px; position: static; left: 0px; top: 0px; }
+  #div_footer_nosNoms { left: 50px; top: 10px; min-width: 530px; width: 530px; min-height: 28px; height: 28px; display: block; }
+  #wb_element_instance71 { left: 950px; top: 27px; min-width: 32px; width: 32px; min-height: 32px; height: 32px; display: block; }
+  #wb_element_instance71 img { width: 32px; height: 32px; position: static; left: 0px; top: 0px; }
+  #div_img_metro { left: 30px; top: 260px; min-width: 390px; width: 390px; min-height: 270px; height: 270px; display: block; }
+  #div_img_metro img { width: 390px; height: 270px; position: static; left: 0px; top: 0px; }
+  #div_titre_guidePratique { left: 0px; top: 10px; min-width: 370px; width: 370px; min-height: 67px; height: 67px; display: block; }
+  #div_liensUtiles { left: 20px; top: 1860px; min-width: 190px; width: 190px; min-height: 169px; height: 169px; display: block; }
+  #div_carteGoogle { left: 220px; top: 1860px; min-width: 760px; width: 760px; min-height: 270px; height: 270px; display: block; }
+  #paragraphe_metro { left: 440px; top: 130px; min-width: 530px; width: 530px; min-height: 451px; height: 451px; display: block; }
+  #img_BusParis { left: 60px; top: 960px; min-width: 240px; width: 240px; min-height: 160px; height: 160px; display: block; overflow: hidden; }
+  #img_BusParis img { width: 240px; height: 170px; position: relative; left: 0px; top: 0px; max-width: inherit; }
+  #paragraphe_Bus { left: 360px; top: 970px; min-width: 570px; width: 570px; min-height: 850px; height: 850px; display: block; }
+  #div_imgTaxis { left: 500px; top: 640px; min-width: 430px; width: 430px; min-height: 270px; height: 270px; display: block; }
+  #div_imgTaxis img { width: 430px; height: 270px; position: static; left: 0px; top: 0px; }
+  #div_ParagrapheTaxi { left: 50px; top: 670px; min-width: 380px; width: 380px; min-height: 216px; height: 216px; display: block; }
+  #div_img_VoitureJaune { left: 60px; top: 1130px; min-width: 240px; width: 240px; min-height: 190px; height: 190px; display: block; overflow: hidden; }
+  #div_img_VoitureJaune img { width: 240px; height: 260px; position: relative; left: 0px; top: -10px; max-width: inherit; }
+  #bus_Stif { left: 61px; top: 1331px; min-width: 240px; width: 240px; min-height: 160px; height: 160px; display: block; }
+  #bus_Stif img { width: 240px; height: 160px; position: static; left: 0px; top: 0px; }
+  #bus_Touriste { left: 60px; top: 1500px; min-width: 240px; width: 240px; min-height: 160px; height: 160px; display: block; overflow: hidden; }
+  #bus_Touriste img { width: 260px; height: 200px; position: relative; left: -20px; top: -40px; max-width: inherit; }
+  #bus_montpartre { left: 60px; top: 1670px; min-width: 240px; width: 240px; min-height: 160px; height: 160px; display: block; overflow: hidden; }
+  #bus_montpartre img { width: 240px; height: 190px; position: relative; left: 0px; top: -20px; max-width: inherit; }
 }
