@@ -1,160 +1,246 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="fr">
-<head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<title>A propos de nous</title>
-	<base href="{{base_url}}" />
-			<meta name="viewport" content="width=992" />
-		<meta name="description" content="" />
-	<meta name="keywords" content="" />
-		<meta name="generator" content="Zyro - Website Builder" />
-	
-	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-	<link href="css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css" />
-	<script src="js/jquery-1.8.3.min.js" type="text/javascript"></script>
-	<script src="js/bootstrap.min.js" type="text/javascript"></script>
-	<script src="js/main.js" type="text/javascript"></script>
 
-	<link href="css/site.css?v=1.0.13" rel="stylesheet" type="text/css" />
-	<link href="css/common.css?ts=1445243437" rel="stylesheet" type="text/css" />
-	<link href="css/A_Visiter.less?ts=1445243437" rel="stylesheet/less" type="text/css" />
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>A propos de nous</title>
+    <base href="{{base_url}}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="generator" content="Zyro - Website Builder" />
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/main.js" type="text/javascript"></script>
+
+    <link href="css/site.css?v=1.0.14" rel="stylesheet" type="text/css" />
+    <link href="css/common.css?ts=1449768608" rel="stylesheet" type="text/css" />
+    <link href="css/A_Visiter.less?ts=1445243437" rel="stylesheet/less" type="text/css" />
 	
 	<script src="js/less.js-2.5.3/dist/less.js" type="text/javascript"></script>
-	
-	<script type="text/javascript">var currLang = '';</script>		
-	<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
-	<!--[if lt IE 9]>
+
+    <script type="text/javascript">
+        var currLang = '';
+    </script>
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
 	  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 </head>
 
 
-<body><div class="container"><div class="vbox wb_container" id="wb_header">
-	
-<div id="menu" class="wb_element">
-	<ul class="hmenu">
-		<li><a href="Accueil.html" target="_self" title="Accueil">Accueil</a></li>
-		<li><a href="Evenements.html" target="_self" title="Evénements">Evénements</a></li>
-		<li class="active"><a href="A_Visiter.html" target="_self" title="A visiter">A visiter</a></li>
-		<li><a href="Guide_Pratique.html"  title="Guide pratique">Guide pratique</a></li>
-		<li><a href="Carte.html"  title="Carte">Carte</a></li>
-	</ul>
-</div><div id="logo_position" class="wb_element"><div></div></div><div id="logo" class="wb_element" style=" line-height: normal;"><h4 class="wb-stl-pagetitle" style="text-align: center;"><strong>Ile De France</strong></h4>
+<body>
+    <div class="root">
+        <div class="vbox wb_container" id="wb_header">
 
-<p style="text-align: center;"> </p>
-</div></div>
-<div class="vbox wb_container" id="wb_main">
-	
-<div id="wb_element_instance40" class="wb_element" style=" line-height: normal;"><p class="wb-stl-normal" style="text-align: center;">Musée des arts et civilisations d'Afrique, d'Asie, d'Océanie et des Amériques</p>
-</div>
+            <div id="Menu" class="wb_element"><a class="btn btn-default btn-collapser"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a>
+                <ul class="hmenu">
+                    <li>
+						<a href="./Accueil.html" target="_self" title="Accueil">Accueil</a>
+                    </li>
+                    <li>
+						<a href="Evenements.html" target="_self" title="Evénements">Evénements</a>
+                    </li>
+                    <li class="active"><a href="A_visiter.html" target="_self" title="A visiter">A visiter</a>
+                    </li>
+                    <li>
+						<a href="Guide_Pratique.html"  title="Guide pratique">Guide pratique</a>
+                    </li>
+                </ul>
+                 <script type="text/javascript">  <!-- ca c est important c est pour le menu quand tu me reduis -->
+                    (function() {
+                        var isOpen = false,
+                            elem = $('#Menu'),
+                            btn = elem.children('.btn-collapser').eq(0);
+                        btn.on('click', function() {
+                            if (elem.hasClass('collapse-expanded')) {
+                                isOpen = false;
+                                elem.removeClass('collapse-expanded');
+                            } else {
+                                isOpen = true;
+                                elem.addClass('collapse-expanded');
+                            }
+                        });
+                        elem.find('ul').each(function() {
+                            var ul = $(this);
+                            if (ul.parent('li').length > 0) {
+                                ul.parent('li').eq(0).children('a').on('click', function() {
+                                    if (!isOpen) return true;
+                                    if (ul.css('display') !== 'block') ul.css({
+                                        display: 'block'
+                                    });
+                                    else ul.css({
+                                        display: ''
+                                    });
+                                    return false;
+                                });
+                            }
+                        });
+                    })();
+                </script>
+            </div>
+            <div id="placeLogo" class="wb_element">
+                <div></div>
+            </div>
+            <div id="Logo" class="wb_element" style=" line-height: normal;">
+                <h4 class="wb-stl-pagetitle" style="text-align: center;"><span style="color:#inherit;">Ile De France</span></h4>
 
-<div id="wb_element_instance41" class="img-responsive"><img alt="" src="gallery/f832e12137692500aad4d0dc3c927e25_410x287.jpg" alt="Cinque Terre" width="304" height="236"></div><div id="wb_element_instance42" class="wb_element" style=" line-height: normal;"><p><sub>Centre Georges Pompidou (vue exterieur)</sub></p>
-</div><div id="wb_element_instance43" class="wb_element" style=" line-height: normal;"><p> </p>
+                <p style="text-align: center;"> </p>
+            </div>
+        </div>
+        <div class="vbox wb_container" id="wb_main">
 
-<h5 class="wb-stl-subtitle" style="text-align: center;"><strong>Château de Versailles</strong></h5>
+            <div id="titre3img" class="wb_element" style=" line-height: normal;">
+                <p class="wb-stl-normal" style="text-align: center;">Musée des arts et civilisations d'Afrique, d'Asie,</p>
 
-<p class="wb-stl-normal" style="text-align: justify;"> </p>
+                <p class="wb-stl-normal" style="text-align: center;">d'Océanie et des Amériques</p>
+            </div>
+            <div id="ImageCPompidou" class="wb_element"><img alt="" src="gallery_gen/f832e12137692500aad4d0dc3c927e25_410x287.jpg">
+            </div>
+            <div id="LegendePompidou" class="wb_element" style=" line-height: normal;">
+                <p><sub>Centre Georges Pompidou (vue exterieur)</sub>
+                </p>
+            </div>
+            <div id="TexteVersailles" class="wb_element" style=" line-height: normal;">
+                <p> </p>
 
-<p class="wb-stl-normal" style="text-align: justify;">Au fil des appartements, de l’opéra et de la chapelle, découvrez une architecture et un décor d’une telle beauté que votre imagination ne saurait les concevoir.</p>
- 
-<p class="wb-stl-normal" style="text-align: justify;">La Galerie des Glaces, rénovée en 2007, est un enchantement. Recouvert de mille miroirs et lustres majestueux, cette salle a été ainsi décorée afin de permettre au Roi de voir son reflet en entier, un véritable luxe pour l’époque ! Ne manquez pas également la Chambre de la Reine, restée intacte depuis son départ au moment de la Révolution française.</p>
+                <h5 class="wb-stl-subtitle" style="text-align: center;"><strong>Château de Versailles</strong></h5>
 
-<p class="wb-stl-normal" style="text-align: justify;">Et pour profiter de ce luxe à l’extérieur, flânez dans les jardins du château conçus par Le Nôtre. Fontaines, bosquets, topiaires et sculptures ornent cet immense espace de promenade.</p>
+                <p class="wb-stl-normal" style="text-align: justify;"> </p>
 
-<p class="wb-stl-normal" style="text-align: justify;"> </p>
+                <p class="wb-stl-normal" style="text-align: justify;">Au fil des appartements, de l’opéra et de la chapelle, découvrez une architecture et un décor d’une telle beauté que votre imagination ne saurait les concevoir.</p>
 
-<p class="wb-stl-normal" style="text-align: justify;">Découvrez ensuite le domaine de Marie-Antoinette, récemment rénové. Véritable refuge, c’est un lieu apaisant où se mêlent nature, raffinement et féminité. <span style="background-color: transparent;">Chaque automne, le Château de Versailles organise une exposition d’ art contemporain : le château et son parc sont investis par des  créations contemporaines audacieuses.</span></p>
+                <p class="wb-stl-normal" style="text-align: justify;">La Galerie des Glaces, rénovée en 2007, est un enchantement. Recouvert de mille miroirs et lustres majestueux, cette salle a été ainsi décorée afin de permettre au Roi de voir son reflet en entier, un véritable luxe pour l’époque ! Ne manquez pas également la Chambre de la Reine, restée intacte depuis son départ au moment de la Révolution française.</p>
 
-<p class="wb-stl-normal" style="text-align: justify;">L’été, le bassin de Neptune et le parc sont le lieu de spectacles grandioses créés par des artistes contemporains : « Les Grandes Eaux musicales », « les Grandes Eaux Nocturnes » et « les Fêtes de Versailles ».</p>
-</div><div id="wb_element_instance44" class="wb_element"><img alt="" src="gallery/2c529ba673c975b17fe69161d530ae01_790x240.jpg"></div><div id="wb_element_instance45" class="wb_element" style=" line-height: normal;"><h4 class="wb-stl-pagetitle">Divertissement</h4>
-</div><div id="wb_element_instance46" class="wb_element"><img alt="" src="gallery/7e4205bed55533cdff44900bf4e404c7_430x280.jpg"></div><div id="wb_element_instance47" class="wb_element" style=" line-height: normal;"><h5 class="wb-stl-subtitle" style="text-align: center;"><strong>DisneyLand</strong></h5>
+                <p class="wb-stl-normal" style="text-align: justify;">Et pour profiter de ce luxe à l’extérieur, flânez dans les jardins du château conçus par Le Nôtre. Fontaines, bosquets, topiaires et sculptures ornent cet immense espace de promenade.</p>
 
-<p> </p>
+                <p class="wb-stl-normal" style="text-align: justify;"> </p>
 
-<p class="wb-stl-normal" style="text-align: justify;">Avec deux Parcs Disney et plus de 50 attractions, spectacles et parades, une journée à Disneyland Paris ravira à coup sûr les amateurs de sensations fortes les plus aguerris.</p>
+                <p class="wb-stl-normal" style="text-align: justify;">Découvrez ensuite le domaine de Marie-Antoinette, récemment rénové. Véritable refuge, c’est un lieu apaisant où se mêlent nature, raffinement et féminité. <span style="background-color: transparent;">Chaque automne, le Château de Versailles organise une exposition d’ art contemporain : le château et son parc sont investis par des  créations contemporaines audacieuses.</span>
+                </p>
 
-<p class="wb-stl-normal" style="text-align: justify;">Pour les grands enfants en quête de frissons  et d’émotions, le Parc Disneyland offre cinq univers magiques et intemporels. Préparez-vous  à  être propulsés</p>
+                <p class="wb-stl-normal" style="text-align: justify;">L’été, le bassin de Neptune et le parc sont le lieu de spectacles grandioses créés par des artistes contemporains : « Les Grandes Eaux musicales », « les Grandes Eaux Nocturnes » et « les Fêtes de Versailles ».</p>
+            </div>
+            <div id="ImgVersailles" class="wb_element"><img alt="" src="gallery_gen/2c529ba673c975b17fe69161d530ae01_790x240.jpg">
+            </div>
+            <div id="Divertissement" class="wb_element" style=" line-height: normal;">
+                <h4 class="wb-stl-pagetitle">Divertissement</h4>
+            </div>
+            <div id="DisneyImg" class="wb_element"><img alt="" src="gallery_gen/7e4205bed55533cdff44900bf4e404c7_430x280.jpg">
+            </div>
+            <div id="DisneyTexte" class="wb_element" style=" line-height: normal;">
+                <h5 class="wb-stl-subtitle" style="text-align: center;"><strong>DisneyLand</strong></h5>
 
-<p class="wb-stl-normal" style="text-align: justify;">dans l’espace et traverser la galaxie en direction d’Endor, à  être lancés à toute vitesse à bord d’un wagonnet de mine dans les vestiges  archéologiques d’un temple abandonné.</p>
+                <p> </p>
 
-<p class="wb-stl-normal" style="text-align: justify;">Juste à côté, le Parc Walt Disney Studios vous réserve de nombreuses aventures, riches en sensations fortes, sur quatre zones de production mythiques. Accrochez-vous : une chute vertigineuse du 13e étage d'un hôtel hanté et la frénésie du grand-huit Rock 'n' Roller Coaster, sur les riffs d’Aerosmith, sont au programme !</p>
-</div><div id="wb_element_instance48" class="wb_element"><img alt="" src="gallery/575b103c59e01afc6ce89f8c135a8d28_470x240.jpg"></div><div id="wb_element_instance49" class="wb_element" style=" line-height: normal;"><p> </p>
+                <p class="wb-stl-normal" style="text-align: justify;">Avec deux Parcs Disney et plus de 50 attractions, spectacles et parades, une journée à Disneyland Paris ravira à coup sûr les amateurs de sensations fortes les plus aguerris.</p>
 
-<h5 class="wb-stl-subtitle" style="text-align: center;"><strong>Stade de France</strong></h5>
+                <p class="wb-stl-normal" style="text-align: justify;">Pour les grands enfants en quête de frissons  et d’émotions, le Parc Disneyland offre cinq univers magiques et intemporels. Préparez-vous  à  être propulsés</p>
 
-<p class="wb-stl-normal"> </p>
+                <p class="wb-stl-normal" style="text-align: justify;">dans l’espace et traverser la galaxie en direction d’Endor, à  être lancés à toute vitesse à bord d’un wagonnet de mine dans les vestiges  archéologiques d’un temple abandonné.</p>
 
-<p class="wb-stl-normal">La finale France/Brésil de la Coupe du Monde de football 1998, les championnats du Monde d’Athlétisme en 2003, les concerts de Madonna, des Rolling Stones ou de U2... De grands moments d’émotion pour un seul lieu : le Stade de France. Achevé en 1998 pour accueillir la Coupe du Monde de football, le stade est le plus grand de l’hexagone. Ses 80 000 places sont d’ailleurs aménageables selon les besoins de l’évènement : sport, concert ou spectacle, le Stade de France suit les tendances du moment. A ne pas manquer : la visite des coulisses du Stade. Les vestiaires sont le moment fort du parcours. Découvrez l’envers du décor en passant par les salles d’échauffement et de massage dans lesquelles les plus grandes équipes se préparent avant d’arriver sur le terrain. Contemplez enfin l’architecture du site : le toit est une prouesse technique de 13 000 tonnes qui protège les tribunes des intempéries sans couvrir la scène. Mais c’est aussi un message : cette ellipse, qui semble suspendue dans les airs, symbolise l’universalité du sport.</p>
-</div><div id="wb_element_instance50" class="wb_element"><img alt="" src="gallery/432a4dadfa3283fcf44762b916e4a52f_370x220.jpg"></div><div id="wb_element_instance51" class="wb_element" style=" line-height: normal;"><h5 class="wb-stl-subtitle" style="text-align: center;"><strong>Aquaboulevard</strong></h5>
+                <p class="wb-stl-normal" style="text-align: justify;">Juste à côté, le Parc Walt Disney Studios vous réserve de nombreuses aventures, riches en sensations fortes, sur quatre zones de production mythiques. Accrochez-vous : une chute vertigineuse du 13e étage d'un hôtel hanté et la frénésie du grand-huit Rock 'n' Roller Coaster, sur les riffs d’Aerosmith, sont au programme !</p>
+            </div>
+            <div id="Stade2franceExtImg" class="wb_element"><img alt="" src="gallery_gen/575b103c59e01afc6ce89f8c135a8d28_470x240.jpg">
+            </div>
+            <div id="Stade2franceExtTxt" class="wb_element" style=" line-height: normal;">
+                <p> </p>
 
-<p> </p>
+                <h5 class="wb-stl-subtitle" style="text-align: center;"><strong>Stade de France</strong></h5>
 
-<p class="wb-stl-normal" style="text-align: justify;">La parc aquatique Aquaboulevard est situé dans le 15e arrondissement à Paris. Il est équipé de bassins intérieurs et extérieurs.</p>
+                <p class="wb-stl-normal"> </p>
 
-<p><span style="color: rgb(105, 96, 81); font-family: Georgia, serif; line-height: 24px; text-align: justify; background-color: transparent;">Idéal pour les sorties en famille ou entre amis, Aquaboulevard comprend 10 toboggans géants, des bassins à vagues, des jacuzzis, une plage extérieure, des rivières à contre courant et de nombreux autres jeux d'eau.</span></p>
+                <p class="wb-stl-normal">La finale France/Brésil de la Coupe du Monde de football 1998, les championnats du Monde d’Athlétisme en 2003, les concerts de Madonna, des Rolling Stones ou de U2... De grands moments d’émotion pour un seul lieu : le Stade de France. Achevé en 1998 pour accueillir la Coupe du Monde de football, le stade est le plus grand de l’hexagone. Ses 80 000 places sont d’ailleurs aménageables selon les besoins de l’évènement : sport, concert ou spectacle, le Stade de France suit les tendances du moment. A ne pas manquer : la visite des coulisses du Stade. Les vestiaires sont le moment fort du parcours. Découvrez l’envers du décor en passant par les salles d’échauffement et de massage dans lesquelles les plus grandes équipes se préparent avant d’arriver sur le terrain. Contemplez enfin l’architecture du site : le toit est une prouesse technique de 13 000 tonnes qui protège les tribunes des intempéries sans couvrir la scène. Mais c’est aussi un message : cette ellipse, qui semble suspendue dans les airs, symbolise l’universalité du sport.</p>
+            </div>
+            <div id="AquaboulevardTxt" class="wb_element" style=" line-height: normal;">
+                <h5 class="wb-stl-subtitle" style="text-align: center;"><strong>Aquaboulevard</strong></h5>
 
-<p><span style="color: rgb(105, 96, 81); font-family: Georgia, serif; line-height: 24px; text-align: justify; background-color: transparent;">Des cours d'aquagym sont dispensés au sein d'un complexe, qui dispose aussi d'une salle de cardio-training, d'un mini-golf, de courts de tennis et de squash.</span></p>
-</div><div id="wb_element_instance52" class="wb_element"><img alt="" src="gallery/1344b5adf5d9d034afd36be7b01bc093_440x250.jpg"></div><div id="wb_element_instance53" class="wb_element"><img alt="" src="gallery/1eccc83d73747a56992909c4fcaa4e3e_320x250.jpg"></div><div id="wb_element_instance54" class="wb_element"><img alt="" src="gallery/39afcb3f52b672ebce107882b754e1b6_383x250.jpeg"></div><div id="wb_element_instance55" class="wb_element" style=" line-height: normal;"></div><div id="wb_element_instance56" class="wb_element" style=" line-height: normal;"><h5 class="wb-stl-subtitle" style="text-align: justify;"><span style="color: rgb(105, 96, 81); line-height: 24px; text-align: justify; font-size: 14px; background-color: transparent;">Des toiles de Picasso, Miro ou Warhol de sa collection permanente, aux expositions phares (une trentaine chaque année) ; des cycles de cinéma aux concerts et aux spectacles de danse, en passant par la prochaine organisation d’un festival de création contemporaine… le musée s’adresse à tous les publics.  </span><span style="color: rgb(105, 96, 81); line-height: 24px; font-size: 14px; background-color: transparent;">Les plus jeunes ne sont pas en reste, avec des expositions spécialement conçues pour eux à la Galerie des enfants. Les étudiants, quant à eux, se pressent pour consulter les nombreux ouvrages et références multimédia de la bibliothèque. Découvrez également sa boutique Printemps Design, sur la mezzanine qui domine l’atrium du centre. Sans oublier le Georges, son restaurant installé au dernier étage, qui offre une incroyable vue sur Paris.</span></h5>
-</div><div id="wb_element_instance57" class="wb_element"><img alt="" src="gallery/fe96a653ac0466494a4ab141fc13bec8_520x240.jpg"></div><div id="wb_element_instance58" class="wb_element"><img alt="" src="gallery/4a971933698f80292e5e6395e54a1fbe_530x384.jpg"></div><div id="wb_element_instance59" class="wb_element" style=" line-height: normal;"><h5 class="wb-stl-subtitle" style="text-align: center;"><strong>Musée du Quai Branly</strong><br>
+                <p> </p>
+
+                <p class="wb-stl-normal" style="text-align: justify;">La parc aquatique Aquaboulevard est situé dans le 15e arrondissement à Paris. Il est équipé de bassins intérieurs et extérieurs.</p>
+
+                <p><span style="color: rgb(105, 96, 81); font-family: Georgia, serif; line-height: 24px; text-align: justify; background-color: transparent;">Idéal pour les sorties en famille ou entre amis, Aquaboulevard comprend 10 toboggans géants, des bassins à vagues, des jacuzzis, une plage extérieure, des rivières à contre courant et de nombreux autres jeux d'eau.</span>
+                </p>
+
+                <p><span style="color: rgb(105, 96, 81); font-family: Georgia, serif; line-height: 24px; text-align: justify; background-color: transparent;">Des cours d'aquagym sont dispensés au sein d'un complexe, qui dispose aussi d'une salle de cardio-training, d'un mini-golf, de courts de tennis et de squash.</span>
+                </p>
+            </div>
+            <div id="Img2" class="wb_element"><img alt="" src="gallery_gen/1344b5adf5d9d034afd36be7b01bc093_440x250.jpg">
+            </div>
+            <div id="Img3" class="wb_element"><img alt="" src="gallery_gen/1eccc83d73747a56992909c4fcaa4e3e_320x250.jpg">
+            </div>
+            <div id="Img1" class="wb_element"><img alt="" src="gallery_gen/39afcb3f52b672ebce107882b754e1b6_383x250.jpeg">
+            </div>
+           
+            <div id="Txt2Pompidou" class="wb_element" style=" line-height: normal;">
+                <h5 class="wb-stl-subtitle" style="text-align: justify;"><span style="color: rgb(105, 96, 81); line-height: 24px; text-align: justify; font-size: 14px; background-color: transparent;">Des toiles de Picasso, Miro ou Warhol de sa collection permanente, aux expositions phares (une trentaine chaque année) ; des cycles de cinéma aux concerts et aux spectacles de danse, en passant par la prochaine organisation d’un festival de création contemporaine… le musée s’adresse à tous les publics.  </span><span style="color: rgb(105, 96, 81); line-height: 24px; font-size: 14px; background-color: transparent;">Les plus jeunes ne sont pas en reste, avec des expositions spécialement conçues pour eux à la Galerie des enfants. Les étudiants, quant à eux, se pressent pour consulter les nombreux ouvrages et références multimédia de la bibliothèque. Découvrez également sa boutique Printemps Design, sur la mezzanine qui domine l’atrium du centre. Sans oublier le Georges, son restaurant installé au dernier étage, qui offre une incroyable vue sur Paris.</span></h5>
+            </div>
+            <div id="Stade2FrInt" class="wb_element"><img alt="" src="gallery_gen/fe96a653ac0466494a4ab141fc13bec8_520x240.jpg">
+            </div>
+            <div id="AquaImg2" class="wb_element"><img alt="" src="gallery_gen/4a971933698f80292e5e6395e54a1fbe_610x440.jpg">
+            </div>
+            <div id="TxtBranly" class="wb_element" style=" line-height: normal;">
+                <h5 class="wb-stl-subtitle" style="text-align: center;"><strong>Musée du Quai Branly</strong><br>
  </h5>
 
-<p class="wb-stl-normal" style="text-align: justify;"><span style="color: rgb(105, 96, 81); font-family: Georgia, serif; background-color: transparent;">A quelques pas de la Tour Eiffel, découvrez le Musée du Quai Branly : une collection d’objets d’arts et civilisations d’Afrique, d’Asie, d’Océanie et des Amériques, réunis pour la première fois en un même lieu. Dans un espace vaste, sans cloisons, laissez-vous guider dans les univers culturels de ces continents au fil des masques d’Océanie, des costumes d’Asie, ou des instruments de musique d’Afrique.</span></p>
+                <p class="wb-stl-normal" style="text-align: justify;"><span style="color: rgb(105, 96, 81); font-family: Georgia, serif; background-color: transparent;">A quelques pas de la Tour Eiffel, découvrez le Musée du Quai Branly : une collection d’objets d’arts et civilisations d’Afrique, d’Asie, d’Océanie et des Amériques, réunis pour la première fois en un même lieu. Dans un espace vaste, sans cloisons, laissez-vous guider dans les univers culturels de ces continents au fil des masques d’Océanie, des costumes d’Asie, ou des instruments de musique d’Afrique.</span>
+                </p>
 
-<p class="wb-stl-normal" style="text-align: justify;"><span style="color: rgb(105, 96, 81); font-family: Georgia, serif; background-color: transparent;">Les installations mêlant musique, multimédia, photographies et films aident à la compréhension des œuvres. Au-delà des collections et expositions temporaires originales, le musée est également une référence parmi les centres culturels parisiens. Spectacles de danse, concerts, performances traditionnelles ou modernes sont régulièrement proposés.</span></p>
+                <p class="wb-stl-normal" style="text-align: justify;"><span style="color: rgb(105, 96, 81); font-family: Georgia, serif; background-color: transparent;">Les installations mêlant musique, multimédia, photographies et films aident à la compréhension des œuvres. Au-delà des collections et expositions temporaires originales, le musée est également une référence parmi les centres culturels parisiens. Spectacles de danse, concerts, performances traditionnelles ou modernes sont régulièrement proposés.</span>
+                </p>
 
-<p class="wb-stl-normal" style="text-align: justify;"><span style="background-color: transparent; color: rgb(105, 96, 81); font-family: Georgia, serif;">Avec sa paroi végétale de 800 m², son architecture sur pilotis et ses imposants cubes jaunes et orangés, le Musée du Quai Branly a valu à son créateur Jean Nouvel une reconnaissance mondiale. Structure contemporaine et plantes environnantes se mêlent avec harmonie dans le jardin du musée. A la nuit tombée, admirez le lac d’eau lumière : un plan d’eau jonché de dizaines de petits tubes fluorescents.</span></p>
-</div><div id="wb_element_instance60" class="wb_element" style=" line-height: normal;"><h4 class="wb-stl-pagetitle" style="text-align: left;">Culture</h4>
-</div><div id="wb_element_instance61" class="wb_element" style=" line-height: normal;"><h5 class="wb-stl-subtitle" style="text-align: center;"><strong>Centre Georges Pompidou</strong></h5>
+                <p class="wb-stl-normal" style="text-align: justify;"><span style="background-color: transparent; color: rgb(105, 96, 81); font-family: Georgia, serif;">Avec sa paroi végétale de 800 m², son architecture sur pilotis et ses imposants cubes jaunes et orangés, le Musée du Quai Branly a valu à son créateur Jean Nouvel une reconnaissance mondiale. Structure contemporaine et plantes environnantes se mêlent avec harmonie dans le jardin du musée. A la nuit tombée, admirez le lac d’eau lumière : un plan d’eau jonché de dizaines de petits tubes fluorescents.</span>
+                </p>
+            </div>
+            <div id="Culture" class="wb_element" style=" line-height: normal;">
+                <h4 class="wb-stl-pagetitle" style="text-align: left;">Culture</h4>
+            </div>
+            <div id="Txt1Pompidou" class="wb_element" style=" line-height: normal;">
+                <h5 class="wb-stl-subtitle" style="text-align: center;"><strong>Centre Georges Pompidou</strong></h5>
 
-<p> </p>
 
-<p class="wb-stl-normal" style="text-align: justify;"><span style="color: rgb(105, 96, 81); font-family: Georgia, serif; background-color: transparent;">Au cœur de Paris, parmi les plus anciens immeubles de la capitale, se dresse un imposant bâtiment enrubanné de tuyaux colorés, d’ascenseurs et d’escalators. Une construction aux références industrielles, pour laquelle les architectes Richard Rogers et Renzo Piano ont souhaité exhiber ostensiblement les éléments d’ordinaire dissimulés à l’intérieur.</span></p>
+                <p class="wb-stl-normal" style="text-align: justify;"><span style="color: rgb(105, 96, 81); font-family: Georgia, serif; background-color: transparent;">Au cœur de Paris, parmi les plus anciens immeubles de la capitale, se dresse un imposant bâtiment enrubanné de tuyaux colorés, d’ascenseurs et d’escalators. Une construction aux références industrielles, pour laquelle les architectes Richard Rogers et Renzo Piano ont souhaité exhiber ostensiblement les éléments d’ordinaire dissimulés à l’intérieur.</span>
+                </p>
 
-<p class="wb-stl-normal" style="text-align: justify;">Cette architecture, qui a fortement choqué l’opinion publique lors de l’inauguration du musée en 1977, est aujourd’hui devenue l’un des emblèmes de la ville pour les Parisiens. Au fil des ans, le Centre Pompidou s’est imposé comme l’un des principaux musées d’art moderne et contemporain du monde, avec une dimension interdisciplinaire.</p>
-</div><div id="wb_element_instance62" class="wb_element" style="width: 100%;">
-			<script type="text/javascript">
-				$(function() {
-					var block = $("#wb_element_instance62");
-					var comments = block.children(".wb_comments").eq(0);
-					var contentBlock = $("#wb_main");
-					contentBlock.height(contentBlock.height() + comments.height());
-				});
-			</script>
-			<?php
-				} else {
-			?>
-			<script type="text/javascript">
-				$(function() {
-					$("#wb_element_instance62").hide();
-				});
-			</script>
-			</div></div>
-<div class="vbox wb_container" id="wb_footer" style="height: 139px;">
-	
-<div id="wb_element_instance35" class="wb_element"><a href="https://www.facebook.com"><img alt="" src="gallery/620e9a7ba8fb46b75a618371403c9881_32x32.png"></a></div><div id="wb_element_instance36" class="wb_element"><a href="https://twitter.com/"><img alt="" src="gallery/b43a79758d09eb281e1de2dbbba6525e_32x32.png"></a></div><div id="wb_element_instance37" class="wb_element" style=" line-height: normal;"><p class="wb-stl-footer"><strong>BEN BOUBAKER</strong> Wissam - <strong>RAHMOUNI </strong>Youness -<strong> GEZGIN</strong> Numan - <strong>BOUDJEMA</strong> Riwane</p>
+                <p class="wb-stl-normal" style="text-align: justify;">Cette architecture, qui a fortement choqué l’opinion publique lors de l’inauguration du musée en 1977, est aujourd’hui devenue l’un des emblèmes de la ville pour les Parisiens. Au fil des ans, le Centre Pompidou s’est imposé comme l’un des principaux musées d’art moderne et contemporain du monde, avec une dimension interdisciplinaire.</p>
+            </div>
+            <div id="AquaImg1" class="wb_element"><img alt="" src="gallery_gen/432a4dadfa3283fcf44762b916e4a52f_370x220.jpg">
+            </div>
+            <div id="wb_element_instance62" class="wb_element" style="width: 100%;">
 
-<p class="wb-stl-footer" style="text-align: center;">© 2015 <a href="http://idf.16mb.com">idf.16mb.com</a></p>
-</div><div id="wb_element_instance38" class="wb_element"><div class="wb-stl-footer" style="white-space: nowrap;">Membre de <i class="icon-wb-logo"></i><a href="http://zyro.com/examples/" target="_blank" title="Zyro - Website Builder">Zyro</a></div><script type="text/javascript">
-				var _siteProBadge = _siteProBadge || [];
-				_siteProBadge.push({hash: "69cb9287f5604756460be9537d2c07ff", cont: "wb_element_instance38"});
+            </div>
+        </div>
+        <div class="vbox wb_container" id="wb_footer" style="height: 79px;">
 
-				(function() {
-					var script = document.createElement("script");
-					script.type = "text/javascript";
-					script.async = true;
-					script.src = "http://zyro.com/examples/getjs/";
-					var s = document.getElementsByTagName("script")[0];
-					s.parentNode.insertBefore(script, s);
-				})();
-				</script></div><div id="wb_element_instance39" class="wb_element"><img alt="" src="gallery/811ef58a913e365f552822db5ab1c571_32x32.png"></div><div id="wb_element_instance63" class="wb_element" style="text-align: center; width: 100%;"><div class="wb_footer"></div><script type="text/javascript">
-			$(function() {
-				var footer = $(".wb_footer");
-				var html = (footer.html() + "").replace(/^\s+|\s+$/g, "");
-				if (!html) {
-					footer.parent().remove();
-					footer = $("#wb_footer");
-					footer.height(78);
-				}
-			});
-			</script></div></div><div class="wb_sbg"></div></div></body>
+            <div id="Instagram" class="wb_element">
+                <a href="https://www.instagram.com"><img alt="" src="gallery_gen/620e9a7ba8fb46b75a618371403c9881_32x32.png">
+                </a>
+            </div>
+            <div id="Facebook" class="wb_element">
+                <a href="https://www.facebook.com"><img alt="" src="gallery_gen/b43a79758d09eb281e1de2dbbba6525e_32x32.png">
+                </a>
+            </div>
+			<div id="Twitter" class="wb_element">
+                <a href="https://www.twitter.com"><img alt="" src="gallery_gen/811ef58a913e365f552822db5ab1c571_32x32.png">
+                </a>
+            </div>
+            <div id="wb_element_instance37" class="wb_element" style=" line-height: normal;">
+                <p class="wb-stl-footer"><strong>BEN BOUBAKER</strong> Wissam - <strong>RAHMOUNI </strong>Youness -<strong> GEZGIN</strong> Numan - <strong>BOUDJEMA</strong> Riwane</p>
+
+                <p class="wb-stl-footer" style="text-align: center;">© 2015 <a href="http://idf.16mb.com">idf.16mb.com</a>
+                </p>
+            </div>
+            
+            
+            <div id="wb_element_instance63" class="wb_element" style="text-align: center; width: 100%;">
+                <div class="wb_footer"></div>
+            </div>
+        </div>
+        <div class="wb_sbg"></div>
+    </div>
+</body>
+
 </html>
