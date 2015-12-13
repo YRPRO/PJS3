@@ -1,1590 +1,1832 @@
+
 @white: #ffffff;
-@green: #1ba18b;
-@leftInstagram: 900px;
-@leftFacebook: 850px;
-@leftTwitter: 950px;
+
+
+
 
 
 #wb_header {
-    height: 0px;
     background: transparent none repeat scroll left top;
-}
-
-#haut_de_page{
     height: 698px;
-    background: transparent none repeat scroll left top;
 }
-
+#wb_header {
+    height: 698px;
+}
 #wb_main {
+    background: transparent none repeat scroll left top;
     height: 623px;
     padding: 0 0 70px 0;
-    background: transparent none repeat scroll left top;
 }
-
-
-
+#wb_main {
+    height: 1813px;
+}
+#wb_footer {
+    background: transparent none repeat scroll left top;
+    height: 80px;
+}
 #wb_footer {
     height: 80px;
+}
+body {
+    background: #fcf3d2 url("../gallery_gen/215ed0bac1a427d88943879d41a5115f.jpg") no-repeat scroll center top;
+}
+.wb_sbg {
+    background: transparent url("../gallery_gen/dad763187c3171ad64b3e88d1d511a44.jpg") repeat-x scroll center bottom;
+}
+body,
+.wb_sbg {
+    min-width: 320px;
+    min-height: 2661px;
+}
+.root {
+    width: 320px;
+    height: 2661px;
+    overflow: hidden;
+}
+#div_menu {
+    left: 170px;
+    top: 70px;
+    min-width: 130px;
+    width: 130px;
+    min-height: 30px;
+    height: 30px;
+    display: block;
+    z-index: 220;
+}
+#div_menu ul {
+    background: #fcf3d2 none repeat scroll left top;
+}
+#div_menu .btn-collapser {
+    display: inline-block;
+}
+#div_menu > ul {
+    display: none;
+}
+#div_menu.collapse-expanded > ul {
+    display: block;
+    float: none;
+    height: auto;
+}
+#div_menu.collapse-expanded > ul > li {
+    display: block;
+}
+#div_menu.collapse-expanded > ul > li > ul {
+    position: static;
+}
+#div_menu.collapse-expanded > ul > li:hover > ul {
+    display: none;
+}
+#div_menu ul {
+    border: 1px none #000000;
+}
+#div_menu,
+#div_menu ul {
+    text-align: right;
+}
+#div_menu ul ul {
+    background: #2e2e2e none repeat scroll left top;
+}
+#div_menu li {
+    margin: 10px 10px 10px 10px;
+}
+#div_menu li a {
+    text-transform: uppercase;
+    border: 0px none #000000;
+    padding: 5px 10px 5px 10px;
+    font: normal normal 13px Georgia, serif;
+    text-decoration: none;
+    color: #8b4828;
+    line-height: 15px;
     background: transparent none repeat scroll left top;
 }
-
-
-body {
-    background: #fcf3d2 url("../gallery/215ed0bac1a427d88943879d41a5115f.jpg") no-repeat scroll center top;
+#div_menu li:hover > a,
+#div_menu li:focus > a {
+    border: 0px none #000000;
+    font: normal normal 13px Georgia, serif;
+    text-decoration: none;
+    color: #00c2a2;
+    line-height: 15px;
+    background: transparent none no-repeat scroll center top;
 }
-
-.wb_sbg {
-    background: transparent url("../gallery/dad763187c3171ad64b3e88d1d511a44.jpg") repeat-x scroll center bottom;
- /*   min-height: 2461px;
-    min-width: 992px;*/
-    min-height: 1471px;
-    min-width: 992px;
+#div_menu li.active > a {
+    border: 0px none #000000;
+    font: normal normal 13px Georgia, serif;
+    text-decoration: none;
+    color: #00c292;
+    line-height: 15px;
+    background: transparent none no-repeat scroll center top;
 }
-
-
-
-.root {
-            width: 992px;
-        height: 1471px;
-        overflow: visible;
-        
-/*    width: 992px;
-    height: 2461px;
-    overflow: visible;*/
-}
-
-#div_menu {
+#cadreLogo {
+    left: 0px;
+    top: 0px;
+    min-width: 320px;
+    width: 320px;
+    min-height: 80px;
+    height: 80px;
     display: block;
-    z-index: 194;
-    top: 10px;
-    left: 498px;
-    width: 484px;
-    height: 40px;
-    min-height: 40px;
-    min-width: 484px;
-
-    ul{
-        border: 1px none #000000;
-        background: transparent none repeat scroll left top;
-        text-align: right;
-    }
-    ul ul {
-        background: #2e2e2e none repeat scroll left top;
-    }
-    li {
-        margin: 10px 10px 10px 10px;
-    }
-
-    li a {
-        padding: 5px 10px 5px 10px;
-        border: 0 none #000000;
-        text-decoration: none;
-        text-transform: uppercase;
-        font: normal normal 13px Georgia,serif;
-        line-height: 15px;
-        color: #8b4828;
-        background: transparent none repeat scroll left top;
-    }
-    li:hover > a,
-    li:focus > a {
-        border: 0 none #000000;
-        text-decoration: none;
-        font: normal normal 13px Georgia,serif;
-        line-height: 15px;
-        color: #00c2a2;
-        background: transparent none no-repeat scroll center top;
-    }
-    li.active > a {
-        border: 0 none #000000;
-        text-decoration: none;
-        font: normal normal 13px Georgia,serif;
-        line-height: 15px;
-        color: #00c292;
-        background: transparent none no-repeat scroll center top;
-    }
-}  
-
-#div_titre {
-    display: block;
-    z-index: 186;
-    top: 17px;
-    left: 27px;
-    width: 300px;
-    height: 84px;
-    min-height: 84px;
-    min-width: 300px;
+    z-index: 208;
 }
-
-.icone_social(@leftSocial) {
-    display: block;
-    left: @leftSocial;
-    top: 27px;
-    width: 32px;
-    height: 32px;
-    min-height: 32px;
-    min-width: 32px;
-}
-
-
-
-#div_instagram {
-    z-index: 183;
-   .icone_social(@leftInstagram);
-}
-
-
-#div_facebook {
-    z-index: 180;
-    .icone_social(@leftFacebook);
-}
-
-#div_twitter {
-    z-index: 181;
-    .icone_social(@leftTwitter);
-}
-
-
-#div_ecriture_nombasdepage {
-    display: block;
-    z-index: 182;
-    top: 10px;
-    left: 50px;
-    width: 530px;
-    height: 30px;
-    min-height: 30px;
-    min-width: 530px;
-}
-
-#div_ecriture_Paris {
-    display: block;
-    z-index: 79;
-    top: 338px;
-    left: 207px;
-    width: 290px;
-    height: 84px;
-    min-height: 84px;
-    min-width: 290px;
-}
-
-.cadre_haut {
-    display: block;
-    top: 310px;
-    width: 310px;
-    height: 150px;
-    min-height: 150px;
-    min-width: 310px;
-}
-
-.cadre_div {
+#cadreLogo > div {
+    width: 320px;
+    height: 80px;
+    background: transparent;
     border: 5px none #C0C0C0;
-    -webkit-border-radius: 0 0 0 0;
-    -moz-border-radius: 0 0 0 0;
-    border-radius: 0 0 0 0;
+    opacity: 0.3;
+    border-radius: 0px 0px 0px 0px;
+    -moz-border-radius: 0px 0px 0px 0px;
+    -webkit-border-radius: 0px 0px 0px 0px;
 }
-
-#div_cadre_LaRegionParisienne {
-    z-index: 80;
-    left: 510px;
-    .cadre_haut;
-
-    > div {
-        .cadre_div;
-        width: 310px;
-        height: 150px;
-        opacity: 0.9;
-        background: #059c7b;
-    }
-}
-
-#div_cadre_Paris {
-    z-index: 75;
-    left: 200px;
-    .cadre_haut;
-
-    > div {
-        .cadre_div;
-        width: 310px;
-        height: 150px;
-        opacity: 0.5;
-        background: #332417;
-    }
-}
-
-#div_ecriture_LaRegionParisienne {
-    display: block;
-    z-index: 81;
-    top: 334px;
-    left: 536px;
-    width: 270px;
-    height: 29px;
-    min-height: 29px;
-    min-width: 270px;
-    
-    p {
-        text-align: center;
-        face: Sylfaen;
-        color: #ffffff;
-        font-size: 20px;
-        line-height: normal;
-    }
-}
-
-
-.bouton {
-    display: block;
-    width: 110px;
-    height: 40px;
-    min-height: 40px;
-    min-width: 110px;
-
-        a span {
-        padding: 8px 0 0 0;
-        }
-
-        a{
-            width: 106px;
-            height: 36px;
-            -webkit-border-radius: 0;
-            -moz-border-radius: 0;
-            border-radius: 0;
-            text-align: center;
-            text-decoration: none;
-            font-family: 'PT Sans',sans-serif;
-            font-size: 13px;
-            font-style: normal;
-            font-weight: bold;
-            background: transparent none repeat scroll left top;
-
-        }
-
-        a:hover {
-            text-decoration: none;
-            font-style: normal;
-            font-weight: bold;
-            color: @white;
-            background: #086b61 none repeat scroll left top;
-        }
-
-        a:active {
-        text-decoration: none;
-        font-style: normal;
-        font-weight: normal;
-        color: #333333;
-        background: #E6E6E6 none repeat scroll left top;
-    }
-}
-
-#div_bouton_LaRegionParisienne_carte {
-    z-index: 85;
-    top: 400px;
-    left: 610px;
-    .bouton;
-
-    a {
-        border: 2px solid @white;
-        color: @white;
-    }
-}
-
-#div_ecriture_guidevoyage {
-    display: block;
-    z-index: 107;
-    top: 400px;
-    left: 211px;
-    width: 280px;
-    height: 28px;
-    min-height: 28px;
-    min-width: 280px;
-    
-    p {
-        text-align: center;
-        line-height: normal;
-    }
-}
-
-#div_ecriture_visiteinoubliable {
-    display: block;
-    z-index: 68;
-    top: 60px;
-    left: 420px;
-    width: 350px;
-    height: 24px;
-    min-height: 24px;
-    min-width: 350px;
-   
-    h1 {
-        text-align: center;
-    }
-}
-
-.image {
-    position: static;
-    top: 0;
-    left: 0;
-}
-
-#div_image_evenementavenir {
-    display: block;
-    z-index: 69;
-    top: 140px;
-    left: 640px;
-    width: 340px;
-    height: 200px;
-    min-height: 200px;
-    min-width: 340px;
-
-    img {
-        .image;
-        width: 340px;
-        height: 200px;
-    }
-}
-
-#div_image_venezdecouvrirnotreregion {
-    display: block;
-    z-index: 74;
-    top: 140px;
-    left: 240px;
-    width: 340px;
-    height: 190px;
-    min-height: 190px;
-    min-width: 340px;
-    
-    img {
-        .image;
-        width: 340px;
-        height: 190px;
-    }
-}
-
-
-#div_venezdecouvrirnotreregion {
-    display: block;
-    z-index: 75;
-    top: 373px;
-    left: 270px;
-    width: 270px;
-    height: 171px;
-    min-height: 171px;
-    min-width: 270px;
-}
-
-#div_evenementavenir {
-    display: block;
-    z-index: 77;
-    top: 373px;
-    left: 680px;
-    width: 290px;
-    height: 123px;
-    min-height: 123px;
+#logo {
+    left: 20px;
+    top: 10px;
     min-width: 290px;
-}
-
-#div_cadre_conseilsdevoyage {
+    width: 290px;
+    min-height: 71px;
+    height: 71px;
     display: block;
-    z-index: 79;
-    top: 343px;
-    left: -3px;
-    width: 200px;
-    height: 280px;
-    min-height: 280px;
-    min-width: 200px;
-    
-
-    > div {
-        width: 200px;
-        height: 280px;
-        opacity: 1;
-        background: #c4b7a3;
-        .cadre_div;
-    }
+    z-index: 212;
 }
-
-#div_image_conseilsdevoyage {
+#boutonInstagram {
+    left: 280px;
+    top: 30px;
+    min-width: 30px;
+    width: 30px;
+    min-height: 30px;
+    height: 30px;
     display: block;
-    z-index: 80;
-    top: 143px;
-    left: -3px;
-    width: 200px;
-    height: 200px;
-    min-height: 200px;
-    min-width: 200px;
-    
-    img {
-        position: static;
-        top: 0;
-        left: 0;
-        width: 200px;
-        height: 200px;
-    }
+    z-index: 206;
 }
-
-#div_conseilsdevoyage {
+#boutonInstagram img {
+    width: 30px;
+    height: 30px;
+    position: static;
+    left: 0px;
+    top: 0px;
+}
+#boutonFacebook {
+    left: 200px;
+    top: 30px;
+    min-width: 30px;
+    width: 30px;
+    min-height: 30px;
+    height: 30px;
     display: block;
-    z-index: 81;
-    top: 60px;
-    left: 0;
-    width: 200px;
-    height: 24px;
+    z-index: 207;
+}
+#boutonFacebook img {
+    width: 30px;
+    height: 30px;
+    position: static;
+    left: 0px;
+    top: 0px;
+}
+#ecritureFooter {
+    left: 10px;
+    top: 0px;
+    min-width: 310px;
+    width: 310px;
+    min-height: 45px;
+    height: 45px;
+    display: block;
+    z-index: 208;
+}
+#wb_element_instance6 {
+    left: 70px;
+    top: 50px;
+    min-width: 110px;
+    width: 110px;
     min-height: 24px;
-    min-width: 200px;
-}
-
-#div_cadre_venezdecouvrir {
+    height: 24px;
     display: block;
-    z-index: 67;
-    top: 330px;
+    z-index: 209;
+}
+#boutonTwitter {
     left: 240px;
-    width: 340px;
-    height: 290px;
-    min-height: 290px;
-    min-width: 340px;
-    
-    > div {
-        width: 340px;
-        height: 290px;
-        .cadre_div;
-        opacity: 1;
-        background: @white;
-    }
-}
-
-#div_cadre_evenementavenir {
+    top: 30px;
+    min-width: 30px;
+    width: 30px;
+    min-height: 30px;
+    height: 30px;
     display: block;
-    z-index: 70;
-    top: 340px;
-    left: 640px;
-    width: 340px;
-    height: 280px;
-    min-height: 280px;
-    min-width: 340px;
-    
-    > div {
-        width: 340px;
-        height: 280px;
-        .cadre_div;
-        opacity: 1;
-        background: @white;
-    }
+    z-index: 210;
 }
-
-#div_bouton_savoirplus_evenementavenir {
-    z-index: 82;
-    top: 560px;
-    left: 750px;
-    .bouton;
-
-    a {
-        border: 2px solid #0b9c84;
-        color: @green;
-    }
+#boutonTwitter img {
+    width: 30px;
+    height: 30px;
+    position: static;
+    left: 0px;
+    top: 0px;
 }
-
-#div_bouton_savoirplus_venezdecouvrir {
-    z-index: 87;
-    top: 560px;
-    left: 350px;
-    .bouton;
-
-    a {
-        border: 2px solid #0b9c84;
-        color: @green;
-    }
-}
-
-#div_ecriture_paragraphe_conseilsdevoyage {
+#ecritureParis {
+    left: 0px;
+    top: 220px;
+    min-width: 320px;
+    width: 320px;
+    min-height: 65px;
+    height: 65px;
     display: block;
     z-index: 89;
-    top: 363px;
-    left: 20px;
-    width: 150px;
-    height: 168px;
-    min-height: 168px;
-    min-width: 150px;
 }
-
-#div_bouton_savoirplus_conseilsdevoyage {
-    z-index: 88;
-    top: 560px;
-    left: 40px;
-    .bouton;
-
-    a {
-        border: 2px solid @white;
-        color: @white;
-
-    }
-}
-
-#div_trait_visiteinoubliable {
+#cadreLaRegionParisienne {
+    left: 0px;
+    top: 340px;
+    min-width: 320px;
+    width: 320px;
+    min-height: 150px;
+    height: 150px;
     display: block;
     z-index: 90;
-    top: 96px;
-    left: 240px;
-    width: 750px;
-    height: 20px;
-    min-height: 20px;
-    min-width: 750px;
 }
-
-#div_trait_conseilsdevoyage {
+#cadreLaRegionParisienne > div {
+    width: 320px;
+    height: 150px;
+    background: #059c7b;
+    border: 5px none #C0C0C0;
+    opacity: 0.9;
+    border-radius: 0px 0px 0px 0px;
+    -moz-border-radius: 0px 0px 0px 0px;
+    -webkit-border-radius: 0px 0px 0px 0px;
+}
+#cadreParis {
+    left: 0px;
+    top: 200px;
+    min-width: 320px;
+    width: 320px;
+    min-height: 130px;
+    height: 130px;
+    display: block;
+    z-index: 85;
+}
+#cadreParis > div {
+    width: 320px;
+    height: 130px;
+    background: #332417;
+    border: 5px none #C0C0C0;
+    opacity: 0.5;
+    border-radius: 0px 0px 0px 0px;
+    -moz-border-radius: 0px 0px 0px 0px;
+    -webkit-border-radius: 0px 0px 0px 0px;
+}
+#ecritureLaRegionParisienne {
+    left: 30px;
+    top: 360px;
+    min-width: 250px;
+    width: 250px;
+    min-height: 26px;
+    height: 26px;
+    display: block;
+    z-index: 91;
+}
+#boutonLaRegionParisienne {
+    left: 100px;
+    top: 430px;
+    min-width: 110px;
+    width: 110px;
+    min-height: 40px;
+    height: 40px;
+    display: block;
+    z-index: 95;
+}
+#boutonLaRegionParisienne a span {
+    padding: 8px 0px 0px 0px;
+}
+#boutonLaRegionParisienne a {
+    width: 106px;
+    height: 36px;
+}
+#boutonLaRegionParisienne a {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 13px;
+    text-align: center;
+    border: 2px solid @white;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    color: @white;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    background: transparent none repeat scroll left top;
+}
+#boutonLaRegionParisienne a:hover {
+    color: @white;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    background: #086b61 none repeat scroll left top;
+}
+#boutonLaRegionParisienne a:active {
+    color: #333333;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    background: #E6E6E6 none repeat scroll left top;
+}
+#ecritureGuideDeVoyage {
+    left: 0px;
+    top: 280px;
+    min-width: 320px;
+    width: 320px;
+    min-height: 24px;
+    height: 24px;
+    display: block;
+    z-index: 117;
+}
+#ecritureVisitesInoubliable {
+    left: 24px;
+    top: 30px;
+    min-width: 270px;
+    width: 270px;
+    min-height: 24px;
+    height: 24px;
+    display: block;
+    z-index: 78;
+}
+#imgEvenementAVenir {
+    left: 0px;
+    top: 660px;
+    min-width: 320px;
+    width: 320px;
+    min-height: 200px;
+    height: 200px;
+    display: block;
+    z-index: 79;
+}
+#imgEvenementAVenir img {
+    width: 320px;
+    height: 200px;
+    position: static;
+    left: 0px;
+    top: 0px;
+}
+#imgVenezDecouvrir {
+    left: 0px;
+    top: 100px;
+    min-width: 320px;
+    width: 320px;
+    min-height: 200px;
+    height: 200px;
+    display: block;
+    z-index: 84;
+}
+#imgVenezDecouvrir img {
+    width: 320px;
+    height: 200px;
+    position: static;
+    left: 0px;
+    top: 0px;
+}
+#ecritureVenezDecouvrir {
+    left: 30px;
+    top: 330px;
+    min-width: 270px;
+    width: 270px;
+    min-height: 162px;
+    height: 162px;
+    display: block;
+    z-index: 85;
+}
+#ecritureEvenementAVenir {
+    left: 30px;
+    top: 890px;
+    min-width: 260px;
+    width: 260px;
+    min-height: 138px;
+    height: 138px;
+    display: block;
+    z-index: 87;
+}
+#cadreConseilDeVoyage {
+    left: 0px;
+    top: 1313px;
+    min-width: 320px;
+    width: 320px;
+    min-height: 500px;
+    height: 500px;
+    display: block;
+    z-index: 89;
+}
+#cadreConseilDeVoyage > div {
+    width: 320px;
+    height: 500px;
+    background: #c4b7a3;
+    border: 5px none #C0C0C0;
+    opacity: 1;
+    border-radius: 0px 0px 0px 0px;
+    -moz-border-radius: 0px 0px 0px 0px;
+    -webkit-border-radius: 0px 0px 0px 0px;
+}
+#imgConseilDeVoyage {
+    left: 40px;
+    top: 1350px;
+    min-width: 240px;
+    width: 240px;
+    min-height: 200px;
+    height: 200px;
+    display: block;
+    z-index: 90;
+}
+#imgConseilDeVoyage img {
+    width: 240px;
+    height: 200px;
+    position: static;
+    left: 0px;
+    top: 0px;
+}
+#titreConseilDeVoyage {
+    left: 5px;
+    top: 1250px;
+    min-width: 310px;
+    width: 310px;
+    min-height: 24px;
+    height: 24px;
+    display: block;
+    z-index: 91;
+}
+#cadreVenezDecouvrir {
+    left: 0px;
+    top: 300px;
+    min-width: 320px;
+    width: 320px;
+    min-height: 320px;
+    height: 320px;
+    display: block;
+    z-index: 77;
+}
+#cadreVenezDecouvrir > div {
+    width: 320px;
+    height: 320px;
+    background: @white;
+    border: 5px none #C0C0C0;
+    opacity: 1;
+    border-radius: 0px 0px 0px 0px;
+    -moz-border-radius: 0px 0px 0px 0px;
+    -webkit-border-radius: 0px 0px 0px 0px;
+}
+#cadreEvenementAVenir {
+    left: 0px;
+    top: 861px;
+    min-width: 320px;
+    width: 320px;
+    min-height: 350px;
+    height: 350px;
+    display: block;
+    z-index: 80;
+}
+#cadreEvenementAVenir > div {
+    width: 320px;
+    height: 350px;
+    background: @white;
+    border: 5px none #C0C0C0;
+    opacity: 1;
+    border-radius: 0px 0px 0px 0px;
+    -moz-border-radius: 0px 0px 0px 0px;
+    -webkit-border-radius: 0px 0px 0px 0px;
+}
+#boutonEvenementAVenir {
+    left: 100px;
+    top: 1140px;
+    min-width: 110px;
+    width: 110px;
+    min-height: 40px;
+    height: 40px;
     display: block;
     z-index: 92;
-    top: 96px;
-    left: 0;
-    width: 200px;
-    height: 20px;
+}
+#boutonEvenementAVenir a span {
+    padding: 8px 0px 0px 0px;
+}
+#boutonEvenementAVenir a {
+    width: 106px;
+    height: 36px;
+}
+#boutonEvenementAVenir a {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 13px;
+    text-align: center;
+    border: 2px solid #0b9c84;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    color: #1ba18b;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    background: transparent none repeat scroll left top;
+}
+#boutonEvenementAVenir a:hover {
+    color: @white;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    background: #086b61 none repeat scroll left top;
+}
+#boutonEvenementAVenir a:active {
+    color: #333333;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    background: #E6E6E6 none repeat scroll left top;
+}
+#boutonVenezDecouvrir {
+    left: 100px;
+    top: 540px;
+    min-width: 110px;
+    width: 110px;
+    min-height: 40px;
+    height: 40px;
+    display: block;
+    z-index: 97;
+}
+#boutonVenezDecouvrir a span {
+    padding: 8px 0px 0px 0px;
+}
+#boutonVenezDecouvrir a {
+    width: 106px;
+    height: 36px;
+}
+#boutonVenezDecouvrir a {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 13px;
+    text-align: center;
+    border: 2px solid #0b9c84;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    color: #1ba18b;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    background: transparent none repeat scroll left top;
+}
+#boutonVenezDecouvrir a:hover {
+    color: @white;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    background: #086b61 none repeat scroll left top;
+}
+#boutonVenezDecouvrir a:active {
+    color: #333333;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    background: #E6E6E6 none repeat scroll left top;
+}
+#ecritureConseilDeVoyage {
+    left: 40px;
+    top: 1570px;
+    min-width: 240px;
+    width: 240px;
+    min-height: 96px;
+    height: 96px;
+    display: block;
+    z-index: 99;
+}
+#boutonConseilDeVoyage {
+    left: 110px;
+    top: 1730px;
+    min-width: 110px;
+    width: 110px;
+    min-height: 40px;
+    height: 40px;
+    display: block;
+    z-index: 98;
+}
+#boutonConseilDeVoyage a span {
+    padding: 8px 0px 0px 0px;
+}
+#boutonConseilDeVoyage a {
+    width: 106px;
+    height: 36px;
+}
+#boutonConseilDeVoyage a {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 13px;
+    text-align: center;
+    border: 2px solid @white;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    color: @white;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    background: transparent none repeat scroll left top;
+}
+#boutonConseilDeVoyage a:hover {
+    color: @white;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    background: #086b61 none repeat scroll left top;
+}
+#boutonConseilDeVoyage a:active {
+    color: #333333;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    background: #E6E6E6 none repeat scroll left top;
+}
+#traitVisitesInoubliables {
+    left: 0px;
+    top: 60px;
+    min-width: 320px;
+    width: 320px;
     min-height: 20px;
-    min-width: 200px;
+    height: 20px;
+    display: block;
+    z-index: 100;
 }
-
-/*
-@media(min-width:768px) {
+#traitConseilsDeVoyage {
+    left: 0px;
+    top: 1280px;
+    min-width: 320px;
+    width: 320px;
+    min-height: 20px;
+    height: 20px;
+    display: block;
+    z-index: 102;
+}
+@media (min-width: 768px) {
     #wb_header {
-        height: 0px;
+        height: 698px;
     }
-
     #wb_main {
-        height: 623px;
+        height: 1160px;
     }
-
     #wb_footer {
         height: 80px;
     }
-
     body,
     .wb_sbg {
-        min-height: 1471px;
-        min-width: 992px;
+        min-width: 768px;
+        min-height: 2008px;
     }
-
+    .root {
+        width: 768px;
+        height: 2008px;
+        overflow: visible;
+    }
+    #div_menu {
+        left: 120px;
+        top: 140px;
+        min-width: 490px;
+        width: 490px;
+        min-height: 50px;
+        height: 50px;
+        display: block;
+    }
+    #div_menu ul {
+        background: transparent none repeat scroll left top;
+    }
+    #div_menu .btn-collapser {
+        display: none;
+    }
+    #div_menu > ul {
+        display: block;
+    }
+    #cadreLogo {
+        left: 0px;
+        top: 0px;
+        min-width: 330px;
+        width: 330px;
+        min-height: 100px;
+        height: 100px;
+        display: block;
+    }
+    #cadreLogo > div {
+        width: 330px;
+        height: 100px;
+    }
+    #logo {
+        left: 230px;
+        top: 40px;
+        min-width: 300px;
+        width: 300px;
+        min-height: 71px;
+        height: 71px;
+        display: block;
+    }
+    #boutonInstagram {
+        left: 680px;
+        top: 20px;
+        min-width: 30px;
+        width: 30px;
+        min-height: 30px;
+        height: 30px;
+        display: block;
+    }
+    #boutonInstagram img {
+        width: 30px;
+        height: 30px;
+        position: static;
+        left: 0px;
+        top: 0px;
+    }
+    #boutonFacebook {
+        left: 630px;
+        top: 20px;
+        min-width: 30px;
+        width: 30px;
+        min-height: 30px;
+        height: 30px;
+        display: block;
+    }
+    #boutonFacebook img {
+        width: 30px;
+        height: 30px;
+        position: static;
+        left: 0px;
+        top: 0px;
+    }
+    #ecritureFooter {
+        left: 40px;
+        top: 20px;
+        min-width: 380px;
+        width: 380px;
+        min-height: 45px;
+        height: 45px;
+        display: block;
+    }
+    #wb_element_instance6 {
+        left: 480px;
+        top: 30px;
+        min-width: 100px;
+        width: 100px;
+        min-height: 24px;
+        height: 24px;
+        display: block;
+    }
+    #boutonTwitter {
+        left: 720px;
+        top: 20px;
+        min-width: 30px;
+        width: 30px;
+        min-height: 30px;
+        height: 30px;
+        display: block;
+    }
+    #boutonTwitter img {
+        width: 30px;
+        height: 30px;
+        position: static;
+        left: 0px;
+        top: 0px;
+    }
+    #ecritureParis {
+        left: 91px;
+        top: 340px;
+        min-width: 300px;
+        width: 300px;
+        min-height: 65px;
+        height: 65px;
+        display: block;
+    }
+    #cadreLaRegionParisienne {
+        left: 389px;
+        top: 310px;
+        min-width: 310px;
+        width: 310px;
+        min-height: 150px;
+        height: 150px;
+        display: block;
+    }
+    #cadreLaRegionParisienne > div {
+        width: 310px;
+        height: 150px;
+    }
+    #cadreParis {
+        left: 79px;
+        top: 310px;
+        min-width: 310px;
+        width: 310px;
+        min-height: 150px;
+        height: 150px;
+        display: block;
+    }
+    #cadreParis > div {
+        width: 310px;
+        height: 150px;
+    }
+    #ecritureLaRegionParisienne {
+        left: 415px;
+        top: 334px;
+        min-width: 250px;
+        width: 250px;
+        min-height: 26px;
+        height: 26px;
+        display: block;
+    }
+    #boutonLaRegionParisienne {
+        left: 500px;
+        top: 400px;
+        min-width: 110px;
+        width: 110px;
+        min-height: 40px;
+        height: 40px;
+        display: block;
+    }
+    #boutonLaRegionParisienne a span {
+        padding: 8px 0px 0px 0px;
+    }
+    #boutonLaRegionParisienne a {
+        width: 106px;
+        height: 36px;
+    }
+    #ecritureGuideDeVoyage {
+        left: 90px;
+        top: 400px;
+        min-width: 300px;
+        width: 300px;
+        min-height: 24px;
+        height: 24px;
+        display: block;
+    }
+    #ecritureVisitesInoubliable {
+        left: 370px;
+        top: 60px;
+        min-width: 310px;
+        width: 310px;
+        min-height: 24px;
+        height: 24px;
+        display: block;
+    }
+    #imgEvenementAVenir {
+        left: 330px;
+        top: 620px;
+        min-width: 380px;
+        width: 380px;
+        min-height: 200px;
+        height: 200px;
+        display: block;
+    }
+    #imgEvenementAVenir img {
+        width: 380px;
+        height: 200px;
+        position: static;
+        left: 0px;
+        top: 0px;
+    }
+    #imgVenezDecouvrir {
+        left: 330px;
+        top: 130px;
+        min-width: 380px;
+        width: 380px;
+        min-height: 200px;
+        height: 200px;
+        display: block;
+    }
+    #imgVenezDecouvrir img {
+        width: 380px;
+        height: 200px;
+        position: static;
+        left: 0px;
+        top: 0px;
+    }
+    #ecritureVenezDecouvrir {
+        left: 360px;
+        top: 340px;
+        min-width: 290px;
+        width: 290px;
+        min-height: 166px;
+        height: 166px;
+        display: block;
+    }
+    #ecritureEvenementAVenir {
+        left: 360px;
+        top: 860px;
+        min-width: 310px;
+        width: 310px;
+        min-height: 118px;
+        height: 118px;
+        display: block;
+    }
+    #cadreConseilDeVoyage {
+        left: 22px;
+        top: 340px;
+        min-width: 240px;
+        width: 240px;
+        min-height: 340px;
+        height: 340px;
+        display: block;
+    }
+    #cadreConseilDeVoyage > div {
+        width: 240px;
+        height: 340px;
+    }
+    #imgConseilDeVoyage {
+        left: 20px;
+        top: 140px;
+        min-width: 240px;
+        width: 240px;
+        min-height: 200px;
+        height: 200px;
+        display: block;
+    }
+    #imgConseilDeVoyage img {
+        width: 240px;
+        height: 200px;
+        position: static;
+        left: 0px;
+        top: 0px;
+    }
+    #titreConseilDeVoyage {
+        left: 30px;
+        top: 60px;
+        min-width: 200px;
+        width: 200px;
+        min-height: 24px;
+        height: 24px;
+        display: block;
+    }
+    #cadreVenezDecouvrir {
+        left: 330px;
+        top: 130px;
+        min-width: 380px;
+        width: 380px;
+        min-height: 480px;
+        height: 480px;
+        display: block;
+    }
+    #cadreVenezDecouvrir > div {
+        width: 380px;
+        height: 480px;
+    }
+    #cadreEvenementAVenir {
+        left: 330px;
+        top: 820px;
+        min-width: 380px;
+        width: 380px;
+        min-height: 340px;
+        height: 340px;
+        display: block;
+    }
+    #cadreEvenementAVenir > div {
+        width: 380px;
+        height: 340px;
+    }
+    #boutonEvenementAVenir {
+        left: 470px;
+        top: 1080px;
+        min-width: 110px;
+        width: 110px;
+        min-height: 40px;
+        height: 40px;
+        display: block;
+    }
+    #boutonEvenementAVenir a span {
+        padding: 8px 0px 0px 0px;
+    }
+    #boutonEvenementAVenir a {
+        width: 106px;
+        height: 36px;
+    }
+    #boutonVenezDecouvrir {
+        left: 460px;
+        top: 540px;
+        min-width: 110px;
+        width: 110px;
+        min-height: 40px;
+        height: 40px;
+        display: block;
+    }
+    #boutonVenezDecouvrir a span {
+        padding: 8px 0px 0px 0px;
+    }
+    #boutonVenezDecouvrir a {
+        width: 106px;
+        height: 36px;
+    }
+    #ecritureConseilDeVoyage {
+        left: 50px;
+        top: 370px;
+        min-width: 190px;
+        width: 190px;
+        min-height: 120px;
+        height: 120px;
+        display: block;
+    }
+    #boutonConseilDeVoyage {
+        left: 80px;
+        top: 590px;
+        min-width: 110px;
+        width: 110px;
+        min-height: 40px;
+        height: 40px;
+        display: block;
+    }
+    #boutonConseilDeVoyage a span {
+        padding: 8px 0px 0px 0px;
+    }
+    #boutonConseilDeVoyage a {
+        width: 106px;
+        height: 36px;
+    }
+    #traitVisitesInoubliables {
+        left: 330px;
+        top: 96px;
+        min-width: 380px;
+        width: 380px;
+        min-height: 20px;
+        height: 20px;
+        display: block;
+    }
+    #traitConseilsDeVoyage {
+        left: 22px;
+        top: 96px;
+        min-width: 200px;
+        width: 200px;
+        min-height: 20px;
+        height: 20px;
+        display: block;
+    }
+}
+@media (min-width: 992px) {
+    #wb_header {
+        height: 698px;
+    }
+    #wb_main {
+        height: 623px;
+    }
+    #wb_footer {
+        height: 80px;
+    }
+    body,
+    .wb_sbg {
+        min-width: 992px;
+        min-height: 1471px;
+    }
     .root {
         width: 992px;
         height: 1471px;
         overflow: visible;
     }
-
     #div_menu {
-        display: block;
-        top: 10px;
         left: 498px;
-        width: 484px;
-        height: 40px;
-        min-height: 40px;
+        top: 10px;
         min-width: 484px;
-    }
-
-    #div_titre {
+        width: 484px;
+        min-height: 40px;
+        height: 40px;
         display: block;
-        top: 17px;
+    }
+    #div_menu ul {
+        background: transparent none repeat scroll left top;
+    }
+    #div_menu .btn-collapser {
+        display: none;
+    }
+    #div_menu > ul {
+        display: block;
+    }
+    #cadreLogo {
+        left: 20px;
+        top: 0px;
+        min-width: 360px;
+        width: 360px;
+        min-height: 110px;
+        height: 110px;
+        display: block;
+    }
+    #cadreLogo > div {
+        width: 360px;
+        height: 110px;
+    }
+    #logo {
         left: 27px;
-        width: 300px;
-        height: 84px;
-        min-height: 84px;
+        top: 17px;
         min-width: 300px;
-    }
-
-    #div_instagram {
-        .icone_social(@leftInstagram);
-    }
-
-    #div_facebook {
-        .icone_social(@leftFacebook);
-    }
-
-    #div_twitter {
-        .icone_social(@leftTwitter);
-    }
-
-    #div_ecriture_Paris {
+        width: 300px;
+        min-height: 75px;
+        height: 75px;
         display: block;
-        top: 338px;
-        left: 207px;
-        width: 290px;
-        height: 84px;
-        min-height: 84px;
-        min-width: 290px;
     }
-
-    #div_cadre_LaRegionParisienne {
+    #boutonInstagram {
+        left: 900px;
+        top: 27px;
+        min-width: 32px;
+        width: 32px;
+        min-height: 32px;
+        height: 32px;
         display: block;
-        top: 310px;
-        left: 510px;
-        width: 310px;
-        height: 150px;
-        min-height: 150px;
-        min-width: 310px;
-
-        > div {
-            width: 310px;
-            height: 150px;
-        }
     }
-
-    #div_cadre_Paris {
-        display: block;
-        top: 310px;
-        left: 200px;
-        width: 310px;
-        height: 150px;
-        min-height: 150px;
-        min-width: 310px;
-
-        div {
-            width: 310px;
-            height: 150px;
-        }
+    #boutonInstagram img {
+        width: 32px;
+        height: 32px;
+        position: static;
+        left: 0px;
+        top: 0px;
     }
-
-    #div_ecriture_LaRegionParisienne {
+    #boutonFacebook {
+        left: 850px;
+        top: 27px;
+        min-width: 32px;
+        width: 32px;
+        min-height: 32px;
+        height: 32px;
         display: block;
-        top: 334px;
-        left: 536px;
-        width: 270px;
-        height: 29px;
-        min-height: 29px;
-        min-width: 270px;
     }
-
-
-    #div_ecriture_guidevoyage {
-        display: block;
-        top: 400px;
-        left: 211px;
-        width: 280px;
-        height: 28px;
+    #boutonFacebook img {
+        width: 32px;
+        height: 32px;
+        position: static;
+        left: 0px;
+        top: 0px;
+    }
+    #ecritureFooter {
+        left: 50px;
+        top: 10px;
+        min-width: 530px;
+        width: 530px;
         min-height: 28px;
-        min-width: 280px;
-    }
-
-    #div_ecriture_visiteinoubliable {
+        height: 28px;
         display: block;
-        top: 60px;
-        left: 420px;
-        width: 350px;
-        height: 24px;
+    }
+    #wb_element_instance6 {
+        left: 670px;
+        top: 10px;
+        min-width: 110px;
+        width: 110px;
         min-height: 24px;
-        min-width: 350px;
-    }
-
-    #div_image_evenementavenir {
+        height: 24px;
         display: block;
-        top: 140px;
+    }
+    #boutonTwitter {
+        left: 950px;
+        top: 27px;
+        min-width: 32px;
+        width: 32px;
+        min-height: 32px;
+        height: 32px;
+        display: block;
+    }
+    #boutonTwitter img {
+        width: 32px;
+        height: 32px;
+        position: static;
+        left: 0px;
+        top: 0px;
+    }
+    #ecritureParis {
+        left: 207px;
+        top: 338px;
+        min-width: 290px;
+        width: 290px;
+        min-height: 75px;
+        height: 75px;
+        display: block;
+    }
+    #cadreLaRegionParisienne {
+        left: 510px;
+        top: 310px;
+        min-width: 310px;
+        width: 310px;
+        min-height: 150px;
+        height: 150px;
+        display: block;
+    }
+    #cadreLaRegionParisienne > div {
+        width: 310px;
+        height: 150px;
+    }
+    #cadreParis {
+        left: 200px;
+        top: 310px;
+        min-width: 310px;
+        width: 310px;
+        min-height: 150px;
+        height: 150px;
+        display: block;
+    }
+    #cadreParis > div {
+        width: 310px;
+        height: 150px;
+    }
+    #ecritureLaRegionParisienne {
+        left: 536px;
+        top: 334px;
+        min-width: 270px;
+        width: 270px;
+        min-height: 26px;
+        height: 26px;
+        display: block;
+    }
+    #boutonLaRegionParisienne {
+        left: 610px;
+        top: 400px;
+        min-width: 110px;
+        width: 110px;
+        min-height: 40px;
+        height: 40px;
+        display: block;
+    }
+    #boutonLaRegionParisienne a span {
+        padding: 8px 0px 0px 0px;
+    }
+    #boutonLaRegionParisienne a {
+        width: 106px;
+        height: 36px;
+    }
+    #ecritureGuideDeVoyage {
+        left: 211px;
+        top: 400px;
+        min-width: 280px;
+        width: 280px;
+        min-height: 24px;
+        height: 24px;
+        display: block;
+    }
+    #ecritureVisitesInoubliable {
+        left: 420px;
+        top: 60px;
+        min-width: 350px;
+        width: 350px;
+        min-height: 24px;
+        height: 24px;
+        display: block;
+    }
+    #imgEvenementAVenir {
         left: 640px;
+        top: 140px;
+        min-width: 340px;
+        width: 340px;
+        min-height: 200px;
+        height: 200px;
+        display: block;
+    }
+    #imgEvenementAVenir img {
         width: 340px;
         height: 200px;
-        min-height: 200px;
-        min-width: 340px;
-        overflow: hidden;
-    
-        img {
-            position: relative;
-            top: 0;
-            left: 0;
-            width: 356px;
-            height: 200px;
-            max-width: inherit;
-        }
+        position: static;
+        left: 0px;
+        top: 0px;
     }
-
-    #div_image_venezdecouvrirnotreregion {
-        display: block;
-        top: 140px;
+    #imgVenezDecouvrir {
         left: 240px;
+        top: 140px;
+        min-width: 340px;
+        width: 340px;
+        min-height: 190px;
+        height: 190px;
+        display: block;
+    }
+    #imgVenezDecouvrir img {
         width: 340px;
         height: 190px;
-        min-height: 190px;
-        min-width: 340px;
-        
-        img {
-            position: static;
-            top: 0;
-            left: 0;
-            width: 340px;
-            height: 190px;
-        }
+        position: static;
+        left: 0px;
+        top: 0px;
     }
-
-    #div_venezdecouvrirnotreregion {
-        display: block;
-        top: 373px;
+    #ecritureVenezDecouvrir {
         left: 270px;
-        width: 270px;
-        height: 171px;
-        min-height: 171px;
-        min-width: 270px;
-    }
-
-    #div_evenementavenir {
-        display: block;
         top: 373px;
-        left: 680px;
-        width: 290px;
-        height: 123px;
-        min-height: 123px;
-        min-width: 290px;
-    }
-
-    #div_cadre_conseilsdevoyage {
+        min-width: 270px;
+        width: 270px;
+        min-height: 168px;
+        height: 168px;
         display: block;
-        top: 343px;
+    }
+    #ecritureEvenementAVenir {
+        left: 680px;
+        top: 373px;
+        min-width: 290px;
+        width: 290px;
+        min-height: 120px;
+        height: 120px;
+        display: block;
+    }
+    #cadreConseilDeVoyage {
         left: -3px;
+        top: 343px;
+        min-width: 200px;
+        width: 200px;
+        min-height: 280px;
+        height: 280px;
+        display: block;
+    }
+    #cadreConseilDeVoyage > div {
         width: 200px;
         height: 280px;
-        min-height: 280px;
-        min-width: 200px;
-
-        > div {
-            width: 200px;
-            height: 280px;
-        }
     }
-
-    #div_image_conseilsdevoyage {
-        display: block;
-        top: 143px;
+    #imgConseilDeVoyage {
         left: -3px;
+        top: 143px;
+        min-width: 200px;
+        width: 200px;
+        min-height: 200px;
+        height: 200px;
+        display: block;
+    }
+    #imgConseilDeVoyage img {
         width: 200px;
         height: 200px;
-        min-height: 200px;
-        min-width: 200px;
-
-        img {
-            position: static;
-            top: 0;
-            left: 0;
-            width: 200px;
-            height: 200px;
-        }
+        position: static;
+        left: 0px;
+        top: 0px;
     }
-
-    #div_conseilsdevoyage {
-        display: block;
+    #titreConseilDeVoyage {
+        left: 0px;
         top: 60px;
-        left: 0;
-        width: 200px;
-        height: 24px;
-        min-height: 24px;
         min-width: 200px;
-    }
-
-    #div_cadre_venezdecouvrir {
+        width: 200px;
+        min-height: 24px;
+        height: 24px;
         display: block;
-        top: 330px;
+    }
+    #cadreVenezDecouvrir {
         left: 240px;
+        top: 330px;
+        min-width: 340px;
+        width: 340px;
+        min-height: 290px;
+        height: 290px;
+        display: block;
+    }
+    #cadreVenezDecouvrir > div {
         width: 340px;
         height: 290px;
-        min-height: 290px;
-        min-width: 340px;
-
-        > div {
-            width: 340px;
-            height: 290px;
-        }
     }
-
-    #div_cadre_evenementavenir {
-        display: block;
-        top: 340px;
+    #cadreEvenementAVenir {
         left: 640px;
+        top: 340px;
+        min-width: 340px;
+        width: 340px;
+        min-height: 280px;
+        height: 280px;
+        display: block;
+    }
+    #cadreEvenementAVenir > div {
         width: 340px;
         height: 280px;
-        min-height: 280px;
-        min-width: 340px;
-
-        > div {
-            width: 340px;
-            height: 280px;
-        }
     }
-
-    #div_bouton_savoirplus_evenementavenir {
-        display: block;
-        top: 560px;
+    #boutonEvenementAVenir {
         left: 750px;
-        width: 110px;
-        height: 40px;
-        min-height: 40px;
-        min-width: 110px;
-    
-        a span {
-            padding: 8px 0 0 0;
-        }
-
-        a {
-            width: 106px;
-            height: 36px;
-        }
-    }
-
-    #div_bouton_savoirplus_venezdecouvrir {
-        display: block;
         top: 560px;
+        min-width: 110px;
+        width: 110px;
+        min-height: 40px;
+        height: 40px;
+        display: block;
+    }
+    #boutonEvenementAVenir a span {
+        padding: 8px 0px 0px 0px;
+    }
+    #boutonEvenementAVenir a {
+        width: 106px;
+        height: 36px;
+    }
+    #boutonVenezDecouvrir {
         left: 350px;
-        width: 110px;
-        height: 40px;
-        min-height: 40px;
-        min-width: 110px;
-       
-        a span {
-            padding: 8px 0 0 0;
-        }
-
-        a {
-            width: 106px;
-            height: 36px;
-        }
-    }
-
-    #div_ecriture_paragraphe_conseilsdevoyage {
-        display: block;
-        top: 363px;
-        left: 20px;
-        width: 150px;
-        height: 168px;
-        min-height: 168px;
-        min-width: 150px;
-    }
-
-    #div_bouton_savoirplus_conseilsdevoyage {
-        display: block;
         top: 560px;
-        left: 40px;
-        width: 110px;
-        height: 40px;
-        min-height: 40px;
         min-width: 110px;
-    
-
-        a span {
-            padding: 8px 0 0 0;
-        }
-
-        a {
-            width: 106px;
-            height: 36px;
-        }
-    }
-
-    #div_trait_visiteinoubliable {
+        width: 110px;
+        min-height: 40px;
+        height: 40px;
         display: block;
-        top: 96px;
+    }
+    #boutonVenezDecouvrir a span {
+        padding: 8px 0px 0px 0px;
+    }
+    #boutonVenezDecouvrir a {
+        width: 106px;
+        height: 36px;
+    }
+    #ecritureConseilDeVoyage {
+        left: 20px;
+        top: 363px;
+        min-width: 150px;
+        width: 150px;
+        min-height: 168px;
+        height: 168px;
+        display: block;
+    }
+    #boutonConseilDeVoyage {
+        left: 40px;
+        top: 560px;
+        min-width: 110px;
+        width: 110px;
+        min-height: 40px;
+        height: 40px;
+        display: block;
+    }
+    #boutonConseilDeVoyage a span {
+        padding: 8px 0px 0px 0px;
+    }
+    #boutonConseilDeVoyage a {
+        width: 106px;
+        height: 36px;
+    }
+    #traitVisitesInoubliables {
         left: 240px;
-        width: 750px;
-        height: 20px;
-        min-height: 20px;
-        min-width: 750px;
-    }
-
-    #div_trait_conseilsdevoyage {
-        display: block;
         top: 96px;
-        left: 0;
-        width: 200px;
-        height: 20px;
+        min-width: 750px;
+        width: 750px;
         min-height: 20px;
+        height: 20px;
+        display: block;
+    }
+    #traitConseilsDeVoyage {
+        left: 0px;
+        top: 96px;
         min-width: 200px;
+        width: 200px;
+        min-height: 20px;
+        height: 20px;
+        display: block;
     }
 }
-
-@media(min-width:992px) {
+@media (min-width: 1200px) {
     #wb_header {
-        height: 0px;
+        height: 698px;
     }
-
     #wb_main {
         height: 623px;
     }
-
     #wb_footer {
         height: 80px;
     }
-
     body,
     .wb_sbg {
-        min-height: 1471px;
         min-width: 992px;
+        min-height: 1471px;
     }
-
     .root {
         width: 992px;
         height: 1471px;
         overflow: visible;
     }
-
     #div_menu {
-        display: block;
-        top: 10px;
         left: 498px;
-        width: 484px;
-        height: 40px;
-        min-height: 40px;
+        top: 10px;
         min-width: 484px;
-    }
-
-
-    #div_titre {
+        width: 484px;
+        min-height: 40px;
+        height: 40px;
         display: block;
-        top: 17px;
+    }
+    #div_menu ul {
+        background: transparent none repeat scroll left top;
+    }
+    #div_menu .btn-collapser {
+        display: none;
+    }
+    #div_menu > ul {
+        display: block;
+    }
+    #cadreLogo {
+        left: 20px;
+        top: 0px;
+        min-width: 360px;
+        width: 360px;
+        min-height: 110px;
+        height: 110px;
+        display: block;
+    }
+    #cadreLogo > div {
+        width: 360px;
+        height: 110px;
+    }
+    #logo {
         left: 27px;
-        width: 300px;
-        height: 84px;
-        min-height: 84px;
+        top: 17px;
         min-width: 300px;
-    }
-
-    #div_instagram {
-        .icone_social(@leftInstagram);
-    }
-
-
-    #div_facebook {
-        .icone_social(@leftFacebook);
-    }
-
-    #div_twitter {
-        .icone_social(@leftTwitter)
-    }
-
-    #div_ecriture_Paris {
+        width: 300px;
+        min-height: 75px;
+        height: 75px;
         display: block;
-        top: 338px;
-        left: 207px;
-        width: 290px;
-        height: 84px;
-        min-height: 84px;
-        min-width: 290px;
     }
-
-    #div_cadre_LaRegionParisienne {
+    #boutonInstagram {
+        left: 900px;
+        top: 27px;
+        min-width: 32px;
+        width: 32px;
+        min-height: 32px;
+        height: 32px;
         display: block;
-        top: 310px;
-        left: 510px;
-        width: 310px;
-        height: 150px;
-        min-height: 150px;
-        min-width: 310px;
-
-        > div {
-            width: 310px;
-            height: 150px;
-        }
     }
-
-    #div_cadre_Paris {
-        display: block;
-        top: 310px;
-        left: 200px;
-        width: 310px;
-        height: 150px;
-        min-height: 150px;
-        min-width: 310px;
-    
-
-        > div {
-            width: 310px;
-            height: 150px;
-        }
+    #boutonInstagram img {
+        width: 32px;
+        height: 32px;
+        position: static;
+        left: 0px;
+        top: 0px;
     }
-
-    #div_ecriture_LaRegionParisienne {
+    #boutonFacebook {
+        left: 850px;
+        top: 27px;
+        min-width: 32px;
+        width: 32px;
+        min-height: 32px;
+        height: 32px;
         display: block;
-        top: 334px;
-        left: 536px;
-        width: 270px;
-        height: 29px;
-        min-height: 29px;
-        min-width: 270px;
     }
-
-
-    #div_ecriture_guidevoyage {
-        display: block;
-        top: 400px;
-        left: 211px;
-        width: 280px;
-        height: 28px;
+    #boutonFacebook img {
+        width: 32px;
+        height: 32px;
+        position: static;
+        left: 0px;
+        top: 0px;
+    }
+    #ecritureFooter {
+        left: 50px;
+        top: 10px;
+        min-width: 530px;
+        width: 530px;
         min-height: 28px;
-        min-width: 280px;
-    }
-
-
-    #div_ecriture_visiteinoubliable {
+        height: 28px;
         display: block;
-        top: 60px;
-        left: 420px;
-        width: 350px;
-        height: 24px;
+    }
+    #wb_element_instance6 {
+        left: 670px;
+        top: 10px;
+        min-width: 110px;
+        width: 110px;
         min-height: 24px;
-        min-width: 350px;
-    }
-
-    #div_image_evenementavenir {
+        height: 24px;
         display: block;
-        top: 140px;
+    }
+    #boutonTwitter {
+        left: 950px;
+        top: 27px;
+        min-width: 32px;
+        width: 32px;
+        min-height: 32px;
+        height: 32px;
+        display: block;
+    }
+    #boutonTwitter img {
+        width: 32px;
+        height: 32px;
+        position: static;
+        left: 0px;
+        top: 0px;
+    }
+    #ecritureParis {
+        left: 207px;
+        top: 338px;
+        min-width: 290px;
+        width: 290px;
+        min-height: 75px;
+        height: 75px;
+        display: block;
+    }
+    #cadreLaRegionParisienne {
+        left: 510px;
+        top: 310px;
+        min-width: 310px;
+        width: 310px;
+        min-height: 150px;
+        height: 150px;
+        display: block;
+    }
+    #cadreLaRegionParisienne > div {
+        width: 310px;
+        height: 150px;
+    }
+    #cadreParis {
+        left: 200px;
+        top: 310px;
+        min-width: 310px;
+        width: 310px;
+        min-height: 150px;
+        height: 150px;
+        display: block;
+    }
+    #cadreParis > div {
+        width: 310px;
+        height: 150px;
+    }
+    #ecritureLaRegionParisienne {
+        left: 536px;
+        top: 334px;
+        min-width: 270px;
+        width: 270px;
+        min-height: 26px;
+        height: 26px;
+        display: block;
+    }
+    #boutonLaRegionParisienne {
+        left: 610px;
+        top: 400px;
+        min-width: 110px;
+        width: 110px;
+        min-height: 40px;
+        height: 40px;
+        display: block;
+    }
+    #boutonLaRegionParisienne a span {
+        padding: 8px 0px 0px 0px;
+    }
+    #boutonLaRegionParisienne a {
+        width: 106px;
+        height: 36px;
+    }
+    #ecritureGuideDeVoyage {
+        left: 211px;
+        top: 400px;
+        min-width: 280px;
+        width: 280px;
+        min-height: 24px;
+        height: 24px;
+        display: block;
+    }
+    #ecritureVisitesInoubliable {
+        left: 420px;
+        top: 60px;
+        min-width: 350px;
+        width: 350px;
+        min-height: 24px;
+        height: 24px;
+        display: block;
+    }
+    #imgEvenementAVenir {
         left: 640px;
+        top: 140px;
+        min-width: 340px;
+        width: 340px;
+        min-height: 200px;
+        height: 200px;
+        display: block;
+    }
+    #imgEvenementAVenir img {
         width: 340px;
         height: 200px;
-        min-height: 200px;
-        min-width: 340px;
-        overflow: hidden;
-    
-        img {
-            position: relative;
-            top: 0;
-            left: 0;
-            width: 356px;
-            height: 200px;
-            max-width: inherit;
-        }
+        position: static;
+        left: 0px;
+        top: 0px;
     }
-
-    #div_image_venezdecouvrirnotreregion {
-        display: block;
-        top: 140px;
+    #imgVenezDecouvrir {
         left: 240px;
+        top: 140px;
+        min-width: 340px;
+        width: 340px;
+        min-height: 190px;
+        height: 190px;
+        display: block;
+    }
+    #imgVenezDecouvrir img {
         width: 340px;
         height: 190px;
-        min-height: 190px;
-        min-width: 340px;
-
-        img {
-            position: static;
-            top: 0;
-            left: 0;
-            width: 340px;
-            height: 190px;
-        }
+        position: static;
+        left: 0px;
+        top: 0px;
     }
-
-    #div_venezdecouvrirnotreregion {
-        display: block;
-        top: 373px;
+    #ecritureVenezDecouvrir {
         left: 270px;
-        width: 270px;
-        height: 171px;
-        min-height: 171px;
-        min-width: 270px;
-    }
-
-    #div_evenementavenir {
-        display: block;
         top: 373px;
-        left: 680px;
-        width: 290px;
-        height: 123px;
-        min-height: 123px;
-        min-width: 290px;
-    }
-
-    #div_cadre_conseilsdevoyage {
+        min-width: 270px;
+        width: 270px;
+        min-height: 168px;
+        height: 168px;
         display: block;
-        top: 343px;
+    }
+    #ecritureEvenementAVenir {
+        left: 680px;
+        top: 373px;
+        min-width: 290px;
+        width: 290px;
+        min-height: 120px;
+        height: 120px;
+        display: block;
+    }
+    #cadreConseilDeVoyage {
         left: -3px;
+        top: 343px;
+        min-width: 200px;
+        width: 200px;
+        min-height: 280px;
+        height: 280px;
+        display: block;
+    }
+    #cadreConseilDeVoyage > div {
         width: 200px;
         height: 280px;
-        min-height: 280px;
-        min-width: 200px;
-    
-        > div {
-            width: 200px;
-            height: 280px;
-        }
     }
-
-    #div_image_conseilsdevoyage {
-        display: block;
-        top: 143px;
+    #imgConseilDeVoyage {
         left: -3px;
+        top: 143px;
+        min-width: 200px;
+        width: 200px;
+        min-height: 200px;
+        height: 200px;
+        display: block;
+    }
+    #imgConseilDeVoyage img {
         width: 200px;
         height: 200px;
-        min-height: 200px;
-        min-width: 200px;
-
-        img {
-            position: static;
-            top: 0;
-            left: 0;
-            width: 200px;
-            height: 200px;
-        }
+        position: static;
+        left: 0px;
+        top: 0px;
     }
-
-    #div_conseilsdevoyage {
-        display: block;
+    #titreConseilDeVoyage {
+        left: 0px;
         top: 60px;
-        left: 0;
-        width: 200px;
-        height: 24px;
-        min-height: 24px;
         min-width: 200px;
-    }
-
-    #div_cadre_venezdecouvrir {
+        width: 200px;
+        min-height: 24px;
+        height: 24px;
         display: block;
-        top: 330px;
+    }
+    #cadreVenezDecouvrir {
         left: 240px;
+        top: 330px;
+        min-width: 340px;
+        width: 340px;
+        min-height: 290px;
+        height: 290px;
+        display: block;
+    }
+    #cadreVenezDecouvrir > div {
         width: 340px;
         height: 290px;
-        min-height: 290px;
-        min-width: 340px;
-    
-        > div {
-            width: 340px;
-            height: 290px;
-        }
     }
-
-    #div_cadre_evenementavenir {
-        display: block;
-        top: 340px;
+    #cadreEvenementAVenir {
         left: 640px;
+        top: 340px;
+        min-width: 340px;
+        width: 340px;
+        min-height: 280px;
+        height: 280px;
+        display: block;
+    }
+    #cadreEvenementAVenir > div {
         width: 340px;
         height: 280px;
-        min-height: 280px;
-        min-width: 340px;
-
-        > div {
-            width: 340px;
-            height: 280px;
-        }
     }
-
-    #div_bouton_savoirplus_evenementavenir {
-        display: block;
-        top: 560px;
+    #boutonEvenementAVenir {
         left: 750px;
-        width: 110px;
-        height: 40px;
-        min-height: 40px;
-        min-width: 110px;
-    
-        a span {
-            padding: 8px 0 0 0;
-        }
-
-        a {
-            width: 106px;
-            height: 36px;
-        }
-    }
-
-    #div_bouton_savoirplus_venezdecouvrir {
-        display: block;
         top: 560px;
+        min-width: 110px;
+        width: 110px;
+        min-height: 40px;
+        height: 40px;
+        display: block;
+    }
+    #boutonEvenementAVenir a span {
+        padding: 8px 0px 0px 0px;
+    }
+    #boutonEvenementAVenir a {
+        width: 106px;
+        height: 36px;
+    }
+    #boutonVenezDecouvrir {
         left: 350px;
-        width: 110px;
-        height: 40px;
-        min-height: 40px;
-        min-width: 110px;
-    
-        a span {
-            padding: 8px 0 0 0;
-        }
-
-        a {
-            width: 106px;
-            height: 36px;
-        }
-    }
-
-    #div_ecriture_paragraphe_conseilsdevoyage {
-        display: block;
-        top: 363px;
-        left: 20px;
-        width: 150px;
-        height: 168px;
-        min-height: 168px;
-        min-width: 150px;
-    }
-
-    #div_bouton_savoirplus_conseilsdevoyage {
-        display: block;
         top: 560px;
-        left: 40px;
-        width: 110px;
-        height: 40px;
-        min-height: 40px;
         min-width: 110px;
-    
-        a span {
-            padding: 8px 0 0 0;
-        }
-
-        a {
-            width: 106px;
-            height: 36px;
-        }
-    }
-
-    #div_trait_visiteinoubliable {
+        width: 110px;
+        min-height: 40px;
+        height: 40px;
         display: block;
-        top: 96px;
+    }
+    #boutonVenezDecouvrir a span {
+        padding: 8px 0px 0px 0px;
+    }
+    #boutonVenezDecouvrir a {
+        width: 106px;
+        height: 36px;
+    }
+    #ecritureConseilDeVoyage {
+        left: 20px;
+        top: 363px;
+        min-width: 150px;
+        width: 150px;
+        min-height: 168px;
+        height: 168px;
+        display: block;
+    }
+    #boutonConseilDeVoyage {
+        left: 40px;
+        top: 560px;
+        min-width: 110px;
+        width: 110px;
+        min-height: 40px;
+        height: 40px;
+        display: block;
+    }
+    #boutonConseilDeVoyage a span {
+        padding: 8px 0px 0px 0px;
+    }
+    #boutonConseilDeVoyage a {
+        width: 106px;
+        height: 36px;
+    }
+    #traitVisitesInoubliables {
         left: 240px;
-        width: 750px;
-        height: 20px;
-        min-height: 20px;
-        min-width: 750px;
-    }
-
-    #div_trait_conseilsdevoyage {
-        display: block;
         top: 96px;
-        left: 0;
-        width: 200px;
-        height: 20px;
+        min-width: 750px;
+        width: 750px;
         min-height: 20px;
+        height: 20px;
+        display: block;
+    }
+    #traitConseilsDeVoyage {
+        left: 0px;
+        top: 96px;
         min-width: 200px;
+        width: 200px;
+        min-height: 20px;
+        height: 20px;
+        display: block;
     }
 }
-
-@media(min-width:1200px) {
-    #wb_header {
-        height: 0px;
-    }
-
-    #wb_main {
-        height: 623px;
-    }
-
-    #wb_footer {
-        height: 80px;
-    }
-
-    body,
-    .wb_sbg {
-        min-height: 1471px;
-        min-width: 992px;
-    }
-
-    .root {
-        width: 992px;
-        height: 1471px;
-        overflow: visible;
-    }
-
-    #div_menu {
-        display: block;
-        top: 10px;
-        left: 498px;
-        width: 484px;
-        height: 40px;
-        min-height: 40px;
-        min-width: 484px;
-    }
-
-
-    #div_titre {
-        display: block;
-        top: 17px;
-        left: 27px;
-        width: 300px;
-        height: 84px;
-        min-height: 84px;
-        min-width: 300px;
-    }
-
-    #div_instagram {
-        .icone_social(@leftInstagram);
-    }
-
-
-    #div_facebook {
-        .icone_social(@leftFacebook);
-    }
-
-    #div_twitter {
-        .icone_social(@leftTwitter);
-    }
-
-    #div_ecriture_Paris {
-        display: block;
-        top: 338px;
-        left: 207px;
-        width: 290px;
-        height: 84px;
-        min-height: 84px;
-        min-width: 290px;
-    }
-
-    #div_cadre_LaRegionParisienne {
-        display: block;
-        top: 310px;
-        left: 510px;
-        width: 310px;
-        height: 150px;
-        min-height: 150px;
-        min-width: 310px;
-    
-
-        > div {
-            width: 310px;
-            height: 150px;
-        }
-    }
-
-    #div_cadre_Paris {
-        display: block;
-        top: 310px;
-        left: 200px;
-        width: 310px;
-        height: 150px;
-        min-height: 150px;
-        min-width: 310px;
-    
-
-        > div {
-            width: 310px;
-            height: 150px;
-        }
-    }
-
-    #div_ecriture_LaRegionParisienne {
-        display: block;
-        top: 334px;
-        left: 536px;
-        width: 270px;
-        height: 29px;
-        min-height: 29px;
-        min-width: 270px;
-    }
-
-
-    #div_ecriture_guidevoyage {
-        display: block;
-        top: 400px;
-        left: 211px;
-        width: 280px;
-        height: 28px;
-        min-height: 28px;
-        min-width: 280px;
-    }
-
-    #div_ecriture_visiteinoubliable {
-        display: block;
-        top: 60px;
-        left: 420px;
-        width: 350px;
-        height: 24px;
-        min-height: 24px;
-        min-width: 350px;
-    }
-
-    #div_image_evenementavenir {
-        display: block;
-        top: 140px;
-        left: 640px;
-        width: 340px;
-        height: 200px;
-        min-height: 200px;
-        min-width: 340px;
-        overflow: hidden;
-
-        img {
-            position: relative;
-            top: 0;
-            left: 0;
-            width: 356px;
-            height: 200px;
-            max-width: inherit;
-        }
-    }
-
-    #div_image_venezdecouvrirnotreregion {
-        display: block;
-        top: 140px;
-        left: 240px;
-        width: 340px;
-        height: 190px;
-        min-height: 190px;
-        min-width: 340px;
-    
-        img {
-            position: static;
-            top: 0;
-            left: 0;
-            width: 340px;
-            height: 190px;
-        }
-    }
-
-    #div_venezdecouvrirnotreregion {
-        display: block;
-        top: 373px;
-        left: 270px;
-        width: 270px;
-        height: 171px;
-        min-height: 171px;
-        min-width: 270px;
-    }
-
-    #div_evenementavenir {
-        display: block;
-        top: 373px;
-        left: 680px;
-        width: 290px;
-        height: 123px;
-        min-height: 123px;
-        min-width: 290px;
-    }
-
-    #div_cadre_conseilsdevoyage {
-        display: block;
-        top: 343px;
-        left: -3px;
-        width: 200px;
-        height: 280px;
-        min-height: 280px;
-        min-width: 200px;
-
-        > div {
-            width: 200px;
-            height: 280px;
-        }
-    }
-
-    #div_image_conseilsdevoyage {
-        display: block;
-        top: 143px;
-        left: -3px;
-        width: 200px;
-        height: 200px;
-        min-height: 200px;
-        min-width: 200px;
-
-        img {
-            position: static;
-            top: 0;
-            left: 0;
-            width: 200px;
-            height: 200px;
-        }
-    }
-
-    #div_conseilsdevoyage {
-        display: block;
-        top: 60px;
-        left: 0;
-        width: 200px;
-        height: 24px;
-        min-height: 24px;
-        min-width: 200px;
-    }
-
-    #div_cadre_venezdecouvrir {
-        display: block;
-        top: 330px;
-        left: 240px;
-        width: 340px;
-        height: 290px;
-        min-height: 290px;
-        min-width: 340px;
-    
-        > div {
-            width: 340px;
-            height: 290px;
-        }
-    }
-
-    #div_cadre_evenementavenir {
-        display: block;
-        top: 340px;
-        left: 640px;
-        width: 340px;
-        height: 280px;
-        min-height: 280px;
-        min-width: 340px;
-
-        > div {
-            width: 340px;
-            height: 280px;
-        }
-    }
-
-    #div_bouton_savoirplus_evenementavenir {
-        display: block;
-        top: 560px;
-        left: 750px;
-        width: 110px;
-        height: 40px;
-        min-height: 40px;
-        min-width: 110px;
-
-        a span {
-            padding: 8px 0 0 0;
-        }
-
-        a {
-            width: 106px;
-            height: 36px;
-        }
-    }
-
-    #div_bouton_savoirplus_venezdecouvrir {
-        display: block;
-        top: 560px;
-        left: 350px;
-        width: 110px;
-        height: 40px;
-        min-height: 40px;
-        min-width: 110px;
-    
-        a span {
-            padding: 8px 0 0 0;
-        }
-
-        a {
-            width: 106px;
-            height: 36px;
-        }
-    }
-
-    #div_ecriture_paragraphe_conseilsdevoyage {
-        display: block;
-        top: 363px;
-        left: 20px;
-        width: 150px;
-        height: 168px;
-        min-height: 168px;
-        min-width: 150px;
-    }
-
-    #div_bouton_savoirplus_conseilsdevoyage {
-        display: block;
-        top: 560px;
-        left: 40px;
-        width: 110px;
-        height: 40px;
-        min-height: 40px;
-        min-width: 110px;
-    
-        a span {
-            padding: 8px 0 0 0;
-        }
-
-        a {
-            width: 106px;
-            height: 36px;
-        }
-    }
-
-    #div_trait_visiteinoubliable {
-        display: block;
-        top: 96px;
-        left: 240px;
-        width: 750px;
-        height: 20px;
-        min-height: 20px;
-        min-width: 750px;
-    }
-
-    #div_trait_conseilsdevoyage {
-        display: block;
-        top: 96px;
-        left: 0;
-        width: 200px;
-        height: 20px;
-        min-height: 20px;
-        min-width: 200px;
-    }
-}*/
