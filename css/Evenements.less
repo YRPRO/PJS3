@@ -1,1268 +1,2034 @@
-@leftInstagram: 900px;
-@leftFacebook: 850px;
-@leftTwitter: 950px;
-header {
-    height: 250px;
+#header {
     background: transparent none repeat scroll left top;
+    height: 250px;
 }
 
+#header {
+    height: 250px;
+}
 
 #principal {
-    height: 1394px;
-    padding: 0 0 70px 0;
     background: transparent none repeat scroll left top;
+    height: 1394px;
+    padding: 0 0 70px;
 }
 
+#principal {
+    height: 2884px;
+}
 
 #wb_footer {
-    height: 78px;
     background: transparent none repeat scroll left top;
+    height: 77px;
+}
+
+#wb_footer {
+    height: 77px;
 }
 
 body {
-    background: #fcf3d2 url("../gallery/929d69d99e87503631c3e559e93d61e0.jpg") no-repeat scroll center top;
+    background: #fcf3d2 url(../gallery_gen/929d69d99e87503631c3e559e93d61e0.jpg) no-repeat scroll center top;
 }
 
 .wb_sbg {
-    background: transparent url("../gallery/dad763187c3171ad64b3e88d1d511a44.jpg") repeat-x scroll center bottom;
+    background: transparent url(../gallery_gen/dad763187c3171ad64b3e88d1d511a44.jpg) repeat-x scroll center bottom;
 }
 
-body,
-.wb_sbg {
-    min-height: 1790px;
+body,.wb_sbg {
+    min-width: 320px;
+    min-height: 3281px;
+}
+
+.root {
+    width: 320px;
+    height: 3281px;
+    overflow: hidden;
+}
+
+#div_menu {
+    left: 170px;
+    top: 70px;
+    min-width: 130px;
+    width: 130px;
+    min-height: 30px;
+    height: 30px;
+    display: block;
+    z-index: 220;
+}
+
+#div_menu ul {
+    background: #fcf3d2 none repeat scroll left top;
+}
+
+#div_menu .btn-collapser {
+    display: inline-block;
+}
+
+#div_menu > ul {
+    display: none;
+}
+
+#div_menu.collapse-expanded > ul {
+    display: block;
+    float: none;
+    height: auto;
+}
+
+#div_menu.collapse-expanded > ul > li {
+    display: block;
+}
+
+#div_menu.collapse-expanded > ul > li > ul {
+    position: static;
+}
+
+#div_menu.collapse-expanded > ul > li:hover > ul {
+    display: none;
+}
+
+#div_menu ul {
+    border: 1px none #000;
+}
+
+#div_menu,#div_menu ul {
+    text-align: right;
+}
+
+#div_menu ul ul {
+    background: #2e2e2e none repeat scroll left top;
+}
+
+#div_menu li {
+    margin: 10px;
+}
+
+#div_menu li a {
+    text-transform: uppercase;
+    border: 0 none #000;
+    padding: 5px 10px;
+    font: normal normal 13px Georgia,serif;
+    text-decoration: none;
+    color: #8b4828;
+    line-height: 15px;
+    background: transparent none repeat scroll left top;
+}
+
+#div_menu li:hover > a,#div_menu li:focus > a {
+    border: 0 none #000;
+    font: normal normal 13px Georgia,serif;
+    text-decoration: none;
+    color: #00c2a2;
+    line-height: 15px;
+    background: transparent none no-repeat scroll center top;
+}
+
+#div_menu li.active > a {
+    border: 0 none #000;
+    font: normal normal 13px Georgia,serif;
+    text-decoration: none;
+    color: #00c292;
+    line-height: 15px;
+    background: transparent none no-repeat scroll center top;
+}
+
+#logo {
+    left: 0;
+    top: 0;
+    min-width: 320px;
+    width: 320px;
+    min-height: 80px;
+    height: 80px;
+    display: block;
+    z-index: 208;
+}
+
+#logo > div {
+    width: 320px;
+    height: 80px;
+    background: transparent;
+    border: 5px none silver;
+    opacity: .3;
+    border-radius: 0 0 0 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0 0 0 0;
+}
+
+#ecriture_logo {
+    left: 20px;
+    top: 10px;
+    min-width: 290px;
+    width: 290px;
+    min-height: 71px;
+    height: 71px;
+    display: block;
+    z-index: 212;
+}
+
+#image_instagram {
+    left: 280px;
+    top: 30px;
+    min-width: 30px;
+    width: 30px;
+    min-height: 30px;
+    height: 30px;
+    display: block;
+    z-index: 206;
+}
+
+#image_instagram img {
+    width: 30px;
+    height: 30px;
+    position: static;
+    left: 0;
+    top: 0;
+}
+
+#image_facebook {
+    left: 200px;
+    top: 30px;
+    min-width: 30px;
+    width: 30px;
+    min-height: 30px;
+    height: 30px;
+    display: block;
+    z-index: 207;
+}
+
+#image_facebook img {
+    width: 30px;
+    height: 30px;
+    position: static;
+    left: 0;
+    top: 0;
+}
+
+#div_nom_auteur {
+    left: 10px;
+    top: 0;
+    min-width: 310px;
+    width: 310px;
+    min-height: 45px;
+    height: 45px;
+    display: block;
+    z-index: 208;
+}
+
+#div_zyro {
+    left: 70px;
+    top: 50px;
+    min-width: 110px;
+    width: 110px;
+    min-height: 24px;
+    height: 24px;
+    display: block;
+    z-index: 209;
+}
+
+#image_twitter {
+    left: 240px;
+    top: 30px;
+    min-width: 30px;
+    width: 30px;
+    min-height: 30px;
+    height: 30px;
+    display: block;
+    z-index: 210;
+}
+
+#image_twitter img {
+    width: 30px;
+    height: 30px;
+    position: static;
+    left: 0;
+    top: 0;
+}
+
+#image_defile_millitaire {
+    left: 0;
+    top: 1820px;
+    min-width: 320px;
+    width: 320px;
+    min-height: 160px;
+    height: 160px;
+    display: block;
+    z-index: 118;
+    overflow: hidden;
+}
+
+#image_defile_millitaire img {
+    width: 440px;
+    height: 220px;
+    position: relative;
+    left: 0;
+    top: 0;
+    max-width: inherit;
+}
+
+#titre_image_defile_millitaire {
+    left: 40px;
+    top: 1990px;
+    min-width: 240px;
+    width: 240px;
+    min-height: 24px;
+    height: 24px;
+    display: block;
+    z-index: 119;
+}
+
+#texte_paris_plage {
+    left: 10px;
+    top: 2390px;
+    min-width: 310px;
+    width: 310px;
+    min-height: 279px;
+    height: 279px;
+    display: block;
+    z-index: 120;
+}
+
+#image_paris_plage {
+    left: 10px;
+    top: 2680px;
+    min-width: 310px;
+    width: 310px;
+    min-height: 170px;
+    height: 170px;
+    display: block;
+    z-index: 130;
+    overflow: hidden;
+}
+
+#image_paris_plage img {
+    width: 510px;
+    height: 290px;
+    position: relative;
+    left: 0;
+    top: 0;
+    max-width: inherit;
+}
+
+#titre_image_paris_plage {
+    left: 10px;
+    top: 2860px;
+    min-width: 300px;
+    width: 300px;
+    min-height: 24px;
+    height: 24px;
+    display: block;
+    z-index: 131;
+}
+
+#image_euro {
+    left: 80px;
+    top: 1070px;
+    min-width: 160px;
+    width: 160px;
+    min-height: 220px;
+    height: 220px;
+    display: block;
+    z-index: 132;
+}
+
+#image_euro img {
+    width: 160px;
+    height: 220px;
+    position: static;
+    left: 0;
+    top: 0;
+}
+
+#texte_noel {
+    left: 0;
+    top: 50px;
+    min-width: 320px;
+    width: 320px;
+    min-height: 399px;
+    height: 399px;
+    display: block;
+    z-index: 133;
+}
+
+#image_noel_1 {
+    left: 10px;
+    top: 450px;
+    min-width: 300px;
+    width: 300px;
+    min-height: 160px;
+    height: 160px;
+    display: block;
+    z-index: 134;
+    overflow: hidden;
+}
+
+#image_noel_1 img {
+    width: 300px;
+    height: 192.41379310345px;
+    position: relative;
+    left: 0;
+    top: 0;
+    max-width: inherit;
+}
+
+#image_noel_3 {
+    left: 10px;
+    top: 620px;
+    min-width: 300px;
+    width: 300px;
+    min-height: 220px;
+    height: 220px;
+    display: block;
+    z-index: 135;
+    overflow: hidden;
+}
+
+#image_noel_3 img {
+    width: 300px;
+    height: 227.58620689655px;
+    position: relative;
+    left: 0;
+    top: 0;
+    max-width: inherit;
+}
+
+#image_noel_2 {
+    left: 10px;
+    top: 850px;
+    min-width: 300px;
+    width: 300px;
+    min-height: 170px;
+    height: 170px;
+    display: block;
+    z-index: 136;
+    overflow: hidden;
+}
+
+#image_noel_2 img {
+    width: 330px;
+    height: 190px;
+    position: relative;
+    left: 0;
+    top: 0;
+    max-width: inherit;
+}
+
+#texte_euro {
+    left: 10px;
+    top: 1310px;
+    min-width: 300px;
+    width: 300px;
+    min-height: 495px;
+    height: 495px;
+    display: block;
+    z-index: 137;
+}
+
+#texte_14_juillet {
+    left: 10px;
+    top: 2030px;
+    min-width: 300px;
+    width: 300px;
+    min-height: 303px;
+    height: 303px;
+    display: block;
+    z-index: 138;
+}
+
+@media (min-width: 768px) {
+    #header {
+        height: 250px;
+    }
+
+    #principal {
+        height: 1574px;
+    }
+
+    #wb_footer {
+        height: 77px;
+    }
+
+    body,.wb_sbg {
+        min-width: 768px;
+        min-height: 1971px;
+    }
+
+    .root {
+        width: 768px;
+        height: 1971px;
+        overflow: visible;
+    }
+
+    #div_menu {
+        left: 120px;
+        top: 140px;
+        min-width: 490px;
+        width: 490px;
+        min-height: 50px;
+        height: 50px;
+        display: block;
+    }
+
+    #div_menu ul {
+        background: transparent none repeat scroll left top;
+    }
+
+    #div_menu .btn-collapser {
+        display: none;
+    }
+
+    #div_menu > ul {
+        display: block;
+    }
+
+    #logo {
+        left: 0;
+        top: 0;
+        min-width: 330px;
+        width: 330px;
+        min-height: 100px;
+        height: 100px;
+        display: block;
+    }
+
+    #logo > div {
+        width: 330px;
+        height: 100px;
+    }
+
+    #ecriture_logo {
+        left: 230px;
+        top: 40px;
+        min-width: 300px;
+        width: 300px;
+        min-height: 71px;
+        height: 71px;
+        display: block;
+    }
+
+    #image_instagram {
+        left: 680px;
+        top: 20px;
+        min-width: 30px;
+        width: 30px;
+        min-height: 30px;
+        height: 30px;
+        display: block;
+    }
+
+    #image_instagram img {
+        width: 30px;
+        height: 30px;
+        position: static;
+        left: 0;
+        top: 0;
+    }
+
+    #image_facebook {
+        left: 630px;
+        top: 20px;
+        min-width: 30px;
+        width: 30px;
+        min-height: 30px;
+        height: 30px;
+        display: block;
+    }
+
+    #image_facebook img {
+        width: 30px;
+        height: 30px;
+        position: static;
+        left: 0;
+        top: 0;
+    }
+
+    #div_nom_auteur {
+        left: 40px;
+        top: 20px;
+        min-width: 380px;
+        width: 380px;
+        min-height: 45px;
+        height: 45px;
+        display: block;
+    }
+
+    #div_zyro {
+        left: 480px;
+        top: 30px;
+        min-width: 100px;
+        width: 100px;
+        min-height: 24px;
+        height: 24px;
+        display: block;
+    }
+
+    #image_twitter {
+        left: 720px;
+        top: 20px;
+        min-width: 30px;
+        width: 30px;
+        min-height: 30px;
+        height: 30px;
+        display: block;
+    }
+
+    #image_twitter img {
+        width: 30px;
+        height: 30px;
+        position: static;
+        left: 0;
+        top: 0;
+    }
+
+    #image_defile_millitaire {
+        left: 200px;
+        top: 900px;
+        min-width: 350px;
+        width: 350px;
+        min-height: 180px;
+        height: 180px;
+        display: block;
+        overflow: hidden;
+    }
+
+    #image_defile_millitaire img {
+        width: 360px;
+        height: 180px;
+        position: relative;
+        left: -10px;
+        top: 0;
+        max-width: inherit;
+    }
+
+    #titre_image_defile_millitaire {
+        left: 260px;
+        top: 1090px;
+        min-width: 230px;
+        width: 230px;
+        min-height: 24px;
+        height: 24px;
+        display: block;
+    }
+
+    #texte_paris_plage {
+        left: 30px;
+        top: 1130px;
+        min-width: 720px;
+        width: 720px;
+        min-height: 135px;
+        height: 135px;
+        display: block;
+    }
+
+    #image_paris_plage {
+        left: 150px;
+        top: 1280px;
+        min-width: 450px;
+        width: 450px;
+        min-height: 260px;
+        height: 260px;
+        display: block;
+    }
+
+    #image_paris_plage img {
+        width: 450px;
+        height: 260px;
+        position: static;
+        left: 0;
+        top: 0;
+    }
+
+    #titre_image_paris_plage {
+        left: 230px;
+        top: 1550px;
+        min-width: 310px;
+        width: 310px;
+        min-height: 24px;
+        height: 24px;
+        display: block;
+    }
+
+    #image_euro {
+        left: 30px;
+        top: 470px;
+        min-width: 160px;
+        width: 160px;
+        min-height: 220px;
+        height: 220px;
+        display: block;
+    }
+
+    #image_euro img {
+        width: 160px;
+        height: 220px;
+        position: static;
+        left: 0;
+        top: 0;
+    }
+
+    #texte_noel {
+        left: 40px;
+        top: 30px;
+        min-width: 710px;
+        width: 710px;
+        min-height: 207px;
+        height: 207px;
+        display: block;
+    }
+
+    #image_noel_1 {
+        left: 70px;
+        top: 260px;
+        min-width: 200px;
+        width: 200px;
+        min-height: 130px;
+        height: 130px;
+        display: block;
+    }
+
+    #image_noel_1 img {
+        width: 200px;
+        height: 130px;
+        position: static;
+        left: 0;
+        top: 0;
+    }
+
+    #image_noel_3 {
+        left: 540px;
+        top: 260px;
+        min-width: 200px;
+        width: 200px;
+        min-height: 130px;
+        height: 130px;
+        display: block;
+        overflow: hidden;
+    }
+
+    #image_noel_3 img {
+        width: 200px;
+        height: 155.55555555556px;
+        position: relative;
+        left: 0;
+        top: 0;
+        max-width: inherit;
+    }
+
+    #image_noel_2 {
+        left: 280px;
+        top: 260px;
+        min-width: 250px;
+        width: 250px;
+        min-height: 140px;
+        height: 140px;
+        display: block;
+        overflow: hidden;
+    }
+
+    #image_noel_2 img {
+        width: 250px;
+        height: 140px;
+        position: relative;
+        left: 0;
+        top: -10px;
+        max-width: inherit;
+    }
+
+    #texte_euro {
+        left: 220px;
+        top: 450px;
+        min-width: 540px;
+        width: 540px;
+        min-height: 279px;
+        height: 279px;
+        display: block;
+    }
+
+    #texte_14_juillet {
+        left: 20px;
+        top: 750px;
+        min-width: 730px;
+        width: 730px;
+        min-height: 135px;
+        height: 135px;
+        display: block;
+    }
+}
+
+@media (min-width: 992px) {
+    #header {
+        height: 250px;
+    }
+
+    #principal {
+        height: 1394px;
+    }
+
+    #wb_footer {
+        height: 77px;
+    }
+
+    body,.wb_sbg {
+        min-width: 992px;
+        min-height: 1791px;
+    }
+
+    .root {
+        width: 992px;
+        height: 1791px;
+        overflow: visible;
+    }
+
+    #div_menu {
+        left: 498px;
+        top: 10px;
+        min-width: 484px;
+        width: 484px;
+        min-height: 40px;
+        height: 40px;
+        display: block;
+    }
+
+    #div_menu ul {
+        background: transparent none repeat scroll left top;
+    }
+
+    #div_menu .btn-collapser {
+        display: none;
+    }
+
+    #div_menu > ul {
+        display: block;
+    }
+
+    #logo {
+        left: 20px;
+        top: 0;
+        min-width: 360px;
+        width: 360px;
+        min-height: 110px;
+        height: 110px;
+        display: block;
+    }
+
+    #logo > div {
+        width: 360px;
+        height: 110px;
+    }
+
+    #ecriture_logo {
+        left: 27px;
+        top: 17px;
+        min-width: 300px;
+        width: 300px;
+        min-height: 75px;
+        height: 75px;
+        display: block;
+    }
+
+    #image_instagram {
+        left: 900px;
+        top: 27px;
+        min-width: 32px;
+        width: 32px;
+        min-height: 32px;
+        height: 32px;
+        display: block;
+    }
+
+    #image_instagram img {
+        width: 32px;
+        height: 32px;
+        position: static;
+        left: 0;
+        top: 0;
+    }
+
+    #image_facebook {
+        left: 850px;
+        top: 27px;
+        min-width: 32px;
+        width: 32px;
+        min-height: 32px;
+        height: 32px;
+        display: block;
+    }
+
+    #image_facebook img {
+        width: 32px;
+        height: 32px;
+        position: static;
+        left: 0;
+        top: 0;
+    }
+
+    #div_nom_auteur {
+        left: 50px;
+        top: 10px;
+        min-width: 530px;
+        width: 530px;
+        min-height: 28px;
+        height: 28px;
+        display: block;
+    }
+
+    #div_zyro {
+        left: 670px;
+        top: 10px;
+        min-width: 110px;
+        width: 110px;
+        min-height: 24px;
+        height: 24px;
+        display: block;
+    }
+
+    #image_twitter {
+        left: 950px;
+        top: 27px;
+        min-width: 32px;
+        width: 32px;
+        min-height: 32px;
+        height: 32px;
+        display: block;
+    }
+
+    #image_twitter img {
+        width: 32px;
+        height: 32px;
+        position: static;
+        left: 0;
+        top: 0;
+    }
+
+    #image_defile_millitaire {
+        left: 530px;
+        top: 750px;
+        min-width: 440px;
+        width: 440px;
+        min-height: 220px;
+        height: 220px;
+        display: block;
+    }
+
+    #image_defile_millitaire img {
+        width: 440px;
+        height: 220px;
+        position: static;
+        left: 0;
+        top: 0;
+    }
+
+    #titre_image_defile_millitaire {
+        left: 620px;
+        top: 980px;
+        min-width: 240px;
+        width: 240px;
+        min-height: 24px;
+        height: 24px;
+        display: block;
+    }
+
+    #texte_paris_plage {
+        left: 540px;
+        top: 1110px;
+        min-width: 430px;
+        width: 430px;
+        min-height: 211px;
+        height: 211px;
+        display: block;
+    }
+
+    #image_paris_plage {
+        left: 10px;
+        top: 1070px;
+        min-width: 510px;
+        width: 510px;
+        min-height: 290px;
+        height: 290px;
+        display: block;
+    }
+
+    #image_paris_plage img {
+        width: 510px;
+        height: 290px;
+        position: static;
+        left: 0;
+        top: 0;
+    }
+
+    #titre_image_paris_plage {
+        left: 100px;
+        top: 1370px;
+        min-width: 310px;
+        width: 310px;
+        min-height: 24px;
+        height: 24px;
+        display: block;
+    }
+
+    #image_euro {
+        left: 30px;
+        top: 490px;
+        min-width: 160px;
+        width: 160px;
+        min-height: 220px;
+        height: 220px;
+        display: block;
+    }
+
+    #image_euro img {
+        width: 160px;
+        height: 220px;
+        position: static;
+        left: 0;
+        top: 0;
+    }
+
+    #texte_noel {
+        left: 30px;
+        top: 70px;
+        min-width: 930px;
+        width: 930px;
+        min-height: 163px;
+        height: 163px;
+        display: block;
+    }
+
+    #image_noel_1 {
+        left: 60px;
+        top: 260px;
+        min-width: 290px;
+        width: 290px;
+        min-height: 180px;
+        height: 180px;
+        display: block;
+        overflow: hidden;
+    }
+
+    #image_noel_1 img {
+        width: 300px;
+        height: 192.41379310345px;
+        position: relative;
+        left: 0;
+        top: 0;
+        max-width: inherit;
+    }
+
+    #image_noel_3 {
+        left: 710px;
+        top: 260px;
+        min-width: 220px;
+        width: 220px;
+        min-height: 180px;
+        height: 180px;
+        display: block;
+        overflow: hidden;
+    }
+
+    #image_noel_3 img {
+        width: 300px;
+        height: 227.58620689655px;
+        position: relative;
+        left: 0;
+        top: 0;
+        max-width: inherit;
+    }
+
+    #image_noel_2 {
+        left: 360px;
+        top: 260px;
+        min-width: 340px;
+        width: 340px;
+        min-height: 180px;
+        height: 180px;
+        display: block;
+        overflow: hidden;
+    
+    #image_noel_2 img {
+        width: 330px;
+        height: 190px;
+        position: relative;
+        left: 0;
+        top: 0;
+        max-width: inherit;
+    }
+
+    #texte_euro {
+        left: 220px;
+        top: 490px;
+        min-width: 740px;
+        width: 740px;
+        min-height: 235px;
+        height: 235px;
+        display: block;
+    }
+
+    #texte_14_juillet {
+        left: 40px;
+        top: 750px;
+        min-width: 460px;
+        width: 460px;
+        min-height: 211px;
+        height: 211px;
+        display: block;
+    }
+}
+
+@media (min-width: 768px) {
+    #header {
+        height: 250px;
+    }
+
+    #principal {
+        height: 1574px;
+    }
+
+    #wb_footer {
+        height: 77px;
+    }
+
+    body,.wb_sbg {
+        min-width: 768px;
+        min-height: 1971px;
+    }
+
+    .root {
+        width: 768px;
+        height: 1971px;
+        overflow: visible;
+    }
+
+    #div_menu {
+        left: 120px;
+        top: 140px;
+        min-width: 490px;
+        width: 490px;
+        min-height: 50px;
+        height: 50px;
+        display: block;
+    }
+
+    #div_menu ul {
+        background: transparent none repeat scroll left top;
+    }
+
+    #div_menu .btn-collapser {
+        display: none;
+    }
+
+    #div_menu > ul {
+        display: block;
+    }
+
+    #logo {
+        left: 0;
+        top: 0;
+        min-width: 330px;
+        width: 330px;
+        min-height: 100px;
+        height: 100px;
+        display: block;
+    }
+
+    #logo > div {
+        width: 330px;
+        height: 100px;
+    }
+
+    #ecriture_logo {
+        left: 230px;
+        top: 40px;
+        min-width: 300px;
+        width: 300px;
+        min-height: 71px;
+        height: 71px;
+        display: block;
+    }
+
+    #image_instagram {
+        left: 680px;
+        top: 20px;
+        min-width: 30px;
+        width: 30px;
+        min-height: 30px;
+        height: 30px;
+        display: block;
+    }
+
+    #image_instagram img {
+        width: 30px;
+        height: 30px;
+        position: static;
+        left: 0;
+        top: 0;
+    }
+
+    #image_facebook {
+        left: 630px;
+        top: 20px;
+        min-width: 30px;
+        width: 30px;
+        min-height: 30px;
+        height: 30px;
+        display: block;
+    }
+
+    #image_facebook img {
+        width: 30px;
+        height: 30px;
+        position: static;
+        left: 0;
+        top: 0;
+    }
+
+    #div_nom_auteur {
+        left: 40px;
+        top: 20px;
+        min-width: 380px;
+        width: 380px;
+        min-height: 45px;
+        height: 45px;
+        display: block;
+    }
+
+    #div_zyro {
+        left: 480px;
+        top: 30px;
+        min-width: 100px;
+        width: 100px;
+        min-height: 24px;
+        height: 24px;
+        display: block;
+    }
+
+    #image_twitter {
+        left: 720px;
+        top: 20px;
+        min-width: 30px;
+        width: 30px;
+        min-height: 30px;
+        height: 30px;
+        display: block;
+    }
+
+    #image_twitter img {
+        width: 30px;
+        height: 30px;
+        position: static;
+        left: 0;
+        top: 0;
+    }
+
+    #image_defile_millitaire {
+        left: 200px;
+        top: 900px;
+        min-width: 350px;
+        width: 350px;
+        min-height: 180px;
+        height: 180px;
+        display: block;
+        overflow: hidden;
+    }
+
+    #image_defile_millitaire img {
+        width: 360px;
+        height: 180px;
+        position: relative;
+        left: -10px;
+        top: 0;
+        max-width: inherit;
+    }
+
+    #titre_image_defile_millitaire {
+        left: 260px;
+        top: 1090px;
+        min-width: 230px;
+        width: 230px;
+        min-height: 24px;
+        height: 24px;
+        display: block;
+    }
+
+    #texte_paris_plage {
+        left: 30px;
+        top: 1130px;
+        min-width: 720px;
+        width: 720px;
+        min-height: 135px;
+        height: 135px;
+        display: block;
+    }
+
+    #image_paris_plage {
+        left: 150px;
+        top: 1280px;
+        min-width: 450px;
+        width: 450px;
+        min-height: 260px;
+        height: 260px;
+        display: block;
+    }
+
+    #image_paris_plage img {
+        width: 450px;
+        height: 260px;
+        position: static;
+        left: 0;
+        top: 0;
+    }
+
+    #titre_image_paris_plage {
+        left: 230px;
+        top: 1550px;
+        min-width: 310px;
+        width: 310px;
+        min-height: 24px;
+        height: 24px;
+        display: block;
+    }
+
+    #image_euro {
+        left: 30px;
+        top: 470px;
+        min-width: 160px;
+        width: 160px;
+        min-height: 220px;
+        height: 220px;
+        display: block;
+    }
+
+    #image_euro img {
+        width: 160px;
+        height: 220px;
+        position: static;
+        left: 0;
+        top: 0;
+    }
+
+    #texte_noel {
+        left: 40px;
+        top: 30px;
+        min-width: 710px;
+        width: 710px;
+        min-height: 207px;
+        height: 207px;
+        display: block;
+    }
+
+    #image_noel_1 {
+        left: 70px;
+        top: 260px;
+        min-width: 200px;
+        width: 200px;
+        min-height: 130px;
+        height: 130px;
+        display: block;
+    }
+
+    #image_noel_1 img {
+        width: 200px;
+        height: 130px;
+        position: static;
+        left: 0;
+        top: 0;
+    }
+
+    #image_noel_3 {
+        left: 540px;
+        top: 260px;
+        min-width: 200px;
+        width: 200px;
+        min-height: 130px;
+        height: 130px;
+        display: block;
+        overflow: hidden;
+    }
+
+    #image_noel_3 img {
+        width: 200px;
+        height: 155.55555555556px;
+        position: relative;
+        left: 0;
+        top: 0;
+        max-width: inherit;
+    }
+
+    #image_noel_2 {
+        left: 280px;
+        top: 260px;
+        min-width: 250px;
+        width: 250px;
+        min-height: 140px;
+        height: 140px;
+        display: block;
+        overflow: hidden;
+    }
+
+    #image_noel_2 img {
+        width: 250px;
+        height: 140px;
+        position: relative;
+        left: 0;
+        top: -10px;
+        max-width: inherit;
+    }
+
+    #texte_euro {
+        left: 220px;
+        top: 450px;
+        min-width: 540px;
+        width: 540px;
+        min-height: 279px;
+        height: 279px;
+        display: block;
+    }
+
+    #texte_14_juillet {
+        left: 20px;
+        top: 750px;
+        min-width: 730px;
+        width: 730px;
+        min-height: 135px;
+        height: 135px;
+        display: block;
+    }
+}
+
+@media (min-width: 992px) {
+    #header {
+        height: 250px;
+    }
+
+    #principal {
+        height: 1394px;
+    }
+
+    #wb_footer {
+        height: 77px;
+    }
+
+    body,.wb_sbg {
+        min-width: 992px;
+        min-height: 1791px;
+    }
+
+    .root {
+        width: 992px;
+        height: 1791px;
+        overflow: visible;
+    }
+
+    #div_menu {
+        left: 498px;
+        top: 10px;
+        min-width: 484px;
+        width: 484px;
+        min-height: 40px;
+        height: 40px;
+        display: block;
+    }
+
+    #div_menu ul {
+        background: transparent none repeat scroll left top;
+    }
+
+    #div_menu .btn-collapser {
+        display: none;
+    }
+
+    #div_menu > ul {
+        display: block;
+    }
+
+    #logo {
+        left: 20px;
+        top: 0;
+        min-width: 360px;
+        width: 360px;
+        min-height: 110px;
+        height: 110px;
+        display: block;
+    }
+
+    #logo > div {
+        width: 360px;
+        height: 110px;
+    }
+
+    #ecriture_logo {
+        left: 27px;
+        top: 17px;
+        min-width: 300px;
+        width: 300px;
+        min-height: 75px;
+        height: 75px;
+        display: block;
+    }
+
+    #image_instagram {
+        left: 900px;
+        top: 27px;
+        min-width: 32px;
+        width: 32px;
+        min-height: 32px;
+        height: 32px;
+        display: block;
+    }
+
+    #image_instagram img {
+        width: 32px;
+        height: 32px;
+        position: static;
+        left: 0;
+        top: 0;
+    }
+
+    #image_facebook {
+        left: 850px;
+        top: 27px;
+        min-width: 32px;
+        width: 32px;
+        min-height: 32px;
+        height: 32px;
+        display: block;
+    }
+
+    #image_facebook img {
+        width: 32px;
+        height: 32px;
+        position: static;
+        left: 0;
+        top: 0;
+    }
+
+    #div_nom_auteur {
+        left: 50px;
+        top: 10px;
+        min-width: 530px;
+        width: 530px;
+        min-height: 28px;
+        height: 28px;
+        display: block;
+    }
+
+    #div_zyro {
+        left: 670px;
+        top: 10px;
+        min-width: 110px;
+        width: 110px;
+        min-height: 24px;
+        height: 24px;
+        display: block;
+    }
+
+    #image_twitter {
+        left: 950px;
+        top: 27px;
+        min-width: 32px;
+        width: 32px;
+        min-height: 32px;
+        height: 32px;
+        display: block;
+    }
+
+    #image_twitter img {
+        width: 32px;
+        height: 32px;
+        position: static;
+        left: 0;
+        top: 0;
+    }
+
+    #image_defile_millitaire {
+        left: 530px;
+        top: 750px;
+        min-width: 440px;
+        width: 440px;
+        min-height: 220px;
+        height: 220px;
+        display: block;
+    }
+
+    #image_defile_millitaire img {
+        width: 440px;
+        height: 220px;
+        position: static;
+        left: 0;
+        top: 0;
+    }
+
+    #titre_image_defile_millitaire {
+        left: 620px;
+        top: 980px;
+        min-width: 240px;
+        width: 240px;
+        min-height: 24px;
+        height: 24px;
+        display: block;
+    }
+
+    #texte_paris_plage {
+        left: 540px;
+        top: 1110px;
+        min-width: 430px;
+        width: 430px;
+        min-height: 211px;
+        height: 211px;
+        display: block;
+    }
+
+    #image_paris_plage {
+        left: 10px;
+        top: 1070px;
+        min-width: 510px;
+        width: 510px;
+        min-height: 290px;
+        height: 290px;
+        display: block;
+    }
+
+    #image_paris_plage img {
+        width: 510px;
+        height: 290px;
+        position: static;
+        left: 0;
+        top: 0;
+    }
+
+    #titre_image_paris_plage {
+        left: 100px;
+        top: 1370px;
+        min-width: 310px;
+        width: 310px;
+        min-height: 24px;
+        height: 24px;
+        display: block;
+    }
+
+    #image_euro {
+        left: 30px;
+        top: 490px;
+        min-width: 160px;
+        width: 160px;
+        min-height: 220px;
+        height: 220px;
+        display: block;
+    }
+
+    #image_euro img {
+        width: 160px;
+        height: 220px;
+        position: static;
+        left: 0;
+        top: 0;
+    }
+
+    #texte_noel {
+        left: 30px;
+        top: 70px;
+        min-width: 930px;
+        width: 930px;
+        min-height: 163px;
+        height: 163px;
+        display: block;
+    }
+
+    #image_noel_1 {
+        left: 60px;
+        top: 260px;
+        min-width: 290px;
+        width: 290px;
+        min-height: 180px;
+        height: 180px;
+        display: block;
+        overflow: hidden;
+    }
+
+    #image_noel_1 img {
+        width: 300px;
+        height: 192.41379310345px;
+        position: relative;
+        left: 0;
+        top: 0;
+        max-width: inherit;
+    }
+
+    #image_noel_3 {
+        left: 710px;
+        top: 260px;
+        min-width: 220px;
+        width: 220px;
+        min-height: 180px;
+        height: 180px;
+        display: block;
+        overflow: hidden;
+    }
+
+    #image_noel_3 img {
+        width: 300px;
+        height: 227.58620689655px;
+        position: relative;
+        left: 0;
+        top: 0;
+        max-width: inherit;
+    }
+
+    #image_noel_2 {
+        left: 360px;
+        top: 260px;
+        min-width: 340px;
+        width: 340px;
+        min-height: 180px;
+        height: 180px;
+        display: block;
+        overflow: hidden;
+    }
+
+    #image_noel_2 img {
+        width: 330px;
+        height: 190px;
+        position: relative;
+        left: 0;
+        top: 0;
+        max-width: inherit;
+    }
+
+    #texte_euro {
+        left: 220px;
+        top: 490px;
+        min-width: 740px;
+        width: 740px;
+        min-height: 235px;
+        height: 235px;
+        display: block;
+    }
+
+    #texte_14_juillet {
+        left: 40px;
+        top: 750px;
+        min-width: 460px;
+        width: 460px;
+        min-height: 211px;
+        height: 211px;
+        display: block;
+    }
+}
+
+@media (min-width: 1200px) {
+    #header {
+        height: 250px;
+    }
+
+#principal {
+    height: 1394px;
+}
+
+#wb_footer {
+    height: 77px;
+}
+
+body,.wb_sbg {
     min-width: 992px;
+    min-height: 1791px;
 }
 
 .root {
     width: 992px;
-    height: 1471px;
+    height: 1791px;
     overflow: visible;
 }
 
-#menu {
-    display: block;
-    z-index: 194;
-    top: 10px;
+#div_menu {
     left: 498px;
-    width: 484px;
-    height: 40px;
-    min-height: 40px;
+    top: 10px;
     min-width: 484px;
+    width: 484px;
+    min-height: 40px;
+    height: 40px;
+    display: block;
+}
 
-    ul{
-        border: 1px none #000000;
-        background: transparent none repeat scroll left top;
-        text-align: right;
-    }
-    ul ul {
-        background: #2e2e2e none repeat scroll left top;
-    }
-    li {
-        margin: 10px 10px 10px 10px;
-    }
+#div_menu ul {
+    background: transparent none repeat scroll left top;
+}
 
-    li a {
-        padding: 5px 10px 5px 10px;
-        border: 0 none #000000;
-        text-decoration: none;
-        text-transform: uppercase;
-        font: normal normal 13px Georgia,serif;
-        line-height: 15px;
-        color: #8b4828;
-        background: transparent none repeat scroll left top;
-    }
-    li:hover > a,
-    li:focus > a {
-        border: 0 none #000000;
-        text-decoration: none;
-        font: normal normal 13px Georgia,serif;
-        line-height: 15px;
-        color: #00c2a2;
-        background: transparent none no-repeat scroll center top;
-    }
-    li.active > a {
-        border: 0 none #000000;
-        text-decoration: none;
-        font: normal normal 13px Georgia,serif;
-        line-height: 15px;
-        color: #00c292;
-        background: transparent none no-repeat scroll center top;
-    }
-}   
+#div_menu .btn-collapser {
+    display: none;
+}
 
+#div_menu > ul {
+    display: block;
+}
 
 #logo {
-    display: block;
-    z-index: 182;
+    left: 20px;
     top: 0;
-    left: 0;
-    width: 360px;
-    height: 110px;
-    min-height: 110px;
     min-width: 360px;
-
-
+    width: 360px;
+    min-height: 110px;
+    height: 110px;
+    display: block;
 }
 
 #logo > div {
     width: 360px;
     height: 110px;
-    border: 5px none #C0C0C0;
-    -webkit-border-radius: 0 0 0 0;
-    -moz-border-radius: 0 0 0 0;
-    border-radius: 0 0 0 0;
-    opacity: 0.3;
-    background: transparent;
 }
 
-#logo_position {
-    display: block;
-    z-index: 186;
-    top: 17px;
+#ecriture_logo {
     left: 27px;
-    width: 300px;
-    height: 84px;
-    min-height: 84px;
+    top: 17px;
     min-width: 300px;
-}
-.image{
-    position: static;
-    top: 0;
-    left: 0;
-    width: 32px;
-    height: 32px;
-}
-.icone_social {
+    width: 300px;
+    min-height: 75px;
+    height: 75px;
     display: block;
-    top: 27px;    
-    width: 32px;
-    height: 32px;
-    min-height: 32px;
-    min-width: 32px;
-}
-#image_instagram {
-    .icone_social; 
-    z-index: 180;
-    left: 900px;
-   
 }
 
-#image_instagram  {
-    .image;
+#image_instagram {
+    left: 900px;
+    top: 27px;
+    min-width: 32px;
+    width: 32px;
+    min-height: 32px;
+    height: 32px;
+    display: block;
+}
+
+#image_instagram img {
+    width: 32px;
+    height: 32px;
+    position: static;
+    left: 0;
+    top: 0;
 }
 
 #image_facebook {
-    .icone_social;
-    z-index: 181;
     left: 850px;
-    
-}
-
-#image_facebook  {
-    .image;
-}
-#image_facebook  {
-    .icone_social;
-    z-index: 182;
-    left: 50px; 
-    
-}
-
-
-
-#image_twiter {
-    .icone_social;
-    z-index: 184;
-    left: 950px;
-}
-
-#image_twiter  {
-    .image;
-}
-
-.icone_social(@leftSocial) {
-    display: block;
-    left: @leftSocial;
     top: 27px;
+    min-width: 32px;
+    width: 32px;
+    min-height: 32px;
+    height: 32px;
+    display: block;
+}
+
+#image_facebook img {
     width: 32px;
     height: 32px;
-    min-height: 32px;
-    min-width: 32px;
-}
-
-
-
-#div_instagram {
-    z-index: 183;
-   .icone_social(@leftInstagram);
-}
-
-
-#div_facebook {
-    z-index: 180;
-    .icone_social(@leftFacebook);
-}
-
-#div_twitter {
-    z-index: 181;
-    .icone_social(@leftTwitter);
-}
-
-
-#div_ecriture_nombasdepage {
-    display: block;
-    z-index: 182;
-    top: 10px;
-    left: 50px;
-    width: 530px;
-    height: 30px;
-    min-height: 30px;
-    min-width: 530px;
-}
-
-#image_fete_14juillet {
-    display: block;
-    z-index: 110;
-    top: 750px;
-    left: 530px;
-    width: 440px;
-    height: 220px;
-    min-height: 220px;
-    min-width: 440px;
-     position: static;
-    
-}
-
-#image_fete_14juillet img {
     position: static;
-    top: 750px;
+    left: 0;
+    top: 0;
+}
+
+#div_nom_auteur {
+    left: 50px;
+    top: 10px;
+    min-width: 530px;
+    width: 530px;
+    min-height: 28px;
+    height: 28px;
+    display: block;
+}
+
+#div_zyro {
+    left: 670px;
+    top: 10px;
+    min-width: 110px;
+    width: 110px;
+    min-height: 24px;
+    height: 24px;
+    display: block;
+}
+
+#image_twitter {
+    left: 950px;
+    top: 27px;
+    min-width: 32px;
+    width: 32px;
+    min-height: 32px;
+    height: 32px;
+    display: block;
+}
+
+#image_twitter img {
+    width: 32px;
+    height: 32px;
+    position: static;
+    left: 0;
+    top: 0;
+}
+
+#image_defile_millitaire {
     left: 530px;
+    top: 750px;
+    min-width: 440px;
+    width: 440px;
+    min-height: 220px;
+    height: 220px;
+    display: block;
+}
+
+#image_defile_millitaire img {
     width: 440px;
     height: 220px;
+    position: static;
+    left: 0;
+    top: 0;
 }
 
 #titre_image_defile_millitaire {
-    display: block;
-    z-index: 111;
-    top: 980px;
     left: 620px;
-    width: 240px;
-    height: 24px;
-    min-height: 24px;
+    top: 980px;
     min-width: 240px;
+    width: 240px;
+    min-height: 24px;
+    height: 24px;
+    display: block;
 }
 
-#text_paris_plage {
-    display: block;
-    z-index: 112;
-    top: 1110px;
+#texte_paris_plage {
     left: 540px;
-    width: 430px;
-    height: 211px;
-    min-height: 211px;
+    top: 1110px;
     min-width: 430px;
+    width: 430px;
+    min-height: 211px;
+    height: 211px;
+    display: block;
 }
 
 #image_paris_plage {
-    display: block;
-    z-index: 122;
-    top: 1070px;
     left: 10px;
-    width: 510px;
-    height: 290px;
-    min-height: 290px;
+    top: 1070px;
     min-width: 510px;
+    width: 510px;
+    min-height: 290px;
+    height: 290px;
+    display: block;
 }
 
 #image_paris_plage img {
-    position: static;
-    top: 0;
-    left: 0;
     width: 510px;
     height: 290px;
+    position: static;
+    left: 0;
+    top: 0;
 }
 
 #titre_image_paris_plage {
-    display: block;
-    z-index: 123;
-    top: 1370px;
     left: 100px;
-    width: 310px;
-    height: 24px;
-    min-height: 24px;
+    top: 1370px;
     min-width: 310px;
+    width: 310px;
+    min-height: 24px;
+    height: 24px;
+    display: block;
 }
 
 #image_euro {
-    display: block;
-    z-index: 124;
-    top: 490px;
     left: 30px;
-    width: 160px;
-    height: 220px;
-    min-height: 220px;
+    top: 490px;
     min-width: 160px;
+    width: 160px;
+    min-height: 220px;
+    height: 220px;
+    display: block;
 }
 
 #image_euro img {
-    position: static;
-    top: 0;
-    left: 0;
     width: 160px;
     height: 220px;
+    position: static;
+    left: 0;
+    top: 0;
 }
 
-#texte_noel_paris {
-    display: block;
-    z-index: 125;
-    top: 70px;
+#texte_noel {
     left: 30px;
-    width: 930px;
-    height: 163px;
-    min-height: 163px;
+    top: 70px;
     min-width: 930px;
+    width: 930px;
+    min-height: 163px;
+    height: 163px;
+    display: block;
 }
 
-#image_1_noel {
-    display: block;
-    z-index: 126;
-    top: 260px;
+#image_noel_1 {
     left: 60px;
-    width: 290px;
-    height: 180px;
-    min-height: 180px;
+    top: 260px;
     min-width: 290px;
-}
-
-#image_1_noel img {
-    position: static;
-    top: 0;
-    left: 0;
     width: 290px;
+    min-height: 180px;
     height: 180px;
+    display: block;
+    overflow: hidden;
 }
 
-#image_3_noel {
-    display: block;
-    z-index: 127;
-    top: 260px;
+#image_noel_1 img {
+    width: 300px;
+    height: 192.41379310345px;
+    position: relative;
+    left: 0;
+    top: 0;
+    max-width: inherit;
+}
+
+#image_noel_3 {
     left: 710px;
-    width: 220px;
-    height: 180px;
-    min-height: 180px;
-    min-width: 220px;
-}
-
-#image_3_noel img {
-    position: static;
-    top: 0;
-    left: 0;
-    width: 220px;
-    height: 180px;
-}
-
-#image_2_noel {
-    display: block;
-    z-index: 128;
     top: 260px;
-    left: 360px;
-    width: 340px;
-    height: 180px;
+    min-width: 220px;
+    width: 220px;
     min-height: 180px;
-    min-width: 340px;
+    height: 180px;
+    display: block;
+    overflow: hidden;
 }
 
-#image_2_noel img {
-    position: static;
-    top: 0;
+#image_noel_3 img {
+    width: 300px;
+    height: 227.58620689655px;
+    position: relative;
     left: 0;
+    top: 0;
+    max-width: inherit;
+}
+
+#image_noel_2 {
+    left: 360px;
+    top: 260px;
+    min-width: 340px;
     width: 340px;
+    min-height: 180px;
     height: 180px;
+    display: block;
+    overflow: hidden;
+}
+
+#image_noel_2 img {
+    width: 330px;
+    height: 190px;
+    position: relative;
+    left: 0;
+    top: 0;
+    max-width: inherit;
 }
 
 #texte_euro {
-    display: block;
-    z-index: 129;
-    top: 490px;
     left: 220px;
-    width: 740px;
-    height: 235px;
-    min-height: 235px;
+    top: 490px;
     min-width: 740px;
+    width: 740px;
+    min-height: 235px;
+    height: 235px;
+    display: block;
 }
 
 #texte_14_juillet {
-    display: block;
-    z-index: 130;
-    top: 750px;
     left: 40px;
-    width: 460px;
-    height: 211px;
-    min-height: 211px;
+    top: 750px;
     min-width: 460px;
-}
-
-#div_js {
+    width: 460px;
+    min-height: 211px;
+    height: 211px;
     display: block;
-    z-index: 9000;
-    top: 1414px;
-    left: 0;
+}    
 }
-
-#wb_element_instance108 {
-    display: block;
-    z-index: 9999;
-    top: 79px;
-    left: 0;
-}
-
-@media(min-width:768px) {
-    header {
-        height: 250px;
-    }
-
-    #principal {
-        height: 1394px;
-    }
-
-    #wb_footer {
-        height: 78px;
-    }
-
-    body,
-    .wb_sbg {
-        min-height: 1790px;
-        min-width: 992px;
-    }
-
-    .root {
-       width: 992px;
-        height: 1471px;
-        overflow: visible;
-    }
-
-    #menu {
-        display: block;
-        top: 10px;
-        left: 498px;
-        width: 484px;
-        height: 40px;
-        min-height: 40px;
-        min-width: 484px;
-    }
-
-    #logo {
-        display: block;
-        top: 0;
-        left: 0;
-        width: 360px;
-        height: 110px;
-        min-height: 110px;
-        min-width: 360px;
-    }
-
-    #logo > div {
-        width: 360px;
-        height: 110px;
-    }
-
-    #logo_position {
-        display: block;
-        top: 17px;
-        left: 27px;
-        width: 300px;
-        height: 84px;
-        min-height: 84px;
-        min-width: 300px;
-    }
-
-    #image_instagram {
-        .icone_social;
-        left: 900px;
-    }
-
-    #image_instagram  {
-        .image;
-    }
-
-    #image_facebook {
-        .icone_social;
-        left: 850px;
-    }
-
-    #image_facebook  {
-        .image;
-    }
-
-    #nom_footer {
-        display: block;
-        top: 10px;
-        left: 50px;
-        width: 530px;
-        height: 30px;
-        min-height: 30px;
-        min-width: 530px;
-    }
-
- 
-
-    #image_twiter {
-        .icone_social;
-        left: 950px;
-    }
-
-    #image_twiter  {
-        .image;
-    }
-
-    #image_fete_14juillet img {
-        display: block;
-        top: 750px;
-        left: 530px;
-        width: 440px;
-        height: 220px;
-        min-height: 220px;
-        min-width: 440px;
-    }
-
-    #image_fete_14juillet img {
-        position: static;
-        top: 0;
-        left: 0;
-        width: 440px;
-        height: 220px;
-    }
-
-    #titre_image_defile_millitaire {
-        display: block;
-        top: 980px;
-        left: 620px;
-        width: 240px;
-        height: 24px;
-        min-height: 24px;
-        min-width: 240px;
-    }
-
-    #text_paris_plage {
-        display: block;
-        top: 1110px;
-        left: 540px;
-        width: 430px;
-        height: 211px;
-        min-height: 211px;
-        min-width: 430px;
-    }
-
-    #image_paris_plage {
-        display: block;
-        top: 1070px;
-        left: 10px;
-        width: 510px;
-        height: 290px;
-        min-height: 290px;
-        min-width: 510px;
-    }
-
-    #image_paris_plage img {
-        position: static;
-        top: 0;
-        left: 0;
-        width: 510px;
-        height: 290px;
-    }
-
-    #titre_image_paris_plage {
-        display: block;
-        top: 1370px;
-        left: 100px;
-        width: 310px;
-        height: 24px;
-        min-height: 24px;
-        min-width: 310px;
-    }
-
-    #image_euro {
-        display: block;
-        top: 490px;
-        left: 30px;
-        width: 160px;
-        height: 220px;
-        min-height: 220px;
-        min-width: 160px;
-    }
-
-    #image_euro img {
-        position: static;
-        top: 0;
-        left: 0;
-        width: 160px;
-        height: 220px;
-    }
-
-    #texte_noel_paris {
-        display: block;
-        top: 70px;
-        left: 30px;
-        width: 930px;
-        height: 163px;
-        min-height: 163px;
-        min-width: 930px;
-    }
-
-    #image_1_noel {
-        display: block;
-        top: 260px;
-        left: 60px;
-        width: 290px;
-        height: 180px;
-        min-height: 180px;
-        min-width: 290px;
-        overflow: hidden;
-    }
-
-    #image_1_noel img {
-        position: relative;
-        top: 0;
-        left: 0;
-        width: 290px;
-        height: 186.42857142857px;
-        max-width: inherit;
-    }
-
-    #image_3_noel {
-        display: block;
-        top: 260px;
-        left: 710px;
-        width: 220px;
-        height: 180px;
-        min-height: 180px;
-        min-width: 220px;
-        overflow: hidden;
-    }
-
-    #image_3_noel img {
-        position: relative;
-        top: 0;
-        left: 0;
-        width: 230px;
-        height: 180px;
-        max-width: inherit;
-    }
-
-    #image_2_noel {
-        display: block;
-        top: 260px;
-        left: 360px;
-        width: 340px;
-        height: 180px;
-        min-height: 180px;
-        min-width: 340px;
-        overflow: hidden;
-    }
-
-    #image_2_noel img {
-        position: relative;
-        top: -10px;
-        left: 0;
-        width: 340px;
-        height: 191px;
-        max-width: inherit;
-    }
-
-    #texte_euro {
-        display: block;
-        top: 490px;
-        left: 220px;
-        width: 740px;
-        height: 235px;
-        min-height: 235px;
-        min-width: 740px;
-    }
-
-    #texte_14_juillet {
-        display: block;
-        top: 750px;
-        left: 40px;
-        width: 460px;
-        height: 211px;
-        min-height: 211px;
-        min-width: 460px;
-    }
-    .wb-stl-footer a {
-        font: 12px Georgia,serif;
-        text-align: left;
-        text-decoration: underline;
-        color: #15BFB6;
-    }
-}
-
-@media(min-width:992px) {
-    header {
-        height: 250px;
-    }
-
-    #principal {
-        height: 1394px;
-    }
-
-    #wb_footer {
-        height: 78px;
-    }
-
-    body,
-    .wb_sbg {
-        min-height: 1791px;
-        min-width: 992px;
-    }
-
-    .root {
-       width: 992px;
-        height: 1471px;
-        overflow: visible;
-    }
-
-    #menu {
-        display: block;
-        top: 10px;
-        left: 498px;
-        width: 484px;
-        height: 40px;
-        min-height: 40px;
-        min-width: 484px;
-    }
-
-    #logo {
-        display: block;
-        top: 0;
-        left: 0;
-        width: 360px;
-        height: 110px;
-        min-height: 110px;
-        min-width: 360px;
-    }
-
-    #logo > div {
-        width: 360px;
-        height: 110px;
-    }
-
-    #logo_position {
-        display: block;
-        top: 17px;
-        left: 27px;
-        width: 300px;
-        height: 84px;
-        min-height: 84px;
-        min-width: 300px;
-    }
-
-    #image_instagram {
-        .icone_social;
-        top: 27px;
-    }
-
-    #image_instagram img {
-        position: static;
-        top: 0;
-        left: 0;
-        width: 32px;
-        height: 32px;
-    }
-
-    #image_facebook {
-        .icone_social;
-        left: 850px;
-    }
-
-    #image_facebook img {
-        position: static;
-        top: 0;
-        left: 0;
-        width: 32px;
-        height: 32px;
-    }
-
-    #nom_footer {
-        display: block;
-        top: 10px;
-        left: 50px;
-        width: 530px;
-        height: 30px;
-        min-height: 30px;
-        min-width: 530px;
-    }
-
-   
-
-    #image_twiter {
-        .icone_social;
-        left: 950px;
-    }
-
-    #image_twiter img {
-        position: static;
-        top: 0;
-        left: 0;
-        width: 32px;
-        height: 32px;
-    }
-
-    #image_fete_14juillet {
-        display: block;
-        top: 750px;
-        left: 530px;
-        width: 440px;
-        height: 220px;
-        min-height: 220px;
-        min-width: 440px;
-    }
-
-    #image_fete_14juillet img {
-        position: static;
-        top: 0;
-        left: 0;
-        width: 440px;
-        height: 220px;
-    }
-
-    #titre_image_defile_millitaire {
-        display: block;
-        top: 980px;
-        left: 620px;
-        width: 240px;
-        height: 24px;
-        min-height: 24px;
-        min-width: 240px;
-    }
-
-    #text_paris_plage {
-        display: block;
-        top: 1110px;
-        left: 540px;
-        width: 430px;
-        height: 211px;
-        min-height: 211px;
-        min-width: 430px;
-    }
-
-    #image_paris_plage {
-        display: block;
-        top: 1070px;
-        left: 10px;
-        width: 510px;
-        height: 290px;
-        min-height: 290px;
-        min-width: 510px;
-    }
-
-    #image_paris_plage img {
-        position: static;
-        top: 0;
-        left: 0;
-        width: 510px;
-        height: 290px;
-    }
-
-    #titre_image_paris_plage {
-        display: block;
-        top: 1370px;
-        left: 100px;
-        width: 310px;
-        height: 24px;
-        min-height: 24px;
-        min-width: 310px;
-    }
-
-    #image_euro {
-        display: block;
-        top: 490px;
-        left: 30px;
-        width: 160px;
-        height: 220px;
-        min-height: 220px;
-        min-width: 160px;
-    }
-
-    #image_euro img {
-        position: static;
-        top: 0;
-        left: 0;
-        width: 160px;
-        height: 220px;
-    }
-
-    #texte_noel_paris {
-        display: block;
-        top: 70px;
-        left: 30px;
-        width: 930px;
-        height: 163px;
-        min-height: 163px;
-        min-width: 930px;
-    }
-
-    #image_1_noel {
-        display: block;
-        top: 260px;
-        left: 60px;
-        width: 290px;
-        height: 180px;
-        min-height: 180px;
-        min-width: 290px;
-        overflow: hidden;
-    }
-
-    #image_1_noel img {
-        position: relative;
-        top: 0;
-        left: 0;
-        width: 290px;
-        height: 186.42857142857px;
-        max-width: inherit;
-    }
-
-    #image_3_noel {
-        display: block;
-        top: 260px;
-        left: 710px;
-        width: 220px;
-        height: 180px;
-        min-height: 180px;
-        min-width: 220px;
-        overflow: hidden;
-    }
-
-    #image_3_noel img {
-        position: relative;
-        top: 0;
-        left: 0;
-        width: 230px;
-        height: 180px;
-        max-width: inherit;
-    }
-
-    #image_2_noel {
-        display: block;
-        top: 260px;
-        left: 360px;
-        width: 340px;
-        height: 180px;
-        min-height: 180px;
-        min-width: 340px;
-        overflow: hidden;
-    }
-
-    #image_2_noel img {
-        position: relative;
-        top: -10px;
-        left: 0;
-        width: 340px;
-        height: 191px;
-        max-width: inherit;
-    }
-
-    #texte_euro {
-        display: block;
-        top: 490px;
-        left: 220px;
-        width: 740px;
-        height: 235px;
-        min-height: 235px;
-        min-width: 740px;
-    }
-
-    #texte_14_juillet {
-        display: block;
-        top: 750px;
-        left: 40px;
-        width: 460px;
-        height: 211px;
-        min-height: 211px;
-        min-width: 460px;
-    }
-}
-
-@media(min-width:1200px) {
-    header {
-        height: 250px;
-    }
-
-    #principal {
-        
-    }
-
-   #wb_footer {
-        height: 78px;
-    }
-
-    body,
-    .wb_sbg {
-        min-height: 1791px;
-        min-width: 992px;
-    }
-
-    .root {
-      width: 992px;
-        height: 1471px;
-        overflow: visible;
-    }
-
-    #menu {
-        display: block;
-        top: 10px;
-        left: 498px;
-        width: 484px;
-        height: 40px;
-        min-height: 40px;
-        min-width: 484px;
-    }
-
-    #logo {
-        display: block;
-        top: 0;
-        left: 0;
-        width: 360px;
-        height: 110px;
-        min-height: 110px;
-        min-width: 360px;
-    }
-
-    #logo > div {
-        width: 360px;
-        height: 110px;
-    }
-
-    #logo_position {
-        display: block;
-        top: 17px;
-        left: 27px;
-        width: 300px;
-        height: 84px;
-        min-height: 84px;
-        min-width: 300px;
-    }
-
-    #image_instagram {
-       .icone_social;
-        left: 900px;
-    }
-
-    #image_instagram img {
-        position: static;
-        top: 0;
-        left: 0;
-        width: 32px;
-        height: 32px;
-    }
-
-
-    #image_facebook {
-        .icone_social;
-        left: 850px;
-    }
-
-    #image_facebook img {
-        position: static;
-        top: 0;
-        left: 0;
-        width: 32px;
-        height: 32px;
-    }
-
-    #nom_footer {
-        display: block;
-        top: 10px;
-        left: 50px;
-        width: 530px;
-        height: 30px;
-        min-height: 30px;
-        min-width: 530px;
-    }
-
-    #image_twiter {
-        .icone_social;
-        left: 950px;
-    }
-
-    #image_twiter img {
-        position: static;
-        top: 0;
-        left: 0;
-        width: 32px;
-        height: 32px;
-    }
-
-    #image_fete_14juillet {
-        display: block;
-        top: 750px;
-        left: 530px;
-        width: 440px;
-        height: 220px;
-        min-height: 220px;
-        min-width: 440px;
-    }
-
-    #image_fete_14juillet img {
-        position: static;
-        top: 0;
-        left: 0;
-        width: 440px;
-        height: 220px;
-    }
-
-    #titre_image_defile_millitaire {
-        display: block;
-        top: 980px;
-        left: 620px;
-        width: 240px;
-        height: 24px;
-        min-height: 24px;
-        min-width: 240px;
-    }
-
-    #text_paris_plage {
-        display: block;
-        top: 1110px;
-        left: 540px;
-        width: 430px;
-        height: 211px;
-        min-height: 211px;
-        min-width: 430px;
-    }
-
-    #image_paris_plage {
-        display: block;
-        top: 1070px;
-        left: 10px;
-        width: 510px;
-        height: 290px;
-        min-height: 290px;
-        min-width: 510px;
-    }
-
-    #image_paris_plage img {
-        position: static;
-        top: 0;
-        left: 0;
-        width: 510px;
-        height: 290px;
-    }
-
-    #titre_image_paris_plage {
-        display: block;
-        top: 1370px;
-        left: 100px;
-        width: 310px;
-        height: 24px;
-        min-height: 24px;
-        min-width: 310px;
-    }
-
-    #image_euro {
-        display: block;
-        top: 490px;
-        left: 30px;
-        width: 160px;
-        height: 220px;
-        min-height: 220px;
-        min-width: 160px;
-    }
-
-    #image_euro img {
-        position: static;
-        top: 0;
-        left: 0;
-        width: 160px;
-        height: 220px;
-    }
-
-    #texte_noel_paris {
-        display: block;
-        top: 70px;
-        left: 30px;
-        width: 930px;
-        height: 163px;
-        min-height: 163px;
-        min-width: 930px;
-    }
-
-    #image_1_noel {
-        display: block;
-        top: 260px;
-        left: 60px;
-        width: 290px;
-        height: 180px;
-        min-height: 180px;
-        min-width: 290px;
-        overflow: hidden;
-    }
-
-    #image_1_noel img {
-        position: relative;
-        top: 0;
-        left: 0;
-        width: 290px;
-        height: 186.42857142857px;
-        max-width: inherit;
-    }
-
-    #image_3_noel {
-        display: block;
-        top: 260px;
-        left: 710px;
-        width: 220px;
-        height: 180px;
-        min-height: 180px;
-        min-width: 220px;
-        overflow: hidden;
-    }
-
-    #image_3_noel img {
-        position: relative;
-        top: 0;
-        left: 0;
-        width: 230px;
-        height: 180px;
-        max-width: inherit;
-    }
-
-    #image_2_noel {
-        display: block;
-        top: 260px;
-        left: 360px;
-        width: 340px;
-        height: 180px;
-        min-height: 180px;
-        min-width: 340px;
-        overflow: hidden;
-    }
-
-    #image_2_noel img {
-        position: relative;
-        top: -10px;
-        left: 0;
-        width: 340px;
-        height: 191px;
-        max-width: inherit;
-    }
-
-    #texte_euro {
-        display: block;
-        top: 490px;
-        left: 220px;
-        width: 740px;
-        height: 235px;
-        min-height: 235px;
-        min-width: 740px;
-    }
-
-    #texte_14_juillet {
-        display: block;
-        top: 750px;
-        left: 40px;
-        width: 460px;
-        height: 211px;
-        min-height: 211px;
-        min-width: 460px;
-    }
 }
