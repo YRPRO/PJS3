@@ -1,11 +1,14 @@
+/*couleur utilisée*/
+@marron: #8b4828;
+@bleuCiel: #00c2a2;
+@blancJaune: #fcf3d2;
+@noirGris: #2e2e2e;
+
 #header {
     background: transparent none repeat scroll left top;
     height: 250px;
 }
 
-#header {
-    height: 250px;
-}
 
 #principal {
     background: transparent none repeat scroll left top;
@@ -27,7 +30,7 @@
 }
 
 body {
-    background: #fcf3d2 url(../gallery_gen/929d69d99e87503631c3e559e93d61e0.jpg) no-repeat scroll center top;
+    background: @blancJaune url(../gallery_gen/929d69d99e87503631c3e559e93d61e0.jpg) no-repeat scroll center top;
 }
 
 .wb_sbg {
@@ -57,7 +60,7 @@ body,.wb_sbg {
 }
 
 #div_menu ul {
-    background: #fcf3d2 none repeat scroll left top;
+    background: @blancJaune none repeat scroll left top;
 }
 
 #div_menu .btn-collapser {
@@ -95,7 +98,7 @@ body,.wb_sbg {
 }
 
 #div_menu ul ul {
-    background: #2e2e2e none repeat scroll left top;
+    background: @noirGris none repeat scroll left top;
 }
 
 #div_menu li {
@@ -108,7 +111,7 @@ body,.wb_sbg {
     padding: 5px 10px;
     font: normal normal 13px Georgia,serif;
     text-decoration: none;
-    color: #8b4828;
+    color: @marron;
     line-height: 15px;
     background: transparent none repeat scroll left top;
 }
@@ -117,7 +120,7 @@ body,.wb_sbg {
     border: 0 none #000;
     font: normal normal 13px Georgia,serif;
     text-decoration: none;
-    color: #00c2a2;
+    color: @bleuCiel;
     line-height: 15px;
     background: transparent none no-repeat scroll center top;
 }
@@ -126,7 +129,7 @@ body,.wb_sbg {
     border: 0 none #000;
     font: normal normal 13px Georgia,serif;
     text-decoration: none;
-    color: #00c292;
+    color: @bleuCiel;
     line-height: 15px;
     background: transparent none no-repeat scroll center top;
 }
