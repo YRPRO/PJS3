@@ -1,10 +1,18 @@
+/*couleur utilisée*/
+@marron: #8b4828;
+@bleuCiel: #00c2a2;
+@blancJaune: #fcf3d2;
+@noirGris: #2e2e2e;
+@height: 250px;
+
+
 #wb_header {
     background: transparent none repeat scroll left top;
-    height: 250px;
+    height: @height;
 }
 
 #wb_header {
-    height: 250px;
+    height: @height;
 }
 
 #wb_main {
@@ -27,7 +35,7 @@
 }
 
 body {
-    background: #fcf3d2 url(../gallery_gen/929d69d99e87503631c3e559e93d61e0.jpg) no-repeat scroll center top;
+    background: @blancJaune url(../gallery_gen/929d69d99e87503631c3e559e93d61e0.jpg) no-repeat scroll center top;
 }
 
 .wb_sbg {
@@ -57,7 +65,7 @@ body,.wb_sbg {
 }
 
 #Menu ul {
-    background: #fcf3d2 none repeat scroll left top;
+    background: @blancJaune none repeat scroll left top;
 }
 
 #Menu .btn-collapser {
@@ -95,7 +103,7 @@ body,.wb_sbg {
 }
 
 #Menu ul ul {
-    background: #2e2e2e none repeat scroll left top;
+    background: @noirGris none repeat scroll left top;
 }
 
 #Menu li {
@@ -108,7 +116,7 @@ body,.wb_sbg {
     padding: 5px 10px;
     font: normal normal 13px Georgia,serif;
     text-decoration: none;
-    color: #8b4828;
+    color: @marron;
     line-height: 15px;
     background: transparent none repeat scroll left top;
 }
@@ -117,7 +125,7 @@ body,.wb_sbg {
     border: 0 none #000;
     font: normal normal 13px Georgia,serif;
     text-decoration: none;
-    color: #00c2a2;
+    color: @bleuCiel;
     line-height: 15px;
     background: transparent none no-repeat scroll center top;
 }
@@ -202,16 +210,7 @@ body,.wb_sbg {
     top: 0;
 }
 
-#wb_element_instance37 {
-    left: 10px;
-    top: 0;
-    min-width: 310px;
-    width: 310px;
-    min-height: 45px;
-    height: 45px;
-    display: block;
-    z-index: 208;
-}
+
 
 
 
@@ -405,7 +404,7 @@ body,.wb_sbg {
 
 #Img2 img {
     width: 440px;
-    height: 250px;
+    height: @height;
     position: relative;
     left: -10px;
     top: 0;
@@ -417,15 +416,15 @@ body,.wb_sbg {
     top: 940px;
     min-width: 320px;
     width: 320px;
-    min-height: 250px;
-    height: 250px;
+    min-height: @height;
+    height: @height;
     display: block;
     z-index: 134;
 }
 
 #Img3 img {
     width: 320px;
-    height: 250px;
+    height: @height;
     position: static;
     left: 0;
     top: 0;
@@ -436,8 +435,8 @@ body,.wb_sbg {
     top: 1210px;
     min-width: 170px;
     width: 170px;
-    min-height: 250px;
-    height: 250px;
+    min-height: @height;
+    height: @height;
     display: block;
     z-index: 135;
     overflow: hidden;
@@ -445,7 +444,7 @@ body,.wb_sbg {
 
 #Img1 img {
     width: 383px;
-    height: 250px;
+    height: @height;
     position: relative;
     left: -30px;
     top: 0;
@@ -578,7 +577,7 @@ body,.wb_sbg {
 /*#wb_element_instance63 { left: 0px; top: 79px; display: block; z-index: 9999; }*/
 @media (min-width: 768px) {
     #wb_header {
-        height: 250px;
+        height: @height;
     }
 
     #wb_main {
@@ -754,8 +753,8 @@ body,.wb_sbg {
     #LegendePompidou {
         left: 450px;
         top: 1260px;
-        min-width: 250px;
-        width: 250px;
+        min-width: @height;
+        width: @height;
         min-height: 24px;
         height: 24px;
         display: block;
@@ -874,15 +873,15 @@ body,.wb_sbg {
         top: 390px;
         min-width: 320px;
         width: 320px;
-        min-height: 250px;
-        height: 250px;
+        min-height: @height;
+        height: @height;
         display: block;
         overflow: hidden;
     }
 
     #Img2 img {
         width: 440px;
-        height: 250px;
+        height: @height;
         position: relative;
         left: -10px;
         top: 0;
@@ -894,15 +893,15 @@ body,.wb_sbg {
         top: 390px;
         min-width: 210px;
         width: 210px;
-        min-height: 250px;
-        height: 250px;
+        min-height: @height;
+        height: @height;
         display: block;
         overflow: hidden;
     }
 
     #Img3 img {
         width: 320px;
-        height: 250px;
+        height: @height;
         position: relative;
         left: 0;
         top: 0;
@@ -914,15 +913,15 @@ body,.wb_sbg {
         top: 390px;
         min-width: 170px;
         width: 170px;
-        min-height: 250px;
-        height: 250px;
+        min-height: @height;
+        height: @height;
         display: block;
         overflow: hidden;
     }
 
     #Img1 img {
         width: 383px;
-        height: 250px;
+        height: @height;
         position: relative;
         left: -30px;
         top: 0;
@@ -1038,7 +1037,7 @@ body,.wb_sbg {
 
 @media (min-width: 992px) {
     #wb_header {
-        height: 250px;
+        height: @height;
     }
 
     #wb_main {
@@ -1182,7 +1181,7 @@ body,.wb_sbg {
     }
 
     #titre3img {
-        left: 250px;
+        left: @height;
         top: 610px;
         min-width: 420px;
         width: 420px;
@@ -1334,15 +1333,15 @@ body,.wb_sbg {
         top: 350px;
         min-width: 430px;
         width: 430px;
-        min-height: 250px;
-        height: 250px;
+        min-height: @height;
+        height: @height;
         display: block;
         overflow: hidden;
     }
 
     #Img2 img {
         width: 440px;
-        height: 250px;
+        height: @height;
         position: relative;
         left: -10px;
         top: 0;
@@ -1354,14 +1353,14 @@ body,.wb_sbg {
         top: 350px;
         min-width: 320px;
         width: 320px;
-        min-height: 250px;
-        height: 250px;
+        min-height: @height;
+        height: @height;
         display: block;
     }
 
     #Img3 img {
         width: 320px;
-        height: 250px;
+        height: @height;
         position: static;
         left: 0;
         top: 0;
@@ -1372,15 +1371,15 @@ body,.wb_sbg {
         top: 350px;
         min-width: 170px;
         width: 170px;
-        min-height: 250px;
-        height: 250px;
+        min-height: @height;
+        height: @height;
         display: block;
         overflow: hidden;
     }
 
     #Img1 img {
         width: 383px;
-        height: 250px;
+        height: @height;
         position: relative;
         left: -30px;
         top: 0;
@@ -1496,7 +1495,7 @@ body,.wb_sbg {
 
 @media (min-width: 1200px) {
     #wb_header {
-        height: 250px;
+        height: @height;
     }
 
     #wb_main {
@@ -1640,7 +1639,7 @@ body,.wb_sbg {
     }
 
     #titre3img {
-        left: 250px;
+        left: @height;
         top: 610px;
         min-width: 420px;
         width: 420px;
@@ -1792,15 +1791,15 @@ body,.wb_sbg {
         top: 350px;
         min-width: 430px;
         width: 430px;
-        min-height: 250px;
-        height: 250px;
+        min-height: @height;
+        height: @height;
         display: block;
         overflow: hidden;
     }
 
     #Img2 img {
         width: 440px;
-        height: 250px;
+        height: @height;
         position: relative;
         left: -10px;
         top: 0;
@@ -1812,14 +1811,14 @@ body,.wb_sbg {
         top: 350px;
         min-width: 320px;
         width: 320px;
-        min-height: 250px;
-        height: 250px;
+        min-height: @height;
+        height: @height;
         display: block;
     }
 
     #Img3 img {
         width: 320px;
-        height: 250px;
+        height: @height;
         position: static;
         left: 0;
         top: 0;
@@ -1830,15 +1829,15 @@ body,.wb_sbg {
         top: 350px;
         min-width: 170px;
         width: 170px;
-        min-height: 250px;
-        height: 250px;
+        min-height: @height;
+        height: @height;
         display: block;
         overflow: hidden;
     }
 
     #Img1 img {
         width: 383px;
-        height: 250px;
+        height: @height;
         position: relative;
         left: -30px;
         top: 0;
