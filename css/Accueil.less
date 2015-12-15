@@ -1,8 +1,8 @@
 
 @white: #ffffff;
-
-
-
+@blancJaune: #fcf3d2;
+@noirGris: #2e2e2e;
+@marron: #8b4828;
 
 
 #wb_header {
@@ -28,7 +28,7 @@
     height: 80px;
 }
 body {
-    background: #fcf3d2 url("../gallery_gen/215ed0bac1a427d88943879d41a5115f.jpg") no-repeat scroll center top;
+    background: @blancJaune url("../gallery_gen/215ed0bac1a427d88943879d41a5115f.jpg") no-repeat scroll center top;
 }
 .wb_sbg {
     background: transparent url("../gallery_gen/dad763187c3171ad64b3e88d1d511a44.jpg") repeat-x scroll center bottom;
@@ -54,7 +54,7 @@ body,
     z-index: 220;
 }
 #div_menu ul {
-    background: #fcf3d2 none repeat scroll left top;
+    background: @blancJaune none repeat scroll left top;
 }
 #div_menu .btn-collapser {
     display: inline-block;
@@ -84,7 +84,7 @@ body,
     text-align: right;
 }
 #div_menu ul ul {
-    background: #2e2e2e none repeat scroll left top;
+    background: @noirGris none repeat scroll left top;
 }
 #div_menu li {
     margin: 10px 10px 10px 10px;
@@ -95,7 +95,7 @@ body,
     padding: 5px 10px 5px 10px;
     font: normal normal 13px Georgia, serif;
     text-decoration: none;
-    color: #8b4828;
+    color: @marron;
     line-height: 15px;
     background: transparent none repeat scroll left top;
 }
