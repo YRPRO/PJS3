@@ -62,18 +62,64 @@ body,.wb_sbg {
     height: 30px;
     display: block;
     z-index: 220;
-}
 
-#Menu ul {
-    background: @blancJaune none repeat scroll left top;
-}
 
-#Menu .btn-collapser {
-    display: inline-block;
-}
+	ul {
+		background: @blancJaune none repeat scroll left top;
+	}
 
-#Menu > ul {
-    display: none;
+	.btn-collapser {
+		display: inline-block;
+	}
+
+	> ul {
+		display: none;
+	}
+	
+	ul {
+		border: 1px none #000;
+	}
+
+	ul {
+		text-align: right;
+	}
+
+	ul ul {
+		background: @noirGris none repeat scroll left top;
+	}
+
+	li {
+		margin: 10px;
+	}
+
+	li a {
+		text-transform: uppercase;
+		border: 0 none #000;
+		padding: 5px 10px;
+		font: normal normal 13px Georgia,serif;
+		text-decoration: none;
+		color: @marron;
+		line-height: 15px;
+		background: transparent none repeat scroll left top;
+	}
+
+	li:hover > a, li:focus > a {
+		border: 0 none #000;
+		font: normal normal 13px Georgia,serif;
+		text-decoration: none;
+		color: @bleuCiel;
+		line-height: 15px;
+		background: transparent none no-repeat scroll center top;
+	}
+
+	li.active > a {
+		border: 0 none #000;
+		font: normal normal 13px Georgia,serif;
+		text-decoration: none;
+		color: #00c292;
+		line-height: 15px;
+		background: transparent none no-repeat scroll center top;
+	}
 }
 
 #Menu.collapse-expanded > ul {
@@ -94,50 +140,7 @@ body,.wb_sbg {
     display: none;
 }
 
-#Menu ul {
-    border: 1px none #000;
-}
 
-#Menu,#Menu ul {
-    text-align: right;
-}
-
-#Menu ul ul {
-    background: @noirGris none repeat scroll left top;
-}
-
-#Menu li {
-    margin: 10px;
-}
-
-#Menu li a {
-    text-transform: uppercase;
-    border: 0 none #000;
-    padding: 5px 10px;
-    font: normal normal 13px Georgia,serif;
-    text-decoration: none;
-    color: @marron;
-    line-height: 15px;
-    background: transparent none repeat scroll left top;
-}
-
-#Menu li:hover > a,#Menu li:focus > a {
-    border: 0 none #000;
-    font: normal normal 13px Georgia,serif;
-    text-decoration: none;
-    color: @bleuCiel;
-    line-height: 15px;
-    background: transparent none no-repeat scroll center top;
-}
-
-#Menu li.active > a {
-    border: 0 none #000;
-    font: normal normal 13px Georgia,serif;
-    text-decoration: none;
-    color: #00c292;
-    line-height: 15px;
-    background: transparent none no-repeat scroll center top;
-}
 
 #wb_element_instance33 {
     left: 0;
