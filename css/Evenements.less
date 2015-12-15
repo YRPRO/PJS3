@@ -78,6 +78,7 @@ body,.wb_sbg {
 
      ul ul {
         background: @noirGris none repeat scroll left top;
+        left: 100px;
     }
 
      li {
@@ -173,6 +174,13 @@ body,.wb_sbg {
     display: block;
     z-index: 212;
 }
+.social-icone {
+    width: 30px;
+    height: 30px;
+    position: static;
+    left: 0;
+    top: 0;
+}
 
 #image_instagram {
     left: 280px;
@@ -184,11 +192,7 @@ body,.wb_sbg {
     display: block;
     z-index: 206;
     img {
-        width: 30px;
-        height: 30px;
-        position: static;
-        left: 0;
-        top: 0;
+        .social-icone;
     }
 }
 
@@ -203,11 +207,7 @@ body,.wb_sbg {
     display: block;
     z-index: 207;
     img {
-        width: 30px;
-        height: 30px;
-        position: static;
-        left: 0;
-        top: 0;
+        .social-icone;
     }
 }
 
@@ -245,11 +245,7 @@ body,.wb_sbg {
     display: block;
     z-index: 210;
     img {
-        width: 30px;
-        height: 30px;
-        position: static;
-        left: 0;
-        top: 0;
+        .social-icone;
     }
 }
 
@@ -525,11 +521,7 @@ body,.wb_sbg {
         height: 30px;
         display: block;
         img {
-                width: 30px;
-                height: 30px;
-                position: static;
-                left: 0;
-                top: 0;
+            .social-icone;
             }
     }
 
@@ -544,11 +536,7 @@ body,.wb_sbg {
         height: 30px;
         display: block;
         img {
-                width: 30px;
-                height: 30px;
-                position: static;
-                left: 0;
-                top: 0;
+             .social-icone;
             }
     }
 
@@ -561,11 +549,7 @@ body,.wb_sbg {
         height: 30px;
         display: block;
         img {
-                width: 30px;
-                height: 30px;
-                position: static;
-                left: 0;
-                top: 0;
+            .social-icone;
             }
     }
 
@@ -837,7 +821,13 @@ body,.wb_sbg {
         height: 75px;
         display: block;
     }
-
+    .social-image-tab{
+        width: 32px;
+        height: 32px;
+        position: static;
+        left: 0;
+        top: 0;
+    }
     #image_instagram {
         left: 900px;
         top: 27px;
@@ -846,15 +836,13 @@ body,.wb_sbg {
         min-height: 32px;
         height: 32px;
         display: block;
+        img {
+            .social-image-tab;
+        }
+
     }
 
-    #image_instagram img {
-        width: 32px;
-        height: 32px;
-        position: static;
-        left: 0;
-        top: 0;
-    }
+    
 
     #image_facebook {
         left: 850px;
@@ -864,15 +852,12 @@ body,.wb_sbg {
         min-height: 32px;
         height: 32px;
         display: block;
+        img {
+            .social-image-tab;
+        }
     }
 
-    #image_facebook img {
-        width: 32px;
-        height: 32px;
-        position: static;
-        left: 0;
-        top: 0;
-    }
+    
 
     #div_nom_auteur {
         left: 50px;
@@ -902,16 +887,12 @@ body,.wb_sbg {
         min-height: 32px;
         height: 32px;
         display: block;
+        img {
+            .social-image-tab;
+        }
     }
 
-    #image_twitter img {
-        width: 32px;
-        height: 32px;
-        position: static;
-        left: 0;
-        top: 0;
-    }
-
+   
     #image_defile_millitaire {
         left: 530px;
         top: 750px;
@@ -1086,645 +1067,8 @@ body,.wb_sbg {
     }
 }
 
-@media (min-width: 768px) {
-    #header {
-        height: 250px;
-    }
 
-    #principal {
-        height: 1574px;
-    }
 
-    #wb_footer {
-        height: 77px;
-    }
-
-    body,.wb_sbg {
-        min-width: 768px;
-        min-height: 1971px;
-    }
-
-    .root {
-        width: 768px;
-        height: 1971px;
-        overflow: visible;
-    }
-
-    #div_menu {
-        left: 120px;
-        top: 140px;
-        min-width: 490px;
-        width: 490px;
-        min-height: 50px;
-        height: 50px;
-        display: block;
-    }
-
-    #div_menu ul {
-        background: transparent none repeat scroll left top;
-    }
-
-    #div_menu .btn-collapser {
-        display: none;
-    }
-
-    #div_menu > ul {
-        display: block;
-    }
-
-    #logo {
-        left: 0;
-        top: 0;
-        min-width: 330px;
-        width: 330px;
-        min-height: 100px;
-        height: 100px;
-        display: block;
-    }
-
-    #logo > div {
-        width: 330px;
-        height: 100px;
-    }
-
-    #ecriture_logo {
-        left: 230px;
-        top: 40px;
-        min-width: 300px;
-        width: 300px;
-        min-height: 71px;
-        height: 71px;
-        display: block;
-    }
-
-    #image_instagram {
-        left: 680px;
-        top: 20px;
-        min-width: 30px;
-        width: 30px;
-        min-height: 30px;
-        height: 30px;
-        display: block;
-    }
-
-    #image_instagram img {
-        width: 30px;
-        height: 30px;
-        position: static;
-        left: 0;
-        top: 0;
-    }
-
-    #image_facebook {
-        left: 630px;
-        top: 20px;
-        min-width: 30px;
-        width: 30px;
-        min-height: 30px;
-        height: 30px;
-        display: block;
-    }
-
-    #image_facebook img {
-        width: 30px;
-        height: 30px;
-        position: static;
-        left: 0;
-        top: 0;
-    }
-
-    #div_nom_auteur {
-        left: 40px;
-        top: 20px;
-        min-width: 380px;
-        width: 380px;
-        min-height: 45px;
-        height: 45px;
-        display: block;
-    }
-
-    #div_zyro {
-        left: 480px;
-        top: 30px;
-        min-width: 100px;
-        width: 100px;
-        min-height: 24px;
-        height: 24px;
-        display: block;
-    }
-
-    #image_twitter {
-        left: 720px;
-        top: 20px;
-        min-width: 30px;
-        width: 30px;
-        min-height: 30px;
-        height: 30px;
-        display: block;
-    }
-
-    #image_twitter img {
-        width: 30px;
-        height: 30px;
-        position: static;
-        left: 0;
-        top: 0;
-    }
-
-    #image_defile_millitaire {
-        left: 200px;
-        top: 900px;
-        min-width: 350px;
-        width: 350px;
-        min-height: 180px;
-        height: 180px;
-        display: block;
-        overflow: hidden;
-    }
-
-    #image_defile_millitaire img {
-        width: 360px;
-        height: 180px;
-        position: relative;
-        left: -10px;
-        top: 0;
-        max-width: inherit;
-    }
-
-    #titre_image_defile_millitaire {
-        left: 260px;
-        top: 1090px;
-        min-width: 230px;
-        width: 230px;
-        min-height: 24px;
-        height: 24px;
-        display: block;
-    }
-
-    #texte_paris_plage {
-        left: 30px;
-        top: 1130px;
-        min-width: 720px;
-        width: 720px;
-        min-height: 135px;
-        height: 135px;
-        display: block;
-    }
-
-    #image_paris_plage {
-        left: 150px;
-        top: 1280px;
-        min-width: 450px;
-        width: 450px;
-        min-height: 260px;
-        height: 260px;
-        display: block;
-    }
-
-    #image_paris_plage img {
-        width: 450px;
-        height: 260px;
-        position: static;
-        left: 0;
-        top: 0;
-    }
-
-    #titre_image_paris_plage {
-        left: 230px;
-        top: 1550px;
-        min-width: 310px;
-        width: 310px;
-        min-height: 24px;
-        height: 24px;
-        display: block;
-    }
-
-    #image_euro {
-        left: 30px;
-        top: 470px;
-        min-width: 160px;
-        width: 160px;
-        min-height: 220px;
-        height: 220px;
-        display: block;
-    }
-
-    #image_euro img {
-        width: 160px;
-        height: 220px;
-        position: static;
-        left: 0;
-        top: 0;
-    }
-
-    #texte_noel {
-        left: 40px;
-        top: 30px;
-        min-width: 710px;
-        width: 710px;
-        min-height: 207px;
-        height: 207px;
-        display: block;
-    }
-
-    #image_noel_1 {
-        left: 70px;
-        top: 260px;
-        min-width: 200px;
-        width: 200px;
-        min-height: 130px;
-        height: 130px;
-        display: block;
-    }
-
-    #image_noel_1 img {
-        width: 200px;
-        height: 130px;
-        position: static;
-        left: 0;
-        top: 0;
-    }
-
-    #image_noel_3 {
-        left: 540px;
-        top: 260px;
-        min-width: 200px;
-        width: 200px;
-        min-height: 130px;
-        height: 130px;
-        display: block;
-        overflow: hidden;
-    }
-
-    #image_noel_3 img {
-        width: 200px;
-        height: 155.55555555556px;
-        position: relative;
-        left: 0;
-        top: 0;
-        max-width: inherit;
-    }
-
-    #image_noel_2 {
-        left: 280px;
-        top: 260px;
-        min-width: 250px;
-        width: 250px;
-        min-height: 140px;
-        height: 140px;
-        display: block;
-        overflow: hidden;
-    }
-
-    #image_noel_2 img {
-        width: 250px;
-        height: 140px;
-        position: relative;
-        left: 0;
-        top: -10px;
-        max-width: inherit;
-    }
-
-    #texte_euro {
-        left: 220px;
-        top: 450px;
-        min-width: 540px;
-        width: 540px;
-        min-height: 279px;
-        height: 279px;
-        display: block;
-    }
-
-    #texte_14_juillet {
-        left: 20px;
-        top: 750px;
-        min-width: 730px;
-        width: 730px;
-        min-height: 135px;
-        height: 135px;
-        display: block;
-    }
-}
-
-@media (min-width: 992px) {
-    #header {
-        height: 250px;
-    }
-
-    #principal {
-        height: 1394px;
-    }
-
-    #wb_footer {
-        height: 77px;
-    }
-
-    body,.wb_sbg {
-        min-width: 992px;
-        min-height: 1791px;
-    }
-
-    .root {
-        width: 992px;
-        height: 1791px;
-        overflow: visible;
-    }
-
-    #div_menu {
-        left: 498px;
-        top: 10px;
-        min-width: 484px;
-        width: 484px;
-        min-height: 40px;
-        height: 40px;
-        display: block;
-    }
-
-    #div_menu ul {
-        background: transparent none repeat scroll left top;
-    }
-
-    #div_menu .btn-collapser {
-        display: none;
-    }
-
-    #div_menu > ul {
-        display: block;
-    }
-
-    #logo {
-        left: 20px;
-        top: 0;
-        min-width: 360px;
-        width: 360px;
-        min-height: 110px;
-        height: 110px;
-        display: block;
-    }
-
-    #logo > div {
-        width: 360px;
-        height: 110px;
-    }
-
-    #ecriture_logo {
-        left: 27px;
-        top: 17px;
-        min-width: 300px;
-        width: 300px;
-        min-height: 75px;
-        height: 75px;
-        display: block;
-    }
-
-    #image_instagram {
-        left: 900px;
-        top: 27px;
-        min-width: 32px;
-        width: 32px;
-        min-height: 32px;
-        height: 32px;
-        display: block;
-    }
-
-    #image_instagram img {
-        width: 32px;
-        height: 32px;
-        position: static;
-        left: 0;
-        top: 0;
-    }
-
-    #image_facebook {
-        left: 850px;
-        top: 27px;
-        min-width: 32px;
-        width: 32px;
-        min-height: 32px;
-        height: 32px;
-        display: block;
-    }
-
-    #image_facebook img {
-        width: 32px;
-        height: 32px;
-        position: static;
-        left: 0;
-        top: 0;
-    }
-
-    #div_nom_auteur {
-        left: 50px;
-        top: 10px;
-        min-width: 530px;
-        width: 530px;
-        min-height: 28px;
-        height: 28px;
-        display: block;
-    }
-
-    #div_zyro {
-        left: 670px;
-        top: 10px;
-        min-width: 110px;
-        width: 110px;
-        min-height: 24px;
-        height: 24px;
-        display: block;
-    }
-
-    #image_twitter {
-        left: 950px;
-        top: 27px;
-        min-width: 32px;
-        width: 32px;
-        min-height: 32px;
-        height: 32px;
-        display: block;
-    }
-
-    #image_twitter img {
-        width: 32px;
-        height: 32px;
-        position: static;
-        left: 0;
-        top: 0;
-    }
-
-    #image_defile_millitaire {
-        left: 530px;
-        top: 750px;
-        min-width: 440px;
-        width: 440px;
-        min-height: 220px;
-        height: 220px;
-        display: block;
-    }
-
-    #image_defile_millitaire img {
-        width: 440px;
-        height: 220px;
-        position: static;
-        left: 0;
-        top: 0;
-    }
-
-    #titre_image_defile_millitaire {
-        left: 620px;
-        top: 980px;
-        min-width: 240px;
-        width: 240px;
-        min-height: 24px;
-        height: 24px;
-        display: block;
-    }
-
-    #texte_paris_plage {
-        left: 540px;
-        top: 1110px;
-        min-width: 430px;
-        width: 430px;
-        min-height: 211px;
-        height: 211px;
-        display: block;
-    }
-
-    #image_paris_plage {
-        left: 10px;
-        top: 1070px;
-        min-width: 510px;
-        width: 510px;
-        min-height: 290px;
-        height: 290px;
-        display: block;
-    }
-
-    #image_paris_plage img {
-        width: 510px;
-        height: 290px;
-        position: static;
-        left: 0;
-        top: 0;
-    }
-
-    #titre_image_paris_plage {
-        left: 100px;
-        top: 1370px;
-        min-width: 310px;
-        width: 310px;
-        min-height: 24px;
-        height: 24px;
-        display: block;
-    }
-
-    #image_euro {
-        left: 30px;
-        top: 490px;
-        min-width: 160px;
-        width: 160px;
-        min-height: 220px;
-        height: 220px;
-        display: block;
-    }
-
-    #image_euro img {
-        width: 160px;
-        height: 220px;
-        position: static;
-        left: 0;
-        top: 0;
-    }
-
-    #texte_noel {
-        left: 30px;
-        top: 70px;
-        min-width: 930px;
-        width: 930px;
-        min-height: 163px;
-        height: 163px;
-        display: block;
-    }
-
-    #image_noel_1 {
-        left: 60px;
-        top: 260px;
-        min-width: 290px;
-        width: 290px;
-        min-height: 180px;
-        height: 180px;
-        display: block;
-        overflow: hidden;
-    }
-
-    #image_noel_1 img {
-        width: 300px;
-        height: 192.41379310345px;
-        position: relative;
-        left: 0;
-        top: 0;
-        max-width: inherit;
-    }
-
-    #image_noel_3 {
-        left: 710px;
-        top: 260px;
-        min-width: 220px;
-        width: 220px;
-        min-height: 180px;
-        height: 180px;
-        display: block;
-        overflow: hidden;
-    }
-
-    #image_noel_3 img {
-        width: 300px;
-        height: 227.58620689655px;
-        position: relative;
-        left: 0;
-        top: 0;
-        max-width: inherit;
-    }
-
-    #image_noel_2 {
-        left: 360px;
-        top: 260px;
-        min-width: 340px;
-        width: 340px;
-        min-height: 180px;
-        height: 180px;
-        display: block;
-        overflow: hidden;
-    }
-
-    #image_noel_2 img {
-        width: 330px;
-        height: 190px;
-        position: relative;
-        left: 0;
-        top: 0;
-        max-width: inherit;
-    }
-
-    #texte_euro {
-        left: 220px;
-        top: 490px;
-        min-width: 740px;
-        width: 740px;
-        min-height: 235px;
-        height: 235px;
-        display: block;
-    }
-
-    #texte_14_juillet {
-        left: 40px;
-        top: 750px;
-        min-width: 460px;
-        width: 460px;
-        min-height: 211px;
-        height: 211px;
-        display: block;
-    }
-}
 
 @media (min-width: 1200px) {
     #header {
@@ -1805,15 +1149,12 @@ body,.wb_sbg {
     min-height: 32px;
     height: 32px;
     display: block;
+    img {
+        .social-image-tab;
+    }
 }
 
-#image_instagram img {
-    width: 32px;
-    height: 32px;
-    position: static;
-    left: 0;
-    top: 0;
-}
+
 
 #image_facebook {
     left: 850px;
@@ -1823,15 +1164,11 @@ body,.wb_sbg {
     min-height: 32px;
     height: 32px;
     display: block;
+    img {
+        .social-image-tab;
+    }
 }
 
-#image_facebook img {
-    width: 32px;
-    height: 32px;
-    position: static;
-    left: 0;
-    top: 0;
-}
 
 #div_nom_auteur {
     left: 50px;
@@ -1861,15 +1198,11 @@ body,.wb_sbg {
     min-height: 32px;
     height: 32px;
     display: block;
+    img {
+        .social-image-tab;
+    }
 }
 
-#image_twitter img {
-    width: 32px;
-    height: 32px;
-    position: static;
-    left: 0;
-    top: 0;
-}
 
 #image_defile_millitaire {
     left: 530px;
