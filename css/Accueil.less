@@ -5,7 +5,10 @@
 @noirGris: #2e2e2e;
 @marron: #8b4828;
 @bleuCiel: #00c2a2;
-
+@noirClaire: #333333;
+@noir: #000000;
+@vertCyan: #00c292;
+@vertBoutonSavoirPlus: #1ba18b;
 
 #wb_header {
     background: transparent none repeat scroll left top;
@@ -57,6 +60,7 @@ body,
 
     ul {
         background: @blancJaune none repeat scroll left top;
+
     }
 
     .btn-collapser {
@@ -65,18 +69,17 @@ body,
 
     > ul {
         display: none;
+
     }
 
     ul {
-        border: 1px none #000000;
+        border: 1px none @noir;
     }
-
-    ul {
-        text-align: right;
-    }
+        
 
     ul ul {
         background: @noirGris none repeat scroll left top;
+
     }
 
     li {
@@ -85,7 +88,7 @@ body,
 
     li a {
         text-transform: uppercase;
-        border: 0px none #000000;
+        border: 0px none @noir;
         padding: 5px 10px 5px 10px;
         font: normal normal 13px Georgia, serif;
         text-decoration: none;
@@ -94,7 +97,7 @@ body,
         background: transparent none repeat scroll left top;
     }
 
-    li:hover > a  {
+    li:hover > a , /*{
         border: 0 none #000;
         font: normal normal 13px Georgia,serif;
         text-decoration: none;
@@ -102,9 +105,9 @@ body,
         line-height: 15px;
         background: transparent none no-repeat scroll center top;
     }
-
+*/
     li:focus > a {
-        border: 0px none #000000;
+        border: 0px none @noir;
         font: normal normal 13px Georgia, serif;
         text-decoration: none;
         color: @bleuCiel;
@@ -113,14 +116,20 @@ body,
     }
 
     li.active > a {
-        border: 0px none #000000;
+        border: 0px none @noir;
         font: normal normal 13px Georgia, serif;
         text-decoration: none;
-        color: #00c292;
+        color: @vertCyan;
         line-height: 15px;
         background: transparent none no-repeat scroll center top;
     }
 }
+
+#div_menu,
+#div_menu ul {
+    text-align: right;
+}
+
 
 #div_menu.collapse-expanded > ul {
     display: block;
@@ -148,16 +157,17 @@ body,
     height: 80px;
     display: block;
     z-index: 208;
-}
-#cadreLogo > div {
-    width: 320px;
-    height: 80px;
-    background: transparent;
-    border: 5px none #C0C0C0;
-    opacity: 0.3;
-    border-radius: 0px 0px 0px 0px;
-    -moz-border-radius: 0px 0px 0px 0px;
-    -webkit-border-radius: 0px 0px 0px 0px;
+    
+    > div {
+        width: 320px;
+        height: 80px;
+        background: transparent;
+        border: 5px none #C0C0C0;
+        opacity: 0.3;
+        border-radius: 0px 0px 0px 0px;
+        -moz-border-radius: 0px 0px 0px 0px;
+        -webkit-border-radius: 0px 0px 0px 0px;
+    }
 }
 #logo {
     left: 20px;
@@ -178,13 +188,14 @@ body,
     height: 30px;
     display: block;
     z-index: 206;
-}
-#boutonInstagram img {
-    width: 30px;
-    height: 30px;
-    position: static;
-    left: 0px;
-    top: 0px;
+
+    img {
+        width: 30px;
+        height: 30px;
+        position: static;
+        left: 0px;
+        top: 0px;
+    }
 }
 #boutonFacebook {
     left: 200px;
@@ -195,14 +206,16 @@ body,
     height: 30px;
     display: block;
     z-index: 207;
+
+    img {
+        width: 30px;
+        height: 30px;
+        position: static;
+        left: 0px;
+        top: 0px;
+    }
 }
-#boutonFacebook img {
-    width: 30px;
-    height: 30px;
-    position: static;
-    left: 0px;
-    top: 0px;
-}
+
 #ecritureFooter {
     left: 10px;
     top: 0px;
@@ -232,14 +245,16 @@ body,
     height: 30px;
     display: block;
     z-index: 210;
+
+    img {
+        width: 30px;
+        height: 30px;
+        position: static;
+        left: 0px;
+        top: 0px;
+    }
 }
-#boutonTwitter img {
-    width: 30px;
-    height: 30px;
-    position: static;
-    left: 0px;
-    top: 0px;
-}
+
 #ecritureParis {
     left: 0px;
     top: 220px;
@@ -339,7 +354,7 @@ body,
     background: #086b61 none repeat scroll left top;
 }
 #boutonLaRegionParisienne a:active {
-    color: #333333;
+    color: @noirClaire;
     font-style: normal;
     font-weight: normal;
     text-decoration: none;
@@ -357,7 +372,7 @@ body,
 }
 #ecritureVisitesInoubliable {
     left: 24px;
-    top: 30px;
+    top: 52px;
     min-width: 270px;
     width: 270px;
     min-height: 24px;
@@ -531,7 +546,7 @@ body,
     border-radius: 0px;
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
-    color: #1ba18b;
+    color: @vertBoutonSavoirPlus;
     font-style: normal;
     font-weight: bold;
     text-decoration: none;
@@ -545,7 +560,7 @@ body,
     background: #086b61 none repeat scroll left top;
 }
 #boutonEvenementAVenir a:active {
-    color: #333333;
+    color: @noirClaire;
     font-style: normal;
     font-weight: normal;
     text-decoration: none;
@@ -576,7 +591,7 @@ body,
     border-radius: 0px;
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
-    color: #1ba18b;
+    color: @vertBoutonSavoirPlus;
     font-style: normal;
     font-weight: bold;
     text-decoration: none;
@@ -590,7 +605,7 @@ body,
     background: #086b61 none repeat scroll left top;
 }
 #boutonVenezDecouvrir a:active {
-    color: #333333;
+    color: @noirClaire;
     font-style: normal;
     font-weight: normal;
     text-decoration: none;
@@ -645,7 +660,7 @@ body,
     background: #086b61 none repeat scroll left top;
 }
 #boutonConseilDeVoyage a:active {
-    color: #333333;
+    color: @noirClaire;
     font-style: normal;
     font-weight: normal;
     text-decoration: none;
