@@ -1,165 +1,1210 @@
-$bodyColor : #fcf3d2;
-$arrierePlan : transparent none repeat scroll left center;
-
-#wb_header { background: $arrierePlan; height: 250px; }
-#wb_main { background: transparent none repeat scroll left top; height: 4042px; padding: 0 0 70px 0; }
-#wb_footer { background: transparent none repeat scroll left top; height: 80px; }
-body { background: $bodyColor url("../gallery_gen/929d69d99e87503631c3e559e93d61e0.jpg") no-repeat scroll center top; }
-.wb_sbg { background: transparent url("../gallery_gen/dad763187c3171ad64b3e88d1d511a44.jpg") repeat-x scroll center bottom; }
-body, .wb_sbg { min-width: 320px; min-height: 4442px; }
-.root { width: 320px; height: 4442px; overflow: hidden; }
-#menu { left: 170px; top: 70px; min-width: 130px; width: 130px; min-height: 30px; height: 30px; display: block; z-index: 220; }
-#menu ul { background: #fcf3d2 none repeat scroll left top; }
-#menu .btn-collapser { display: inline-block; }
-#menu > ul { display: none; }
-#menu.collapse-expanded > ul { display: block; float: none; height: auto; }
-#menu.collapse-expanded > ul > li { display: block; }
-#menu.collapse-expanded > ul > li > ul { position: static; }
-#menu.collapse-expanded > ul > li:hover > ul { display: none; }
-#menu ul { border: 1px none #000000; }
-#menu, #menu ul { text-align: right; }
-#menu ul ul { background: #2e2e2e none repeat scroll left top; }
-#menu li { margin: 10px 10px 10px 10px; }
-#menu li a { text-transform: uppercase; border: 0px none #000000; padding: 5px 10px 5px 10px; font: normal normal 13px Georgia,serif; text-decoration: none; color: #8b4828; line-height: 15px; background: transparent none repeat scroll left top; }
-#menu li:hover > a, #menu li:focus > a { border: 0px none #000000; font: normal normal 13px Georgia,serif; text-decoration: none; color: #00c2a2; line-height: 15px; background: transparent none no-repeat scroll center top; }
-#menu li.active > a { border: 0px none #000000; font: normal normal 13px Georgia,serif; text-decoration: none; color: #00c292; line-height: 15px; background: transparent none no-repeat scroll center top; }
-#div_logo_idf { border-radius: 0px 0px 0px 0px; -webkit-border-radius: 0px 0px 0px 0px; }
-#div_logo_idf { left: 20px; top: 10px; min-width: 290px; width: 290px; min-height: 71px; height: 71px; display: block; z-index: 212; }
-#div_facebook { left: 280px; top: 30px; min-width: 30px; width: 30px; min-height: 30px; height: 30px; display: block; z-index: 206; }
-#div_facebook img { width: 30px; height: 30px; position: static; left: 0px; top: 0px; }
-#div_twitter { left: 200px; top: 30px; min-width: 30px; width: 30px; min-height: 30px; height: 30px; display: block; z-index: 207; }
-#div_twitter img { width: 30px; height: 30px; position: static; left: 0px; top: 0px; }
-#div_footer_nosNoms { left: 10px; top: 0px; min-width: 310px; width: 310px; min-height: 45px; height: 45px; display: block; z-index: 208; }
-#wb_element_instance71 { left: 240px; top: 30px; min-width: 30px; width: 30px; min-height: 30px; height: 30px; display: block; z-index: 210; }
-#wb_element_instance71 img { width: 30px; height: 30px; position: static; left: 0px; top: 0px; }
-#div_img_metro { left: 10px; top: 100px; min-width: 300px; width: 300px; min-height: 200px; height: 200px; display: block; z-index: 38; }
-#div_img_metro img { width: 300px; height: 200px; position: static; left: 0px; top: 0px; }
-#div_titre_guidePratique { left: 20px; top: 10px; min-width: 280px; width: 280px; min-height: 54px; height: 54px; display: block; z-index: 39; }
-#div_liensUtiles { left: 50px; top: 3890px; min-width: 240px; width: 240px; min-height: 152px; height: 152px; display: block; z-index: 40; }
-#div_carteGoogle { left: 10px; top: 3600px; min-width: 300px; width: 300px; min-height: 270px; height: 270px; display: block; z-index: 43; }
-#paragraphe_metro { left: 10px; top: 320px; min-width: 300px; width: 300px; min-height: 687px; height: 687px; display: block; z-index: 44; }
-#img_BusParis { left: 70px; top: 1570px; min-width: 190px; width: 190px; min-height: 130px; height: 130px; display: block; z-index: 45; }
-#img_BusParis img { width: 190px; height: 130px; position: static; left: 0px; top: 0px; }
-#paragraphe_Bus { left: 10px; top: 2290px; min-width: 300px; width: 300px; min-height: 1258px; height: 1258px; display: block; z-index: 46; }
-#div_imgTaxis { left: 10px; top: 1050px; min-width: 300px; width: 300px; min-height: 180px; height: 180px; display: block; z-index: 47; overflow: hidden; }
-#div_imgTaxis img { width: 390px; height: 240px; position: relative; left: 0px; top: 0px; max-width: inherit; }
-#div_ParagrapheTaxi { left: 10px; top: 1260px; min-width: 300px; width: 300px; min-height: 264px; height: 264px; display: block; z-index: 48; }
-#div_img_VoitureJaune { left: 70px; top: 1710px; min-width: 190px; width: 190px; min-height: 150px; height: 150px; display: block; z-index: 49; overflow: hidden; }
-#div_img_VoitureJaune img { width: 190px; height: 210px; position: relative; left: 0px; top: -10px; max-width: inherit; }
-#bus_Stif { left: 70px; top: 1870px; min-width: 190px; width: 190px; min-height: 130px; height: 130px; display: block; z-index: 50; }
-#bus_Stif img { width: 190px; height: 130px; position: static; left: 0px; top: 0px; }
-#bus_Touriste { left: 70px; top: 2010px; min-width: 190px; width: 190px; min-height: 130px; height: 130px; display: block; z-index: 51; overflow: hidden; }
-#bus_Touriste img { width: 210px; height: 160px; position: relative; left: -20px; top: -30px; max-width: inherit; }
-#bus_montpartre { left: 70px; top: 2150px; min-width: 190px; width: 190px; min-height: 130px; height: 130px; display: block; z-index: 52; overflow: hidden; }
-#bus_montpartre img { width: 190px; height: 150px; position: relative; left: 0px; top: -20px; max-width: inherit; }
-#wb_element_instance85 { left: 0px; top: 2150px; display: block; z-index: 9000; }
-
+$bodyColor: #fcf3d2;
+$arrierePlan: transparent none repeat scroll left center;
+$arrierePlanBody: transparent none repeat scroll left top;
+#wb_header {
+    background: $arrierePlan;
+    height: 250px;
+}
+#wb_main {
+    background: $arrierePlanBody;
+    height: 4042px;
+    padding: 0 0 70px 0;
+}
+#wb_footer {
+    background: $arrierePlanBody;
+    height: 80px;
+}
+body {
+    background: $bodyColor url("../gallery_gen/929d69d99e87503631c3e559e93d61e0.jpg") no-repeat scroll center top;
+}
+.wb_sbg {
+    background: transparent url("../gallery_gen/dad763187c3171ad64b3e88d1d511a44.jpg") repeat-x scroll center bottom;
+}
+body,
+.wb_sbg {
+    min-width: 320px;
+    min-height: 4442px;
+}
+.root {
+    width: 320px;
+    height: 4442px;
+    overflow: hidden;
+}
+#menu {
+    left: 170px;
+    top: 70px;
+    min-width: 130px;
+    width: 130px;
+    min-height: 30px;
+    height: 30px;
+    display: block;
+    z-index: 220;
+    ul {
+        background: #fcf3d2 none repeat scroll left top;
+    }
+    .btn-collapser {
+        display: inline-block;
+    }
+    > ul {
+        display: none;
+    }
+}
+#menu.collapse-expanded > ul {
+    display: block;
+    float: none;
+    height: auto;
+}
+#menu.collapse-expanded > ul > li {
+    display: block;
+}
+#menu.collapse-expanded > ul > li > ul {
+    position: static;
+}
+#menu.collapse-expanded > ul > li:hover > ul {
+    display: none;
+}
+#menu ul {
+    border: 1px none #000000;
+}
+#menu,
+#menu ul {
+    text-align: right;
+}
+#menu ul ul {
+    background: #2e2e2e none repeat scroll left top;
+}
+#menu li {
+    margin: 10px 10px 10px 10px;
+    a {
+        text-transform: uppercase;
+        border: 0px none #000000;
+        padding: 5px 10px 5px 10px;
+        font: normal normal 13px Georgia, serif;
+        text-decoration: none;
+        color: #8b4828;
+        line-height: 15px;
+        background: $arrierePlanBody;
+    }
+}
+#menu li:hover > a,
+#menu li:focus > a {
+    border: 0px none #000000;
+    font: normal normal 13px Georgia, serif;
+    text-decoration: none;
+    color: #00c2a2;
+    line-height: 15px;
+    background: transparent none no-repeat scroll center top;
+}
+#menu li.active > a {
+    border: 0px none #000000;
+    font: normal normal 13px Georgia, serif;
+    text-decoration: none;
+    color: #00c292;
+    line-height: 15px;
+    background: transparent none no-repeat scroll center top;
+}
+#div_logo_idf {
+    border-radius: 0px 0px 0px 0px;
+    -webkit-border-radius: 0px 0px 0px 0px;
+    left: 20px;
+    top: 10px;
+    min-width: 290px;
+    width: 290px;
+    min-height: 71px;
+    height: 71px;
+    display: block;
+    z-index: 212;
+}
+#div_facebook {
+    left: 280px;
+    top: 30px;
+    min-width: 30px;
+    width: 30px;
+    min-height: 30px;
+    height: 30px;
+    display: block;
+    z-index: 206;
+    img {
+        width: 30px;
+        height: 30px;
+        position: static;
+        left: 0px;
+        top: 0px;
+    }
+}
+#div_twitter {
+    left: 200px;
+    top: 30px;
+    min-width: 30px;
+    width: 30px;
+    min-height: 30px;
+    height: 30px;
+    display: block;
+    z-index: 207;
+    img {
+        width: 30px;
+        height: 30px;
+        position: static;
+        left: 0px;
+        top: 0px;
+    }
+}
+#div_footer_nosNoms {
+    left: 10px;
+    top: 0px;
+    min-width: 310px;
+    width: 310px;
+    min-height: 45px;
+    height: 45px;
+    display: block;
+    z-index: 208;
+}
+#wb_element_instance71 {
+    left: 240px;
+    top: 30px;
+    min-width: 30px;
+    width: 30px;
+    min-height: 30px;
+    height: 30px;
+    display: block;
+    z-index: 210;
+    img {
+        width: 30px;
+        height: 30px;
+        position: static;
+        left: 0px;
+        top: 0px;
+    }
+}
+#div_img_metro {
+    left: 10px;
+    top: 100px;
+    min-width: 300px;
+    width: 300px;
+    min-height: 200px;
+    height: 200px;
+    display: block;
+    z-index: 38;
+    img {
+        width: 300px;
+        height: 200px;
+        position: static;
+        left: 0px;
+        top: 0px;
+    }
+}
+#div_titre_guidePratique {
+    left: 20px;
+    top: 10px;
+    min-width: 280px;
+    width: 280px;
+    min-height: 54px;
+    height: 54px;
+    display: block;
+    z-index: 39;
+}
+#div_liensUtiles {
+    left: 50px;
+    top: 3890px;
+    min-width: 240px;
+    width: 240px;
+    min-height: 152px;
+    height: 152px;
+    display: block;
+    z-index: 40;
+}
+#div_carteGoogle {
+    left: 10px;
+    top: 3600px;
+    min-width: 300px;
+    width: 300px;
+    min-height: 270px;
+    height: 270px;
+    display: block;
+    z-index: 43;
+}
+#paragraphe_metro {
+    left: 10px;
+    top: 320px;
+    min-width: 300px;
+    width: 300px;
+    min-height: 687px;
+    height: 687px;
+    display: block;
+    z-index: 44;
+}
+#img_BusParis {
+    left: 70px;
+    top: 1570px;
+    min-width: 190px;
+    width: 190px;
+    min-height: 130px;
+    height: 130px;
+    display: block;
+    z-index: 45;
+    img {
+        width: 190px;
+        height: 130px;
+        position: static;
+        left: 0px;
+        top: 0px;
+    }
+}
+#paragraphe_Bus {
+    left: 10px;
+    top: 2290px;
+    min-width: 300px;
+    width: 300px;
+    min-height: 1258px;
+    height: 1258px;
+    display: block;
+    z-index: 46;
+}
+#div_imgTaxis {
+    left: 10px;
+    top: 1050px;
+    min-width: 300px;
+    width: 300px;
+    min-height: 180px;
+    height: 180px;
+    display: block;
+    z-index: 47;
+    overflow: hidden;
+    img {
+        width: 390px;
+        height: 240px;
+        position: relative;
+        left: 0px;
+        top: 0px;
+        max-width: inherit;
+    }
+}
+#div_ParagrapheTaxi {
+    left: 10px;
+    top: 1260px;
+    min-width: 300px;
+    width: 300px;
+    min-height: 264px;
+    height: 264px;
+    display: block;
+    z-index: 48;
+}
+#div_img_VoitureJaune {
+    left: 70px;
+    top: 1710px;
+    min-width: 190px;
+    width: 190px;
+    min-height: 150px;
+    height: 150px;
+    display: block;
+    z-index: 49;
+    overflow: hidden;
+    img {
+        width: 190px;
+        height: 210px;
+        position: relative;
+        left: 0px;
+        top: -10px;
+        max-width: inherit;
+    }
+}
+#bus_Stif {
+    left: 70px;
+    top: 1870px;
+    min-width: 190px;
+    width: 190px;
+    min-height: 130px;
+    height: 130px;
+    display: block;
+    z-index: 50;
+    img {
+        width: 190px;
+        height: 130px;
+        position: static;
+        left: 0px;
+        top: 0px;
+    }
+}
+#bus_Touriste {
+    left: 70px;
+    top: 2010px;
+    min-width: 190px;
+    width: 190px;
+    min-height: 130px;
+    height: 130px;
+    display: block;
+    z-index: 51;
+    overflow: hidden;
+    img {
+        width: 210px;
+        height: 160px;
+        position: relative;
+        left: -20px;
+        top: -30px;
+        max-width: inherit;
+    }
+}
+#bus_montpartre {
+    left: 70px;
+    top: 2150px;
+    min-width: 190px;
+    width: 190px;
+    min-height: 130px;
+    height: 130px;
+    display: block;
+    z-index: 52;
+    overflow: hidden;
+    img {
+        width: 190px;
+        height: 150px;
+        position: relative;
+        left: 0px;
+        top: -20px;
+        max-width: inherit;
+    }
+}
+#wb_element_instance85 {
+    left: 0px;
+    top: 2150px;
+    display: block;
+    z-index: 9000;
+}
 @media (min-width: 768px) {
-  #wb_header { height: 250px; }
-  #wb_main { height: 2540px; }
-  #wb_footer { height: 80px; }
-  body, .wb_sbg { min-width: 768px; min-height: 2940px; }
-  .root { width: 768px; height: 2940px; overflow: visible; }
-  #menu { left: 120px; top: 140px; min-width: 490px; width: 490px; min-height: 50px; height: 50px; display: block; }
-  #menu ul { background: transparent none repeat scroll left top; }
-  #menu .btn-collapser { display: none; }
-  #menu > ul { display: block; }
-  #div_logo_idf { left: 230px; top: 40px; min-width: 300px; width: 300px; min-height: 71px; height: 71px; display: block; }
-  #div_facebook { left: 680px; top: 20px; min-width: 30px; width: 30px; min-height: 30px; height: 30px; display: block; }
-  #div_facebook img { width: 30px; height: 30px; position: static; left: 0px; top: 0px; }
-  #div_twitter { left: 630px; top: 20px; min-width: 30px; width: 30px; min-height: 30px; height: 30px; display: block; }
-  #div_twitter img { width: 30px; height: 30px; position: static; left: 0px; top: 0px; }
-  #div_footer_nosNoms { left: 40px; top: 20px; min-width: 380px; width: 380px; min-height: 45px; height: 45px; display: block; }
-  #wb_element_instance71 { left: 720px; top: 20px; min-width: 30px; width: 30px; min-height: 30px; height: 30px; display: block; }
-  #wb_element_instance71 img { width: 30px; height: 30px; position: static; left: 0px; top: 0px; }
-  #div_img_metro { left: 200px; top: 120px; min-width: 380px; width: 380px; min-height: 260px; height: 260px; display: block; }
-  #div_img_metro img { width: 380px; height: 260px; position: static; left: 0px; top: 0px; }
-  #div_titre_guidePratique { left: 210px; top: 30px; min-width: 340px; width: 340px; min-height: 54px; height: 54px; display: block; }
-  #div_liensUtiles { left: 50px; top: 2310px; min-width: 220px; width: 220px; min-height: 152px; height: 152px; display: block; }
-  #div_carteGoogle { left: 280px; top: 2270px; min-width: 460px; width: 460px; min-height: 270px; height: 270px; display: block; }
-  #paragraphe_metro { left: 50px; top: 420px; min-width: 680px; width: 680px; min-height: 375px; height: 375px; display: block; }
-  #img_BusParis { left: 60px; top: 1130px; min-width: 240px; width: 240px; min-height: 160px; height: 160px; display: block; overflow: hidden; }
-  #img_BusParis img { width: 240px; height: 170px; position: relative; left: 0px; top: 0px; max-width: inherit; }
-  #paragraphe_Bus { left: 350px; top: 1130px; min-width: 400px; width: 400px; min-height: 1018px; height: 1018px; display: block; }
-  #div_imgTaxis { left: 30px; top: 820px; min-width: 300px; width: 300px; min-height: 210px; height: 210px; display: block; overflow: hidden; }
-  #div_imgTaxis img { width: 340px; height: 210px; position: relative; left: 0px; top: 0px; max-width: inherit; }
-  #div_ParagrapheTaxi { left: 360px; top: 830px; min-width: 370px; width: 370px; min-height: 216px; height: 216px; display: block; }
-  #div_img_VoitureJaune { left: 60px; top: 1350px; min-width: 240px; width: 240px; min-height: 180px; height: 180px; display: block; overflow: hidden; }
-  #div_img_VoitureJaune img { width: 240px; height: 260px; position: relative; left: 0px; top: -20px; max-width: inherit; }
-  #bus_Stif { left: 60px; top: 1590px; min-width: 240px; width: 240px; min-height: 160px; height: 160px; display: block; }
-  #bus_Stif img { width: 240px; height: 160px; position: static; left: 0px; top: 0px; }
-  #bus_Touriste { left: 60px; top: 1800px; min-width: 240px; width: 240px; min-height: 160px; height: 160px; display: block; overflow: hidden; }
-  #bus_Touriste img { width: 260px; height: 200px; position: relative; left: -20px; top: -40px; max-width: inherit; }
-  #bus_montpartre { left: 60px; top: 2010px; min-width: 240px; width: 240px; min-height: 160px; height: 160px; display: block; overflow: hidden; }
-  #bus_montpartre img { width: 240px; height: 190px; position: relative; left: 0px; top: -20px; max-width: inherit; }
+    #wb_header {
+        height: 250px;
+    }
+    #wb_main {
+        height: 2540px;
+    }
+    #wb_footer {
+        height: 80px;
+    }
+    body,
+    .wb_sbg {
+        min-width: 768px;
+        min-height: 2940px;
+    }
+    .root {
+        width: 768px;
+        height: 2940px;
+        overflow: visible;
+    }
+    #menu {
+        left: 120px;
+        top: 140px;
+        min-width: 490px;
+        width: 490px;
+        min-height: 50px;
+        height: 50px;
+        display: block;
+        ul {
+            background: $arrierePlanBody;
+        }
+    }
+    #menu .btn-collapser {
+        display: none;
+    }
+    #menu > ul {
+        display: block;
+    }
+    #div_logo_idf {
+        left: 230px;
+        top: 40px;
+        min-width: 300px;
+        width: 300px;
+        min-height: 71px;
+        height: 71px;
+        display: block;
+    }
+    #div_facebook {
+        left: 680px;
+        top: 20px;
+        min-width: 30px;
+        width: 30px;
+        min-height: 30px;
+        height: 30px;
+        display: block;
+        img {
+            width: 30px;
+            height: 30px;
+            position: static;
+            left: 0px;
+            top: 0px;
+        }
+    }
+    #div_twitter {
+        left: 630px;
+        top: 20px;
+        min-width: 30px;
+        width: 30px;
+        min-height: 30px;
+        height: 30px;
+        display: block;
+        img {
+            width: 30px;
+            height: 30px;
+            position: static;
+            left: 0px;
+            top: 0px;
+        }
+    }
+    #div_footer_nosNoms {
+        left: 40px;
+        top: 20px;
+        min-width: 380px;
+        width: 380px;
+        min-height: 45px;
+        height: 45px;
+        display: block;
+    }
+    #wb_element_instance71 {
+        left: 720px;
+        top: 20px;
+        min-width: 30px;
+        width: 30px;
+        min-height: 30px;
+        height: 30px;
+        display: block;
+        img {
+            width: 30px;
+            height: 30px;
+            position: static;
+            left: 0px;
+            top: 0px;
+        }
+    }
+    #div_img_metro {
+        left: 200px;
+        top: 120px;
+        min-width: 380px;
+        width: 380px;
+        min-height: 260px;
+        height: 260px;
+        display: block;
+        img {
+            width: 380px;
+            height: 260px;
+            position: static;
+            left: 0px;
+            top: 0px;
+        }
+    }
+    #div_titre_guidePratique {
+        left: 210px;
+        top: 30px;
+        min-width: 340px;
+        width: 340px;
+        min-height: 54px;
+        height: 54px;
+        display: block;
+    }
+    #div_liensUtiles {
+        left: 50px;
+        top: 2310px;
+        min-width: 220px;
+        width: 220px;
+        min-height: 152px;
+        height: 152px;
+        display: block;
+    }
+    #div_carteGoogle {
+        left: 280px;
+        top: 2270px;
+        min-width: 460px;
+        width: 460px;
+        min-height: 270px;
+        height: 270px;
+        display: block;
+    }
+    #paragraphe_metro {
+        left: 50px;
+        top: 420px;
+        min-width: 680px;
+        width: 680px;
+        min-height: 375px;
+        height: 375px;
+        display: block;
+    }
+    #img_BusParis {
+        left: 60px;
+        top: 1130px;
+        min-width: 240px;
+        width: 240px;
+        min-height: 160px;
+        height: 160px;
+        display: block;
+        overflow: hidden;
+        img {
+            width: 240px;
+            height: 170px;
+            position: relative;
+            left: 0px;
+            top: 0px;
+            max-width: inherit;
+        }
+    }
+    #paragraphe_Bus {
+        left: 350px;
+        top: 1130px;
+        min-width: 400px;
+        width: 400px;
+        min-height: 1018px;
+        height: 1018px;
+        display: block;
+    }
+    #div_imgTaxis {
+        left: 30px;
+        top: 820px;
+        min-width: 300px;
+        width: 300px;
+        min-height: 210px;
+        height: 210px;
+        display: block;
+        overflow: hidden;
+        img {
+            width: 340px;
+            height: 210px;
+            position: relative;
+            left: 0px;
+            top: 0px;
+            max-width: inherit;
+        }
+    }
+    #div_ParagrapheTaxi {
+        left: 360px;
+        top: 830px;
+        min-width: 370px;
+        width: 370px;
+        min-height: 216px;
+        height: 216px;
+        display: block;
+    }
+    #div_img_VoitureJaune {
+        left: 60px;
+        top: 1350px;
+        min-width: 240px;
+        width: 240px;
+        min-height: 180px;
+        height: 180px;
+        display: block;
+        overflow: hidden;
+        img {
+            width: 240px;
+            height: 260px;
+            position: relative;
+            left: 0px;
+            top: -20px;
+            max-width: inherit;
+        }
+    }
+    #bus_Stif {
+        left: 60px;
+        top: 1590px;
+        min-width: 240px;
+        width: 240px;
+        min-height: 160px;
+        height: 160px;
+        display: block;
+        img {
+            width: 240px;
+            height: 160px;
+            position: static;
+            left: 0px;
+            top: 0px;
+        }
+    }
+    #bus_Touriste {
+        left: 60px;
+        top: 1800px;
+        min-width: 240px;
+        width: 240px;
+        min-height: 160px;
+        height: 160px;
+        display: block;
+        overflow: hidden;
+        img {
+            width: 260px;
+            height: 200px;
+            position: relative;
+            left: -20px;
+            top: -40px;
+            max-width: inherit;
+        }
+    }
+    #bus_montpartre {
+        left: 60px;
+        top: 2010px;
+        min-width: 240px;
+        width: 240px;
+        min-height: 160px;
+        height: 160px;
+        display: block;
+        overflow: hidden;
+        img {
+            width: 240px;
+            height: 190px;
+            position: relative;
+            left: 0px;
+            top: -20px;
+            max-width: inherit;
+        }
+    }
 }
-
 @media (min-width: 992px) {
-  #wb_header { height: 250px; }
-  #wb_main { height: 2130px; }
-  #wb_footer { height: 80px; }
-  body, .wb_sbg { min-width: 992px; min-height: 2530px; }
-  .root { width: 992px; height: 2530px; overflow: visible; }
-  #menu { left: 498px; top: 10px; min-width: 484px; width: 484px; min-height: 40px; height: 40px; display: block; }
-  #menu ul { background: transparent none repeat scroll left top; }
-  #menu .btn-collapser { display: none; }
-  #menu > ul { display: block; }
-  #div_logo_idf { left: 27px; top: 17px; min-width: 300px; width: 300px; min-height: 75px; height: 75px; display: block; }
-  #div_facebook { left: 900px; top: 27px; min-width: 32px; width: 32px; min-height: 32px; height: 32px; display: block; }
-  #div_facebook img { width: 32px; height: 32px; position: static; left: 0px; top: 0px; }
-  #div_twitter { left: 850px; top: 27px; min-width: 32px; width: 32px; min-height: 32px; height: 32px; display: block; }
-  #div_twitter img { width: 32px; height: 32px; position: static; left: 0px; top: 0px; }
-  #div_footer_nosNoms { left: 50px; top: 10px; min-width: 530px; width: 530px; min-height: 28px; height: 28px; display: block; }
-  #wb_element_instance71 { left: 950px; top: 27px; min-width: 32px; width: 32px; min-height: 32px; height: 32px; display: block; }
-  #wb_element_instance71 img { width: 32px; height: 32px; position: static; left: 0px; top: 0px; }
-  #div_img_metro { left: 30px; top: 260px; min-width: 390px; width: 390px; min-height: 270px; height: 270px; display: block; }
-  #div_img_metro img { width: 390px; height: 270px; position: static; left: 0px; top: 0px; }
-  #div_titre_guidePratique { left: 0px; top: 10px; min-width: 370px; width: 370px; min-height: 67px; height: 67px; display: block; }
-  #div_liensUtiles { left: 20px; top: 1860px; min-width: 190px; width: 190px; min-height: 169px; height: 169px; display: block; }
-  #div_carteGoogle { left: 220px; top: 1860px; min-width: 760px; width: 760px; min-height: 270px; height: 270px; display: block; }
-  #paragraphe_metro { left: 440px; top: 130px; min-width: 530px; width: 530px; min-height: 451px; height: 451px; display: block; }
-  #img_BusParis { left: 60px; top: 960px; min-width: 240px; width: 240px; min-height: 160px; height: 160px; display: block; overflow: hidden; }
-  #img_BusParis img { width: 240px; height: 170px; position: relative; left: 0px; top: 0px; max-width: inherit; }
-  #paragraphe_Bus { left: 360px; top: 970px; min-width: 570px; width: 570px; min-height: 850px; height: 850px; display: block; }
-  #div_imgTaxis { left: 500px; top: 640px; min-width: 430px; width: 430px; min-height: 270px; height: 270px; display: block; }
-  #div_imgTaxis img { width: 430px; height: 270px; position: static; left: 0px; top: 0px; }
-  #div_ParagrapheTaxi { left: 50px; top: 670px; min-width: 380px; width: 380px; min-height: 216px; height: 216px; display: block; }
-  #div_img_VoitureJaune { left: 60px; top: 1130px; min-width: 240px; width: 240px; min-height: 190px; height: 190px; display: block; overflow: hidden; }
-  #div_img_VoitureJaune img { width: 240px; height: 260px; position: relative; left: 0px; top: -10px; max-width: inherit; }
-  #bus_Stif { left: 61px; top: 1331px; min-width: 240px; width: 240px; min-height: 160px; height: 160px; display: block; }
-  #bus_Stif img { width: 240px; height: 160px; position: static; left: 0px; top: 0px; }
-  #bus_Touriste { left: 60px; top: 1500px; min-width: 240px; width: 240px; min-height: 160px; height: 160px; display: block; overflow: hidden; }
-  #bus_Touriste img { width: 260px; height: 200px; position: relative; left: -20px; top: -40px; max-width: inherit; }
-  #bus_montpartre { left: 60px; top: 1670px; min-width: 240px; width: 240px; min-height: 160px; height: 160px; display: block; overflow: hidden; }
-  #bus_montpartre img { width: 240px; height: 190px; position: relative; left: 0px; top: -20px; max-width: inherit; }
+    #wb_header {
+        height: 250px;
+    }
+    #wb_main {
+        height: 2130px;
+    }
+    #wb_footer {
+        height: 80px;
+    }
+    body,
+    .wb_sbg {
+        min-width: 992px;
+        min-height: 2530px;
+    }
+    .root {
+        width: 992px;
+        height: 2530px;
+        overflow: visible;
+    }
+    #menu {
+        left: 498px;
+        top: 10px;
+        min-width: 484px;
+        width: 484px;
+        min-height: 40px;
+        height: 40px;
+        display: block;
+    }
+    #menu ul {
+        background: $arrierePlanBody;
+    }
+    #menu .btn-collapser {
+        display: none;
+    }
+    #menu > ul {
+        display: block;
+    }
+    #div_logo_idf {
+        left: 27px;
+        top: 17px;
+        min-width: 300px;
+        width: 300px;
+        min-height: 75px;
+        height: 75px;
+        display: block;
+    }
+    #div_facebook {
+        left: 900px;
+        top: 27px;
+        min-width: 32px;
+        width: 32px;
+        min-height: 32px;
+        height: 32px;
+        display: block;
+        img {
+            width: 32px;
+            height: 32px;
+            position: static;
+            left: 0px;
+            top: 0px;
+        }
+    }
+    #div_twitter {
+        left: 850px;
+        top: 27px;
+        min-width: 32px;
+        width: 32px;
+        min-height: 32px;
+        height: 32px;
+        display: block;
+        #div_twitter img {
+            width: 32px;
+            height: 32px;
+            position: static;
+            left: 0px;
+            top: 0px;
+        }
+    }
+    #div_footer_nosNoms {
+        left: 50px;
+        top: 10px;
+        min-width: 530px;
+        width: 530px;
+        min-height: 28px;
+        height: 28px;
+        display: block;
+    }
+    #wb_element_instance71 {
+        left: 950px;
+        top: 27px;
+        min-width: 32px;
+        width: 32px;
+        min-height: 32px;
+        height: 32px;
+        display: block;
+        img {
+            width: 32px;
+            height: 32px;
+            position: static;
+            left: 0px;
+            top: 0px;
+        }
+    }
+    #div_img_metro {
+        left: 30px;
+        top: 260px;
+        min-width: 390px;
+        width: 390px;
+        min-height: 270px;
+        height: 270px;
+        display: block;
+        img {
+            width: 390px;
+            height: 270px;
+            position: static;
+            left: 0px;
+            top: 0px;
+        }
+    }
+    #div_titre_guidePratique {
+        left: 0px;
+        top: 10px;
+        min-width: 370px;
+        width: 370px;
+        min-height: 67px;
+        height: 67px;
+        display: block;
+    }
+    #div_liensUtiles {
+        left: 20px;
+        top: 1860px;
+        min-width: 190px;
+        width: 190px;
+        min-height: 169px;
+        height: 169px;
+        display: block;
+    }
+    #div_carteGoogle {
+        left: 220px;
+        top: 1860px;
+        min-width: 760px;
+        width: 760px;
+        min-height: 270px;
+        height: 270px;
+        display: block;
+    }
+    #paragraphe_metro {
+        left: 440px;
+        top: 130px;
+        min-width: 530px;
+        width: 530px;
+        min-height: 451px;
+        height: 451px;
+        display: block;
+    }
+    #img_BusParis {
+        left: 60px;
+        top: 960px;
+        min-width: 240px;
+        width: 240px;
+        min-height: 160px;
+        height: 160px;
+        display: block;
+        overflow: hidden;
+        img {
+            width: 240px;
+            height: 170px;
+            position: relative;
+            left: 0px;
+            top: 0px;
+            max-width: inherit;
+        }
+    }
+    #paragraphe_Bus {
+        left: 360px;
+        top: 970px;
+        min-width: 570px;
+        width: 570px;
+        min-height: 850px;
+        height: 850px;
+        display: block;
+    }
+    #div_imgTaxis {
+        left: 500px;
+        top: 640px;
+        min-width: 430px;
+        width: 430px;
+        min-height: 270px;
+        height: 270px;
+        display: block;
+        img {
+            width: 430px;
+            height: 270px;
+            position: static;
+            left: 0px;
+            top: 0px;
+        }
+    }
+    #div_ParagrapheTaxi {
+        left: 50px;
+        top: 670px;
+        min-width: 380px;
+        width: 380px;
+        min-height: 216px;
+        height: 216px;
+        display: block;
+    }
+    #div_img_VoitureJaune {
+        left: 60px;
+        top: 1130px;
+        min-width: 240px;
+        width: 240px;
+        min-height: 190px;
+        height: 190px;
+        display: block;
+        overflow: hidden;
+    }
+    #div_img_VoitureJaune img {
+        width: 240px;
+        height: 260px;
+        position: relative;
+        left: 0px;
+        top: -10px;
+        max-width: inherit;
+    }
+    #bus_Stif {
+        left: 61px;
+        top: 1331px;
+        min-width: 240px;
+        width: 240px;
+        min-height: 160px;
+        height: 160px;
+        display: block;
+        img {
+            width: 240px;
+            height: 160px;
+            position: static;
+            left: 0px;
+            top: 0px;
+        }
+    }
+    #bus_Touriste {
+        left: 60px;
+        top: 1500px;
+        min-width: 240px;
+        width: 240px;
+        min-height: 160px;
+        height: 160px;
+        display: block;
+        overflow: hidden;
+        img {
+            width: 260px;
+            height: 200px;
+            position: relative;
+            left: -20px;
+            top: -40px;
+            max-width: inherit;
+        }
+    }
+    #bus_montpartre {
+        left: 60px;
+        top: 1670px;
+        min-width: 240px;
+        width: 240px;
+        min-height: 160px;
+        height: 160px;
+        display: block;
+        overflow: hidden;
+        img {
+            width: 240px;
+            height: 190px;
+            position: relative;
+            left: 0px;
+            top: -20px;
+            max-width: inherit;
+        }
+    }
 }
-
 @media (min-width: 1200px) {
-  #wb_header { height: 250px; }
-  #wb_main { height: 2130px; }
-  #wb_footer { height: 80px; }
-  body, .wb_sbg { min-width: 992px; min-height: 2530px; }
-  .root { width: 992px; height: 2530px; overflow: visible; }
-  #menu { left: 498px; top: 10px; min-width: 484px; width: 484px; min-height: 40px; height: 40px; display: block; }
-  #menu ul { background: transparent none repeat scroll left top; }
-  #menu .btn-collapser { display: none; }
-  #menu > ul { display: block; }
-  #div_logo_idf { left: 27px; top: 17px; min-width: 300px; width: 300px; min-height: 75px; height: 75px; display: block; }
-  #div_facebook { left: 900px; top: 27px; min-width: 32px; width: 32px; min-height: 32px; height: 32px; display: block; img { width: 32px; height: 32px; position: static; left: 0px; top: 0px; }}
-  #div_twitter { left: 850px; top: 27px; min-width: 32px; width: 32px; min-height: 32px; height: 32px; display: block; img { width: 32px; height: 32px; position: static; left: 0px; top: 0px; }}
-  #div_footer_nosNoms { left: 50px; top: 10px; min-width: 530px; width: 530px; min-height: 28px; height: 28px; display: block; }
-  #wb_element_instance71 { left: 950px; top: 27px; min-width: 32px; width: 32px; min-height: 32px; height: 32px; display: block; img { width: 32px; height: 32px; position: static; left: 0px; top: 0px; }}
-  #div_img_metro { left: 30px; top: 260px; min-width: 390px; width: 390px; min-height: 270px; height: 270px; display: block; img { width: 390px; height: 270px; position: static; left: 0px; top: 0px; }}
-  #div_titre_guidePratique { left: 0px; top: 10px; min-width: 370px; width: 370px; min-height: 67px; height: 67px; display: block; }
-  #div_liensUtiles { left: 20px; top: 1860px; min-width: 190px; width: 190px; min-height: 169px; height: 169px; display: block; }
-  #div_carteGoogle { left: 220px; top: 1860px; min-width: 760px; width: 760px; min-height: 270px; height: 270px; display: block; }
-  #paragraphe_metro { left: 440px; top: 130px; min-width: 530px; width: 530px; min-height: 451px; height: 451px; display: block; }
-  #img_BusParis { left: 60px; top: 960px; min-width: 240px; width: 240px; min-height: 160px; height: 160px; display: block; overflow: hidden; img { width: 240px; height: 170px; position: relative; left: 0px; top: 0px; max-width: inherit; }}
-  #paragraphe_Bus { left: 360px; top: 970px; min-width: 570px; width: 570px; min-height: 850px; height: 850px; display: block; }
-  #div_imgTaxis { left: 500px; top: 640px; min-width: 430px; width: 430px; min-height: 270px; height: 270px; display: block; img { width: 430px; height: 270px; position: static; left: 0px; top: 0px; }}
-  #div_ParagrapheTaxi { left: 50px; top: 670px; min-width: 380px; width: 380px; min-height: 216px; height: 216px; display: block; }
-  #div_img_VoitureJaune { left: 60px; top: 1130px; min-width: 240px; width: 240px; min-height: 190px; height: 190px; display: block; overflow: hidden; img { width: 240px; height: 260px; position: relative; left: 0px; top: -10px; max-width: inherit; }}
-  #bus_Stif { left: 61px; top: 1331px; min-width: 240px; width: 240px; min-height: 160px; height: 160px; display: block; img { width: 240px; height: 160px; position: static; left: 0px; top: 0px; }}
-  #bus_Touriste { left: 60px; top: 1500px; min-width: 240px; width: 240px; min-height: 160px; height: 160px; display: block; overflow: hidden; img { width: 260px; height: 200px; position: relative; left: -20px; top: -40px; max-width: inherit; }}
-  #bus_montpartre { left: 60px; top: 1670px; min-width: 240px; width: 240px; min-height: 160px; height: 160px; display: block; overflow: hidden; img { width: 240px; height: 190px; position: relative; left: 0px; top: -20px; max-width: inherit; }}
+    #wb_header {
+        height: 250px;
+    }
+    #wb_main {
+        height: 2130px;
+    }
+    #wb_footer {
+        height: 80px;
+    }
+    body,
+    .wb_sbg {
+        min-width: 992px;
+        min-height: 2530px;
+    }
+    .root {
+        width: 992px;
+        height: 2530px;
+        overflow: visible;
+    }
+    #menu {
+        left: 498px;
+        top: 10px;
+        min-width: 484px;
+        width: 484px;
+        min-height: 40px;
+        height: 40px;
+        display: block;
+        ul {
+            background: $arrierePlanBody;
+        }
+        .btn-collapser {
+            display: none;
+        }
+        > ul {
+            display: block;
+        }
+    }
+    #div_logo_idf {
+        left: 27px;
+        top: 17px;
+        min-width: 300px;
+        width: 300px;
+        min-height: 75px;
+        height: 75px;
+        display: block;
+    }
+    #div_facebook {
+        left: 900px;
+        top: 27px;
+        min-width: 32px;
+        width: 32px;
+        min-height: 32px;
+        height: 32px;
+        display: block;
+        img {
+            width: 32px;
+            height: 32px;
+            position: static;
+            left: 0px;
+            top: 0px;
+        }
+    }
+    #div_twitter {
+        left: 850px;
+        top: 27px;
+        min-width: 32px;
+        width: 32px;
+        min-height: 32px;
+        height: 32px;
+        display: block;
+        img {
+            width: 32px;
+            height: 32px;
+            position: static;
+            left: 0px;
+            top: 0px;
+        }
+    }
+    #div_footer_nosNoms {
+        left: 50px;
+        top: 10px;
+        min-width: 530px;
+        width: 530px;
+        min-height: 28px;
+        height: 28px;
+        display: block;
+    }
+    #wb_element_instance71 {
+        left: 950px;
+        top: 27px;
+        min-width: 32px;
+        width: 32px;
+        min-height: 32px;
+        height: 32px;
+        display: block;
+        img {
+            width: 32px;
+            height: 32px;
+            position: static;
+            left: 0px;
+            top: 0px;
+        }
+    }
+    #div_img_metro {
+        left: 30px;
+        top: 260px;
+        min-width: 390px;
+        width: 390px;
+        min-height: 270px;
+        height: 270px;
+        display: block;
+        img {
+            width: 390px;
+            height: 270px;
+            position: static;
+            left: 0px;
+            top: 0px;
+        }
+    }
+    #div_titre_guidePratique {
+        left: 0px;
+        top: 10px;
+        min-width: 370px;
+        width: 370px;
+        min-height: 67px;
+        height: 67px;
+        display: block;
+    }
+    #div_liensUtiles {
+        left: 20px;
+        top: 1860px;
+        min-width: 190px;
+        width: 190px;
+        min-height: 169px;
+        height: 169px;
+        display: block;
+    }
+    #div_carteGoogle {
+        left: 220px;
+        top: 1860px;
+        min-width: 760px;
+        width: 760px;
+        min-height: 270px;
+        height: 270px;
+        display: block;
+    }
+    #paragraphe_metro {
+        left: 440px;
+        top: 130px;
+        min-width: 530px;
+        width: 530px;
+        min-height: 451px;
+        height: 451px;
+        display: block;
+    }
+    #img_BusParis {
+        left: 60px;
+        top: 960px;
+        min-width: 240px;
+        width: 240px;
+        min-height: 160px;
+        height: 160px;
+        display: block;
+        overflow: hidden;
+        img {
+            width: 240px;
+            height: 170px;
+            position: relative;
+            left: 0px;
+            top: 0px;
+            max-width: inherit;
+        }
+    }
+    #paragraphe_Bus {
+        left: 360px;
+        top: 970px;
+        min-width: 570px;
+        width: 570px;
+        min-height: 850px;
+        height: 850px;
+        display: block;
+    }
+    #div_imgTaxis {
+        left: 500px;
+        top: 640px;
+        min-width: 430px;
+        width: 430px;
+        min-height: 270px;
+        height: 270px;
+        display: block;
+        img {
+            width: 430px;
+            height: 270px;
+            position: static;
+            left: 0px;
+            top: 0px;
+        }
+    }
+    #div_ParagrapheTaxi {
+        left: 50px;
+        top: 670px;
+        min-width: 380px;
+        width: 380px;
+        min-height: 216px;
+        height: 216px;
+        display: block;
+    }
+    #div_img_VoitureJaune {
+        left: 60px;
+        top: 1130px;
+        min-width: 240px;
+        width: 240px;
+        min-height: 190px;
+        height: 190px;
+        display: block;
+        overflow: hidden;
+        img {
+            width: 240px;
+            height: 260px;
+            position: relative;
+            left: 0px;
+            top: -10px;
+            max-width: inherit;
+        }
+    }
+    #bus_Stif {
+        left: 61px;
+        top: 1331px;
+        min-width: 240px;
+        width: 240px;
+        min-height: 160px;
+        height: 160px;
+        display: block;
+        img {
+            width: 240px;
+            height: 160px;
+            position: static;
+            left: 0px;
+            top: 0px;
+        }
+    }
+    #bus_Touriste {
+        left: 60px;
+        top: 1500px;
+        min-width: 240px;
+        width: 240px;
+        min-height: 160px;
+        height: 160px;
+        display: block;
+        overflow: hidden;
+        img {
+            width: 260px;
+            height: 200px;
+            position: relative;
+            left: -20px;
+            top: -40px;
+            max-width: inherit;
+        }
+    }
+    #bus_montpartre {
+        left: 60px;
+        top: 1670px;
+        min-width: 240px;
+        width: 240px;
+        min-height: 160px;
+        height: 160px;
+        display: block;
+        overflow: hidden;
+        img {
+            width: 240px;
+            height: 190px;
+            position: relative;
+            left: 0px;
+            top: -20px;
+            max-width: inherit;
+        }
+    }
 }
