@@ -38,7 +38,9 @@
 			showTooltip: true,
 		    onRegionClick: function(element, code, region)
 		    {
-		        var message = 'Région : "'
+		        if(code == 75)
+                    window.location = "http://www.paris.fr";
+                var message = 'Région : "'
 		            + region 
 		            + '" || Id : "'
 		            + code
