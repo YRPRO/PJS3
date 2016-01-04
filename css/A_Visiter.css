@@ -1,0 +1,1705 @@
+@charset "UTF-8";
+/*couleur utilis├®e*/
+#wb_header {
+  background: transparent none repeat scroll left top;
+  height: 250px; }
+
+#wb_header {
+  height: 250px; }
+
+#wb_main {
+  background: transparent none repeat scroll left top;
+  height: 3300px;
+  padding: 0 0 70px; }
+
+#wb_main {
+  height: 6150px; }
+
+#wb_footer {
+  background: transparent none repeat scroll left top;
+  height: 78px; }
+
+#wb_footer {
+  height: 78px; }
+
+body {
+  background: #fcf3d2 url(../gallery_gen/929d69d99e87503631c3e559e93d61e0.jpg) no-repeat scroll center top; }
+
+.wb_sbg {
+  background: transparent url(../gallery_gen/dad763187c3171ad64b3e88d1d511a44.jpg) repeat-x scroll center bottom; }
+
+body, .wb_sbg {
+  min-width: 320px;
+  min-height: 6548px; }
+
+.root {
+  width: 320px;
+  height: 6548px;
+  overflow: hidden; }
+
+#Menu {
+  left: 170px;
+  top: 70px;
+  min-width: 130px;
+  width: 130px;
+  min-height: 30px;
+  height: 30px;
+  display: block;
+  z-index: 220; }
+  #Menu ul {
+    background: #fcf3d2 none repeat scroll left top; }
+  #Menu .btn-collapser {
+    display: inline-block; }
+  #Menu > ul {
+    display: none; }
+  #Menu ul {
+    border: 1px none #000; }
+  #Menu ul {
+    text-align: right; }
+  #Menu ul ul {
+    background: #2e2e2e none repeat scroll left top; }
+  #Menu li {
+    margin: 10px; }
+  #Menu li a {
+    text-transform: uppercase;
+    border: 0 none #000;
+    padding: 5px 10px;
+    font: normal normal 13px Georgia,serif;
+    text-decoration: none;
+    color: #8b4828;
+    line-height: 15px;
+    background: transparent none repeat scroll left top; }
+  #Menu li:hover > a, #Menu li:focus > a {
+    border: 0 none #000;
+    font: normal normal 13px Georgia,serif;
+    text-decoration: none;
+    color: #00c2a2;
+    line-height: 15px;
+    background: transparent none no-repeat scroll center top; }
+  #Menu li.active > a {
+    border: 0 none #000;
+    font: normal normal 13px Georgia,serif;
+    text-decoration: none;
+    color: #00c292;
+    line-height: 15px;
+    background: transparent none no-repeat scroll center top; }
+
+#Menu.collapse-expanded > ul {
+  display: block;
+  float: none;
+  height: auto; }
+
+#Menu.collapse-expanded > ul > li {
+  display: block; }
+
+#Menu.collapse-expanded > ul > li > ul {
+  position: static; }
+
+#Menu.collapse-expanded > ul > li:hover > ul {
+  display: none; }
+
+#wb_element_instance33 {
+  left: 0;
+  top: 0;
+  min-width: 320px;
+  width: 320px;
+  min-height: 80px;
+  height: 80px;
+  display: block;
+  z-index: 208; }
+
+#wb_element_instance33 > div {
+  width: 320px;
+  height: 80px;
+  background: transparent;
+  border: 5px none silver;
+  opacity: .3;
+  border-radius: 0 0 0 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0 0 0 0; }
+
+#Logo {
+  left: 20px;
+  top: 10px;
+  min-width: 290px;
+  width: 290px;
+  min-height: 71px;
+  height: 71px;
+  display: block;
+  z-index: 212; }
+
+#Instagram {
+  left: 280px;
+  top: 30px;
+  min-width: 30px;
+  width: 30px;
+  min-height: 30px;
+  height: 30px;
+  display: block;
+  z-index: 206; }
+
+#Instagram img {
+  width: 30px;
+  height: 30px;
+  position: static;
+  left: 0;
+  top: 0; }
+
+#Facebook {
+  left: 200px;
+  top: 30px;
+  min-width: 30px;
+  width: 30px;
+  min-height: 30px;
+  height: 30px;
+  display: block;
+  z-index: 207; }
+
+#Facebook img {
+  width: 30px;
+  height: 30px;
+  position: static;
+  left: 0;
+  top: 0; }
+
+#Twitter {
+  left: 240px;
+  top: 30px;
+  min-width: 30px;
+  width: 30px;
+  min-height: 30px;
+  height: 30px;
+  display: block;
+  z-index: 210; }
+
+#Twitter img {
+  width: 30px;
+  height: 30px;
+  position: static;
+  left: 0;
+  top: 0; }
+
+#titre3img {
+  left: 0;
+  top: 1480px;
+  min-width: 320px;
+  width: 320px;
+  min-height: 48px;
+  height: 48px;
+  display: block;
+  z-index: 119; }
+
+#ImageCPompidou {
+  left: 0;
+  top: 2050px;
+  min-width: 320px;
+  width: 320px;
+  min-height: 210px;
+  height: 210px;
+  display: block;
+  z-index: 120;
+  overflow: hidden; }
+
+#ImageCPompidou img {
+  width: 410px;
+  height: 287px;
+  position: relative;
+  left: 0;
+  top: 0;
+  max-width: inherit; }
+
+#LegendePompidou {
+  left: 30px;
+  top: 2270px;
+  min-width: 270px;
+  width: 270px;
+  min-height: 24px;
+  height: 24px;
+  display: block;
+  z-index: 121; }
+
+#TexteVersailles {
+  left: 0;
+  top: 2900px;
+  min-width: 320px;
+  width: 320px;
+  min-height: 761px;
+  height: 761px;
+  display: block;
+  z-index: 122; }
+
+#ImgVersailles {
+  left: 0;
+  top: 2790px;
+  min-width: 320px;
+  width: 320px;
+  min-height: 100px;
+  height: 100px;
+  display: block;
+  z-index: 123; }
+
+#ImgVersailles img {
+  width: 320px;
+  height: 100px;
+  position: static;
+  left: 0;
+  top: 0; }
+
+#Divertissement {
+  left: 25px;
+  top: 3716px;
+  min-width: 270px;
+  width: 270px;
+  min-height: 46px;
+  height: 46px;
+  display: block;
+  z-index: 125; }
+
+#DisneyImg {
+  left: 20px;
+  top: 4310px;
+  min-width: 280px;
+  width: 280px;
+  min-height: 180px;
+  height: 180px;
+  display: block;
+  z-index: 126;
+  overflow: hidden; }
+
+#DisneyImg img {
+  width: 430px;
+  height: 280px;
+  position: relative;
+  left: 0;
+  top: 0;
+  max-width: inherit; }
+
+#DisneyTexte {
+  left: 10px;
+  top: 3780px;
+  min-width: 300px;
+  width: 300px;
+  min-height: 521px;
+  height: 521px;
+  display: block;
+  z-index: 127; }
+
+#Stade2franceExtImg {
+  left: 0;
+  top: 5140px;
+  min-width: 320px;
+  width: 320px;
+  min-height: 160px;
+  height: 160px;
+  display: block;
+  z-index: 128; }
+
+#Stade2franceExtImg img {
+  width: 320px;
+  height: 160px;
+  position: static;
+  left: 0;
+  top: 0; }
+
+#Stade2franceExtTxt {
+  left: 0;
+  top: 4500px;
+  min-width: 320px;
+  width: 320px;
+  min-height: 593px;
+  height: 593px;
+  display: block;
+  z-index: 129; }
+
+#AquaboulevardTxt {
+  left: 0;
+  top: 5482px;
+  min-width: 320px;
+  width: 320px;
+  min-height: 339px;
+  height: 339px;
+  display: block;
+  z-index: 131; }
+
+#Img2 {
+  left: 0;
+  top: 740px;
+  min-width: 320px;
+  width: 320px;
+  min-height: 180px;
+  height: 180px;
+  display: block;
+  z-index: 133;
+  overflow: hidden; }
+
+#Img2 img {
+  width: 440px;
+  height: 250px;
+  position: relative;
+  left: -10px;
+  top: 0;
+  max-width: inherit; }
+
+#Img3 {
+  left: 0;
+  top: 940px;
+  min-width: 320px;
+  width: 320px;
+  min-height: 250px;
+  height: 250px;
+  display: block;
+  z-index: 134; }
+
+#Img3 img {
+  width: 320px;
+  height: 250px;
+  position: static;
+  left: 0;
+  top: 0; }
+
+#Img1 {
+  left: 75px;
+  top: 1210px;
+  min-width: 170px;
+  width: 170px;
+  min-height: 250px;
+  height: 250px;
+  display: block;
+  z-index: 135;
+  overflow: hidden; }
+
+#Img1 img {
+  width: 383px;
+  height: 250px;
+  position: relative;
+  left: -30px;
+  top: 0;
+  max-width: inherit; }
+
+#wb_element_instance54 {
+  left: 0;
+  top: 2891px;
+  min-width: 320px;
+  width: 320px;
+  min-height: 24px;
+  height: 24px;
+  display: block;
+  z-index: 136; }
+
+#Txt2Pompidou {
+  left: 20px;
+  top: 2310px;
+  min-width: 280px;
+  width: 280px;
+  min-height: 456px;
+  height: 456px;
+  display: block;
+  z-index: 86; }
+
+#Stade2FrInt {
+  left: 0;
+  top: 5322px;
+  min-width: 320px;
+  width: 320px;
+  min-height: 150px;
+  height: 150px;
+  display: block;
+  z-index: 137; }
+
+#Stade2FrInt img {
+  width: 320px;
+  height: 150px;
+  position: static;
+  left: 0;
+  top: 0; }
+
+#AquaImg2 {
+  left: 10px;
+  top: 6020px;
+  min-width: 300px;
+  width: 300px;
+  min-height: 130px;
+  height: 130px;
+  display: block;
+  z-index: 138;
+  overflow: hidden; }
+
+#AquaImg2 img {
+  width: 490px;
+  height: 360px;
+  position: relative;
+  left: 0;
+  top: -40px;
+  max-width: inherit; }
+
+#TxtBranly {
+  left: 0;
+  top: 66px;
+  min-width: 320px;
+  width: 320px;
+  min-height: 654px;
+  height: 654px;
+  display: block;
+  z-index: 139; }
+
+#Culture {
+  left: 70px;
+  top: 0;
+  min-width: 220px;
+  width: 220px;
+  min-height: 46px;
+  height: 46px;
+  display: block;
+  z-index: 140; }
+
+#Txt1Pompidou {
+  left: 10px;
+  top: 1610px;
+  min-width: 300px;
+  width: 300px;
+  min-height: 425px;
+  height: 425px;
+  display: block;
+  z-index: 141; }
+
+#AquaImg1 {
+  left: 25px;
+  top: 5841px;
+  min-width: 270px;
+  width: 270px;
+  min-height: 160px;
+  height: 160px;
+  display: block;
+  z-index: 146;
+  overflow: hidden; }
+
+#AquaImg1 img {
+  width: 370px;
+  height: 220px;
+  position: relative;
+  left: 0;
+  top: 0;
+  max-width: inherit; }
+
+#wb_element_instance62 {
+  left: 0;
+  top: 3320px;
+  display: block;
+  z-index: 9000; }
+
+@media (min-width: 768px) {
+  #wb_header {
+    height: 250px; }
+
+  #wb_main {
+    height: 3620px; }
+
+  #wb_footer {
+    height: 78px; }
+
+  body, .wb_sbg {
+    min-width: 768px;
+    min-height: 4018px; }
+
+  .root {
+    width: 768px;
+    height: 4018px;
+    overflow: visible; }
+
+  #Menu {
+    left: 120px;
+    top: 140px;
+    min-width: 490px;
+    width: 490px;
+    min-height: 50px;
+    height: 50px;
+    display: block; }
+
+  #Menu ul {
+    background: transparent none repeat scroll left top; }
+
+  #Menu .btn-collapser {
+    display: none; }
+
+  #Menu > ul {
+    display: block; }
+
+  #wb_element_instance33 {
+    left: 0;
+    top: 0;
+    min-width: 330px;
+    width: 330px;
+    min-height: 100px;
+    height: 100px;
+    display: block; }
+
+  #wb_element_instance33 > div {
+    width: 330px;
+    height: 100px; }
+
+  #Logo {
+    left: 230px;
+    top: 40px;
+    min-width: 300px;
+    width: 300px;
+    min-height: 71px;
+    height: 71px;
+    display: block; }
+
+  #Instagram {
+    left: 680px;
+    top: 20px;
+    min-width: 30px;
+    width: 30px;
+    min-height: 30px;
+    height: 30px;
+    display: block; }
+
+  #Instagram img {
+    width: 30px;
+    height: 30px;
+    position: static;
+    left: 0;
+    top: 0; }
+
+  #Facebook {
+    left: 630px;
+    top: 20px;
+    min-width: 30px;
+    width: 30px;
+    min-height: 30px;
+    height: 30px;
+    display: block; }
+
+  #Facebook img {
+    width: 30px;
+    height: 30px;
+    position: static;
+    left: 0;
+    top: 0; }
+
+  #wb_element_instance37 {
+    left: 40px;
+    top: 20px;
+    min-width: 380px;
+    width: 380px;
+    min-height: 45px;
+    height: 45px;
+    display: block; }
+
+  #wb_element_instance38 {
+    left: 480px;
+    top: 30px;
+    min-width: 100px;
+    width: 100px;
+    min-height: 24px;
+    height: 24px;
+    display: block; }
+
+  #Twitter {
+    left: 720px;
+    top: 20px;
+    min-width: 30px;
+    width: 30px;
+    min-height: 30px;
+    height: 30px;
+    display: block; }
+
+  #Twitter img {
+    width: 30px;
+    height: 30px;
+    position: static;
+    left: 0;
+    top: 0; }
+
+  #titre3img {
+    left: 170px;
+    top: 660px;
+    min-width: 420px;
+    width: 420px;
+    min-height: 48px;
+    height: 48px;
+    display: block; }
+
+  #ImageCPompidou {
+    left: 370px;
+    top: 970px;
+    min-width: 380px;
+    width: 380px;
+    min-height: 280px;
+    height: 280px;
+    display: block;
+    overflow: hidden; }
+
+  #ImageCPompidou img {
+    width: 410px;
+    height: 287px;
+    position: relative;
+    left: 0;
+    top: 0;
+    max-width: inherit; }
+
+  #LegendePompidou {
+    left: 450px;
+    top: 1260px;
+    min-width: 250px;
+    width: 250px;
+    min-height: 24px;
+    height: 24px;
+    display: block; }
+
+  #TexteVersailles {
+    left: 50px;
+    top: 1530px;
+    min-width: 670px;
+    width: 670px;
+    min-height: 449px;
+    height: 449px;
+    display: block; }
+
+  #ImgVersailles {
+    left: 50px;
+    top: 1340px;
+    min-width: 670px;
+    width: 670px;
+    min-height: 170px;
+    height: 170px;
+    display: block;
+    overflow: hidden; }
+
+  #ImgVersailles img {
+    width: 790px;
+    height: 240px;
+    position: relative;
+    left: 0;
+    top: 0;
+    max-width: inherit; }
+
+  #Divertissement {
+    left: 50px;
+    top: 1990px;
+    min-width: 270px;
+    width: 270px;
+    min-height: 46px;
+    height: 46px;
+    display: block; }
+
+  #DisneyImg {
+    left: 180px;
+    top: 2350px;
+    min-width: 430px;
+    width: 430px;
+    min-height: 280px;
+    height: 280px;
+    display: block; }
+
+  #DisneyImg img {
+    width: 430px;
+    height: 280px;
+    position: static;
+    left: 0;
+    top: 0; }
+
+  #DisneyTexte {
+    left: 50px;
+    top: 2070px;
+    min-width: 660px;
+    width: 660px;
+    min-height: 281px;
+    height: 281px;
+    display: block; }
+
+  #Stade2franceExtImg {
+    left: 430px;
+    top: 2990px;
+    min-width: 300px;
+    width: 300px;
+    min-height: 190px;
+    height: 190px;
+    display: block;
+    overflow: hidden; }
+
+  #Stade2franceExtImg img {
+    width: 360px;
+    height: 190px;
+    position: relative;
+    left: -40px;
+    top: 0;
+    max-width: inherit; }
+
+  #Stade2franceExtTxt {
+    left: 20px;
+    top: 2650px;
+    min-width: 710px;
+    width: 710px;
+    min-height: 305px;
+    height: 305px;
+    display: block; }
+
+  #AquaboulevardTxt {
+    left: 20px;
+    top: 3210px;
+    min-width: 730px;
+    width: 730px;
+    min-height: 195px;
+    height: 195px;
+    display: block; }
+
+  #Img2 {
+    left: 210px;
+    top: 390px;
+    min-width: 320px;
+    width: 320px;
+    min-height: 250px;
+    height: 250px;
+    display: block;
+    overflow: hidden; }
+
+  #Img2 img {
+    width: 440px;
+    height: 250px;
+    position: relative;
+    left: -10px;
+    top: 0;
+    max-width: inherit; }
+
+  #Img3 {
+    left: 540px;
+    top: 390px;
+    min-width: 210px;
+    width: 210px;
+    min-height: 250px;
+    height: 250px;
+    display: block;
+    overflow: hidden; }
+
+  #Img3 img {
+    width: 320px;
+    height: 250px;
+    position: relative;
+    left: 0;
+    top: 0;
+    max-width: inherit; }
+
+  #Img1 {
+    left: 30px;
+    top: 390px;
+    min-width: 170px;
+    width: 170px;
+    min-height: 250px;
+    height: 250px;
+    display: block;
+    overflow: hidden; }
+
+  #Img1 img {
+    width: 383px;
+    height: 250px;
+    position: relative;
+    left: -30px;
+    top: 0;
+    max-width: inherit; }
+
+  #wb_element_instance54 {
+    left: 50px;
+    top: 1340px;
+    min-width: 710px;
+    width: 710px;
+    min-height: 24px;
+    height: 24px;
+    display: block; }
+
+  #Txt2Pompidou {
+    left: 20px;
+    top: 720px;
+    min-width: 730px;
+    width: 730px;
+    min-height: 168px;
+    height: 168px;
+    display: block; }
+
+  #Stade2FrInt {
+    left: 20px;
+    top: 2990px;
+    min-width: 400px;
+    width: 400px;
+    min-height: 190px;
+    height: 190px;
+    display: block; }
+
+  #Stade2FrInt img {
+    width: 400px;
+    height: 190px;
+    position: static;
+    left: 0;
+    top: 0; }
+
+  #AquaImg2 {
+    left: 360px;
+    top: 3440px;
+    min-width: 380px;
+    width: 380px;
+    min-height: 180px;
+    height: 180px;
+    display: block;
+    overflow: hidden; }
+
+  #AquaImg2 img {
+    width: 610px;
+    height: 440px;
+    position: relative;
+    left: 0;
+    top: -50px;
+    max-width: inherit; }
+
+  #TxtBranly {
+    left: 50px;
+    top: 70px;
+    min-width: 670px;
+    width: 670px;
+    min-height: 318px;
+    height: 318px;
+    display: block; }
+
+  #Culture {
+    left: 50px;
+    top: 20px;
+    min-width: 220px;
+    width: 220px;
+    min-height: 46px;
+    height: 46px;
+    display: block; }
+
+  #Txt1Pompidou {
+    left: 30px;
+    top: 910px;
+    min-width: 320px;
+    width: 320px;
+    min-height: 401px;
+    height: 401px;
+    display: block; }
+
+  #AquaImg1 {
+    left: 40px;
+    top: 3440px;
+    min-width: 310px;
+    width: 310px;
+    min-height: 180px;
+    height: 180px;
+    display: block; }
+
+  #AquaImg1 img {
+    width: 310px;
+    height: 180px;
+    position: static;
+    left: 0;
+    top: 0; } }
+@media (min-width: 992px) {
+  #wb_header {
+    height: 250px; }
+
+  #wb_main {
+    height: 3300px; }
+
+  #wb_footer {
+    height: 78px; }
+
+  body, .wb_sbg {
+    min-width: 992px;
+    min-height: 3698px; }
+
+  .root {
+    width: 992px;
+    height: 3698px;
+    overflow: visible; }
+
+  #Menu {
+    left: 498px;
+    top: 10px;
+    min-width: 484px;
+    width: 484px;
+    min-height: 40px;
+    height: 40px;
+    display: block; }
+
+  #Menu ul {
+    background: transparent none repeat scroll left top; }
+
+  #Menu .btn-collapser {
+    display: none; }
+
+  #Menu > ul {
+    display: block; }
+
+  #placeLogo {
+    left: 20px;
+    top: 0;
+    min-width: 360px;
+    width: 360px;
+    min-height: 110px;
+    height: 110px;
+    display: block; }
+
+  #placeLogo > div {
+    width: 360px;
+    height: 110px; }
+
+  #Logo {
+    left: 27px;
+    top: 17px;
+    min-width: 300px;
+    width: 300px;
+    min-height: 75px;
+    height: 75px;
+    display: block; }
+
+  #Instagram {
+    left: 900px;
+    top: 27px;
+    min-width: 32px;
+    width: 32px;
+    min-height: 32px;
+    height: 32px;
+    display: block; }
+
+  #Instagram img {
+    width: 32px;
+    height: 32px;
+    position: static;
+    left: 0;
+    top: 0; }
+
+  #Facebook {
+    left: 850px;
+    top: 27px;
+    min-width: 32px;
+    width: 32px;
+    min-height: 32px;
+    height: 32px;
+    display: block; }
+
+  #Facebook img {
+    width: 32px;
+    height: 32px;
+    position: static;
+    left: 0;
+    top: 0; }
+
+  #wb_element_instance37 {
+    left: 50px;
+    top: 10px;
+    min-width: 530px;
+    width: 530px;
+    min-height: 28px;
+    height: 28px;
+    display: block; }
+
+  #wb_element_instance38 {
+    left: 670px;
+    top: 10px;
+    min-width: 110px;
+    width: 110px;
+    min-height: 24px;
+    height: 24px;
+    display: block; }
+
+  #Twitter {
+    left: 950px;
+    top: 27px;
+    min-width: 32px;
+    width: 32px;
+    min-height: 32px;
+    height: 32px;
+    display: block; }
+
+  #Twitter img {
+    width: 32px;
+    height: 32px;
+    position: static;
+    left: 0;
+    top: 0; }
+
+  #titre3img {
+    left: 250px;
+    top: 610px;
+    min-width: 420px;
+    width: 420px;
+    min-height: 48px;
+    height: 48px;
+    display: block; }
+
+  #ImageCPompidou {
+    left: 560px;
+    top: 720px;
+    min-width: 410px;
+    width: 410px;
+    min-height: 280px;
+    height: 280px;
+    display: block;
+    overflow: hidden; }
+
+  #ImageCPompidou img {
+    width: 410px;
+    height: 287px;
+    position: relative;
+    left: 0;
+    top: 0;
+    max-width: inherit; }
+
+  #LegendePompidou {
+    left: 560px;
+    top: 700px;
+    min-width: 270px;
+    width: 270px;
+    min-height: 24px;
+    height: 24px;
+    display: block; }
+
+  #TexteVersailles {
+    left: 90px;
+    top: 1430px;
+    min-width: 790px;
+    width: 790px;
+    min-height: 381px;
+    height: 381px;
+    display: block; }
+
+  #ImgVersailles {
+    left: 90px;
+    top: 1220px;
+    min-width: 790px;
+    width: 790px;
+    min-height: 210px;
+    height: 210px;
+    display: block;
+    overflow: hidden; }
+
+  #ImgVersailles img {
+    width: 790px;
+    height: 240px;
+    position: relative;
+    left: 0;
+    top: 0;
+    max-width: inherit; }
+
+  #Divertissement {
+    left: 30px;
+    top: 1870px;
+    min-width: 270px;
+    width: 270px;
+    min-height: 59px;
+    height: 59px;
+    display: block; }
+
+  #DisneyImg {
+    left: 40px;
+    top: 1970px;
+    min-width: 430px;
+    width: 430px;
+    min-height: 280px;
+    height: 280px;
+    display: block; }
+
+  #DisneyImg img {
+    width: 430px;
+    height: 280px;
+    position: static;
+    left: 0;
+    top: 0; }
+
+  #DisneyTexte {
+    left: 500px;
+    top: 1910px;
+    min-width: 470px;
+    width: 470px;
+    min-height: 381px;
+    height: 381px;
+    display: block; }
+
+  #Stade2franceExtImg {
+    left: 570px;
+    top: 2600px;
+    min-width: 390px;
+    width: 390px;
+    min-height: 240px;
+    height: 240px;
+    display: block;
+    overflow: hidden; }
+
+  #Stade2franceExtImg img {
+    width: 470px;
+    height: 240px;
+    position: relative;
+    left: -50px;
+    top: 0;
+    max-width: inherit; }
+
+  #Stade2franceExtTxt {
+    left: 50px;
+    top: 2320px;
+    min-width: 900px;
+    width: 900px;
+    min-height: 261px;
+    height: 261px;
+    display: block; }
+
+  #AquaboulevardTxt {
+    left: 30px;
+    top: 2880px;
+    min-width: 930px;
+    width: 930px;
+    min-height: 175px;
+    height: 175px;
+    display: block; }
+
+  #Img2 {
+    left: 210px;
+    top: 350px;
+    min-width: 430px;
+    width: 430px;
+    min-height: 250px;
+    height: 250px;
+    display: block;
+    overflow: hidden; }
+
+  #Img2 img {
+    width: 440px;
+    height: 250px;
+    position: relative;
+    left: -10px;
+    top: 0;
+    max-width: inherit; }
+
+  #Img3 {
+    left: 650px;
+    top: 350px;
+    min-width: 320px;
+    width: 320px;
+    min-height: 250px;
+    height: 250px;
+    display: block; }
+
+  #Img3 img {
+    width: 320px;
+    height: 250px;
+    position: static;
+    left: 0;
+    top: 0; }
+
+  #Img1 {
+    left: 30px;
+    top: 350px;
+    min-width: 170px;
+    width: 170px;
+    min-height: 250px;
+    height: 250px;
+    display: block;
+    overflow: hidden; }
+
+  #Img1 img {
+    width: 383px;
+    height: 250px;
+    position: relative;
+    left: -30px;
+    top: 0;
+    max-width: inherit; }
+
+  #wb_element_instance54 {
+    left: 50px;
+    top: 1340px;
+    min-width: 910px;
+    width: 910px;
+    min-height: 24px;
+    height: 24px;
+    display: block; }
+
+  #Txt2Pompidou {
+    left: 50px;
+    top: 1010px;
+    min-width: 920px;
+    width: 920px;
+    min-height: 144px;
+    height: 144px;
+    display: block; }
+
+  #Stade2FrInt {
+    left: 30px;
+    top: 2600px;
+    min-width: 520px;
+    width: 520px;
+    min-height: 240px;
+    height: 240px;
+    display: block; }
+
+  #Stade2FrInt img {
+    width: 520px;
+    height: 240px;
+    position: static;
+    left: 0;
+    top: 0; }
+
+  #AquaImg2 {
+    left: 430px;
+    top: 3080px;
+    min-width: 530px;
+    width: 530px;
+    min-height: 220px;
+    height: 220px;
+    display: block;
+    overflow: hidden; }
+
+  #AquaImg2 img {
+    width: 530px;
+    height: 384px;
+    position: relative;
+    left: 0;
+    top: -40px;
+    max-width: inherit; }
+
+  #TxtBranly {
+    left: 40px;
+    top: 80px;
+    min-width: 930px;
+    width: 930px;
+    min-height: 254px;
+    height: 254px;
+    display: block; }
+
+  #Culture {
+    left: 50px;
+    top: 20px;
+    min-width: 220px;
+    width: 220px;
+    min-height: 59px;
+    height: 59px;
+    display: block; }
+
+  #Txt1Pompidou {
+    left: 50px;
+    top: 720px;
+    min-width: 480px;
+    width: 480px;
+    min-height: 285px;
+    height: 285px;
+    display: block; }
+
+  #AquaImg1 {
+    left: 50px;
+    top: 3080px;
+    min-width: 370px;
+    width: 370px;
+    min-height: 220px;
+    height: 220px;
+    display: block; }
+
+  #AquaImg1 img {
+    width: 370px;
+    height: 220px;
+    position: static;
+    left: 0;
+    top: 0; } }
+@media (min-width: 1200px) {
+  #wb_header {
+    height: 250px; }
+
+  #wb_main {
+    height: 3300px; }
+
+  #wb_footer {
+    height: 78px; }
+
+  body, .wb_sbg {
+    min-width: 992px;
+    min-height: 3698px; }
+
+  .root {
+    width: 992px;
+    height: 3698px;
+    overflow: visible; }
+
+  #Menu {
+    left: 498px;
+    top: 10px;
+    min-width: 484px;
+    width: 484px;
+    min-height: 40px;
+    height: 40px;
+    display: block; }
+
+  #Menu ul {
+    background: transparent none repeat scroll left top; }
+
+  #Menu .btn-collapser {
+    display: none; }
+
+  #Menu > ul {
+    display: block; }
+
+  #wb_element_instance33 {
+    left: 20px;
+    top: 0;
+    min-width: 360px;
+    width: 360px;
+    min-height: 110px;
+    height: 110px;
+    display: block; }
+
+  #wb_element_instance33 > div {
+    width: 360px;
+    height: 110px; }
+
+  #Logo {
+    left: 27px;
+    top: 17px;
+    min-width: 300px;
+    width: 300px;
+    min-height: 75px;
+    height: 75px;
+    display: block; }
+
+  #Instagram {
+    left: 900px;
+    top: 27px;
+    min-width: 32px;
+    width: 32px;
+    min-height: 32px;
+    height: 32px;
+    display: block; }
+
+  #Instagram img {
+    width: 32px;
+    height: 32px;
+    position: static;
+    left: 0;
+    top: 0; }
+
+  #Facebook {
+    left: 850px;
+    top: 27px;
+    min-width: 32px;
+    width: 32px;
+    min-height: 32px;
+    height: 32px;
+    display: block; }
+
+  #Facebook img {
+    width: 32px;
+    height: 32px;
+    position: static;
+    left: 0;
+    top: 0; }
+
+  #wb_element_instance37 {
+    left: 50px;
+    top: 10px;
+    min-width: 530px;
+    width: 530px;
+    min-height: 28px;
+    height: 28px;
+    display: block; }
+
+  #wb_element_instance38 {
+    left: 670px;
+    top: 10px;
+    min-width: 110px;
+    width: 110px;
+    min-height: 24px;
+    height: 24px;
+    display: block; }
+
+  #Twitter {
+    left: 950px;
+    top: 27px;
+    min-width: 32px;
+    width: 32px;
+    min-height: 32px;
+    height: 32px;
+    display: block; }
+
+  #Twitter img {
+    width: 32px;
+    height: 32px;
+    position: static;
+    left: 0;
+    top: 0; }
+
+  #titre3img {
+    left: 250px;
+    top: 610px;
+    min-width: 420px;
+    width: 420px;
+    min-height: 48px;
+    height: 48px;
+    display: block; }
+
+  #ImageCPompidou {
+    left: 560px;
+    top: 720px;
+    min-width: 410px;
+    width: 410px;
+    min-height: 280px;
+    height: 280px;
+    display: block;
+    overflow: hidden; }
+
+  #ImageCPompidou img {
+    width: 410px;
+    height: 287px;
+    position: relative;
+    left: 0;
+    top: 0;
+    max-width: inherit; }
+
+  #LegendePompidou {
+    left: 560px;
+    top: 700px;
+    min-width: 270px;
+    width: 270px;
+    min-height: 24px;
+    height: 24px;
+    display: block; }
+
+  #TexteVersailles {
+    left: 90px;
+    top: 1430px;
+    min-width: 790px;
+    width: 790px;
+    min-height: 381px;
+    height: 381px;
+    display: block; }
+
+  #ImgVersailles {
+    left: 90px;
+    top: 1220px;
+    min-width: 790px;
+    width: 790px;
+    min-height: 210px;
+    height: 210px;
+    display: block;
+    overflow: hidden; }
+
+  #ImgVersailles img {
+    width: 790px;
+    height: 240px;
+    position: relative;
+    left: 0;
+    top: 0;
+    max-width: inherit; }
+
+  #Divertissement {
+    left: 30px;
+    top: 1870px;
+    min-width: 270px;
+    width: 270px;
+    min-height: 59px;
+    height: 59px;
+    display: block; }
+
+  #DisneyImg {
+    left: 40px;
+    top: 1970px;
+    min-width: 430px;
+    width: 430px;
+    min-height: 280px;
+    height: 280px;
+    display: block; }
+
+  #DisneyImg img {
+    width: 430px;
+    height: 280px;
+    position: static;
+    left: 0;
+    top: 0; }
+
+  #DisneyTexte {
+    left: 500px;
+    top: 1910px;
+    min-width: 470px;
+    width: 470px;
+    min-height: 381px;
+    height: 381px;
+    display: block; }
+
+  #Stade2franceExtImg {
+    left: 570px;
+    top: 2600px;
+    min-width: 390px;
+    width: 390px;
+    min-height: 240px;
+    height: 240px;
+    display: block;
+    overflow: hidden; }
+
+  #Stade2franceExtImg img {
+    width: 470px;
+    height: 240px;
+    position: relative;
+    left: -50px;
+    top: 0;
+    max-width: inherit; }
+
+  #Stade2franceExtTxt {
+    left: 50px;
+    top: 2320px;
+    min-width: 900px;
+    width: 900px;
+    min-height: 261px;
+    height: 261px;
+    display: block; }
+
+  #AquaboulevardTxt {
+    left: 30px;
+    top: 2880px;
+    min-width: 930px;
+    width: 930px;
+    min-height: 175px;
+    height: 175px;
+    display: block; }
+
+  #Img2 {
+    left: 210px;
+    top: 350px;
+    min-width: 430px;
+    width: 430px;
+    min-height: 250px;
+    height: 250px;
+    display: block;
+    overflow: hidden; }
+
+  #Img2 img {
+    width: 440px;
+    height: 250px;
+    position: relative;
+    left: -10px;
+    top: 0;
+    max-width: inherit; }
+
+  #Img3 {
+    left: 650px;
+    top: 350px;
+    min-width: 320px;
+    width: 320px;
+    min-height: 250px;
+    height: 250px;
+    display: block; }
+
+  #Img3 img {
+    width: 320px;
+    height: 250px;
+    position: static;
+    left: 0;
+    top: 0; }
+
+  #Img1 {
+    left: 30px;
+    top: 350px;
+    min-width: 170px;
+    width: 170px;
+    min-height: 250px;
+    height: 250px;
+    display: block;
+    overflow: hidden; }
+
+  #Img1 img {
+    width: 383px;
+    height: 250px;
+    position: relative;
+    left: -30px;
+    top: 0;
+    max-width: inherit; }
+
+  #wb_element_instance54 {
+    left: 50px;
+    top: 1340px;
+    min-width: 910px;
+    width: 910px;
+    min-height: 24px;
+    height: 24px;
+    display: block; }
+
+  #Txt2Pompidou {
+    left: 50px;
+    top: 1010px;
+    min-width: 920px;
+    width: 920px;
+    min-height: 144px;
+    height: 144px;
+    display: block; }
+
+  #Stade2FrInt {
+    left: 30px;
+    top: 2600px;
+    min-width: 520px;
+    width: 520px;
+    min-height: 240px;
+    height: 240px;
+    display: block; }
+
+  #Stade2FrInt img {
+    width: 520px;
+    height: 240px;
+    position: static;
+    left: 0;
+    top: 0; }
+
+  #AquaImg2 {
+    left: 430px;
+    top: 3080px;
+    min-width: 530px;
+    width: 530px;
+    min-height: 220px;
+    height: 220px;
+    display: block;
+    overflow: hidden; }
+
+  #AquaImg2 img {
+    width: 530px;
+    height: 384px;
+    position: relative;
+    left: 0;
+    top: -40px;
+    max-width: inherit; }
+
+  #TxtBranly {
+    left: 40px;
+    top: 80px;
+    min-width: 930px;
+    width: 930px;
+    min-height: 254px;
+    height: 254px;
+    display: block; }
+
+  #Culture {
+    left: 50px;
+    top: 20px;
+    min-width: 220px;
+    width: 220px;
+    min-height: 59px;
+    height: 59px;
+    display: block; }
+
+  #Txt1Pompidou {
+    left: 50px;
+    top: 720px;
+    min-width: 480px;
+    width: 480px;
+    min-height: 285px;
+    height: 285px;
+    display: block; }
+
+  #AquaImg1 {
+    left: 50px;
+    top: 3080px;
+    min-width: 370px;
+    width: 370px;
+    min-height: 220px;
+    height: 220px;
+    display: block; }
+
+  #AquaImg1 img {
+    width: 370px;
+    height: 220px;
+    position: static;
+    left: 0;
+    top: 0; } }
+
+/*# sourceMappingURL=A_Visiter.css.map */
